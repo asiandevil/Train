@@ -1,0 +1,58 @@
+{
+    "meta": {
+        "id": "musicContainer",
+        "name": "Music Container",
+        "comment": "",
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "background": {
+            "setup": {}
+        },
+        "cursor": {
+            "resource": "assets-cursors-curnD.png"
+        },
+        "position": {
+            "type": "static",
+            "size": {
+                "width": 440,
+                "height": 50
+            }
+        },
+        "listSetup": {},
+        "hover": [
+            {
+                "trigger": "__self",
+                "position": {
+                    "shift": {},
+                    "margin": {
+                        "y2": 0
+                    }
+                },
+                "listSetup": {},
+                "transform": {},
+                "text": {
+                    "color": {
+                        "red": 246,
+                        "green": 85,
+                        "blue": 14,
+                        "alpha": 1
+                    }
+                }
+            }
+        ],
+        "transition": {
+            "duration": 0.8
+        },
+        "text": {
+            "color": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 1
+            }
+        },
+        "transform": {}
+    }
+}

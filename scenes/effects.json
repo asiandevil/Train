@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "id": "effects",
+        "name": "Эфекты",
+        "type": "folder",
+        "width": 1200,
+        "height": 600,
+        "parent": "root",
+        "children": [
+            "scene6",
+            "fogEffects",
+            "placeInfo",
+            "traincabs",
+            "setdate",
+            "miniImages"
+        ]
+    },
+    "nodes": {}
+}

@@ -1,0 +1,8 @@
+{
+    "id": "assets-sounds-knocking.wav",
+    "name": "knocking",
+    "comment": "Knocking on a door",
+    "resource": "assets-sounds-knocking.wav",
+    "type": "sound",
+    "defaultVolume": 17
+}

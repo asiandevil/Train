@@ -1,0 +1,307 @@
+{
+    "meta": {
+        "name": "Bad End",
+        "width": 1200,
+        "height": 1750,
+        "parent": "endings",
+        "id": "badEnd",
+        "type": "scene",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 684,
+            "end": 686,
+            "selectedRoutes": {}
+        }
+    },
+    "nodes": {
+        "682": {
+            "type": "back",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 682,
+            "backgroundId": "assets-backgrounds-dark.jpg",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 10,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 935,
+                    "x": 450,
+                    "y": 450
+                }
+            ],
+            "waitToFinish": false,
+            "entrances": [
+                960
+            ]
+        },
+        "684": {
+            "type": "start",
+            "pos": {
+                "x": 450,
+                "y": 50
+            },
+            "starting": true,
+            "id": 684,
+            "connections": [
+                {
+                    "id": 733,
+                    "x": 450,
+                    "y": 150
+                }
+            ],
+            "name": "Bad end",
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": true
+            }
+        },
+        "686": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 950
+            },
+            "id": 686,
+            "ending": true,
+            "scenarioEnd": true,
+            "entrances": [
+                967
+            ]
+        },
+        "733": {
+            "type": "ui",
+            "pos": {
+                "x": 450,
+                "y": 150
+            },
+            "id": 733,
+            "connections": [
+                {
+                    "id": 960,
+                    "x": 450,
+                    "y": 250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "default",
+                    "action": "remove"
+                },
+                {
+                    "id": "freeText",
+                    "cloneId": "__all",
+                    "action": "remove"
+                },
+                {
+                    "id": "gamemenu",
+                    "action": "remove"
+                },
+                {
+                    "id": "dreamred",
+                    "cloneId": "__all",
+                    "action": "remove"
+                },
+                {
+                    "id": "topPanel",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                684
+            ]
+        },
+        "935": {
+            "type": "wait",
+            "pos": {
+                "x": 450,
+                "y": 450
+            },
+            "id": 935,
+            "connections": [
+                {
+                    "id": 936,
+                    "x": 450,
+                    "y": 550
+                }
+            ],
+            "wait": {
+                "pause": 3,
+                "skippable": false
+            },
+            "entrances": [
+                682
+            ]
+        },
+        "936": {
+            "type": "back",
+            "pos": {
+                "x": 450,
+                "y": 550
+            },
+            "id": 936,
+            "connections": [
+                {
+                    "id": 937,
+                    "x": 450,
+                    "y": 650
+                }
+            ],
+            "backgroundId": "user-backgrounds-trainout.png",
+            "waitToFinish": false,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "entrances": [
+                935
+            ]
+        },
+        "937": {
+            "type": "wait",
+            "pos": {
+                "x": 450,
+                "y": 650
+            },
+            "id": 937,
+            "connections": [
+                {
+                    "id": 938,
+                    "x": 450,
+                    "y": 750
+                }
+            ],
+            "wait": {
+                "pause": 3,
+                "skippable": false
+            },
+            "entrances": [
+                936
+            ]
+        },
+        "938": {
+            "type": "ui",
+            "pos": {
+                "x": 450,
+                "y": 750
+            },
+            "id": 938,
+            "connections": [
+                {
+                    "id": 967,
+                    "x": 450,
+                    "y": 850
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "badEndScreen",
+                    "action": "show"
+                }
+            ],
+            "entrances": [
+                937
+            ]
+        },
+        "960": {
+            "type": "sound",
+            "pos": {
+                "x": 450,
+                "y": 250
+            },
+            "id": 960,
+            "connections": [
+                {
+                    "id": 682,
+                    "x": 450,
+                    "y": 350
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100,
+                "id": "assets-music-gameovermusic"
+            },
+            "entrances": [
+                733
+            ]
+        },
+        "967": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 850
+            },
+            "id": 967,
+            "connections": [
+                {
+                    "id": 686,
+                    "x": 450,
+                    "y": 950
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "freeText",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "y": -73
+                            }
+                        }
+                    },
+                    "actorId": "",
+                    "noDelay": true,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "actorState": ""
+                }
+            ],
+            "entrances": [
+                938
+            ]
+        }
+    }
+}

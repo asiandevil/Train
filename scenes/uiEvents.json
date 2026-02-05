@@ -1,0 +1,14 @@
+{
+    "meta": {
+        "id": "uiEvents",
+        "name": "UI Events",
+        "type": "folder",
+        "width": 1200,
+        "height": 600,
+        "parent": "root",
+        "children": [
+            "keys"
+        ]
+    },
+    "nodes": {}
+}

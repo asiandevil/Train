@@ -1,0 +1,36 @@
+{
+    "meta": {
+        "id": "user",
+        "name": "User defined variables",
+        "readonly": false
+    },
+    "values": {
+        "choicesArray": {
+            "id": "choicesArray",
+            "scope": "user",
+            "type": "array",
+            "defaultValue": "",
+            "comment": "Сделанные выборы",
+            "arraySpeck": {
+                "type": "list"
+            },
+            "listValues": [
+                "Выбрал: Разведывать",
+                "Выбрал: Шпионить",
+                "Выбрал: В вагон-ресторан",
+                "Прочитал Газету",
+                "Выбрал: Скатиться с горки",
+                "Выбрал: Поговорить с Бруно"
+            ]
+        },
+        "redFlashOpacity": {
+            "id": "redFlashOpacity",
+            "scope": "user",
+            "type": "number",
+            "defaultValue": 100,
+            "comment": "Red Flash Opacity",
+            "min": "0",
+            "max": "100"
+        }
+    }
+}

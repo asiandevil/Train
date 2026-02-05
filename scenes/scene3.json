@@ -1,0 +1,602 @@
+{
+    "meta": {
+        "id": "scene3",
+        "name": "3: Парк",
+        "type": "scene",
+        "width": 1200,
+        "height": 2650,
+        "parent": "ark1",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 75,
+            "end": 122,
+            "selectedRoutes": {}
+        },
+        "tags": [
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "translationReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "75": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 50
+            },
+            "id": 75,
+            "starting": true,
+            "connections": [
+                {
+                    "id": 846,
+                    "x": 350,
+                    "y": 150
+                }
+            ],
+            "name": "Прогулка по парку",
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "76": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 76,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 77,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "backgroundId": "assets-backgrounds-city_park.png",
+            "waitToFinish": false,
+            "entrances": [
+                846
+            ]
+        },
+        "77": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 77,
+            "sound": {
+                "type": "env",
+                "id": "assets-ambient-park.mp3",
+                "volume": 35
+            },
+            "connections": [
+                {
+                    "id": 636,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                76
+            ]
+        },
+        "81": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "id": 81,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "connections": [
+                {
+                    "id": 82,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                636
+            ]
+        },
+        "82": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 82,
+            "sound": {
+                "type": "env",
+                "id": "assets-ambient-park.mp3",
+                "volume": 100
+            },
+            "connections": [
+                {
+                    "id": 721,
+                    "x": 350,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                81
+            ]
+        },
+        "83": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1050
+            },
+            "id": 83,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 3,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "connections": [
+                {
+                    "id": 640,
+                    "x": 350,
+                    "y": 1150
+                }
+            ],
+            "entrances": [
+                831
+            ]
+        },
+        "122": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 1850
+            },
+            "id": 122,
+            "ending": true,
+            "entrances": [
+                649
+            ]
+        },
+        "636": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 636,
+            "connections": [
+                {
+                    "id": 81,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1
+                }
+            ],
+            "entrances": [
+                77
+            ]
+        },
+        "638": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 850
+            },
+            "text": [
+                {
+                    "textNodeId": 2,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 3
+                }
+            ],
+            "id": 638,
+            "connections": [
+                {
+                    "id": 831,
+                    "x": 350,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                721
+            ]
+        },
+        "639": {
+            "type": "comment",
+            "pos": {
+                "x": 500,
+                "y": 950,
+                "width": 149,
+                "height": 92.078125
+            },
+            "id": 639,
+            "connections": [
+                {
+                    "id": 831,
+                    "x": 350,
+                    "y": 950
+                }
+            ]
+        },
+        "640": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1150
+            },
+            "id": 640,
+            "connections": [
+                {
+                    "id": 641,
+                    "x": 350,
+                    "y": 1250
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1
+                },
+                {
+                    "textNodeId": 4
+                },
+                {
+                    "textNodeId": 2
+                },
+                {
+                    "textNodeId": 5
+                }
+            ],
+            "entrances": [
+                83
+            ]
+        },
+        "641": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1250
+            },
+            "id": 641,
+            "connections": [
+                {
+                    "id": 642,
+                    "x": 350,
+                    "y": 1350
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1
+                },
+                {
+                    "textNodeId": 2
+                },
+                {
+                    "textNodeId": 3
+                },
+                {
+                    "textNodeId": 4
+                }
+            ],
+            "entrances": [
+                640
+            ]
+        },
+        "642": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1350
+            },
+            "text": [
+                {
+                    "textNodeId": 5
+                },
+                {
+                    "textNodeId": 6
+                },
+                {
+                    "textNodeId": 7
+                },
+                {
+                    "textNodeId": 8
+                },
+                {
+                    "textNodeId": 9
+                }
+            ],
+            "id": 642,
+            "connections": [
+                {
+                    "id": 643,
+                    "x": 350,
+                    "y": 1450
+                }
+            ],
+            "entrances": [
+                641
+            ]
+        },
+        "643": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1450
+            },
+            "text": [
+                {
+                    "textNodeId": 10
+                },
+                {
+                    "textNodeId": 11
+                },
+                {
+                    "textNodeId": 12
+                },
+                {
+                    "textNodeId": 13
+                },
+                {
+                    "textNodeId": 14
+                }
+            ],
+            "id": 643,
+            "connections": [
+                {
+                    "id": 644,
+                    "x": 350,
+                    "y": 1550
+                }
+            ],
+            "entrances": [
+                642
+            ]
+        },
+        "644": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1550
+            },
+            "text": [
+                {
+                    "textNodeId": 15
+                }
+            ],
+            "id": 644,
+            "connections": [
+                {
+                    "id": 832,
+                    "x": 350,
+                    "y": 1650
+                }
+            ],
+            "entrances": [
+                643
+            ]
+        },
+        "649": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1750
+            },
+            "text": [
+                {
+                    "textNodeId": 16
+                },
+                {
+                    "textNodeId": 17
+                }
+            ],
+            "id": 649,
+            "connections": [
+                {
+                    "id": 122,
+                    "x": 350,
+                    "y": 1850
+                }
+            ],
+            "entrances": [
+                832
+            ]
+        },
+        "721": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 750
+            },
+            "id": 721,
+            "connections": [
+                {
+                    "id": 638,
+                    "x": 350,
+                    "y": 850
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "id": "assets-music-Kris Keypovsky - Silence.mp3",
+                "volume": 100
+            },
+            "entrances": [
+                82
+            ]
+        },
+        "831": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 950
+            },
+            "id": 831,
+            "targetScene": "fogEffects",
+            "targetNode": 819,
+            "connections": [
+                {
+                    "id": 83,
+                    "x": 350,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                638,
+                639
+            ]
+        },
+        "832": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 1650
+            },
+            "id": 832,
+            "targetScene": "fogEffects",
+            "targetNode": 822,
+            "connections": [
+                {
+                    "id": 649,
+                    "x": 350,
+                    "y": 1750
+                }
+            ],
+            "entrances": [
+                644
+            ]
+        },
+        "846": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 846,
+            "connections": [
+                {
+                    "id": 76,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "targetScene": "placeInfo",
+            "targetNode": 841,
+            "entrances": [
+                75
+            ]
+        }
+    }
+}

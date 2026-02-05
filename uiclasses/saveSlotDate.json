@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "id": "saveSlotDate",
+        "name": "Save date text",
+        "comment": "Save date text",
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "text": {
+            "font": "raleway",
+            "size": 12,
+            "color": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 1
+            }
+        },
+        "hover": []
+    }
+}

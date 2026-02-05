@@ -1,0 +1,17 @@
+{
+    "id": "assets-music-Roman - choice.mp3",
+    "name": "Choice",
+    "type": "sound",
+    "assign": "music",
+    "filename": "Roman - choice.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Roman",
+        "license": "CC BY 4.0",
+        "description": "Roman - choice",
+        "link": "https://freemusicarchive.org/music/roman/single/choicemp3/"
+    }
+}

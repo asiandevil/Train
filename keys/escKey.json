@@ -1,0 +1,18 @@
+{
+    "id": "escKey",
+    "comment": "Esc key",
+    "isSystem": false,
+    "alt": false,
+    "shift": false,
+    "ctrl": false,
+    "keyCode": 27,
+    "event": {
+        "uiController": [],
+        "startFlow": [
+            {
+                "nodeId": 1006,
+                "sceneId": "keys"
+            }
+        ]
+    }
+}

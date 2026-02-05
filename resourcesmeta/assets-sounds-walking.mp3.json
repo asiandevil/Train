@@ -1,0 +1,16 @@
+{
+    "id": "assets-sounds-walking.mp3",
+    "name": "Walking",
+    "type": "sound",
+    "assign": "sound",
+    "filename": "walking.mp3",
+    "vendor": "assets",
+    "collection": "sounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "brainwaves8",
+        "license": "Creative Commons 0 License.",
+        "description": "Шаги по полу в холе"
+    }
+}

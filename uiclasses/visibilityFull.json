@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "id": "visibilityFull",
+        "name": "Visibility - 100",
+        "comment": "Fully visible",
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "visibility": {
+            "mask": {},
+            "opacity": 100
+        },
+        "hover": []
+    }
+}

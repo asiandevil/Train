@@ -1,0 +1,17 @@
+{
+    "id": "keyF2",
+    "comment": "F2",
+    "isSystem": false,
+    "alt": false,
+    "shift": false,
+    "ctrl": false,
+    "keyCode": 113,
+    "event": {
+        "startFlow": [
+            {
+                "nodeId": 973,
+                "sceneId": "keys"
+            }
+        ]
+    }
+}

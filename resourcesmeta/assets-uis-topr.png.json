@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-topr.png",
+    "name": "Top UI Right",
+    "type": "image",
+    "assign": "ui",
+    "filename": "topr.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Woods",
+        "license": "Woods",
+        "description": "Top UI element",
+        "link": ""
+    },
+    "imageSize": {
+        "width": 378,
+        "height": 151
+    }
+}

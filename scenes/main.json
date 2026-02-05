@@ -1,0 +1,585 @@
+{
+    "meta": {
+        "name": "Main Scene",
+        "width": 1950,
+        "height": 2650,
+        "parent": "root",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 947,
+            "end": 952,
+            "selectedRoutes": {}
+        },
+        "id": "main",
+        "children": [
+            "ark1",
+            "ark2",
+            "ark3"
+        ],
+        "type": "scene"
+    },
+    "nodes": {
+        "0": {
+            "type": "start",
+            "id": 0,
+            "pos": {
+                "x": 450,
+                "y": 50
+            },
+            "starting": true,
+            "connections": [
+                {
+                    "id": 18,
+                    "x": 450,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "18": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 150
+            },
+            "id": 18,
+            "connections": [
+                {
+                    "id": 124,
+                    "x": 450,
+                    "y": 250
+                }
+            ],
+            "targetScene": "scene1",
+            "targetNode": 9,
+            "entrances": [
+                0,
+                20
+            ]
+        },
+        "20": {
+            "type": "comment",
+            "pos": {
+                "x": 650,
+                "y": 150,
+                "width": 186,
+                "height": 90.46875
+            },
+            "id": 20,
+            "connections": [
+                {
+                    "id": 18,
+                    "x": 450,
+                    "y": 150
+                }
+            ]
+        },
+        "109": {
+            "type": "choise",
+            "pos": {
+                "x": 450,
+                "y": 650
+            },
+            "id": 109,
+            "preserveBuild": true,
+            "relatedUI": "gamechoice",
+            "connections": [
+                {
+                    "id": 118,
+                    "x": 450,
+                    "y": 850
+                },
+                {
+                    "id": 133,
+                    "x": 650,
+                    "y": 650
+                }
+            ],
+            "choises": [
+                {
+                    "textId": 0,
+                    "target": 118
+                },
+                {
+                    "textId": 1,
+                    "target": 133
+                }
+            ],
+            "name": "Взяться за дело?",
+            "defaultRoute": 118,
+            "entrances": [
+                117,
+                119
+            ]
+        },
+        "117": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 550
+            },
+            "id": 117,
+            "targetScene": "scene5",
+            "targetNode": 103,
+            "connections": [
+                {
+                    "id": 109,
+                    "x": 450,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                126
+            ]
+        },
+        "118": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 850
+            },
+            "id": 118,
+            "targetScene": "herewegoagain",
+            "targetNode": 112,
+            "connections": [
+                {
+                    "id": 243,
+                    "x": 450,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                109
+            ]
+        },
+        "119": {
+            "type": "comment",
+            "pos": {
+                "x": 100,
+                "y": 650,
+                "width": 218,
+                "height": 102.34375
+            },
+            "id": 119,
+            "connections": [
+                {
+                    "id": 109,
+                    "x": 450,
+                    "y": 650
+                }
+            ]
+        },
+        "124": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 250
+            },
+            "id": 124,
+            "targetScene": "scene2",
+            "targetNode": 14,
+            "connections": [
+                {
+                    "id": 125,
+                    "x": 450,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                18
+            ]
+        },
+        "125": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 125,
+            "targetScene": "scene3",
+            "targetNode": 75,
+            "connections": [
+                {
+                    "id": 126,
+                    "x": 450,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                124
+            ]
+        },
+        "126": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 450
+            },
+            "id": 126,
+            "targetScene": "scene4",
+            "targetNode": 90,
+            "connections": [
+                {
+                    "id": 117,
+                    "x": 450,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                125
+            ]
+        },
+        "133": {
+            "type": "call",
+            "pos": {
+                "x": 650,
+                "y": 650
+            },
+            "id": 133,
+            "targetScene": "dreamdebt",
+            "targetNode": 38,
+            "connections": [
+                {
+                    "id": 142,
+                    "x": 850,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                109
+            ]
+        },
+        "142": {
+            "type": "choise",
+            "pos": {
+                "x": 850,
+                "y": 650
+            },
+            "id": 142,
+            "preserveBuild": true,
+            "relatedUI": "gamechoice",
+            "choises": [
+                {
+                    "textId": 0,
+                    "target": 143
+                },
+                {
+                    "textId": 1,
+                    "target": 144
+                }
+            ],
+            "connections": [
+                {
+                    "id": 143,
+                    "x": 1050,
+                    "y": 650
+                },
+                {
+                    "id": 144,
+                    "x": 850,
+                    "y": 850
+                }
+            ],
+            "name": "Что делать дальше?",
+            "entrances": [
+                133
+            ]
+        },
+        "143": {
+            "type": "call",
+            "pos": {
+                "x": 1050,
+                "y": 650
+            },
+            "id": 143,
+            "targetScene": "continueDetective",
+            "targetNode": 145,
+            "connections": [
+                {
+                    "id": 688,
+                    "x": 1150,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                142
+            ]
+        },
+        "144": {
+            "type": "call",
+            "pos": {
+                "x": 850,
+                "y": 850
+            },
+            "id": 144,
+            "targetScene": "changeJob",
+            "targetNode": 179,
+            "connections": [
+                {
+                    "id": 687,
+                    "x": 850,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                142
+            ]
+        },
+        "243": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 950
+            },
+            "id": 243,
+            "targetScene": "station",
+            "targetNode": 229,
+            "connections": [
+                {
+                    "id": 289,
+                    "x": 450,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                118
+            ]
+        },
+        "289": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 1050
+            },
+            "id": 289,
+            "targetScene": "trainWalk",
+            "targetNode": 287,
+            "connections": [
+                {
+                    "id": 294,
+                    "x": 450,
+                    "y": 1150
+                }
+            ],
+            "entrances": [
+                243
+            ]
+        },
+        "294": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 1150
+            },
+            "id": 294,
+            "targetScene": "backtoowncab",
+            "targetNode": 291,
+            "connections": [
+                {
+                    "id": 1149,
+                    "x": 450,
+                    "y": 1250
+                }
+            ],
+            "entrances": [
+                289
+            ]
+        },
+        "343": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 1350
+            },
+            "id": 343,
+            "targetScene": "common4",
+            "targetNode": 345,
+            "connections": [
+                {
+                    "id": 1400,
+                    "x": 450,
+                    "y": 1450
+                }
+            ],
+            "entrances": [
+                1149
+            ]
+        },
+        "687": {
+            "type": "jump",
+            "pos": {
+                "x": 850,
+                "y": 950
+            },
+            "id": 687,
+            "ending": true,
+            "targetScene": "badEnd",
+            "targetNode": 684,
+            "entrances": [
+                144
+            ]
+        },
+        "688": {
+            "type": "jump",
+            "pos": {
+                "x": 1150,
+                "y": 650
+            },
+            "id": 688,
+            "ending": true,
+            "targetScene": "badEnd",
+            "targetNode": 684,
+            "entrances": [
+                143
+            ]
+        },
+        "1062": {
+            "type": "start",
+            "pos": {
+                "x": 750,
+                "y": 1550
+            },
+            "id": 1062,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1064,
+                    "x": 650,
+                    "y": 1550
+                }
+            ]
+        },
+        "1064": {
+            "type": "ui",
+            "pos": {
+                "x": 650,
+                "y": 1550
+            },
+            "id": 1064,
+            "uiController": [
+                {
+                    "id": "gamemenu",
+                    "action": "show"
+                },
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1461,
+                    "x": 450,
+                    "y": 1550
+                }
+            ],
+            "entrances": [
+                1062
+            ]
+        },
+        "1149": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 1250
+            },
+            "id": 1149,
+            "targetScene": "common3",
+            "targetNode": 316,
+            "connections": [
+                {
+                    "id": 343,
+                    "x": 450,
+                    "y": 1350
+                }
+            ],
+            "entrances": [
+                294
+            ]
+        },
+        "1400": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 1450
+            },
+            "id": 1400,
+            "targetScene": "common5",
+            "targetNode": 1382,
+            "connections": [
+                {
+                    "id": 1461,
+                    "x": 450,
+                    "y": 1550
+                }
+            ],
+            "entrances": [
+                343
+            ]
+        },
+        "1461": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 1550
+            },
+            "id": 1461,
+            "targetScene": "common6",
+            "targetNode": 478,
+            "connections": [
+                {
+                    "id": 1820,
+                    "x": 450,
+                    "y": 1750
+                }
+            ],
+            "entrances": [
+                1064,
+                1400
+            ]
+        },
+        "1462": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 1850
+            },
+            "id": 1462,
+            "ending": true,
+            "entrances": [
+                1820
+            ]
+        },
+        "1820": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 1750
+            },
+            "id": 1820,
+            "connections": [
+                {
+                    "id": 1462,
+                    "x": 450,
+                    "y": 1850
+                }
+            ],
+            "targetScene": "demoEnd",
+            "targetNode": 941,
+            "entrances": [
+                1461
+            ]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "meta": {
+        "id": "vocabulary",
+        "name": "Terminology Vocabulary",
+        "readonly": false,
+        "isSystem": true
+    },
+    "values": {}
+}

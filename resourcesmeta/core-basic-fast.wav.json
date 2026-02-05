@@ -1,0 +1,14 @@
+{
+    "name": "Fast click",
+    "type": "audio",
+    "assign": "sound",
+    "filename": "fast.wav",
+    "vendor": "core",
+    "collection": "basic",
+    "meta": {
+        "author": "Qat",
+        "license": "Creative Commons 0 License",
+        "description": "Fast Click"
+    },
+    "id": "core-basic-fast.wav"
+}

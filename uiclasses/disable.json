@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "id": "disable",
+        "deletable": false,
+        "name": "Disable",
+        "comment": "Disables element",
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "position": {},
+        "listSetup": {},
+        "visibility": {
+            "render": false
+        },
+        "background": {
+            "setup": {}
+        },
+        "text": {},
+        "transition": {}
+    }
+}

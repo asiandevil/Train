@@ -1,0 +1,20 @@
+{
+    "id": "assets-uis-circle.png",
+    "name": "Wavy Circle",
+    "type": "image",
+    "assign": "ui",
+    "filename": "circle.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "wavy circle"
+    },
+    "imageSize": {
+        "width": 510,
+        "height": 512
+    }
+}

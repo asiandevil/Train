@@ -1,0 +1,8 @@
+{
+    "id": "skip",
+    "comment": "Start skipping seen text",
+    "keyCode": 83,
+    "event": {
+        "systemAction": "skip"
+    }
+}

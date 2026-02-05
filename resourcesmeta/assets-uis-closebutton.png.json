@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-closebutton.png",
+    "name": "Close button",
+    "type": "image",
+    "assign": "ui",
+    "filename": "closebutton.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Close button",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 211,
+        "height": 56
+    }
+}

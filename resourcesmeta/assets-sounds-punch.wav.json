@@ -1,0 +1,17 @@
+{
+    "id": "assets-sounds-punch.wav",
+    "name": "Punch",
+    "type": "sound",
+    "assign": "sound",
+    "filename": "punch.wav",
+    "vendor": "assets",
+    "collection": "sounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "thefsoundman",
+        "license": "Creative Commons 0 License",
+        "description": "Punching",
+        "link": "https://freesound.org/people/thefsoundman/sounds/118513/"
+    }
+}

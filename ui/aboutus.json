@@ -1,0 +1,387 @@
+{
+    "id": "aboutus",
+    "name": "About us",
+    "comment": "About us",
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "aboutus",
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 930,
+                    "height": 560
+                },
+                "zIndex": 3010,
+                "align": {
+                    "x": "center",
+                    "y": "top"
+                }
+            },
+            "listSetup": {},
+            "background": {
+                "setup": {},
+                "resource": "assets-uis-winback.png"
+            },
+            "text": {
+                "example": "none"
+            },
+            "children": [
+                {
+                    "id": "title",
+                    "name": "title",
+                    "role": "gui",
+                    "entityID": "aboutus",
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "shift": {
+                            "x": 50,
+                            "y": 14
+                        }
+                    },
+                    "listSetup": {},
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 128,
+                            "green": 128,
+                            "blue": 128,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "size": 26,
+                        "font": "raleway",
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "menuCreators",
+                            "reactive": true
+                        },
+                        "italic": true
+                    },
+                    "border": {}
+                },
+                {
+                    "id": "content",
+                    "name": "Content",
+                    "role": "gui",
+                    "entityID": "aboutus",
+                    "position": {
+                        "shift": {
+                            "x": 19,
+                            "y": 140
+                        },
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "size": {
+                            "width": 880,
+                            "height": 340
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        }
+                    },
+                    "listSetup": {
+                        "direction": "column",
+                        "isWrap": false
+                    },
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "example": "none",
+                        "size": 15,
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 1
+                        },
+                        "font": "raleway"
+                    },
+                    "children": [
+                        {
+                            "id": "element",
+                            "name": "Scenario",
+                            "role": "gui",
+                            "entityID": "aboutus",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "type": "static",
+                                "size": {},
+                                "origin": {
+                                    "x": "center",
+                                    "y": "bottom"
+                                },
+                                "shift": {},
+                                "align": {
+                                    "x": "center",
+                                    "y": "center"
+                                }
+                            },
+                            "listSetup": {},
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "creatorScenario",
+                                    "reactive": true
+                                },
+                                "size": 24,
+                                "color": {
+                                    "red": 199,
+                                    "green": 199,
+                                    "blue": 199,
+                                    "alpha": 1
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": "element2",
+                            "name": "Scenario. name",
+                            "role": "gui",
+                            "entityID": "aboutus",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "type": "static",
+                                "padding": {},
+                                "margin": {
+                                    "x": 10,
+                                    "y": 0,
+                                    "x2": 0,
+                                    "y2": 0
+                                }
+                            },
+                            "listSetup": {},
+                            "text": {
+                                "size": 28,
+                                "custom": "Searwantes"
+                            }
+                        },
+                        {
+                            "id": "element3",
+                            "name": "Coding",
+                            "role": "gui",
+                            "entityID": "aboutus",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "type": "static",
+                                "size": {},
+                                "origin": {
+                                    "x": "center",
+                                    "y": "bottom"
+                                },
+                                "shift": {},
+                                "align": {
+                                    "x": "center",
+                                    "y": "center"
+                                },
+                                "margin": {
+                                    "x": 50,
+                                    "y": 0,
+                                    "x2": 0,
+                                    "y2": 0
+                                }
+                            },
+                            "listSetup": {},
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "creatorCodingArt",
+                                    "reactive": true
+                                },
+                                "size": 24,
+                                "color": {
+                                    "red": 199,
+                                    "green": 199,
+                                    "blue": 199,
+                                    "alpha": 1
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": "element4",
+                            "name": "Coding. name",
+                            "role": "gui",
+                            "entityID": "aboutus",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "type": "static",
+                                "padding": {},
+                                "margin": {
+                                    "x": 10,
+                                    "y": 0,
+                                    "x2": 0,
+                                    "y2": 0
+                                }
+                            },
+                            "listSetup": {},
+                            "text": {
+                                "size": 28,
+                                "custom": "RiverForest"
+                            }
+                        }
+                    ],
+                    "visibility": {
+                        "overflow": "scroll",
+                        "mask": {}
+                    },
+                    "border": {}
+                },
+                {
+                    "id": "teamName",
+                    "name": "Team Name",
+                    "role": "gui",
+                    "entityID": "aboutus",
+                    "background": {
+                        "setup": {}
+                    },
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "shift": {
+                            "x": 19,
+                            "y": 134
+                        },
+                        "size": {
+                            "width": 880,
+                            "height": 0
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "custom": "Orange Capybara Team",
+                        "size": 30
+                    }
+                },
+                {
+                    "id": "close",
+                    "name": "Close button",
+                    "role": "gui",
+                    "entityID": "aboutus",
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "shift": {
+                            "y": -20
+                        },
+                        "padding": {
+                            "x": 10,
+                            "y": 10
+                        },
+                        "size": {
+                            "width": 150,
+                            "height": 0
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "close",
+                            "reactive": true
+                        }
+                    },
+                    "background": {
+                        "setup": {}
+                    },
+                    "hover": [
+                        {
+                            "trigger": "close",
+                            "background": {
+                                "setup": {}
+                            },
+                            "text": {}
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "id": "closeButton",
+                            "index": 1699281894245,
+                            "overwrite": false
+                        }
+                    ],
+                    "events": {
+                        "click": {
+                            "uiController": [],
+                            "sound": "core-basic-fast.wav",
+                            "startFlow": [
+                                {
+                                    "nodeId": 978,
+                                    "sceneId": "keys"
+                                }
+                            ],
+                            "music": "assets-music-Great Expectations.mp3"
+                        },
+                        "mouseEnter": {
+                            "sound": "core-basic-hover.wav"
+                        }
+                    },
+                    "visibility": {}
+                }
+            ],
+            "visibility": {
+                "positionLocked": true
+            },
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-out"
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-in"
+                }
+            },
+            "border": {}
+        }
+    ],
+    "doNotHide": true,
+    "unique": true
+}

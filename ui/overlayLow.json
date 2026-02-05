@@ -1,0 +1,63 @@
+{
+    "id": "overlayLow",
+    "name": "Overlay Screen - low",
+    "comment": "Overlay Screen - low",
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "deletable": false,
+            "entityID": "overlayLow",
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "size": {
+                    "width": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioWidth",
+                        "reactive": true
+                    },
+                    "height": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioHeight",
+                        "reactive": true
+                    }
+                },
+                "origin": {
+                    "x": "left",
+                    "y": "top"
+                },
+                "zIndex": 2999
+            },
+            "listSetup": {},
+            "text": {
+                "example": "none"
+            },
+            "background": {
+                "setup": {},
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0.8
+                }
+            },
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-out"
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-in"
+                }
+            }
+        }
+    ],
+    "unique": true
+}

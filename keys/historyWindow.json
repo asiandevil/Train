@@ -1,0 +1,18 @@
+{
+    "id": "historyWindow",
+    "comment": "History window",
+    "isSystem": false,
+    "alt": false,
+    "shift": false,
+    "ctrl": false,
+    "keyCode": 72,
+    "event": {
+        "uiController": [],
+        "startFlow": [
+            {
+                "nodeId": 973,
+                "sceneId": "keys"
+            }
+        ]
+    }
+}

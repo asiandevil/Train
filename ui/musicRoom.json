@@ -1,0 +1,1125 @@
+{
+    "id": "musicRoom",
+    "name": "Music Room Window",
+    "comment": "",
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "musicRoom",
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 930,
+                    "height": 560
+                },
+                "zIndex": 3010,
+                "align": {
+                    "x": "center",
+                    "y": "top"
+                }
+            },
+            "listSetup": {},
+            "background": {
+                "setup": {},
+                "resource": "assets-uis-winback.png"
+            },
+            "text": {
+                "example": "none"
+            },
+            "children": [
+                {
+                    "id": "title",
+                    "name": "title",
+                    "role": "gui",
+                    "entityID": "musicRoom",
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "shift": {
+                            "x": 50,
+                            "y": 14
+                        }
+                    },
+                    "listSetup": {},
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 128,
+                            "green": 128,
+                            "blue": 128,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "size": 26,
+                        "font": "raleway",
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "musicRoom",
+                            "reactive": true
+                        },
+                        "italic": true
+                    },
+                    "border": {}
+                },
+                {
+                    "id": "content",
+                    "name": "Content",
+                    "role": "gui",
+                    "entityID": "musicRoom",
+                    "position": {
+                        "shift": {
+                            "x": 19,
+                            "y": 95
+                        },
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "size": {
+                            "width": 880,
+                            "height": 375
+                        },
+                        "align": {
+                            "x": "left",
+                            "y": "top"
+                        }
+                    },
+                    "listSetup": {
+                        "direction": "row",
+                        "isWrap": true
+                    },
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "example": "none",
+                        "size": 15,
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 1
+                        },
+                        "font": "raleway"
+                    },
+                    "children": [
+                        {
+                            "id": "musicContainer",
+                            "name": "Ambient Dream",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column",
+                                "grow": 0,
+                                "isWrap": false
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Ambient Dream",
+                                        "size": 18
+                                    }
+                                },
+                                {
+                                    "id": "author",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "size": 18,
+                                        "custom": "By Malictusmusic"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-malictusmusic - Ambient Dream.mp3"
+                                }
+                            },
+                            "isDefaultChild": true,
+                            "transform": {},
+                            "border": {},
+                            "cursor": {},
+                            "classes": [
+                                {
+                                    "id": "musicContainer",
+                                    "index": 1722366010250,
+                                    "overwrite": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "musicContainer4",
+                            "name": "Chewing Devil Grass",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column"
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle4",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Chewing Devil Grass"
+                                    }
+                                },
+                                {
+                                    "id": "author4",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "By ROZKOL"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-Chewing Devil Grass.mp3"
+                                }
+                            },
+                            "visibility": {
+                                "mask": {}
+                            }
+                        },
+                        {
+                            "id": "musicContainer10",
+                            "name": "Choice",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column",
+                                "grow": 0,
+                                "isWrap": false
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle10",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Choice"
+                                    }
+                                },
+                                {
+                                    "id": "author10",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "By Roman"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-Roman - choice.mp3"
+                                }
+                            },
+                            "transform": {},
+                            "border": {},
+                            "cursor": {},
+                            "classes": [
+                                {
+                                    "id": "musicContainer",
+                                    "index": 1722366010250,
+                                    "overwrite": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "musicContainer3",
+                            "name": "Cityscape Backdrop",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column"
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle3",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Cityscape Backdrop"
+                                    }
+                                },
+                                {
+                                    "id": "author3",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "By Jesse Spillane"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-Cityscape Backdrop.mp3"
+                                }
+                            },
+                            "visibility": {
+                                "mask": {}
+                            }
+                        },
+                        {
+                            "id": "musicContainer8",
+                            "name": "Fog",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column",
+                                "grow": 0,
+                                "isWrap": false
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle8",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Fog"
+                                    }
+                                },
+                                {
+                                    "id": "author8",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "By Sergey Cheremisinov"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-Sergey Cheremisinov - Fog.mp3"
+                                }
+                            },
+                            "transform": {},
+                            "border": {},
+                            "cursor": {},
+                            "classes": [
+                                {
+                                    "id": "musicContainer",
+                                    "index": 1722366010250,
+                                    "overwrite": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "musicContainer2",
+                            "name": "Home at last",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column"
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle2",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Home At Last"
+                                    }
+                                },
+                                {
+                                    "id": "author2",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "By John Bartmann"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-gameovermusic"
+                                }
+                            },
+                            "visibility": {
+                                "mask": {}
+                            }
+                        },
+                        {
+                            "id": "musicContainer6",
+                            "name": "Precisamos",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column"
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle6",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Precisamos"
+                                    }
+                                },
+                                {
+                                    "id": "author6",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "By Rui"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-Precisamos.mp3"
+                                }
+                            },
+                            "visibility": {
+                                "mask": {}
+                            }
+                        },
+                        {
+                            "id": "musicContainer7",
+                            "name": "Rest",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column"
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle7",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Rest"
+                                    }
+                                },
+                                {
+                                    "id": "author7",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "By P C III"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-rest.mp3"
+                                }
+                            },
+                            "visibility": {
+                                "mask": {}
+                            }
+                        },
+                        {
+                            "id": "musicContainer5",
+                            "name": "Sense",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column",
+                                "grow": 0,
+                                "isWrap": false
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle5",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Sense"
+                                    }
+                                },
+                                {
+                                    "id": "author5",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "By Sergey Cheremisinov"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-Sergey Cheremisinov - Sense.mp3"
+                                },
+                                "mouseEnter": {}
+                            },
+                            "transform": {},
+                            "border": {},
+                            "cursor": {},
+                            "classes": [
+                                {
+                                    "id": "musicContainer",
+                                    "index": 1722366010250,
+                                    "overwrite": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "musicContainer9",
+                            "name": "Silence",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column",
+                                "grow": 0,
+                                "isWrap": false
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle9",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Silence"
+                                    }
+                                },
+                                {
+                                    "id": "author9",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "By Kris Keypovsky"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-Kris Keypovsky - Silence.mp3"
+                                }
+                            },
+                            "transform": {},
+                            "border": {},
+                            "cursor": {},
+                            "classes": [
+                                {
+                                    "id": "musicContainer",
+                                    "index": 1722366010250,
+                                    "overwrite": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "musicContainer11",
+                            "name": "Smarties",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column",
+                                "grow": 0,
+                                "isWrap": false
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle11",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Smarties"
+                                    }
+                                },
+                                {
+                                    "id": "author11",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "By Birds for Scale"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-Birds for Scale - Smarties.mp3"
+                                }
+                            },
+                            "transform": {},
+                            "border": {},
+                            "cursor": {},
+                            "classes": [
+                                {
+                                    "id": "musicContainer",
+                                    "index": 1722366010250,
+                                    "overwrite": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "musicContainer12",
+                            "name": "Spring Morning",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column",
+                                "grow": 0,
+                                "isWrap": false
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle12",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Spring Morning"
+                                    }
+                                },
+                                {
+                                    "id": "author12",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "By Maarten Schellekens"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-Maarten Schellekens - Spring Morning.mp3"
+                                }
+                            },
+                            "transform": {},
+                            "border": {},
+                            "cursor": {},
+                            "classes": [
+                                {
+                                    "id": "musicContainer",
+                                    "index": 1722366010250,
+                                    "overwrite": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "musicContainer13",
+                            "name": "Suco de Abacaxi",
+                            "role": "gui",
+                            "entityID": "musicRoom",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "size": {}
+                            },
+                            "listSetup": {
+                                "direction": "column",
+                                "grow": 0,
+                                "isWrap": false
+                            },
+                            "children": [
+                                {
+                                    "id": "musicTitle13",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "Suco de Abacaxi"
+                                    }
+                                },
+                                {
+                                    "id": "author13",
+                                    "name": "Author",
+                                    "role": "gui",
+                                    "entityID": "musicRoom",
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": "By Guifrog"
+                                    }
+                                }
+                            ],
+                            "text": {
+                                "example": "none"
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "music": "assets-music-Guifrog - Suco de Abacaxi.mp3"
+                                }
+                            },
+                            "transform": {},
+                            "border": {},
+                            "cursor": {},
+                            "classes": [
+                                {
+                                    "id": "musicContainer",
+                                    "index": 1722366010250,
+                                    "overwrite": false
+                                }
+                            ]
+                        }
+                    ],
+                    "visibility": {
+                        "overflow": "scroll",
+                        "mask": {}
+                    },
+                    "border": {}
+                },
+                {
+                    "id": "element",
+                    "name": "Element",
+                    "role": "gui",
+                    "entityID": "musicRoom",
+                    "background": {
+                        "setup": {}
+                    },
+                    "position": {
+                        "type": "absolute",
+                        "size": {
+                            "width": 880,
+                            "height": 0
+                        },
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "shift": {
+                            "x": 0,
+                            "y": -64
+                        },
+                        "align": {
+                            "x": "left",
+                            "y": "top"
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "custom": "All music in this game is licensed under Creative Commons. For detailed attribution and license information, please refer to the CREDITS.txt file included with the game.",
+                        "size": 12
+                    }
+                },
+                {
+                    "id": "close",
+                    "name": "Close button",
+                    "role": "gui",
+                    "entityID": "musicRoom",
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "shift": {
+                            "y": -20
+                        },
+                        "padding": {
+                            "x": 10,
+                            "y": 10
+                        },
+                        "size": {
+                            "width": 150,
+                            "height": 0
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "close",
+                            "reactive": true
+                        }
+                    },
+                    "background": {
+                        "setup": {}
+                    },
+                    "hover": [
+                        {
+                            "trigger": "close",
+                            "background": {
+                                "setup": {}
+                            },
+                            "text": {}
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "id": "closeButton",
+                            "index": 1699281894245,
+                            "overwrite": false
+                        }
+                    ],
+                    "events": {
+                        "click": {
+                            "uiController": [],
+                            "sound": "core-basic-fast.wav",
+                            "startFlow": [
+                                {
+                                    "nodeId": 978,
+                                    "sceneId": "keys"
+                                }
+                            ],
+                            "music": "assets-music-Great Expectations.mp3"
+                        },
+                        "mouseEnter": {
+                            "sound": "core-basic-hover.wav"
+                        }
+                    },
+                    "visibility": {}
+                }
+            ],
+            "visibility": {
+                "positionLocked": true
+            },
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-out"
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-in"
+                }
+            },
+            "border": {}
+        }
+    ],
+    "doNotHide": true,
+    "unique": true
+}

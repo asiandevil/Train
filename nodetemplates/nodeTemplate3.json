@@ -1,0 +1,54 @@
+{
+    "name": "grayscreen",
+    "id": "nodeTemplate3",
+    "nodeBody": {
+        "type": "actor",
+        "actors": [
+            {
+                "id": "assets-images-greydreamt.png",
+                "state": "default",
+                "action": "show",
+                "flip": false,
+                "position": {
+                    "x": "50%",
+                    "y": "50%",
+                    "rx": "",
+                    "ry": "",
+                    "class": "",
+                    "scale": 3.6
+                },
+                "animations": {
+                    "shake": {
+                        "name": "shake",
+                        "duration": 150,
+                        "delay": 0,
+                        "repeat": 0,
+                        "transitfunction": "ease",
+                        "persistent": false
+                    },
+                    "pulse": {
+                        "name": "pulse",
+                        "duration": 5,
+                        "delay": 0,
+                        "repeat": 0,
+                        "transitfunction": "ease",
+                        "persistent": false,
+                        "params": {
+                            "scale": 1.1
+                        }
+                    }
+                },
+                "actionAnimation": {
+                    "transition": {
+                        "duration": 10
+                    }
+                }
+            }
+        ],
+        "generatedName": "<b>greydreamt.png</b>: show <br />"
+    },
+    "textBody": {
+        "default": {},
+        "language": {}
+    }
+}

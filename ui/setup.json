@@ -1,0 +1,2148 @@
+{
+    "id": "setup",
+    "name": "Setup Window",
+    "comment": "",
+    "role": "gui",
+    "deletable": false,
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "setup",
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 930,
+                    "height": 560
+                },
+                "zIndex": 3010,
+                "align": {
+                    "x": "center",
+                    "y": "top"
+                }
+            },
+            "listSetup": {},
+            "background": {
+                "setup": {},
+                "resource": "assets-uis-winback.png"
+            },
+            "text": {
+                "example": "none"
+            },
+            "children": [
+                {
+                    "id": "title",
+                    "name": "title",
+                    "role": "gui",
+                    "entityID": "setup",
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "shift": {
+                            "x": 50,
+                            "y": 14
+                        }
+                    },
+                    "listSetup": {},
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 128,
+                            "green": 128,
+                            "blue": 128,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "size": 26,
+                        "font": "raleway",
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "setupPage",
+                            "reactive": true
+                        },
+                        "italic": true,
+                        "bold": false
+                    },
+                    "visibility": {}
+                },
+                {
+                    "id": "content",
+                    "name": "Content",
+                    "role": "gui",
+                    "entityID": "setup",
+                    "position": {
+                        "shift": {
+                            "x": 19,
+                            "y": 95
+                        },
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "size": {
+                            "width": 880,
+                            "height": 383
+                        },
+                        "align": {
+                            "x": "right",
+                            "y": "top"
+                        }
+                    },
+                    "listSetup": {
+                        "direction": "column",
+                        "isWrap": false
+                    },
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "example": "none",
+                        "size": 15,
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 1
+                        },
+                        "font": "raleway"
+                    },
+                    "children": [
+                        {
+                            "id": "gamelanguage",
+                            "name": "Game Language",
+                            "role": "gui",
+                            "entityID": "setup",
+                            "position": {
+                                "type": "static",
+                                "align": {
+                                    "x": "left",
+                                    "y": "top"
+                                },
+                                "size": {
+                                    "width": 880,
+                                    "height": 40
+                                },
+                                "margin": {
+                                    "x": 0,
+                                    "y": 5
+                                }
+                            },
+                            "listSetup": {},
+                            "background": {
+                                "setup": {},
+                                "color": {
+                                    "red": 0,
+                                    "green": 0,
+                                    "blue": 0,
+                                    "alpha": 0
+                                }
+                            },
+                            "text": {
+                                "example": "none"
+                            },
+                            "children": [
+                                {
+                                    "id": "titlegamelanguage",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 200,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        },
+                                        "padding": {
+                                            "y": 0,
+                                            "x": 0
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "vocabulary",
+                                            "id": "gameLanguage",
+                                            "reactive": true
+                                        },
+                                        "size": 20,
+                                        "color": {
+                                            "red": 255,
+                                            "green": 255,
+                                            "blue": 255,
+                                            "alpha": 1
+                                        }
+                                    },
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    },
+                                    "visibility": {}
+                                },
+                                {
+                                    "id": "gamelanguagecontent",
+                                    "name": "Setup container",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "text": {
+                                        "example": "none"
+                                    },
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 0,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        }
+                                    },
+                                    "listSetup": {
+                                        "grow": 1
+                                    },
+                                    "children": [
+                                        {
+                                            "id": "language1",
+                                            "name": "Language 1",
+                                            "role": "gui",
+                                            "entityID": "setup",
+                                            "position": {
+                                                "type": "static",
+                                                "size": {
+                                                    "width": 150,
+                                                    "height": 40
+                                                },
+                                                "shift": {
+                                                    "x": 40,
+                                                    "y": 0
+                                                },
+                                                "align": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "classes": [
+                                                {
+                                                    "id": "generalbutton",
+                                                    "overwrite": true
+                                                },
+                                                {
+                                                    "id": "selected",
+                                                    "overwrite": true,
+                                                    "condition": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "gameLanguage",
+                                                            "action": "is",
+                                                            "value": "default"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "text": {
+                                                "custom": "Language 1"
+                                            },
+                                            "visibility": {},
+                                            "hover": [
+                                                {
+                                                    "trigger": "textspeedbutton",
+                                                    "position": {
+                                                        "zIndex": 2
+                                                    },
+                                                    "listSetup": {}
+                                                }
+                                            ],
+                                            "events": {
+                                                "click": {
+                                                    "valueUpdate": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "gameLanguage",
+                                                            "action": "set",
+                                                            "operand": "default"
+                                                        }
+                                                    ],
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "language2",
+                                            "name": "Language 2",
+                                            "role": "gui",
+                                            "entityID": "setup",
+                                            "position": {
+                                                "type": "static",
+                                                "size": {
+                                                    "width": 150,
+                                                    "height": 40
+                                                },
+                                                "shift": {
+                                                    "x": 40,
+                                                    "y": 0
+                                                },
+                                                "align": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "classes": [
+                                                {
+                                                    "id": "generalbutton",
+                                                    "overwrite": true
+                                                },
+                                                {
+                                                    "id": "selected",
+                                                    "overwrite": true,
+                                                    "condition": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "gameLanguage",
+                                                            "action": "is",
+                                                            "value": "lang2"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "text": {
+                                                "custom": "Language 2"
+                                            },
+                                            "hover": [
+                                                {
+                                                    "trigger": "textspeedbutton2",
+                                                    "position": {
+                                                        "zIndex": 2
+                                                    },
+                                                    "listSetup": {}
+                                                }
+                                            ],
+                                            "events": {
+                                                "click": {
+                                                    "valueUpdate": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "gameLanguage",
+                                                            "action": "set",
+                                                            "operand": "default"
+                                                        }
+                                                    ],
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "language3",
+                                            "name": "Language 3",
+                                            "role": "gui",
+                                            "entityID": "setup",
+                                            "position": {
+                                                "type": "static",
+                                                "size": {
+                                                    "width": 150,
+                                                    "height": 40
+                                                },
+                                                "shift": {
+                                                    "x": 40,
+                                                    "y": 0
+                                                },
+                                                "align": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "classes": [
+                                                {
+                                                    "id": "generalbutton",
+                                                    "overwrite": true
+                                                },
+                                                {
+                                                    "id": "selected",
+                                                    "overwrite": true,
+                                                    "condition": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "gameLanguage",
+                                                            "action": "is",
+                                                            "value": "lang3"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "text": {
+                                                "custom": "Language 3"
+                                            },
+                                            "hover": [
+                                                {
+                                                    "trigger": "textspeedbutton3",
+                                                    "position": {
+                                                        "zIndex": 2
+                                                    },
+                                                    "listSetup": {}
+                                                }
+                                            ],
+                                            "events": {
+                                                "click": {
+                                                    "valueUpdate": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "gameLanguage",
+                                                            "action": "set",
+                                                            "operand": "default"
+                                                        }
+                                                    ],
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "language4",
+                                            "name": "Language 4",
+                                            "role": "gui",
+                                            "entityID": "setup",
+                                            "position": {
+                                                "type": "static",
+                                                "size": {
+                                                    "width": 150,
+                                                    "height": 40
+                                                },
+                                                "shift": {
+                                                    "x": 40,
+                                                    "y": 0
+                                                },
+                                                "align": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "classes": [
+                                                {
+                                                    "id": "generalbutton",
+                                                    "overwrite": true
+                                                },
+                                                {
+                                                    "id": "selected",
+                                                    "overwrite": true,
+                                                    "condition": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "gameLanguage",
+                                                            "action": "is",
+                                                            "value": "lang4"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "text": {
+                                                "custom": "Language 4"
+                                            },
+                                            "hover": [
+                                                {
+                                                    "trigger": "textspeedbutton4",
+                                                    "position": {
+                                                        "zIndex": 2
+                                                    },
+                                                    "listSetup": {}
+                                                }
+                                            ],
+                                            "events": {
+                                                "click": {
+                                                    "valueUpdate": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "gameLanguage",
+                                                            "action": "set",
+                                                            "operand": "default"
+                                                        }
+                                                    ],
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "visibility": {
+                                "positionLocked": true
+                            },
+                            "classes": [
+                                {
+                                    "id": "disable",
+                                    "index": 1609908357082,
+                                    "overwrite": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "musicvolume",
+                            "name": "Music volume",
+                            "role": "gui",
+                            "entityID": "setup",
+                            "position": {
+                                "type": "static",
+                                "align": {
+                                    "x": "left",
+                                    "y": "top"
+                                },
+                                "size": {
+                                    "width": 880,
+                                    "height": 40
+                                },
+                                "margin": {
+                                    "x": 0,
+                                    "y": 5
+                                }
+                            },
+                            "listSetup": {},
+                            "background": {
+                                "setup": {},
+                                "color": {
+                                    "red": 0,
+                                    "green": 0,
+                                    "blue": 0,
+                                    "alpha": 0
+                                }
+                            },
+                            "text": {
+                                "example": "none"
+                            },
+                            "children": [
+                                {
+                                    "id": "titlemusic",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 200,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        },
+                                        "shift": {
+                                            "x": 0,
+                                            "y": 0
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "vocabulary",
+                                            "id": "musicVolume",
+                                            "reactive": true
+                                        },
+                                        "size": 20,
+                                        "color": {
+                                            "red": 255,
+                                            "green": 255,
+                                            "blue": 255,
+                                            "alpha": 1
+                                        }
+                                    },
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "musiccontent",
+                                    "name": "Setup container",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "text": {
+                                        "example": "none"
+                                    },
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 0,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "center",
+                                            "y": "center"
+                                        }
+                                    },
+                                    "listSetup": {
+                                        "grow": 1
+                                    },
+                                    "children": [
+                                        {
+                                            "id": "musicslider",
+                                            "name": "Slider",
+                                            "role": "slider",
+                                            "entityID": "setup",
+                                            "position": {
+                                                "type": "static",
+                                                "size": {
+                                                    "width": 600,
+                                                    "height": 14
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "text": {
+                                                "slider": {
+                                                    "min": 0,
+                                                    "max": 100,
+                                                    "step": 10,
+                                                    "binding": {
+                                                        "isVariable": true,
+                                                        "scope": "config",
+                                                        "id": "musicVolume",
+                                                        "reactive": true
+                                                    }
+                                                }
+                                            },
+                                            "background": {
+                                                "setup": {
+                                                    "sizeType": "full",
+                                                    "size": {}
+                                                },
+                                                "resource": "assets-uis-slider.png"
+                                            },
+                                            "events": {
+                                                "click": {
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "id": "__meta_sliderThumb_musicslider",
+                                                    "entityID": "setup",
+                                                    "name": "Slider thumb",
+                                                    "role": "gui",
+                                                    "metaRole": "sliderThumb",
+                                                    "position": {
+                                                        "size": {
+                                                            "height": 40,
+                                                            "width": 30
+                                                        },
+                                                        "shift": {
+                                                            "x": 0,
+                                                            "y": -12
+                                                        }
+                                                    },
+                                                    "text": {
+                                                        "example": "none"
+                                                    },
+                                                    "visibility": {
+                                                        "positionLocked": true
+                                                    },
+                                                    "listSetup": {},
+                                                    "background": {
+                                                        "setup": {
+                                                            "sizeType": "full"
+                                                        },
+                                                        "resource": "assets-uis-slhead.png",
+                                                        "color": {
+                                                            "red": 0,
+                                                            "green": 0,
+                                                            "blue": 0,
+                                                            "alpha": 0
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "cursor": {
+                                                "resource": "assets-cursors-curnD.png"
+                                            }
+                                        }
+                                    ],
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "visibility": {
+                                "positionLocked": true
+                            }
+                        },
+                        {
+                            "id": "soundvolume",
+                            "name": "Sound volume",
+                            "role": "gui",
+                            "entityID": "setup",
+                            "position": {
+                                "type": "static",
+                                "align": {
+                                    "x": "left",
+                                    "y": "top"
+                                },
+                                "size": {
+                                    "width": 880,
+                                    "height": 40
+                                },
+                                "margin": {
+                                    "x": 0,
+                                    "y": 5
+                                }
+                            },
+                            "listSetup": {},
+                            "background": {
+                                "setup": {},
+                                "color": {
+                                    "red": 0,
+                                    "green": 0,
+                                    "blue": 0,
+                                    "alpha": 0
+                                }
+                            },
+                            "text": {
+                                "example": "none"
+                            },
+                            "children": [
+                                {
+                                    "id": "titlesound",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 200,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "vocabulary",
+                                            "id": "soundVolume",
+                                            "reactive": true
+                                        },
+                                        "size": 20,
+                                        "color": {
+                                            "red": 255,
+                                            "green": 255,
+                                            "blue": 255,
+                                            "alpha": 1
+                                        }
+                                    },
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "soundcontent",
+                                    "name": "Setup container",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "text": {
+                                        "example": "none"
+                                    },
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 0,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "center",
+                                            "y": "center"
+                                        }
+                                    },
+                                    "listSetup": {
+                                        "grow": 1
+                                    },
+                                    "children": [
+                                        {
+                                            "id": "soundslider",
+                                            "name": "Slider",
+                                            "role": "slider",
+                                            "entityID": "setup",
+                                            "position": {
+                                                "type": "static",
+                                                "size": {
+                                                    "width": 600,
+                                                    "height": 14
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "text": {
+                                                "slider": {
+                                                    "min": 0,
+                                                    "max": 100,
+                                                    "step": 10,
+                                                    "binding": {
+                                                        "isVariable": true,
+                                                        "scope": "config",
+                                                        "id": "soundVolume",
+                                                        "reactive": true
+                                                    }
+                                                }
+                                            },
+                                            "background": {
+                                                "setup": {
+                                                    "sizeType": "full"
+                                                },
+                                                "resource": "assets-uis-slider.png"
+                                            },
+                                            "events": {
+                                                "click": {
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "id": "__meta_sliderThumb_soundslider",
+                                                    "entityID": "setup",
+                                                    "name": "Slider thumb",
+                                                    "role": "gui",
+                                                    "metaRole": "sliderThumb",
+                                                    "position": {
+                                                        "size": {
+                                                            "height": 40,
+                                                            "width": 30
+                                                        },
+                                                        "shift": {
+                                                            "x": 0,
+                                                            "y": -12
+                                                        }
+                                                    },
+                                                    "text": {
+                                                        "example": "none"
+                                                    },
+                                                    "visibility": {
+                                                        "positionLocked": true
+                                                    },
+                                                    "listSetup": {},
+                                                    "background": {
+                                                        "setup": {
+                                                            "sizeType": "full"
+                                                        },
+                                                        "color": {
+                                                            "red": 0,
+                                                            "green": 0,
+                                                            "blue": 0,
+                                                            "alpha": 0
+                                                        },
+                                                        "resource": "assets-uis-slhead.png"
+                                                    }
+                                                }
+                                            ],
+                                            "cursor": {
+                                                "resource": "assets-cursors-curnD.png"
+                                            }
+                                        }
+                                    ],
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "visibility": {
+                                "positionLocked": true
+                            }
+                        },
+                        {
+                            "id": "envvolume",
+                            "name": "Environment volume",
+                            "role": "gui",
+                            "entityID": "setup",
+                            "position": {
+                                "type": "static",
+                                "align": {
+                                    "x": "left",
+                                    "y": "top"
+                                },
+                                "size": {
+                                    "width": 880,
+                                    "height": 40
+                                },
+                                "margin": {
+                                    "x": 0,
+                                    "y": 5
+                                }
+                            },
+                            "listSetup": {},
+                            "background": {
+                                "setup": {},
+                                "color": {
+                                    "red": 0,
+                                    "green": 0,
+                                    "blue": 0,
+                                    "alpha": 0
+                                }
+                            },
+                            "text": {
+                                "example": "none"
+                            },
+                            "children": [
+                                {
+                                    "id": "titleenv",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 200,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        },
+                                        "padding": {
+                                            "y": 0,
+                                            "x": 0
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "vocabulary",
+                                            "id": "envVolume",
+                                            "reactive": true
+                                        },
+                                        "size": 20,
+                                        "color": {
+                                            "red": 255,
+                                            "green": 255,
+                                            "blue": 255,
+                                            "alpha": 1
+                                        }
+                                    },
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "envcontent",
+                                    "name": "Setup container",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "text": {
+                                        "example": "none"
+                                    },
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 0,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "center",
+                                            "y": "center"
+                                        }
+                                    },
+                                    "listSetup": {
+                                        "grow": 1
+                                    },
+                                    "children": [
+                                        {
+                                            "id": "envslider",
+                                            "name": "Slider",
+                                            "role": "slider",
+                                            "entityID": "setup",
+                                            "position": {
+                                                "type": "static",
+                                                "size": {
+                                                    "width": 600,
+                                                    "height": 14
+                                                },
+                                                "shift": {
+                                                    "x": 0,
+                                                    "y": 0
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "text": {
+                                                "slider": {
+                                                    "min": 0,
+                                                    "max": 100,
+                                                    "step": 10,
+                                                    "binding": {
+                                                        "isVariable": true,
+                                                        "scope": "config",
+                                                        "id": "envVolume",
+                                                        "reactive": true
+                                                    }
+                                                }
+                                            },
+                                            "background": {
+                                                "setup": {
+                                                    "sizeType": "full"
+                                                },
+                                                "resource": "assets-uis-slider.png"
+                                            },
+                                            "events": {
+                                                "click": {
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "id": "__meta_sliderThumb_envslider",
+                                                    "entityID": "setup",
+                                                    "name": "Slider thumb",
+                                                    "role": "gui",
+                                                    "metaRole": "sliderThumb",
+                                                    "position": {
+                                                        "size": {
+                                                            "height": 40,
+                                                            "width": 30
+                                                        },
+                                                        "shift": {
+                                                            "x": 0,
+                                                            "y": -12
+                                                        }
+                                                    },
+                                                    "text": {
+                                                        "example": "none"
+                                                    },
+                                                    "visibility": {
+                                                        "positionLocked": true
+                                                    },
+                                                    "listSetup": {},
+                                                    "background": {
+                                                        "setup": {
+                                                            "sizeType": "full"
+                                                        },
+                                                        "resource": "assets-uis-slhead.png",
+                                                        "color": {
+                                                            "red": 0,
+                                                            "green": 0,
+                                                            "blue": 0,
+                                                            "alpha": 0
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "cursor": {
+                                                "resource": "assets-cursors-curnD.png"
+                                            }
+                                        }
+                                    ],
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "visibility": {
+                                "positionLocked": true
+                            }
+                        },
+                        {
+                            "id": "nextkey",
+                            "name": "Next key",
+                            "role": "gui",
+                            "entityID": "setup",
+                            "position": {
+                                "type": "static",
+                                "align": {
+                                    "x": "left",
+                                    "y": "top"
+                                },
+                                "size": {
+                                    "width": 880,
+                                    "height": 40
+                                },
+                                "margin": {
+                                    "x": 0,
+                                    "y": 5
+                                }
+                            },
+                            "listSetup": {},
+                            "background": {
+                                "setup": {},
+                                "color": {
+                                    "red": 0,
+                                    "green": 0,
+                                    "blue": 0,
+                                    "alpha": 0
+                                }
+                            },
+                            "text": {
+                                "example": "none"
+                            },
+                            "children": [
+                                {
+                                    "id": "titlenextkey",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 200,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        },
+                                        "padding": {
+                                            "y": 0,
+                                            "x": 0
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "vocabulary",
+                                            "id": "next",
+                                            "reactive": true
+                                        },
+                                        "size": 20,
+                                        "color": {
+                                            "red": 255,
+                                            "green": 255,
+                                            "blue": 255,
+                                            "alpha": 1
+                                        }
+                                    },
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "nextkeycontent",
+                                    "name": "Setup container",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "text": {
+                                        "example": "none"
+                                    },
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 0,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        }
+                                    },
+                                    "listSetup": {
+                                        "grow": 1
+                                    },
+                                    "children": [
+                                        {
+                                            "id": "nextkeyinput",
+                                            "name": "Keybind",
+                                            "role": "keybind",
+                                            "entityID": "setup",
+                                            "text": {
+                                                "keybind": {
+                                                    "binding": {
+                                                        "isVariable": true,
+                                                        "scope": "keys",
+                                                        "id": "next",
+                                                        "reactive": true
+                                                    },
+                                                    "key": "next"
+                                                }
+                                            },
+                                            "position": {
+                                                "type": "static",
+                                                "shift": {
+                                                    "x": 40,
+                                                    "y": 0
+                                                },
+                                                "size": {
+                                                    "width": 150,
+                                                    "height": 40
+                                                },
+                                                "align": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "classes": [
+                                                {
+                                                    "id": "generalbutton",
+                                                    "overwrite": true
+                                                }
+                                            ],
+                                            "events": {
+                                                "click": {
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            },
+                                            "background": {
+                                                "setup": {}
+                                            }
+                                        }
+                                    ],
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "visibility": {
+                                "positionLocked": true
+                            }
+                        },
+                        {
+                            "id": "hidekey",
+                            "name": "Hide key",
+                            "role": "gui",
+                            "entityID": "setup",
+                            "position": {
+                                "type": "static",
+                                "align": {
+                                    "x": "left",
+                                    "y": "top"
+                                },
+                                "size": {
+                                    "width": 880,
+                                    "height": 40
+                                },
+                                "margin": {
+                                    "x": 0,
+                                    "y": 5
+                                }
+                            },
+                            "listSetup": {},
+                            "background": {
+                                "setup": {},
+                                "color": {
+                                    "red": 0,
+                                    "green": 0,
+                                    "blue": 0,
+                                    "alpha": 0
+                                }
+                            },
+                            "text": {
+                                "example": "none"
+                            },
+                            "children": [
+                                {
+                                    "id": "titlehidekey",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 200,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        },
+                                        "padding": {
+                                            "y": 0,
+                                            "x": 0
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "vocabulary",
+                                            "id": "toggleUI",
+                                            "reactive": true
+                                        },
+                                        "size": 20,
+                                        "color": {
+                                            "red": 255,
+                                            "green": 255,
+                                            "blue": 255,
+                                            "alpha": 1
+                                        }
+                                    },
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "hidekeycontent",
+                                    "name": "Setup container",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "text": {
+                                        "example": "none"
+                                    },
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 0,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        }
+                                    },
+                                    "listSetup": {
+                                        "grow": 1
+                                    },
+                                    "children": [
+                                        {
+                                            "id": "hidekeyinput",
+                                            "name": "Keybind",
+                                            "role": "keybind",
+                                            "entityID": "setup",
+                                            "text": {
+                                                "keybind": {
+                                                    "binding": {
+                                                        "isVariable": true,
+                                                        "scope": "keys",
+                                                        "id": "hideUI",
+                                                        "reactive": true
+                                                    },
+                                                    "key": "hideUI"
+                                                }
+                                            },
+                                            "position": {
+                                                "type": "static",
+                                                "shift": {
+                                                    "x": 40,
+                                                    "y": 0
+                                                },
+                                                "size": {
+                                                    "width": 150,
+                                                    "height": 40
+                                                },
+                                                "align": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "classes": [
+                                                {
+                                                    "id": "generalbutton",
+                                                    "overwrite": true
+                                                }
+                                            ],
+                                            "events": {
+                                                "click": {
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "visibility": {
+                                "positionLocked": true
+                            }
+                        },
+                        {
+                            "id": "skipkey",
+                            "name": "Skip key",
+                            "role": "gui",
+                            "entityID": "setup",
+                            "position": {
+                                "type": "static",
+                                "align": {
+                                    "x": "left",
+                                    "y": "top"
+                                },
+                                "size": {
+                                    "width": 880,
+                                    "height": 40
+                                },
+                                "margin": {
+                                    "x": 0,
+                                    "y": 5
+                                }
+                            },
+                            "listSetup": {},
+                            "background": {
+                                "setup": {},
+                                "color": {
+                                    "red": 0,
+                                    "green": 0,
+                                    "blue": 0,
+                                    "alpha": 0
+                                }
+                            },
+                            "text": {
+                                "example": "none"
+                            },
+                            "children": [
+                                {
+                                    "id": "titleskipkey",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 200,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        },
+                                        "padding": {
+                                            "y": 0,
+                                            "x": 0
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "vocabulary",
+                                            "id": "skip",
+                                            "reactive": true
+                                        },
+                                        "size": 20,
+                                        "color": {
+                                            "red": 255,
+                                            "green": 255,
+                                            "blue": 255,
+                                            "alpha": 1
+                                        }
+                                    },
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "skipkeycontent",
+                                    "name": "Setup container",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "text": {
+                                        "example": "none"
+                                    },
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 0,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        }
+                                    },
+                                    "listSetup": {
+                                        "grow": 1
+                                    },
+                                    "children": [
+                                        {
+                                            "id": "skipkeyinput",
+                                            "name": "Keybind",
+                                            "role": "keybind",
+                                            "entityID": "setup",
+                                            "text": {
+                                                "keybind": {
+                                                    "binding": {
+                                                        "isVariable": true,
+                                                        "scope": "keys",
+                                                        "id": "skip",
+                                                        "reactive": true
+                                                    },
+                                                    "key": "skip"
+                                                }
+                                            },
+                                            "position": {
+                                                "type": "static",
+                                                "shift": {
+                                                    "x": 39,
+                                                    "y": 0
+                                                },
+                                                "size": {
+                                                    "width": 150,
+                                                    "height": 40
+                                                },
+                                                "align": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "classes": [
+                                                {
+                                                    "id": "generalbutton",
+                                                    "overwrite": true
+                                                }
+                                            ],
+                                            "events": {
+                                                "click": {
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            },
+                                            "background": {
+                                                "setup": {}
+                                            },
+                                            "transform": {}
+                                        }
+                                    ],
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "visibility": {
+                                "positionLocked": true
+                            }
+                        },
+                        {
+                            "id": "textspeed",
+                            "name": "Text Speed",
+                            "role": "gui",
+                            "entityID": "setup",
+                            "position": {
+                                "type": "static",
+                                "align": {
+                                    "x": "left",
+                                    "y": "top"
+                                },
+                                "size": {
+                                    "width": 880,
+                                    "height": 40
+                                },
+                                "margin": {
+                                    "x": 0,
+                                    "y": 5
+                                }
+                            },
+                            "listSetup": {},
+                            "background": {
+                                "setup": {},
+                                "color": {
+                                    "red": 0,
+                                    "green": 0,
+                                    "blue": 0,
+                                    "alpha": 0
+                                }
+                            },
+                            "text": {
+                                "example": "none"
+                            },
+                            "children": [
+                                {
+                                    "id": "titletextspeed",
+                                    "name": "Title",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 200,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        },
+                                        "padding": {
+                                            "y": 0,
+                                            "x": 0
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "vocabulary",
+                                            "id": "textSpeed",
+                                            "reactive": true
+                                        },
+                                        "size": 20,
+                                        "color": {
+                                            "red": 255,
+                                            "green": 255,
+                                            "blue": 255,
+                                            "alpha": 1
+                                        }
+                                    },
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "textspeedcontent",
+                                    "name": "Setup container",
+                                    "role": "gui",
+                                    "entityID": "setup",
+                                    "text": {
+                                        "example": "none"
+                                    },
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 0,
+                                            "height": 40
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "center"
+                                        }
+                                    },
+                                    "listSetup": {
+                                        "grow": 1
+                                    },
+                                    "children": [
+                                        {
+                                            "id": "textspeedbutton2",
+                                            "name": "Slow",
+                                            "role": "gui",
+                                            "entityID": "setup",
+                                            "position": {
+                                                "type": "static",
+                                                "size": {
+                                                    "width": 150,
+                                                    "height": 40
+                                                },
+                                                "shift": {
+                                                    "x": 40,
+                                                    "y": 0
+                                                },
+                                                "align": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "classes": [
+                                                {
+                                                    "id": "generalbutton",
+                                                    "overwrite": true
+                                                },
+                                                {
+                                                    "id": "selected",
+                                                    "overwrite": true,
+                                                    "condition": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "textSpeed",
+                                                            "action": "is",
+                                                            "value": "80"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "text": {
+                                                "custom": {
+                                                    "isVariable": true,
+                                                    "scope": "vocabulary",
+                                                    "id": "slow",
+                                                    "reactive": true
+                                                }
+                                            },
+                                            "hover": [
+                                                {
+                                                    "trigger": "textspeedbutton2",
+                                                    "position": {
+                                                        "zIndex": 2
+                                                    },
+                                                    "listSetup": {}
+                                                }
+                                            ],
+                                            "events": {
+                                                "click": {
+                                                    "valueUpdate": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "textSpeed",
+                                                            "action": "set",
+                                                            "operand": 80
+                                                        }
+                                                    ],
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "textspeedbutton3",
+                                            "name": "Normal",
+                                            "role": "gui",
+                                            "entityID": "setup",
+                                            "position": {
+                                                "type": "static",
+                                                "size": {
+                                                    "width": 150,
+                                                    "height": 40
+                                                },
+                                                "shift": {
+                                                    "x": 40,
+                                                    "y": 0
+                                                },
+                                                "align": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "classes": [
+                                                {
+                                                    "id": "generalbutton",
+                                                    "overwrite": true
+                                                },
+                                                {
+                                                    "id": "selected",
+                                                    "overwrite": true,
+                                                    "condition": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "textSpeed",
+                                                            "action": "is",
+                                                            "value": "30"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "text": {
+                                                "custom": {
+                                                    "isVariable": true,
+                                                    "scope": "vocabulary",
+                                                    "id": "normal",
+                                                    "reactive": true
+                                                }
+                                            },
+                                            "hover": [
+                                                {
+                                                    "trigger": "textspeedbutton3",
+                                                    "position": {
+                                                        "zIndex": 2
+                                                    },
+                                                    "listSetup": {}
+                                                }
+                                            ],
+                                            "events": {
+                                                "click": {
+                                                    "valueUpdate": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "textSpeed",
+                                                            "action": "set",
+                                                            "operand": 30
+                                                        }
+                                                    ],
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "textspeedbutton4",
+                                            "name": "Fast",
+                                            "role": "gui",
+                                            "entityID": "setup",
+                                            "position": {
+                                                "type": "static",
+                                                "size": {
+                                                    "width": 150,
+                                                    "height": 40
+                                                },
+                                                "shift": {
+                                                    "x": 40,
+                                                    "y": 0
+                                                },
+                                                "align": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "classes": [
+                                                {
+                                                    "id": "generalbutton",
+                                                    "overwrite": true
+                                                },
+                                                {
+                                                    "id": "selected",
+                                                    "overwrite": true,
+                                                    "condition": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "textSpeed",
+                                                            "action": "is",
+                                                            "value": "10"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "text": {
+                                                "custom": {
+                                                    "isVariable": true,
+                                                    "scope": "vocabulary",
+                                                    "id": "fast",
+                                                    "reactive": true
+                                                }
+                                            },
+                                            "hover": [
+                                                {
+                                                    "trigger": "textspeedbutton4",
+                                                    "position": {
+                                                        "zIndex": 2
+                                                    },
+                                                    "listSetup": {}
+                                                }
+                                            ],
+                                            "events": {
+                                                "click": {
+                                                    "valueUpdate": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "textSpeed",
+                                                            "action": "set",
+                                                            "operand": 10
+                                                        }
+                                                    ],
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "textspeedbutton",
+                                            "name": "Instant",
+                                            "role": "gui",
+                                            "entityID": "setup",
+                                            "position": {
+                                                "type": "static",
+                                                "size": {
+                                                    "width": 150,
+                                                    "height": 40
+                                                },
+                                                "shift": {
+                                                    "x": 40,
+                                                    "y": 0
+                                                },
+                                                "align": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                }
+                                            },
+                                            "listSetup": {},
+                                            "classes": [
+                                                {
+                                                    "id": "generalbutton",
+                                                    "overwrite": true
+                                                },
+                                                {
+                                                    "id": "selected",
+                                                    "overwrite": true,
+                                                    "condition": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "textSpeed",
+                                                            "action": "is",
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "text": {
+                                                "custom": {
+                                                    "isVariable": true,
+                                                    "scope": "vocabulary",
+                                                    "id": "instant",
+                                                    "reactive": true
+                                                }
+                                            },
+                                            "visibility": {},
+                                            "hover": [
+                                                {
+                                                    "trigger": "textspeedbutton",
+                                                    "position": {
+                                                        "zIndex": 2
+                                                    },
+                                                    "listSetup": {}
+                                                }
+                                            ],
+                                            "events": {
+                                                "click": {
+                                                    "valueUpdate": [
+                                                        {
+                                                            "scope": "config",
+                                                            "id": "textSpeed",
+                                                            "action": "set",
+                                                            "operand": 0
+                                                        }
+                                                    ],
+                                                    "sound": "core-basic-fast.wav"
+                                                },
+                                                "mouseEnter": {
+                                                    "sound": "core-basic-hover.wav"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "visibility": {
+                                "positionLocked": true
+                            }
+                        }
+                    ],
+                    "visibility": {
+                        "overflow": "scroll",
+                        "positionLocked": false
+                    },
+                    "border": {}
+                },
+                {
+                    "id": "close",
+                    "name": "Close button",
+                    "role": "gui",
+                    "entityID": "setup",
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "shift": {
+                            "y": -20
+                        },
+                        "padding": {
+                            "x": 10,
+                            "y": 10
+                        },
+                        "size": {
+                            "width": 150,
+                            "height": 0
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "close",
+                            "reactive": true
+                        }
+                    },
+                    "background": {
+                        "setup": {}
+                    },
+                    "hover": [
+                        {
+                            "trigger": "close",
+                            "background": {
+                                "setup": {}
+                            },
+                            "text": {}
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "id": "closeButton",
+                            "index": 1699281653998,
+                            "overwrite": false
+                        }
+                    ],
+                    "events": {
+                        "click": {
+                            "uiController": [],
+                            "sound": "core-basic-fast.wav",
+                            "startFlow": [
+                                {
+                                    "nodeId": 978,
+                                    "sceneId": "keys"
+                                }
+                            ]
+                        },
+                        "mouseEnter": {
+                            "sound": "core-basic-hover.wav"
+                        }
+                    },
+                    "visibility": {}
+                }
+            ],
+            "visibility": {
+                "positionLocked": true
+            },
+            "animations": {},
+            "border": {},
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "delay": 0,
+                    "transitfunction": "ease-out"
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "delay": 0,
+                    "transitfunction": "ease-in"
+                }
+            }
+        }
+    ],
+    "doNotHide": true,
+    "unique": true
+}

@@ -1,0 +1,16 @@
+{
+    "id": "assets-sounds-card2.mp3",
+    "name": "Card 2",
+    "type": "sound",
+    "assign": "sound",
+    "filename": "card2.mp3",
+    "vendor": "assets",
+    "collection": "sounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "HogantheLogan",
+        "license": "Creative Commons 0 License.",
+        "description": "Карта 2"
+    }
+}

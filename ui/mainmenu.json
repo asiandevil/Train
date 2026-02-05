@@ -1,0 +1,926 @@
+{
+    "id": "mainmenu",
+    "name": "Main Menu",
+    "comment": "Default Main Menu",
+    "deletable": false,
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "mainmenu",
+            "deletable": false,
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "size": {
+                    "width": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioWidth",
+                        "reactive": true
+                    },
+                    "height": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioHeight",
+                        "reactive": true
+                    }
+                },
+                "origin": {
+                    "x": "left",
+                    "y": "top"
+                },
+                "shift": {
+                    "x": 0,
+                    "y": 0
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "padding": {
+                    "x": 0,
+                    "y": 0
+                },
+                "zIndex": 3000
+            },
+            "background": {
+                "setup": {
+                    "sizeType": "full"
+                },
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 1
+                }
+            },
+            "children": [
+                {
+                    "id": "infoText",
+                    "name": "Info Text",
+                    "role": "gui",
+                    "entityID": "mainmenu",
+                    "background": {
+                        "setup": {}
+                    },
+                    "text": {
+                        "custom": "v0.4.2 Demo ",
+                        "font": "raleway",
+                        "size": 20,
+                        "bold": false,
+                        "italic": true
+                    },
+                    "position": {
+                        "zIndex": 10,
+                        "align": {},
+                        "origin": {
+                            "x": "left",
+                            "y": "bottom"
+                        },
+                        "shift": {
+                            "x": 20,
+                            "y": -20
+                        }
+                    },
+                    "listSetup": {}
+                },
+                {
+                    "id": "title",
+                    "name": "Game Title",
+                    "role": "gui",
+                    "entityID": "mainmenu",
+                    "position": {
+                        "shift": {
+                            "x": 32,
+                            "y": 65
+                        },
+                        "zIndex": 10,
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        }
+                    },
+                    "text": {
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 1
+                        },
+                        "size": 115,
+                        "font": "MarckScript-Regular",
+                        "textStroke": {
+                            "width": 2,
+                            "color": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0,
+                                "alpha": 1
+                            }
+                        },
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "gameTitleLocal",
+                            "reactive": true
+                        },
+                        "bold": false,
+                        "italic": false,
+                        "example": "none"
+                    },
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animations": {},
+                    "listSetup": {},
+                    "visibility": {},
+                    "children": []
+                },
+                {
+                    "id": "menu",
+                    "name": "Menu",
+                    "role": "gui",
+                    "entityID": "mainmenu",
+                    "position": {
+                        "padding": {
+                            "x": 0,
+                            "y": 10
+                        },
+                        "shift": {
+                            "x": 388,
+                            "y": 75
+                        },
+                        "size": {
+                            "width": 0,
+                            "height": 0
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "origin": {
+                            "x": "center",
+                            "y": "center"
+                        }
+                    },
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 36,
+                            "green": 123,
+                            "blue": 160,
+                            "alpha": 0
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": "newgame",
+                            "name": "New Game",
+                            "role": "gui",
+                            "entityID": "mainmenu",
+                            "position": {
+                                "size": {
+                                    "width": 200,
+                                    "height": 42
+                                },
+                                "padding": {
+                                    "x": 0,
+                                    "y": 5
+                                },
+                                "origin": {
+                                    "x": "center",
+                                    "y": "top"
+                                },
+                                "type": "static",
+                                "margin": {
+                                    "x": 20,
+                                    "y": 5
+                                },
+                                "align": {
+                                    "x": "center",
+                                    "y": "center"
+                                }
+                            },
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "mainMenuNewGame",
+                                    "reactive": true
+                                },
+                                "size": 20,
+                                "color": {
+                                    "red": 254,
+                                    "green": 254,
+                                    "blue": 254,
+                                    "alpha": 1
+                                },
+                                "font": "raleway",
+                                "example": "none"
+                            },
+                            "background": {
+                                "setup": {}
+                            },
+                            "listSetup": {},
+                            "isDefaultChild": true,
+                            "events": {
+                                "click": {
+                                    "systemAction": "new",
+                                    "sound": "core-basic-fast.wav",
+                                    "uiController": []
+                                },
+                                "mouseEnter": {
+                                    "sound": "core-basic-hover.wav"
+                                }
+                            },
+                            "transition": {
+                                "duration": 1
+                            },
+                            "hover": [
+                                {
+                                    "trigger": "newgame",
+                                    "position": {
+                                        "shift": {
+                                            "x": -20,
+                                            "y": 0
+                                        },
+                                        "size": {
+                                            "width": 200
+                                        }
+                                    },
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "animations": {},
+                                    "listSetup": {},
+                                    "border": {
+                                        "style": {},
+                                        "width": {},
+                                        "color": {
+                                            "x": {
+                                                "red": 254,
+                                                "green": 254,
+                                                "blue": 254,
+                                                "alpha": 1
+                                            },
+                                            "y": {
+                                                "red": 254,
+                                                "green": 254,
+                                                "blue": 254,
+                                                "alpha": 1
+                                            },
+                                            "x2": {
+                                                "red": 254,
+                                                "green": 254,
+                                                "blue": 254,
+                                                "alpha": 1
+                                            },
+                                            "y2": {
+                                                "red": 254,
+                                                "green": 254,
+                                                "blue": 254,
+                                                "alpha": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "animations": {},
+                            "visibility": {
+                                "positionLocked": true
+                            },
+                            "cursor": {
+                                "resource": "assets-cursors-curnD.png"
+                            },
+                            "border": {
+                                "width": {
+                                    "x": 1
+                                },
+                                "style": {
+                                    "x": "solid"
+                                },
+                                "color": {
+                                    "x": {
+                                        "red": 254,
+                                        "green": 254,
+                                        "blue": 254,
+                                        "alpha": 0
+                                    },
+                                    "y": {
+                                        "red": 254,
+                                        "green": 254,
+                                        "blue": 254,
+                                        "alpha": 0
+                                    },
+                                    "x2": {
+                                        "red": 254,
+                                        "green": 254,
+                                        "blue": 254,
+                                        "alpha": 1
+                                    },
+                                    "y2": {
+                                        "red": 254,
+                                        "green": 254,
+                                        "blue": 254,
+                                        "alpha": 0
+                                    }
+                                }
+                            },
+                            "appearAnimation": {
+                                "transition": {}
+                            },
+                            "disappearAnimation": {
+                                "transition": {}
+                            }
+                        },
+                        {
+                            "id": "continue",
+                            "name": "Continue",
+                            "role": "gui",
+                            "entityID": "mainmenu",
+                            "isDefaultChild": false,
+                            "listSetup": {},
+                            "position": {},
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "mainMenuContinue",
+                                    "reactive": true
+                                }
+                            },
+                            "events": {
+                                "click": {
+                                    "systemAction": "continue",
+                                    "uiController": []
+                                }
+                            },
+                            "classes": [
+                                {
+                                    "id": "disable",
+                                    "overwrite": true,
+                                    "condition": [
+                                        {
+                                            "id": "canContinue",
+                                            "scope": "system",
+                                            "action": "is",
+                                            "value": false
+                                        }
+                                    ]
+                                }
+                            ],
+                            "visibility": {},
+                            "cursor": {}
+                        },
+                        {
+                            "id": "load",
+                            "name": "Load",
+                            "role": "gui",
+                            "entityID": "mainmenu",
+                            "position": {},
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "mainMenuLoadGame",
+                                    "reactive": true
+                                }
+                            },
+                            "events": {
+                                "click": {
+                                    "uiController": [
+                                        {
+                                            "id": "load",
+                                            "action": "show"
+                                        },
+                                        {
+                                            "id": "overlay",
+                                            "action": "show"
+                                        }
+                                    ],
+                                    "valueUpdate": [],
+                                    "systemAction": "none"
+                                }
+                            },
+                            "listSetup": {}
+                        },
+                        {
+                            "id": "setup",
+                            "name": "Setup",
+                            "role": "gui",
+                            "entityID": "mainmenu",
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "mainMenuSetup",
+                                    "reactive": true
+                                }
+                            },
+                            "position": {},
+                            "events": {
+                                "click": {
+                                    "uiController": [
+                                        {
+                                            "id": "overlay",
+                                            "action": "show"
+                                        },
+                                        {
+                                            "id": "setup",
+                                            "action": "show"
+                                        }
+                                    ],
+                                    "valueUpdate": [],
+                                    "systemAction": "none"
+                                }
+                            },
+                            "listSetup": {},
+                            "background": {
+                                "setup": {}
+                            }
+                        },
+                        {
+                            "id": "musicRoom",
+                            "name": "Music Room",
+                            "role": "gui",
+                            "entityID": "mainmenu",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {},
+                            "listSetup": {},
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "musicRoom",
+                                    "reactive": true
+                                }
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "systemAction": "none",
+                                    "uiController": [
+                                        {
+                                            "id": "overlay",
+                                            "action": "show"
+                                        },
+                                        {
+                                            "id": "musicRoom",
+                                            "action": "show"
+                                        }
+                                    ]
+                                },
+                                "mouseEnter": {}
+                            }
+                        },
+                        {
+                            "id": "creatores",
+                            "name": "Creators",
+                            "role": "gui",
+                            "entityID": "mainmenu",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {},
+                            "listSetup": {},
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "menuCreators",
+                                    "reactive": true
+                                }
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "systemAction": "none",
+                                    "uiController": [
+                                        {
+                                            "id": "overlay",
+                                            "action": "show"
+                                        },
+                                        {
+                                            "id": "aboutus",
+                                            "action": "show"
+                                        }
+                                    ]
+                                },
+                                "mouseEnter": {}
+                            }
+                        }
+                    ],
+                    "text": {
+                        "example": "none"
+                    },
+                    "listSetup": {
+                        "direction": "column"
+                    },
+                    "visibility": {},
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {
+                            "duration": 1
+                        }
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    }
+                },
+                {
+                    "id": "back",
+                    "name": "Фон",
+                    "role": "gui",
+                    "entityID": "mainmenu",
+                    "text": {
+                        "example": "none"
+                    },
+                    "position": {
+                        "size": {
+                            "width": 800,
+                            "height": 500
+                        },
+                        "shift": {
+                            "x": -151,
+                            "y": 25
+                        },
+                        "origin": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        }
+                    },
+                    "listSetup": {},
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 128,
+                            "green": 128,
+                            "blue": 128,
+                            "alpha": 0
+                        },
+                        "resource": "assets-backgrounds-cityb.png"
+                    },
+                    "visibility": {
+                        "mask": {
+                            "resource": "assets-uis-maskb.png"
+                        },
+                        "render": true
+                    },
+                    "border": {}
+                },
+                {
+                    "id": "langSelector",
+                    "name": "Language Selector",
+                    "role": "gui",
+                    "entityID": "mainmenu",
+                    "background": {
+                        "setup": {}
+                    },
+                    "position": {
+                        "zIndex": 10,
+                        "origin": {
+                            "x": "right",
+                            "y": "bottom"
+                        },
+                        "shift": {
+                            "x": -120,
+                            "y": -20
+                        }
+                    },
+                    "listSetup": {},
+                    "children": [
+                        {
+                            "id": "langEn",
+                            "name": "English",
+                            "role": "gui",
+                            "entityID": "mainmenu",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "type": "static",
+                                "margin": {
+                                    "x": 3,
+                                    "y": 0
+                                }
+                            },
+                            "listSetup": {},
+                            "text": {
+                                "custom": "English",
+                                "font": "raleway",
+                                "size": 18,
+                                "color": {
+                                    "red": 255,
+                                    "green": 255,
+                                    "blue": 255,
+                                    "alpha": 1
+                                }
+                            },
+                            "visibility": {
+                                "positionLocked": true
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [
+                                        {
+                                            "scope": "config",
+                                            "id": "gameLanguage",
+                                            "action": "set",
+                                            "operand": "english"
+                                        }
+                                    ]
+                                }
+                            },
+                            "cursor": {
+                                "resource": "assets-cursors-curnD.png"
+                            },
+                            "border": {
+                                "width": {
+                                    "x": 1
+                                },
+                                "style": {
+                                    "x": "none",
+                                    "y": "none",
+                                    "x2": "solid",
+                                    "y2": "none"
+                                },
+                                "color": {
+                                    "x": {
+                                        "red": 255,
+                                        "green": 255,
+                                        "blue": 255,
+                                        "alpha": 0
+                                    }
+                                }
+                            },
+                            "hover": [
+                                {
+                                    "trigger": "langEn",
+                                    "border": {
+                                        "style": {},
+                                        "color": {
+                                            "x": {
+                                                "red": 255,
+                                                "green": 255,
+                                                "blue": 255,
+                                                "alpha": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "transform": {},
+                            "transition": {
+                                "duration": 1
+                            },
+                            "appearAnimation": {
+                                "transition": {}
+                            },
+                            "disappearAnimation": {
+                                "transition": {}
+                            },
+                            "classes": [
+                                {
+                                    "id": "selectedLanguage",
+                                    "index": 1711516412888,
+                                    "overwrite": true,
+                                    "condition": [
+                                        {
+                                            "scope": "config",
+                                            "id": "gameLanguage",
+                                            "action": "is",
+                                            "value": "english"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "langUa",
+                            "name": "Ukrainian",
+                            "role": "gui",
+                            "entityID": "mainmenu",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "type": "static",
+                                "margin": {
+                                    "x": 3,
+                                    "y": 0
+                                }
+                            },
+                            "listSetup": {},
+                            "text": {
+                                "custom": "Українська",
+                                "font": "raleway",
+                                "size": 18
+                            },
+                            "visibility": {
+                                "positionLocked": true
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [
+                                        {
+                                            "scope": "config",
+                                            "id": "gameLanguage",
+                                            "action": "set",
+                                            "operand": "ukrainian"
+                                        }
+                                    ]
+                                }
+                            },
+                            "cursor": {
+                                "resource": "assets-cursors-curnD.png"
+                            },
+                            "border": {
+                                "width": {
+                                    "x": 1
+                                },
+                                "color": {
+                                    "x": {
+                                        "red": 255,
+                                        "green": 255,
+                                        "blue": 255,
+                                        "alpha": 0
+                                    }
+                                },
+                                "style": {
+                                    "x": "none",
+                                    "y": "none",
+                                    "x2": "solid",
+                                    "y2": "none"
+                                }
+                            },
+                            "hover": [
+                                {
+                                    "trigger": "langUa",
+                                    "border": {
+                                        "color": {
+                                            "x": {
+                                                "red": 255,
+                                                "green": 255,
+                                                "blue": 255,
+                                                "alpha": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "transition": {
+                                "duration": 1
+                            },
+                            "appearAnimation": {
+                                "transition": {}
+                            },
+                            "disappearAnimation": {
+                                "transition": {}
+                            },
+                            "classes": [
+                                {
+                                    "id": "selectedLanguage",
+                                    "index": 1711516424338,
+                                    "overwrite": true,
+                                    "condition": [
+                                        {
+                                            "scope": "config",
+                                            "id": "gameLanguage",
+                                            "action": "is",
+                                            "value": "ukrainian"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "langRu",
+                            "name": "Russian",
+                            "role": "gui",
+                            "entityID": "mainmenu",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "type": "static",
+                                "margin": {
+                                    "x": 3,
+                                    "y": 0
+                                }
+                            },
+                            "listSetup": {},
+                            "text": {
+                                "custom": "Русский",
+                                "font": "raleway",
+                                "size": 18
+                            },
+                            "visibility": {
+                                "positionLocked": true
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [
+                                        {
+                                            "scope": "config",
+                                            "id": "gameLanguage",
+                                            "action": "set",
+                                            "operand": "russian"
+                                        }
+                                    ]
+                                }
+                            },
+                            "cursor": {
+                                "resource": "assets-cursors-curnD.png"
+                            },
+                            "border": {
+                                "width": {
+                                    "x": 1
+                                },
+                                "color": {
+                                    "x": {
+                                        "red": 255,
+                                        "green": 255,
+                                        "blue": 255,
+                                        "alpha": 0
+                                    }
+                                },
+                                "style": {
+                                    "x": "none",
+                                    "y": "none",
+                                    "x2": "solid",
+                                    "y2": "none"
+                                }
+                            },
+                            "hover": [
+                                {
+                                    "trigger": "langRu",
+                                    "border": {
+                                        "color": {
+                                            "x": {
+                                                "red": 255,
+                                                "green": 255,
+                                                "blue": 255,
+                                                "alpha": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "transition": {
+                                "duration": 1
+                            },
+                            "appearAnimation": {
+                                "transition": {}
+                            },
+                            "disappearAnimation": {
+                                "transition": {}
+                            },
+                            "classes": [
+                                {
+                                    "id": "selectedLanguage",
+                                    "index": 1711516426102,
+                                    "overwrite": true,
+                                    "condition": [
+                                        {
+                                            "scope": "config",
+                                            "id": "gameLanguage",
+                                            "action": "is",
+                                            "value": "russian"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "text": {
+                        "example": "none"
+                    }
+                }
+            ],
+            "text": {
+                "example": "none"
+            },
+            "listSetup": {},
+            "visibility": {
+                "positionLocked": true
+            },
+            "cursor": {},
+            "border": {}
+        }
+    ],
+    "startsVisible": true,
+    "unique": true
+}

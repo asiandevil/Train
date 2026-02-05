@@ -1,0 +1,17 @@
+{
+    "id": "assets-music-malictusmusic - Ambient Dream.mp3",
+    "name": "Ambient Dream",
+    "type": "sound",
+    "assign": "music",
+    "filename": "malictusmusic - Ambient Dream.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Malictusmusic",
+        "license": "CC BY 4.0",
+        "description": "malictusmusic - Ambient Dream",
+        "link": "https://freemusicarchive.org/music/malictusmusic/free-cinematic-goodies/ambient-dream/"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": "assets-sounds-trainMove.mp3",
+    "name": "Train Move",
+    "type": "sound",
+    "assign": "env",
+    "filename": "trainMove.mp3",
+    "vendor": "assets",
+    "collection": "sounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "jrosin",
+        "license": "Creative Commons 0 License.",
+        "description": "Шум движения поезда"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "meta": {
+        "id": "selected",
+        "name": "Selected",
+        "deletable": false,
+        "comment": "Selected item style",
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "background": {
+            "setup": {}
+        },
+        "hover": [],
+        "text": {
+            "color": {
+                "red": 246,
+                "green": 85,
+                "blue": 14,
+                "alpha": 1
+            },
+            "textStroke": {
+                "color": {
+                    "red": 245,
+                    "green": 238,
+                    "blue": 238,
+                    "alpha": 0.25
+                },
+                "width": 0
+            }
+        }
+    }
+}

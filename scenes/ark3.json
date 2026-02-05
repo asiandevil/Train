@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "id": "ark3",
+        "name": "Акт 3: В поезде",
+        "type": "folder",
+        "width": 1200,
+        "height": 600,
+        "parent": "main",
+        "children": [
+            "trainWalk",
+            "gowalk",
+            "backtoowncab",
+            "frankfurt",
+            "common3",
+            "common4",
+            "common5",
+            "trainActions",
+            "common6"
+        ]
+    },
+    "nodes": {}
+}

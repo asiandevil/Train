@@ -1,0 +1,36 @@
+{
+    "id": "oldman",
+    "name": "",
+    "localizedName": {
+        "russian": "Николас Леманн",
+        "english": "Nicholas Lehmann",
+        "ukrainian": "Ніколас Леманн"
+    },
+    "comment": "Nicholas Lehmann",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Normal",
+            "resource": "assets-actors-old1.png",
+            "slice": "normal"
+        },
+        "state": {
+            "name": "Smile",
+            "resource": "assets-actors-old1.png",
+            "slice": "smile"
+        },
+        "state2": {
+            "name": "Happy",
+            "resource": "assets-actors-old1.png",
+            "slice": "happy"
+        },
+        "state3": {
+            "name": "Angry",
+            "resource": "assets-actors-old1.png",
+            "slice": "angry"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

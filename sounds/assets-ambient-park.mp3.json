@@ -1,0 +1,7 @@
+{
+    "id": "assets-ambient-park.mp3",
+    "name": "park.mp3",
+    "comment": "Птицы в парке",
+    "resource": "assets-ambient-park.mp3",
+    "type": "env"
+}

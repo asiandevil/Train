@@ -1,0 +1,719 @@
+{
+    "meta": {
+        "id": "setNewClue",
+        "name": "Set new clue",
+        "type": "scene",
+        "width": 1950,
+        "height": 2150,
+        "parent": "clues"
+    },
+    "nodes": {
+        "1715": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 50
+            },
+            "starting": true,
+            "id": 1715,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1719,
+                    "x": 350,
+                    "y": 150
+                }
+            ],
+            "name": "Улика 1: Газета",
+            "entrances": [
+                1725
+            ]
+        },
+        "1716": {
+            "type": "value",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 1716,
+            "updateValues": [
+                {
+                    "scope": "clues",
+                    "id": "clue1",
+                    "operand": true,
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1724,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1719
+            ]
+        },
+        "1719": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 1719,
+            "targetScene": "getClues",
+            "targetNode": 1714,
+            "connections": [
+                {
+                    "id": 1716,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "entrances": [
+                1715
+            ]
+        },
+        "1724": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 1724,
+            "ending": true,
+            "entrances": [
+                1716
+            ]
+        },
+        "1725": {
+            "type": "comment",
+            "pos": {
+                "x": 50,
+                "y": 50,
+                "width": 246,
+                "height": 229.609375
+            },
+            "id": 1725,
+            "connections": [
+                {
+                    "id": 1715,
+                    "x": 350,
+                    "y": 50
+                }
+            ]
+        },
+        "1729": {
+            "type": "start",
+            "pos": {
+                "x": 750,
+                "y": 50
+            },
+            "starting": true,
+            "id": 1729,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1731,
+                    "x": 750,
+                    "y": 150
+                }
+            ],
+            "name": "Улика 2: Бруно",
+            "entrances": [
+                1733
+            ]
+        },
+        "1730": {
+            "type": "value",
+            "pos": {
+                "x": 750,
+                "y": 250
+            },
+            "id": 1730,
+            "updateValues": [
+                {
+                    "scope": "clues",
+                    "id": "clue2",
+                    "operand": true,
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1732,
+                    "x": 750,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1731
+            ]
+        },
+        "1731": {
+            "type": "call",
+            "pos": {
+                "x": 750,
+                "y": 150
+            },
+            "id": 1731,
+            "targetScene": "getClues",
+            "targetNode": 1714,
+            "connections": [
+                {
+                    "id": 1730,
+                    "x": 750,
+                    "y": 250
+                }
+            ],
+            "entrances": [
+                1729
+            ]
+        },
+        "1732": {
+            "type": "end",
+            "pos": {
+                "x": 750,
+                "y": 350
+            },
+            "id": 1732,
+            "ending": true,
+            "entrances": [
+                1730
+            ]
+        },
+        "1733": {
+            "type": "comment",
+            "pos": {
+                "x": 500,
+                "y": 50,
+                "width": 223,
+                "height": 224.609375
+            },
+            "id": 1733,
+            "connections": [
+                {
+                    "id": 1729,
+                    "x": 750,
+                    "y": 50
+                }
+            ]
+        },
+        "1741": {
+            "type": "start",
+            "pos": {
+                "x": 1150,
+                "y": 50
+            },
+            "starting": true,
+            "id": 1741,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1743,
+                    "x": 1150,
+                    "y": 150
+                }
+            ],
+            "name": "Улика 3: Бруно",
+            "entrances": [
+                1745
+            ]
+        },
+        "1742": {
+            "type": "value",
+            "pos": {
+                "x": 1150,
+                "y": 250
+            },
+            "id": 1742,
+            "updateValues": [
+                {
+                    "scope": "clues",
+                    "id": "clue3",
+                    "operand": true,
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1744,
+                    "x": 1150,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1743
+            ]
+        },
+        "1743": {
+            "type": "call",
+            "pos": {
+                "x": 1150,
+                "y": 150
+            },
+            "id": 1743,
+            "targetScene": "getClues",
+            "targetNode": 1714,
+            "connections": [
+                {
+                    "id": 1742,
+                    "x": 1150,
+                    "y": 250
+                }
+            ],
+            "entrances": [
+                1741
+            ]
+        },
+        "1744": {
+            "type": "end",
+            "pos": {
+                "x": 1150,
+                "y": 350
+            },
+            "id": 1744,
+            "ending": true,
+            "entrances": [
+                1742
+            ]
+        },
+        "1745": {
+            "type": "comment",
+            "pos": {
+                "x": 900,
+                "y": 50,
+                "width": 219,
+                "height": 221.609375
+            },
+            "id": 1745,
+            "connections": [
+                {
+                    "id": 1741,
+                    "x": 1150,
+                    "y": 50
+                }
+            ]
+        },
+        "1747": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "starting": true,
+            "id": 1747,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1749,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "name": "Улика 4: Сын Шиллера",
+            "entrances": [
+                1751
+            ]
+        },
+        "1748": {
+            "type": "value",
+            "pos": {
+                "x": 350,
+                "y": 750
+            },
+            "id": 1748,
+            "updateValues": [
+                {
+                    "scope": "clues",
+                    "id": "clue4",
+                    "operand": true,
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1750,
+                    "x": 350,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                1749
+            ]
+        },
+        "1749": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 1749,
+            "targetScene": "getClues",
+            "targetNode": 1714,
+            "connections": [
+                {
+                    "id": 1748,
+                    "x": 350,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                1747
+            ]
+        },
+        "1750": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 850
+            },
+            "id": 1750,
+            "ending": true,
+            "entrances": [
+                1748
+            ]
+        },
+        "1751": {
+            "type": "comment",
+            "pos": {
+                "x": 50,
+                "y": 550,
+                "width": 235,
+                "height": 189.609375
+            },
+            "id": 1751,
+            "connections": [
+                {
+                    "id": 1747,
+                    "x": 350,
+                    "y": 550
+                }
+            ]
+        },
+        "1752": {
+            "type": "start",
+            "pos": {
+                "x": 750,
+                "y": 550
+            },
+            "starting": true,
+            "id": 1752,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1754,
+                    "x": 750,
+                    "y": 650
+                }
+            ],
+            "name": "Улика 5: Нож",
+            "entrances": [
+                1756
+            ]
+        },
+        "1753": {
+            "type": "value",
+            "pos": {
+                "x": 750,
+                "y": 750
+            },
+            "id": 1753,
+            "updateValues": [
+                {
+                    "scope": "clues",
+                    "id": "clue5",
+                    "operand": true,
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1755,
+                    "x": 750,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                1754
+            ]
+        },
+        "1754": {
+            "type": "call",
+            "pos": {
+                "x": 750,
+                "y": 650
+            },
+            "id": 1754,
+            "targetScene": "getClues",
+            "targetNode": 1714,
+            "connections": [
+                {
+                    "id": 1753,
+                    "x": 750,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                1752
+            ]
+        },
+        "1755": {
+            "type": "end",
+            "pos": {
+                "x": 750,
+                "y": 850
+            },
+            "id": 1755,
+            "ending": true,
+            "entrances": [
+                1753
+            ]
+        },
+        "1756": {
+            "type": "comment",
+            "pos": {
+                "x": 500,
+                "y": 550,
+                "width": 211,
+                "height": 184.609375
+            },
+            "id": 1756,
+            "connections": [
+                {
+                    "id": 1752,
+                    "x": 750,
+                    "y": 550
+                }
+            ]
+        },
+        "1757": {
+            "type": "start",
+            "pos": {
+                "x": 1150,
+                "y": 550
+            },
+            "starting": true,
+            "id": 1757,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1759,
+                    "x": 1150,
+                    "y": 650
+                }
+            ],
+            "name": "Улика 6: Слухи",
+            "entrances": [
+                1761
+            ]
+        },
+        "1758": {
+            "type": "value",
+            "pos": {
+                "x": 1150,
+                "y": 750
+            },
+            "id": 1758,
+            "updateValues": [
+                {
+                    "scope": "clues",
+                    "id": "clue6",
+                    "operand": true,
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1760,
+                    "x": 1150,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                1759
+            ]
+        },
+        "1759": {
+            "type": "call",
+            "pos": {
+                "x": 1150,
+                "y": 650
+            },
+            "id": 1759,
+            "targetScene": "getClues",
+            "targetNode": 1714,
+            "connections": [
+                {
+                    "id": 1758,
+                    "x": 1150,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                1757
+            ]
+        },
+        "1760": {
+            "type": "end",
+            "pos": {
+                "x": 1150,
+                "y": 850
+            },
+            "id": 1760,
+            "ending": true,
+            "entrances": [
+                1758
+            ]
+        },
+        "1761": {
+            "type": "comment",
+            "pos": {
+                "x": 900,
+                "y": 550,
+                "width": 223,
+                "height": 216.609375
+            },
+            "id": 1761,
+            "connections": [
+                {
+                    "id": 1757,
+                    "x": 1150,
+                    "y": 550
+                }
+            ]
+        },
+        "1762": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 1050
+            },
+            "starting": true,
+            "id": 1762,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1764,
+                    "x": 350,
+                    "y": 1150
+                }
+            ],
+            "name": "Улика 7: Наблюдение",
+            "entrances": [
+                1766
+            ]
+        },
+        "1763": {
+            "type": "value",
+            "pos": {
+                "x": 350,
+                "y": 1250
+            },
+            "id": 1763,
+            "updateValues": [
+                {
+                    "scope": "clues",
+                    "id": "clue7",
+                    "operand": true,
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1765,
+                    "x": 350,
+                    "y": 1350
+                }
+            ],
+            "entrances": [
+                1764
+            ]
+        },
+        "1764": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 1150
+            },
+            "id": 1764,
+            "targetScene": "getClues",
+            "targetNode": 1714,
+            "connections": [
+                {
+                    "id": 1763,
+                    "x": 350,
+                    "y": 1250
+                }
+            ],
+            "entrances": [
+                1762
+            ]
+        },
+        "1765": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 1350
+            },
+            "id": 1765,
+            "ending": true,
+            "entrances": [
+                1763
+            ]
+        },
+        "1766": {
+            "type": "comment",
+            "pos": {
+                "x": 50,
+                "y": 1050,
+                "width": 258,
+                "height": 225.609375
+            },
+            "id": 1766,
+            "connections": [
+                {
+                    "id": 1762,
+                    "x": 350,
+                    "y": 1050
+                }
+            ]
+        }
+    }
+}

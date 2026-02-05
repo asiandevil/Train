@@ -1,0 +1,73 @@
+{
+    "id": "assets-actors-brunosprt.png",
+    "name": "Bruno",
+    "type": "image",
+    "assign": "actor",
+    "filename": "brunosprt.png",
+    "vendor": "assets",
+    "collection": "actors",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Bruno",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 3672,
+        "height": 1500
+    },
+    "spritesheet": {
+        "defaul": {
+            "name": "Default",
+            "x": 0,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": true
+        },
+        "smug": {
+            "name": "Smug",
+            "x": 612,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": false
+        },
+        "serious": {
+            "name": "Serious",
+            "x": 1224,
+            "y": 0,
+            "width": 612,
+            "height": 1500
+        },
+        "defaultHat": {
+            "name": "Hat default",
+            "x": 1836,
+            "y": 0,
+            "width": 612,
+            "height": 1500
+        },
+        "smugHat": {
+            "name": "Hat smug",
+            "x": 2448,
+            "y": 0,
+            "width": 612,
+            "height": 1500
+        },
+        "seriousHat": {
+            "name": "Hat serious",
+            "x": 3060,
+            "y": 0,
+            "width": 612,
+            "height": 1500
+        }
+    },
+    "gridMarking": {
+        "sliceWidth": 612,
+        "sliceHeight": 1500,
+        "offsetX": 0,
+        "offsetY": 0
+    }
+}

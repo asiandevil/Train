@@ -1,0 +1,21 @@
+{
+    "id": "manx",
+    "name": "",
+    "localizedName": {
+        "default": "",
+        "english": "Unknown",
+        "russian": "Неизвестный",
+        "ukrainian": "Невідомий"
+    },
+    "comment": "",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Normal",
+            "resource": "assets-actors-manx.png"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

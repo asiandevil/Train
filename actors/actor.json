@@ -1,0 +1,36 @@
+{
+    "id": "actor",
+    "name": "",
+    "localizedName": {
+        "russian": "Шиллер",
+        "english": "Shiller",
+        "ukrainian": "Шиллер"
+    },
+    "comment": "Shiller",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Негативный",
+            "resource": "assets-actors-magnatsprt.png",
+            "slice": "angry"
+        },
+        "state": {
+            "name": "Большая улыбка",
+            "resource": "assets-actors-magnatsprt.png",
+            "slice": "smiling"
+        },
+        "state2": {
+            "name": "Колобок",
+            "resource": "assets-actors-magnatsprt.png",
+            "slice": "sneaky"
+        },
+        "state3": {
+            "name": "Легкая улыбка",
+            "resource": "assets-actors-magnatsprt.png",
+            "slice": "default"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

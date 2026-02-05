@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "id": "endings",
+        "name": "Endings",
+        "type": "folder",
+        "width": 1200,
+        "height": 600,
+        "parent": "root",
+        "children": [
+            "badEnd",
+            "demoEnd"
+        ]
+    },
+    "nodes": {}
+}

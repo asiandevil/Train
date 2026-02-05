@@ -1,0 +1,324 @@
+{
+    "id": "topPanel",
+    "name": "Top Game Panel",
+    "comment": "",
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "topPanel",
+            "name": "base",
+            "background": {
+                "setup": {}
+            },
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "top"
+                },
+                "size": {
+                    "width": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioWidth",
+                        "reactive": true
+                    },
+                    "height": 151
+                },
+                "align": {
+                    "x": "center",
+                    "y": "top"
+                }
+            },
+            "listSetup": {},
+            "children": [
+                {
+                    "id": "left",
+                    "name": "Left",
+                    "role": "gui",
+                    "entityID": "topPanel",
+                    "background": {
+                        "setup": {},
+                        "resource": "assets-uis-topl.png"
+                    },
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "size": {
+                            "width": 315,
+                            "height": 74
+                        },
+                        "zIndex": 2
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    }
+                },
+                {
+                    "id": "center",
+                    "name": "Center",
+                    "role": "gui",
+                    "entityID": "topPanel",
+                    "background": {
+                        "setup": {},
+                        "resource": "assets-uis-topc.png"
+                    },
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "top"
+                        },
+                        "size": {
+                            "width": 600,
+                            "height": 58
+                        },
+                        "shift": {
+                            "x": -33,
+                            "y": 0
+                        },
+                        "zIndex": 1,
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "children": [
+                        {
+                            "id": "topText",
+                            "name": "Top Text",
+                            "role": "gui",
+                            "entityID": "topPanel",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "shift": {
+                                    "x": 0,
+                                    "y": -15
+                                }
+                            },
+                            "listSetup": {},
+                            "text": {
+                                "size": 18,
+                                "bold": true,
+                                "italic": false,
+                                "font": "raleway",
+                                "color": {
+                                    "red": 83,
+                                    "green": 61,
+                                    "blue": 16,
+                                    "alpha": 1
+                                },
+                                "textStroke": {
+                                    "color": {
+                                        "red": 202,
+                                        "green": 121,
+                                        "blue": 55,
+                                        "alpha": 0.3
+                                    },
+                                    "width": 1
+                                },
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "uiText",
+                                    "id": "placeTopText",
+                                    "reactive": true
+                                }
+                            }
+                        },
+                        {
+                            "id": "bottomText",
+                            "name": "BottomText",
+                            "role": "gui",
+                            "entityID": "topPanel",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "shift": {
+                                    "x": 0,
+                                    "y": 11
+                                }
+                            },
+                            "listSetup": {},
+                            "text": {
+                                "size": 18,
+                                "bold": true,
+                                "italic": false,
+                                "font": "raleway",
+                                "color": {
+                                    "red": 83,
+                                    "green": 61,
+                                    "blue": 16,
+                                    "alpha": 1
+                                },
+                                "textStroke": {
+                                    "color": {
+                                        "red": 202,
+                                        "green": 121,
+                                        "blue": 55,
+                                        "alpha": 0.3
+                                    },
+                                    "width": 1
+                                },
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "uiText",
+                                    "id": "placeBottomText",
+                                    "reactive": true
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "right",
+                    "name": "Right",
+                    "role": "gui",
+                    "entityID": "topPanel",
+                    "background": {
+                        "setup": {},
+                        "resource": "assets-uis-topr.png"
+                    },
+                    "position": {
+                        "align": {
+                            "x": "right",
+                            "y": "bottom"
+                        },
+                        "origin": {
+                            "x": "right",
+                            "y": "top"
+                        },
+                        "size": {
+                            "width": 378,
+                            "height": 151
+                        },
+                        "zIndex": 2
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "children": [
+                        {
+                            "id": "month",
+                            "name": "Month",
+                            "role": "gui",
+                            "entityID": "topPanel",
+                            "background": {
+                                "setup": {}
+                            },
+                            "position": {
+                                "shift": {
+                                    "x": -30,
+                                    "y": -45
+                                },
+                                "size": {
+                                    "width": 55,
+                                    "height": 0
+                                },
+                                "align": {
+                                    "x": "center",
+                                    "y": "center"
+                                }
+                            },
+                            "listSetup": {},
+                            "text": {
+                                "example": "none",
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "uiText",
+                                    "id": "gamedate",
+                                    "objectField": [
+                                        "month"
+                                    ],
+                                    "reactive": true
+                                },
+                                "size": 22,
+                                "color": {
+                                    "red": 83,
+                                    "green": 61,
+                                    "blue": 16,
+                                    "alpha": 1
+                                },
+                                "font": "amaticsc",
+                                "bold": true
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": "monthDay",
+                            "name": "Day",
+                            "role": "gui",
+                            "entityID": "topPanel",
+                            "background": {
+                                "setup": {}
+                            },
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "uiText",
+                                    "id": "gamedate",
+                                    "objectField": [
+                                        "monthDay"
+                                    ],
+                                    "reactive": true
+                                },
+                                "size": 32,
+                                "font": "amaticsc",
+                                "bold": true,
+                                "color": {
+                                    "red": 83,
+                                    "green": 61,
+                                    "blue": 16,
+                                    "alpha": 1
+                                }
+                            },
+                            "position": {
+                                "align": {
+                                    "x": "center",
+                                    "y": "center"
+                                },
+                                "shift": {
+                                    "x": -42,
+                                    "y": -13
+                                },
+                                "size": {
+                                    "width": 30,
+                                    "height": 0
+                                }
+                            },
+                            "listSetup": {}
+                        }
+                    ]
+                }
+            ],
+            "text": {
+                "example": "none"
+            },
+            "border": {},
+            "transform": {},
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0.5
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0.5
+                }
+            }
+        }
+    ],
+    "unique": true,
+    "startsVisible": false
+}

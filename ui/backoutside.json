@@ -1,0 +1,157 @@
+{
+    "id": "backoutside",
+    "name": "Background Outside",
+    "comment": "",
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "backoutside",
+            "name": "base",
+            "background": {
+                "setup": {}
+            },
+            "role": "gui",
+            "position": {
+                "size": {
+                    "width": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioWidth",
+                        "reactive": true
+                    },
+                    "height": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioHeight",
+                        "reactive": true
+                    }
+                },
+                "origin": {
+                    "x": "left",
+                    "y": "top"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "zIndex": 1
+            },
+            "listSetup": {},
+            "children": [
+                {
+                    "id": "element2",
+                    "name": "Night mode",
+                    "role": "gui",
+                    "entityID": "backoutside",
+                    "background": {
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 1
+                        },
+                        "setup": {}
+                    },
+                    "position": {
+                        "size": {
+                            "width": 630,
+                            "height": 287
+                        },
+                        "shift": {
+                            "x": 0,
+                            "y": -80
+                        },
+                        "zIndex": 2
+                    },
+                    "listSetup": {},
+                    "visibility": {
+                        "mask": {},
+                        "opacity": 0
+                    },
+                    "text": {
+                        "example": "none"
+                    },
+                    "transition": {
+                        "duration": 1
+                    },
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    },
+                    "classes": [
+                        {
+                            "id": "visibilityHalf2",
+                            "index": 1741172280761,
+                            "overwrite": true,
+                            "condition": [
+                                {
+                                    "scope": "uiStates",
+                                    "id": "isNight",
+                                    "action": "is",
+                                    "value": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "element",
+                    "name": "Image container",
+                    "role": "gui",
+                    "entityID": "backoutside",
+                    "background": {
+                        "setup": {},
+                        "resource": {
+                            "isVariable": true,
+                            "scope": "uiStates",
+                            "id": "outsideBack",
+                            "reactive": true
+                        }
+                    },
+                    "position": {
+                        "size": {
+                            "width": 630,
+                            "height": 287
+                        },
+                        "shift": {
+                            "y": -80
+                        },
+                        "zIndex": 1
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    },
+                    "children": []
+                }
+            ],
+            "text": {
+                "example": "none"
+            },
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 2,
+                    "delay": 2
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 1
+                }
+            }
+        }
+    ],
+    "unique": true,
+    "doNotHide": true
+}

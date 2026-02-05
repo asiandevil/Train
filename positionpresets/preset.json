@@ -1,0 +1,180 @@
+{
+    "id": "preset",
+    "name": "5 x 3",
+    "presets": [
+        [
+            {
+                "position": {
+                    "x": "0%",
+                    "y": "0%",
+                    "scale": 1
+                },
+                "name": "Left top",
+                "defaultAxis": {
+                    "x": "left",
+                    "y": "top"
+                }
+            },
+            {
+                "position": {
+                    "x": "25%",
+                    "y": "0%",
+                    "scale": 1
+                },
+                "name": "Mid-left top",
+                "defaultAxis": {
+                    "x": "center",
+                    "y": "top"
+                }
+            },
+            {
+                "position": {
+                    "x": "50%",
+                    "y": "0%",
+                    "scale": 1
+                },
+                "name": "Center top",
+                "defaultAxis": {
+                    "x": "center",
+                    "y": "top"
+                }
+            },
+            {
+                "position": {
+                    "x": "75%",
+                    "y": "0%",
+                    "scale": 1
+                },
+                "name": "Mid-right top",
+                "defaultAxis": {
+                    "x": "center",
+                    "y": "top"
+                }
+            },
+            {
+                "position": {
+                    "x": "100%",
+                    "y": "0%",
+                    "scale": 1
+                },
+                "name": "Right top",
+                "defaultAxis": {
+                    "x": "right",
+                    "y": "top"
+                }
+            }
+        ],
+        [
+            {
+                "position": {
+                    "x": "0%",
+                    "y": "50%",
+                    "scale": 1
+                },
+                "name": "Left center",
+                "defaultAxis": {
+                    "x": "left",
+                    "y": "center"
+                }
+            },
+            {
+                "position": {
+                    "x": "25%",
+                    "y": "50%",
+                    "scale": 1
+                },
+                "name": "Mid-left center"
+            },
+            {
+                "position": {
+                    "x": "50%",
+                    "y": "50%",
+                    "scale": 1
+                },
+                "name": "Absolute center"
+            },
+            {
+                "position": {
+                    "x": "75%",
+                    "y": "50%",
+                    "scale": 1
+                },
+                "name": "Mid-right center"
+            },
+            {
+                "position": {
+                    "x": "100%",
+                    "y": "50%",
+                    "scale": 1
+                },
+                "name": "Right center",
+                "defaultAxis": {
+                    "x": "right",
+                    "y": "center"
+                }
+            }
+        ],
+        [
+            {
+                "position": {
+                    "x": "0%",
+                    "y": "100%",
+                    "scale": 1
+                },
+                "name": "Left bottom",
+                "defaultAxis": {
+                    "x": "left",
+                    "y": "bottom"
+                }
+            },
+            {
+                "position": {
+                    "x": "25%",
+                    "y": "100%",
+                    "scale": 1
+                },
+                "name": "Mid-left bottom",
+                "defaultAxis": {
+                    "x": "center",
+                    "y": "bottom"
+                }
+            },
+            {
+                "position": {
+                    "x": "50%",
+                    "y": "100%",
+                    "scale": 1
+                },
+                "name": "Center bottom",
+                "defaultAxis": {
+                    "x": "center",
+                    "y": "bottom"
+                }
+            },
+            {
+                "position": {
+                    "x": "75%",
+                    "y": "100%",
+                    "scale": 1
+                },
+                "name": "Mid-right bottom",
+                "defaultAxis": {
+                    "x": "center",
+                    "y": "bottom"
+                }
+            },
+            {
+                "position": {
+                    "x": "100%",
+                    "y": "100%",
+                    "scale": 1
+                },
+                "name": "Right bottom",
+                "defaultAxis": {
+                    "x": "right",
+                    "y": "bottom"
+                }
+            }
+        ]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "assets-sounds-washing.mp3",
+    "name": "washing.mp3",
+    "type": "sound",
+    "assign": "sound",
+    "filename": "washing.mp3",
+    "vendor": "assets",
+    "collection": "sounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "sidequesting",
+        "license": "Creative Commons 0",
+        "description": "Звук умывания"
+    }
+}

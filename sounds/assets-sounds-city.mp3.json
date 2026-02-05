@@ -1,0 +1,7 @@
+{
+    "id": "assets-sounds-city.mp3",
+    "name": "Сity",
+    "comment": "Шум толпы в городе",
+    "resource": "assets-sounds-city.mp3",
+    "type": "env"
+}

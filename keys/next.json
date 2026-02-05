@@ -1,0 +1,8 @@
+{
+    "id": "next",
+    "comment": "Continue scenario",
+    "keyCode": 13,
+    "event": {
+        "systemAction": "vn_next"
+    }
+}

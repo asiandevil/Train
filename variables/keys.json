@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "id": "keys",
+        "name": "Application keybindings",
+        "readonly": false,
+        "isSystem": true
+    },
+    "values": {
+        "next": {
+            "id": "next",
+            "defaultValue": 13,
+            "comment": "Continue scenario",
+            "type": "number",
+            "scope": "keys"
+        },
+        "hideUI": {
+            "id": "hideUI",
+            "defaultValue": 32,
+            "comment": "Hide user interface",
+            "type": "number",
+            "scope": "keys"
+        },
+        "skip": {
+            "id": "skip",
+            "defaultValue": 83,
+            "comment": "Skip seen text",
+            "type": "number",
+            "scope": "keys"
+        }
+    }
+}

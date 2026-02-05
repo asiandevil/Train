@@ -1,0 +1,76 @@
+{
+    "id": "redFlash",
+    "name": "Red Flash",
+    "comment": "",
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "redFlash",
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "left",
+                    "y": "top"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "zIndex": 2999,
+                "size": {
+                    "width": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioWidth",
+                        "reactive": true
+                    },
+                    "height": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioHeight",
+                        "reactive": true
+                    }
+                }
+            },
+            "listSetup": {},
+            "border": {},
+            "transform": {},
+            "background": {
+                "setup": {},
+                "color": {
+                    "red": 208,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 1
+                }
+            },
+            "text": {
+                "example": "none"
+            },
+            "transition": {
+                "duration": 0.5,
+                "transitfunction": "ease-in-out"
+            },
+            "appearAnimation": {
+                "transition": {}
+            },
+            "disappearAnimation": {
+                "transition": {}
+            },
+            "visibility": {
+                "mask": {},
+                "opacity": {
+                    "isVariable": true,
+                    "scope": "user",
+                    "id": "redFlashOpacity",
+                    "reactive": true
+                }
+            },
+            "animations": {}
+        }
+    ],
+    "unique": true,
+    "doNotHide": true
+}

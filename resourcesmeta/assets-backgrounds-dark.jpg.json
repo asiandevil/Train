@@ -1,0 +1,20 @@
+{
+    "id": "assets-backgrounds-dark.jpg",
+    "name": "Dark",
+    "type": "image",
+    "assign": "back",
+    "filename": "dark.jpg",
+    "vendor": "assets",
+    "collection": "backgrounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Public Domain",
+        "license": "Public Domain",
+        "description": "Just a dark screen"
+    },
+    "imageSize": {
+        "width": 1280,
+        "height": 720
+    }
+}

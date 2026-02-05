@@ -1,0 +1,197 @@
+{
+    "id": "userinput",
+    "name": "User Input",
+    "comment": "Default user input",
+    "deletable": false,
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "userinput",
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 400,
+                    "height": 40
+                }
+            },
+            "listSetup": {},
+            "children": [
+                {
+                    "id": "inputfield",
+                    "name": "Input Field",
+                    "role": "input",
+                    "entityID": "userinput",
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "center"
+                        },
+                        "size": {
+                            "width": 300,
+                            "height": 40
+                        },
+                        "align": {
+                            "x": "left",
+                            "y": "center"
+                        },
+                        "padding": {
+                            "x": 10,
+                            "y": 0
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "size": 20,
+                        "font": "roboto",
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 1
+                        },
+                        "input": {
+                            "type": "any",
+                            "max": 999,
+                            "min": 0,
+                            "maxLength": 100
+                        }
+                    },
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 88,
+                            "green": 147,
+                            "blue": 221,
+                            "alpha": 0.8
+                        }
+                    },
+                    "visibility": {
+                        "positionLocked": true
+                    },
+                    "events": {
+                        "mouseEnter": {
+                            "sound": "core-basic-hover.wav"
+                        }
+                    }
+                },
+                {
+                    "id": "submit",
+                    "name": "Submit button",
+                    "role": "gui",
+                    "entityID": "userinput",
+                    "position": {
+                        "origin": {
+                            "x": "right",
+                            "y": "center"
+                        },
+                        "size": {
+                            "width": 90,
+                            "height": 40
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none",
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "submit",
+                            "reactive": true
+                        }
+                    },
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 36,
+                            "green": 123,
+                            "blue": 160,
+                            "alpha": 1
+                        }
+                    },
+                    "hover": [
+                        {
+                            "trigger": "submit",
+                            "background": {
+                                "setup": {},
+                                "color": {
+                                    "red": 255,
+                                    "green": 22,
+                                    "blue": 84,
+                                    "alpha": 1
+                                }
+                            }
+                        }
+                    ],
+                    "transition": {
+                        "duration": 0.5
+                    },
+                    "events": {
+                        "click": {
+                            "submit": true,
+                            "uiController": [
+                                {
+                                    "id": "userinput",
+                                    "cloneId": "__all",
+                                    "action": "remove"
+                                }
+                            ],
+                            "sound": "core-basic-fast.wav"
+                        },
+                        "mouseEnter": {
+                            "sound": "core-basic-hover.wav"
+                        }
+                    },
+                    "classes": [
+                        {
+                            "id": "generalbutton",
+                            "overwrite": true
+                        }
+                    ],
+                    "visibility": {
+                        "positionLocked": true
+                    }
+                }
+            ],
+            "text": {
+                "example": "none"
+            },
+            "background": {
+                "setup": {},
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0
+                }
+            },
+            "transition": {},
+            "visibility": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-out"
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-in"
+                }
+            }
+        }
+    ]
+}

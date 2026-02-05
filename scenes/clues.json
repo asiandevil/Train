@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "id": "clues",
+        "name": "Clues",
+        "type": "folder",
+        "width": 1200,
+        "height": 600,
+        "parent": "root",
+        "children": [
+            "getClues",
+            "setNewClue"
+        ]
+    },
+    "nodes": {}
+}

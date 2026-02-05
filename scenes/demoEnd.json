@@ -1,0 +1,296 @@
+{
+    "meta": {
+        "id": "demoEnd",
+        "name": "Demo End",
+        "type": "scene",
+        "width": 1200,
+        "height": 1750,
+        "parent": "endings"
+    },
+    "nodes": {
+        "941": {
+            "type": "start",
+            "pos": {
+                "x": 450,
+                "y": 50
+            },
+            "id": 941,
+            "starting": true,
+            "clear": {
+                "actors": true,
+                "images": true,
+                "music": true,
+                "bgm": true
+            },
+            "name": "Конец Демо",
+            "connections": [
+                {
+                    "id": 954,
+                    "x": 450,
+                    "y": 150
+                }
+            ]
+        },
+        "943": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 950
+            },
+            "id": 943,
+            "ending": true,
+            "entrances": [
+                968
+            ]
+        },
+        "944": {
+            "type": "sound",
+            "pos": {
+                "x": 450,
+                "y": 250
+            },
+            "id": 944,
+            "sound": {
+                "type": "music",
+                "id": "assets-music-Kris Keypovsky - Silence.mp3",
+                "volume": 100
+            },
+            "connections": [
+                {
+                    "id": 953,
+                    "x": 450,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                954
+            ]
+        },
+        "953": {
+            "type": "back",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 953,
+            "backgroundId": "assets-backgrounds-dark.jpg",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 10,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 955,
+                    "x": 450,
+                    "y": 450
+                }
+            ],
+            "waitToFinish": false,
+            "entrances": [
+                944
+            ]
+        },
+        "954": {
+            "type": "ui",
+            "pos": {
+                "x": 450,
+                "y": 150
+            },
+            "id": 954,
+            "connections": [
+                {
+                    "id": 944,
+                    "x": 450,
+                    "y": 250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "default",
+                    "action": "remove"
+                },
+                {
+                    "id": "freeText",
+                    "cloneId": "__all",
+                    "action": "remove"
+                },
+                {
+                    "id": "gamemenu",
+                    "action": "remove"
+                },
+                {
+                    "id": "dreamred",
+                    "cloneId": "__all",
+                    "action": "remove"
+                },
+                {
+                    "id": "topPanel",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                941
+            ]
+        },
+        "955": {
+            "type": "wait",
+            "pos": {
+                "x": 450,
+                "y": 450
+            },
+            "id": 955,
+            "connections": [
+                {
+                    "id": 956,
+                    "x": 450,
+                    "y": 550
+                }
+            ],
+            "wait": {
+                "pause": 3,
+                "skippable": false
+            },
+            "entrances": [
+                953
+            ]
+        },
+        "956": {
+            "type": "back",
+            "pos": {
+                "x": 450,
+                "y": 550
+            },
+            "id": 956,
+            "connections": [
+                {
+                    "id": 957,
+                    "x": 450,
+                    "y": 650
+                }
+            ],
+            "backgroundId": "assets-backgrounds-ggroom.png",
+            "waitToFinish": false,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "entrances": [
+                955
+            ]
+        },
+        "957": {
+            "type": "wait",
+            "pos": {
+                "x": 450,
+                "y": 650
+            },
+            "id": 957,
+            "connections": [
+                {
+                    "id": 958,
+                    "x": 450,
+                    "y": 750
+                }
+            ],
+            "wait": {
+                "pause": 3,
+                "skippable": false
+            },
+            "entrances": [
+                956
+            ]
+        },
+        "958": {
+            "type": "ui",
+            "pos": {
+                "x": 450,
+                "y": 750
+            },
+            "id": 958,
+            "uiController": [
+                {
+                    "id": "endDemo",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 968,
+                    "x": 450,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                957
+            ]
+        },
+        "968": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 850
+            },
+            "id": 968,
+            "connections": [
+                {
+                    "id": 943,
+                    "x": 450,
+                    "y": 950
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "bigFreeText",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 0,
+                                "y": -55
+                            }
+                        }
+                    }
+                }
+            ],
+            "entrances": [
+                958
+            ]
+        }
+    }
+}

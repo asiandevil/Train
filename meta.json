@@ -1,0 +1,32 @@
+{
+    "name": "Train to Mittenwald",
+    "access": "link",
+    "nextID": 1834,
+    "ratioType": "fixed",
+    "width": 1280,
+    "height": 720,
+    "precacheResources": "all",
+    "loadingUI": "loading",
+    "startingPoint": {
+        "nodeId": 0,
+        "sceneId": "main"
+    },
+    "rootOrder": [
+        "main",
+        "folderDreams",
+        "effects",
+        "endings",
+        "tests",
+        "uiEvents",
+        "clues"
+    ],
+    "precacheResourcesList": {
+        "resources": {}
+    },
+    "maxWidth": 0,
+    "maxHeight": 0,
+    "skipMenu": false,
+    "mainMenuBack": "",
+    "mainMenuMusic": "assets-music-Roman - choice.mp3",
+    "autocloseLoading": false
+}

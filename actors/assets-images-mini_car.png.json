@@ -1,0 +1,16 @@
+{
+    "id": "assets-images-mini_car.png",
+    "name": "Mini Car",
+    "localizedName": {
+        "default": "Mini Car"
+    },
+    "comment": "Mini Car",
+    "type": "image",
+    "height": "50%",
+    "states": {
+        "default": {
+            "name": "default",
+            "resource": "assets-images-mini_car.png"
+        }
+    }
+}

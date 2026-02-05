@@ -1,0 +1,16 @@
+{
+    "id": "assets-sounds-cards.mp3",
+    "name": "Сards",
+    "type": "sound",
+    "assign": "sound",
+    "filename": "cards.mp3",
+    "vendor": "assets",
+    "collection": "sounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "trevornau22fv",
+        "license": "Creative Commons 0 License.",
+        "description": "Перемешивание карт"
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "meta": {
+        "id": "scene5c",
+        "name": "Общая линия 1",
+        "type": "scene",
+        "width": 1200,
+        "height": 1550,
+        "parent": "scene5",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 128,
+            "end": 130,
+            "selectedRoutes": {}
+        },
+        "tags": [
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "translationReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "128": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 128,
+            "starting": true,
+            "connections": [
+                {
+                    "id": 885,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "name": "Общая линия 1",
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "129": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 129,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "actor"
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "mainHero"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 130,
+                    "x": 350,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                576
+            ]
+        },
+        "130": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 750
+            },
+            "id": 130,
+            "ending": true,
+            "entrances": [
+                129
+            ]
+        },
+        "575": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 575,
+            "connections": [
+                {
+                    "id": 576,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "backgroundId": "assets-backgrounds-cabinet.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "waitToFinish": false,
+            "entrances": [
+                857
+            ]
+        },
+        "576": {
+            "type": "actor",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "id": 576,
+            "connections": [
+                {
+                    "id": 129,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "actors": [
+                {
+                    "id": "actor",
+                    "state": "state3",
+                    "action": "show",
+                    "flip": true,
+                    "position": {
+                        "x": "46.8254%",
+                        "y": "81.0371%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 1.8
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 5
+                        },
+                        "type": "right"
+                    }
+                }
+            ],
+            "entrances": [
+                575
+            ]
+        },
+        "857": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 857,
+            "connections": [
+                {
+                    "id": 575,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "targetScene": "placeInfo",
+            "targetNode": 848,
+            "entrances": [
+                885
+            ]
+        },
+        "885": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 885,
+            "connections": [
+                {
+                    "id": 857,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "targetScene": "setdate",
+            "targetNode": 881,
+            "entrances": [
+                128
+            ]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": "assets-images-greydreamt.png",
+    "name": "greydreamt.png",
+    "localizedName": {
+        "russian": "Gray Fog",
+        "english": "Gray Fog",
+        "ukrainian": "Gray Fog"
+    },
+    "comment": "Grey back for dreams",
+    "type": "image",
+    "height": "50%",
+    "states": {
+        "default": {
+            "name": "default",
+            "resource": "assets-images-greydreamt.png"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

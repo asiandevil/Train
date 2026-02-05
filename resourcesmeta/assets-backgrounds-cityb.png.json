@@ -1,0 +1,21 @@
+{
+    "id": "assets-backgrounds-cityb.png",
+    "name": "City",
+    "type": "image",
+    "assign": "back",
+    "filename": "cityb.png",
+    "vendor": "assets",
+    "collection": "backgrounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "NME",
+        "license": "NME",
+        "description": "City",
+        "link": ""
+    },
+    "imageSize": {
+        "width": 896,
+        "height": 496
+    }
+}

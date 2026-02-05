@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "id": "folderDreams",
+        "name": "Dreams",
+        "type": "folder",
+        "width": 1200,
+        "height": 600,
+        "parent": "root",
+        "children": [
+            "scene1",
+            "dream8",
+            "dream8b",
+            "dream20"
+        ]
+    },
+    "nodes": {}
+}

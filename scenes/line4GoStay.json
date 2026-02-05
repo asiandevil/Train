@@ -1,0 +1,638 @@
+{
+    "meta": {
+        "id": "line4GoStay",
+        "name": "Остаться",
+        "type": "scene",
+        "width": 1200,
+        "height": 2250,
+        "parent": "common4",
+        "tags": [
+            "textProofread",
+            "backgroundsReady",
+            "actorsReady",
+            "musicReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "366": {
+            "type": "start",
+            "pos": {
+                "x": 450,
+                "y": 150
+            },
+            "id": 366,
+            "starting": true,
+            "name": "Остаться",
+            "connections": [
+                {
+                    "id": 368,
+                    "x": 450,
+                    "y": 250
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "368": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 250
+            },
+            "id": 368,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 4
+                },
+                {
+                    "textNodeId": 5
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1232,
+                    "x": 450,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                366
+            ]
+        },
+        "369": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 1450
+            },
+            "id": 369,
+            "ending": true,
+            "entrances": [
+                1343
+            ]
+        },
+        "1232": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 1232,
+            "connections": [
+                {
+                    "id": 1233,
+                    "x": 450,
+                    "y": 450
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "passenger",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 3,
+                    "actorId": "passenger",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 4,
+                    "actorId": "passenger",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 5,
+                    "actorId": "passenger",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "entrances": [
+                368
+            ]
+        },
+        "1233": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 450
+            },
+            "id": 1233,
+            "connections": [
+                {
+                    "id": 1234,
+                    "x": 450,
+                    "y": 550
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "passenger",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 4,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 3,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "entrances": [
+                1232
+            ]
+        },
+        "1234": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 550
+            },
+            "id": 1234,
+            "connections": [
+                {
+                    "id": 1768,
+                    "x": 450,
+                    "y": 650
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "passenger",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 5,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 4,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 3,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "entrances": [
+                1233
+            ]
+        },
+        "1235": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 750
+            },
+            "id": 1235,
+            "connections": [
+                {
+                    "id": 1340,
+                    "x": 450,
+                    "y": 850
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 3,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 4,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 5,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 6,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "entrances": [
+                1768
+            ]
+        },
+        "1238": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 1150
+            },
+            "id": 1238,
+            "connections": [
+                {
+                    "id": 1344,
+                    "x": 450,
+                    "y": 1250
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "mainHero"
+                }
+            ],
+            "entrances": [
+                1342
+            ]
+        },
+        "1340": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 850
+            },
+            "id": 1340,
+            "targetScene": "traincabs",
+            "targetNode": 1085,
+            "connections": [
+                {
+                    "id": 1341,
+                    "x": 450,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                1235
+            ]
+        },
+        "1341": {
+            "type": "value",
+            "pos": {
+                "x": 450,
+                "y": 950
+            },
+            "id": 1341,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "cabNumber",
+                    "operand": "12",
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "cab12"
+                    },
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1342,
+                    "x": 450,
+                    "y": 1050
+                }
+            ],
+            "name": "Set cab",
+            "entrances": [
+                1340
+            ]
+        },
+        "1342": {
+            "type": "back",
+            "pos": {
+                "x": 450,
+                "y": 1050
+            },
+            "id": 1342,
+            "backgroundId": "assets-backgrounds-cab_day.png",
+            "waitToFinish": true,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "left",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "right",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 1238,
+                    "x": 450,
+                    "y": 1150
+                }
+            ],
+            "entrances": [
+                1341
+            ]
+        },
+        "1343": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 1350
+            },
+            "text": [
+                {
+                    "textNodeId": 2,
+                    "actorId": "brunno",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 3,
+                    "actorId": "brunno"
+                }
+            ],
+            "id": 1343,
+            "connections": [
+                {
+                    "id": 369,
+                    "x": 450,
+                    "y": 1450
+                }
+            ],
+            "entrances": [
+                1344
+            ]
+        },
+        "1344": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 1250
+            },
+            "id": 1344,
+            "connections": [
+                {
+                    "id": 1343,
+                    "x": 450,
+                    "y": 1350
+                }
+            ],
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "default",
+                    "action": "show",
+                    "position": {
+                        "x": "50.00%",
+                        "y": "100.00%",
+                        "scale": 2,
+                        "rx": "",
+                        "ry": ""
+                    },
+                    "animations": {},
+                    "actionAnimation": {
+                        "type": "still",
+                        "effect": true,
+                        "transition": {
+                            "duration": 1,
+                            "delay": 0,
+                            "transitfunction": "ease"
+                        }
+                    },
+                    "zIndex": 2000,
+                    "flip": false,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            ],
+            "entrances": [
+                1238
+            ]
+        },
+        "1768": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 650
+            },
+            "id": 1768,
+            "connections": [
+                {
+                    "id": 1235,
+                    "x": 450,
+                    "y": 750
+                }
+            ],
+            "targetScene": "setNewClue",
+            "targetNode": 1757,
+            "entrances": [
+                1234
+            ]
+        }
+    }
+}

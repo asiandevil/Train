@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "id": "selectedLanguage",
+        "name": "Selected Language",
+        "comment": "",
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "border": {
+            "color": {
+                "x": {
+                    "red": 255,
+                    "green": 255,
+                    "blue": 255,
+                    "alpha": 1
+                }
+            }
+        },
+        "hover": []
+    }
+}

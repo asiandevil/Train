@@ -1,0 +1,17 @@
+{
+    "id": "assets-fonts-MarckScript-Regular.ttf",
+    "name": "MarckScript-Regular",
+    "type": "font",
+    "assign": "font",
+    "filename": "MarckScript-Regular.ttf",
+    "vendor": "assets",
+    "collection": "fonts",
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "meta": {
+        "author": "Denis Masharov <denis.masharov@gmail.com> & Marck Fogel",
+        "license": "SIL Open Font License",
+        "description": "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com> & Marck Fogel,\nwith Reserved Font Name \"Marck Script\".",
+        "link": ""
+    }
+}

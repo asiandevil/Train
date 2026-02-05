@@ -1,0 +1,17 @@
+{
+    "id": "assets-ambient-whispering.wav",
+    "name": "Whispering",
+    "type": "sound",
+    "assign": "env",
+    "filename": "whispering.wav",
+    "vendor": "assets",
+    "collection": "ambient",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "geoneo0",
+        "license": "Creative Commons 0",
+        "description": "Whispering",
+        "link": "https://freesound.org/people/geoneo0/sounds/193809/"
+    }
+}

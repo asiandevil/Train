@@ -1,0 +1,812 @@
+{
+    "meta": {
+        "id": "placeInfo",
+        "name": "Scene place info",
+        "type": "scene",
+        "width": 1850,
+        "height": 1650,
+        "parent": "effects"
+    },
+    "nodes": {
+        "837": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 150
+            },
+            "starting": true,
+            "id": 837,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 838,
+                    "x": 250,
+                    "y": 250
+                }
+            ],
+            "name": "Place: Home"
+        },
+        "838": {
+            "type": "value",
+            "pos": {
+                "x": 250,
+                "y": 250
+            },
+            "id": 838,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "mainCity"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placeHome"
+                    },
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 839,
+                    "x": 250,
+                    "y": 350
+                }
+            ],
+            "name": "Set place",
+            "entrances": [
+                837
+            ]
+        },
+        "839": {
+            "type": "ui",
+            "pos": {
+                "x": 250,
+                "y": 350
+            },
+            "id": 839,
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 840,
+                    "x": 250,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                838
+            ]
+        },
+        "840": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 450
+            },
+            "id": 840,
+            "ending": true,
+            "entrances": [
+                839
+            ]
+        },
+        "841": {
+            "type": "start",
+            "pos": {
+                "x": 450,
+                "y": 150
+            },
+            "starting": true,
+            "id": 841,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 842,
+                    "x": 450,
+                    "y": 250
+                }
+            ],
+            "name": "Place: Park"
+        },
+        "842": {
+            "type": "value",
+            "pos": {
+                "x": 450,
+                "y": 250
+            },
+            "id": 842,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "mainCity"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placePark"
+                    },
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 843,
+                    "x": 450,
+                    "y": 350
+                }
+            ],
+            "name": "Set place",
+            "entrances": [
+                841
+            ]
+        },
+        "843": {
+            "type": "ui",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 843,
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 844,
+                    "x": 450,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                842
+            ]
+        },
+        "844": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 450
+            },
+            "id": 844,
+            "ending": true,
+            "entrances": [
+                843
+            ]
+        },
+        "848": {
+            "type": "start",
+            "pos": {
+                "x": 650,
+                "y": 150
+            },
+            "starting": true,
+            "id": 848,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 849,
+                    "x": 650,
+                    "y": 250
+                }
+            ],
+            "name": "Place: Shiller"
+        },
+        "849": {
+            "type": "value",
+            "pos": {
+                "x": 650,
+                "y": 250
+            },
+            "id": 849,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "mainCity"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placeSchiller"
+                    },
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 850,
+                    "x": 650,
+                    "y": 350
+                }
+            ],
+            "name": "Set place",
+            "entrances": [
+                848
+            ]
+        },
+        "850": {
+            "type": "ui",
+            "pos": {
+                "x": 650,
+                "y": 350
+            },
+            "id": 850,
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 851,
+                    "x": 650,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                849
+            ]
+        },
+        "851": {
+            "type": "end",
+            "pos": {
+                "x": 650,
+                "y": 450
+            },
+            "id": 851,
+            "ending": true,
+            "entrances": [
+                850
+            ]
+        },
+        "852": {
+            "type": "start",
+            "pos": {
+                "x": 1050,
+                "y": 150
+            },
+            "starting": true,
+            "id": 852,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 853,
+                    "x": 1050,
+                    "y": 250
+                }
+            ],
+            "name": "Place: Station"
+        },
+        "853": {
+            "type": "value",
+            "pos": {
+                "x": 1050,
+                "y": 250
+            },
+            "id": 853,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "mainCity"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placeStation"
+                    },
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 854,
+                    "x": 1050,
+                    "y": 350
+                }
+            ],
+            "name": "Set place",
+            "entrances": [
+                852
+            ]
+        },
+        "854": {
+            "type": "ui",
+            "pos": {
+                "x": 1050,
+                "y": 350
+            },
+            "id": 854,
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 855,
+                    "x": 1050,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                853
+            ]
+        },
+        "855": {
+            "type": "end",
+            "pos": {
+                "x": 1050,
+                "y": 450
+            },
+            "id": 855,
+            "ending": true,
+            "entrances": [
+                854
+            ]
+        },
+        "861": {
+            "type": "start",
+            "pos": {
+                "x": 850,
+                "y": 150
+            },
+            "starting": true,
+            "id": 861,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 862,
+                    "x": 850,
+                    "y": 250
+                }
+            ],
+            "name": "Place: In Town"
+        },
+        "862": {
+            "type": "value",
+            "pos": {
+                "x": 850,
+                "y": 250
+            },
+            "id": 862,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "mainCity"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "paceInTown"
+                    },
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 863,
+                    "x": 850,
+                    "y": 350
+                }
+            ],
+            "name": "Set place",
+            "entrances": [
+                861
+            ]
+        },
+        "863": {
+            "type": "ui",
+            "pos": {
+                "x": 850,
+                "y": 350
+            },
+            "id": 863,
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 864,
+                    "x": 850,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                862
+            ]
+        },
+        "864": {
+            "type": "end",
+            "pos": {
+                "x": 850,
+                "y": 450
+            },
+            "id": 864,
+            "ending": true,
+            "entrances": [
+                863
+            ]
+        },
+        "1252": {
+            "type": "start",
+            "pos": {
+                "x": 450,
+                "y": 550
+            },
+            "starting": true,
+            "id": 1252,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1256,
+                    "x": 450,
+                    "y": 650
+                }
+            ],
+            "name": "Place: Frankfurt, train"
+        },
+        "1254": {
+            "type": "ui",
+            "pos": {
+                "x": 450,
+                "y": 750
+            },
+            "id": 1254,
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1255,
+                    "x": 450,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                1256
+            ]
+        },
+        "1255": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 850
+            },
+            "id": 1255,
+            "ending": true,
+            "entrances": [
+                1254
+            ]
+        },
+        "1256": {
+            "type": "value",
+            "pos": {
+                "x": 450,
+                "y": 650
+            },
+            "id": 1256,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "cab12"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placeFrankfurt"
+                    },
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1254,
+                    "x": 450,
+                    "y": 750
+                }
+            ],
+            "name": "Set place",
+            "entrances": [
+                1252
+            ]
+        },
+        "1259": {
+            "type": "start",
+            "pos": {
+                "x": 650,
+                "y": 550
+            },
+            "starting": true,
+            "id": 1259,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1262,
+                    "x": 650,
+                    "y": 650
+                }
+            ],
+            "name": "Place: Frankfurt, city"
+        },
+        "1260": {
+            "type": "ui",
+            "pos": {
+                "x": 650,
+                "y": 750
+            },
+            "id": 1260,
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1261,
+                    "x": 650,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                1262
+            ]
+        },
+        "1261": {
+            "type": "end",
+            "pos": {
+                "x": 650,
+                "y": 850
+            },
+            "id": 1261,
+            "ending": true,
+            "entrances": [
+                1260
+            ]
+        },
+        "1262": {
+            "type": "value",
+            "pos": {
+                "x": 650,
+                "y": 650
+            },
+            "id": 1262,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placeStation"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placeFrankfurt"
+                    },
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1260,
+                    "x": 650,
+                    "y": 750
+                }
+            ],
+            "name": "Set place",
+            "entrances": [
+                1259
+            ]
+        },
+        "1267": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 550
+            },
+            "starting": true,
+            "id": 1267,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1268,
+                    "x": 250,
+                    "y": 650
+                }
+            ],
+            "name": "Place: On the road"
+        },
+        "1268": {
+            "type": "value",
+            "pos": {
+                "x": 250,
+                "y": 650
+            },
+            "id": 1268,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placeTrain"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "cab12"
+                    },
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1269,
+                    "x": 250,
+                    "y": 750
+                }
+            ],
+            "name": "Set place",
+            "entrances": [
+                1267
+            ]
+        },
+        "1269": {
+            "type": "ui",
+            "pos": {
+                "x": 250,
+                "y": 750
+            },
+            "id": 1269,
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1270,
+                    "x": 250,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                1268
+            ]
+        },
+        "1270": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 850
+            },
+            "id": 1270,
+            "ending": true,
+            "entrances": [
+                1269
+            ]
+        }
+    }
+}

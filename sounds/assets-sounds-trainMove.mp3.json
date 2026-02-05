@@ -1,0 +1,7 @@
+{
+    "id": "assets-sounds-trainMove.mp3",
+    "name": "Train Move",
+    "comment": "Шум движения поезда",
+    "resource": "assets-sounds-trainMove.mp3",
+    "type": "env"
+}

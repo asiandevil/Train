@@ -1,0 +1,8 @@
+{
+    "id": "hideUI",
+    "comment": "Hide user interface",
+    "keyCode": 32,
+    "event": {
+        "systemAction": "vn_toggle"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": "assets-sounds-whoosh.mp3",
+    "name": "Whoosh",
+    "type": "sound",
+    "assign": "sound",
+    "filename": "whoosh.mp3",
+    "vendor": "assets",
+    "collection": "sounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Public Domain",
+        "license": "Public Domain",
+        "description": "Быстрый шум ветра"
+    }
+}

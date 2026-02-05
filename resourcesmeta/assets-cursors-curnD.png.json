@@ -1,0 +1,21 @@
+{
+    "id": "assets-cursors-curnD.png",
+    "name": "curnD",
+    "type": "image",
+    "assign": "cursor",
+    "filename": "curnD.png",
+    "vendor": "assets",
+    "collection": "cursors",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Cursor",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 64,
+        "height": 64
+    }
+}

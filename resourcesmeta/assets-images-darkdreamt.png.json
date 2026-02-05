@@ -1,0 +1,20 @@
+{
+    "id": "assets-images-darkdreamt.png",
+    "name": "Blood Dream transparent",
+    "type": "image",
+    "assign": "image",
+    "filename": "darkdreamt.png",
+    "vendor": "assets",
+    "collection": "images",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Racing frog team",
+        "license": "Racing frog team",
+        "description": "Blood Dream transparent"
+    },
+    "imageSize": {
+        "width": 1280,
+        "height": 720
+    }
+}

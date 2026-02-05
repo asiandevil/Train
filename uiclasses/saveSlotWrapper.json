@@ -1,0 +1,66 @@
+{
+    "meta": {
+        "id": "saveSlotWrapper",
+        "name": "Save slot wrapper",
+        "comment": "Стили для контейнера сейв слота",
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "background": {
+            "setup": {
+                "origin": {}
+            },
+            "color": {
+                "red": 74,
+                "green": 74,
+                "blue": 74,
+                "alpha": 0.25
+            }
+        },
+        "text": {
+            "color": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 1
+            }
+        },
+        "hover": [
+            {
+                "trigger": "__self",
+                "border": {
+                    "width": {},
+                    "color": {}
+                },
+                "transform": {
+                    "scale": 1.03
+                },
+                "position": {
+                    "zIndex": 3002
+                },
+                "listSetup": {}
+            }
+        ],
+        "position": {
+            "size": {
+                "width": 436,
+                "height": 96
+            },
+            "type": "static",
+            "margin": {
+                "x": 2
+            },
+            "zIndex": 3000
+        },
+        "transition": {
+            "duration": 0.2
+        },
+        "listSetup": {},
+        "border": {
+            "radius": {
+                "x": 20
+            }
+        }
+    }
+}

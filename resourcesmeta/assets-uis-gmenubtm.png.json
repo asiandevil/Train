@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-gmenubtm.png",
+    "name": "gmenubtm",
+    "type": "image",
+    "assign": "ui",
+    "filename": "gmenubtm.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Bottom game menu",
+        "link": ""
+    },
+    "imageSize": {
+        "width": 708,
+        "height": 9
+    }
+}

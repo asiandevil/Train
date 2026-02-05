@@ -1,0 +1,4724 @@
+{
+    "meta": {
+        "id": "english",
+        "isDefault": false,
+        "name": "English",
+        "vocabulary": {
+            "mainMenuContinue": {
+                "name": "Main Menu - Continue",
+                "value": "Continue"
+            },
+            "mainMenuCredits": {
+                "name": "Main Menu - Credits",
+                "value": "Credits"
+            },
+            "mainMenuExit": {
+                "name": "Main Menu - Exit",
+                "value": "Exit"
+            },
+            "mainMenuLoadGame": {
+                "name": "Main Menu - Load Game",
+                "value": "Load Game"
+            },
+            "mainMenuNewGame": {
+                "name": "Main Menu - New Game",
+                "value": "New Game"
+            },
+            "mainMenuSetup": {
+                "name": "Main Menu - Setup",
+                "value": "Setup"
+            },
+            "close": {
+                "name": "Close",
+                "value": "Close"
+            },
+            "exitGame": {
+                "name": "Exit Game",
+                "value": "Exit"
+            },
+            "gameLanguage": {
+                "name": "Game Language",
+                "value": "Game Language"
+            },
+            "goBackToMenu": {
+                "name": "Back to menu",
+                "value": "Back to menu"
+            },
+            "history": {
+                "name": "History",
+                "value": "History"
+            },
+            "notes": {
+                "name": "Notes",
+                "value": "Notes"
+            },
+            "qLoad": {
+                "name": "Quick Load",
+                "value": "Q. Load"
+            },
+            "qSave": {
+                "name": "Quick Save",
+                "value": "Q. Save"
+            },
+            "load": {
+                "name": "Load",
+                "value": "Load"
+            },
+            "save": {
+                "name": "Save",
+                "value": "Save"
+            },
+            "setupPage": {
+                "name": "Setup",
+                "value": "Setup"
+            },
+            "toggleUI": {
+                "name": "Toggle UI",
+                "value": "Toggle UI"
+            },
+            "skip": {
+                "name": "Skip",
+                "value": "Skip"
+            },
+            "keys": {
+                "name": "Keybinds",
+                "value": "Keybinds"
+            },
+            "next": {
+                "name": "Next",
+                "value": "Next"
+            },
+            "submit": {
+                "name": "Submit",
+                "value": "Submit"
+            },
+            "fontSize": {
+                "name": "Font Size",
+                "value": "Font Size"
+            },
+            "small": {
+                "name": "Small",
+                "value": "Small"
+            },
+            "normal": {
+                "name": "Normal",
+                "value": "Normal"
+            },
+            "big": {
+                "name": "Big",
+                "value": "Big"
+            },
+            "large": {
+                "name": "Large",
+                "value": "Large"
+            },
+            "textSpeed": {
+                "name": "Text Speed",
+                "value": "Text Speed"
+            },
+            "instant": {
+                "name": "Instant",
+                "value": "Instant"
+            },
+            "fast": {
+                "name": "Fast",
+                "value": "Fast"
+            },
+            "medium": {
+                "name": "Medium",
+                "value": "Medium"
+            },
+            "slow": {
+                "name": "Slow",
+                "value": "Slow"
+            },
+            "musicVolume": {
+                "name": "Music volume",
+                "value": "Music volume"
+            },
+            "soundVolume": {
+                "name": "Sound volume",
+                "value": "Sound volume"
+            },
+            "envVolume": {
+                "name": "Environment volume",
+                "value": "Environment volume"
+            },
+            "loading": {
+                "name": "Loading",
+                "value": "Loading"
+            },
+            "done": {
+                "name": "Done",
+                "value": "Done"
+            },
+            "ready": {
+                "name": "Ready",
+                "value": "Begin"
+            },
+            "placeCity": {
+                "name": "Place: Mittenvald",
+                "value": "Mittenvald"
+            },
+            "placeHome": {
+                "name": "Place: Home",
+                "value": "Home"
+            },
+            "placePark": {
+                "name": "Place: Park",
+                "value": "Park"
+            },
+            "placeSchiller": {
+                "name": "Place: Schiller",
+                "value": "Schiller's house"
+            },
+            "placeStation": {
+                "name": "Place: Station",
+                "value": "Station"
+            },
+            "paceInTown": {
+                "name": "Place: In Town",
+                "value": "In town"
+            },
+            "september": {
+                "name": "September",
+                "value": "September"
+            },
+            "october": {
+                "name": "October",
+                "value": "October"
+            },
+            "january": {
+                "name": "January",
+                "value": "January"
+            },
+            "april": {
+                "name": "April",
+                "value": "April"
+            },
+            "mainCity": {
+                "name": "Place: City",
+                "value": "Mainz"
+            },
+            "badEnd": {
+                "name": "Bad end",
+                "value": "Bad end"
+            },
+            "demoEnd": {
+                "name": "Demo end",
+                "value": "Demo end"
+            },
+            "gameTitleLocal": {
+                "name": "Game Title",
+                "value": "Train to Mittenwald"
+            },
+            "musicRoom": {
+                "name": "Music Room",
+                "value": "Music Room"
+            },
+            "cluesWindow": {
+                "name": "Clues Window",
+                "value": "Clues"
+            },
+            "clue1": {
+                "name": "Clue 1",
+                "value": "Newspaper: “The opening of the new plant has finally taken place. The inhabitants of our city have long awaited the opening of a new factory and to their joy it was built in record time. Unfortunately, the opening day was overshadowed by scandalous events - the man who conducted the opening was the son of the tycoon Schiller, who built the plant. Unfortunately, his son has not the best reputation and on this significant day he also distinguished himself. At the opening ceremony, the Magnate's son was making a speech, but to great disappointment it was interrupted by none other than the man making it! Suddenly, to the surprise of all present, the Magnate's son, Joseph Schiller, accused one of those present of making an attempt on his life. Joseph himself claimed that the man was a member of a notorious radical terrorist organization. Unfortunately, poor Prince Joseph was unaware that the government had officially announced the complete destruction of this organization.”"
+            },
+            "cab1": {
+                "name": "Cab 1",
+                "value": "Carriage No. 1"
+            },
+            "cab2": {
+                "name": "Cab 2",
+                "value": "Carriage No. 2"
+            },
+            "cab3": {
+                "name": "Cab 3",
+                "value": "Carriage No. 3"
+            },
+            "cab4": {
+                "name": "Cab 4",
+                "value": "Carriage No. 4"
+            },
+            "cab5": {
+                "name": "Cab 5",
+                "value": "Carriage No. 5"
+            },
+            "cab6": {
+                "name": "Cab 6",
+                "value": "Carriage No. 6"
+            },
+            "cab7": {
+                "name": "Cab 7",
+                "value": "Carriage No. 7"
+            },
+            "cab8": {
+                "name": "Cab 8",
+                "value": "Carriage No. 8"
+            },
+            "cab9": {
+                "name": "Cab 9",
+                "value": "Carriage No. 9"
+            },
+            "cab10": {
+                "name": "Cab 10",
+                "value": "Carriage No. 10"
+            },
+            "cab11": {
+                "name": "Cab 11",
+                "value": "Carriage No. 11"
+            },
+            "cab12": {
+                "name": "Cab 12",
+                "value": "Carriage No. 12"
+            },
+            "cab13": {
+                "name": "Cab 13",
+                "value": "Carriage No. 13"
+            },
+            "placeFrankfurt": {
+                "name": "Place: Frankfurt",
+                "value": "Frankfurt"
+            },
+            "placeTrain": {
+                "name": "Place: Train",
+                "value": "On the road"
+            },
+            "placeForest": {
+                "name": "Place: Forest",
+                "value": "Forest"
+            },
+            "clue2": {
+                "name": "Clue 2",
+                "value": "At first, Bruno seemed to me like a free-spirited person, but now, on the train, he gives a different impression. It feels as though something is troubling him."
+            },
+            "clue3": {
+                "name": "Clue 3",
+                "value": "According to Bruno, he has never rested in his entire life. Perhaps he is always under tension? It’s not unlikely that the war left its mark on him — or perhaps some other traumatic experience. And judging by his appearance, one could assume his life has been far from easy. But he does have money!"
+            },
+            "clue4": {
+                "name": "Clue 4",
+                "value": "The old folks from Mittenwald said that the magnate Schiller’s representative was supposed to come to them. Good news for them — he’s already on his way."
+            },
+            "clue5": {
+                "name": "Clue 5",
+                "value": "In the train’s restroom, I found a hidden knife. Thanks to my intuition, the criminal won’t be able to use it now. Its gleam is mesmerizing, and the sharpness of the blade is captivating."
+            },
+            "clue6": {
+                "name": "Clue 6",
+                "value": "People are saying that an extra carriage was attached to the train. I suspect this was done in the morning, which is why the train was an hour late. But it’s all rather strange, because I got my ticket long ago, and it clearly says “Carriage Twelve, departure at twelve o’clock.” Could it be that my ticket is special? That would explain why there are so few people in the twelfth carriage."
+            },
+            "clue7": {
+                "name": "Clue 7",
+                "value": "Something incomprehensible is going on with this train — one might even call it outrageous. Bruno and I couldn’t even place an order in the dining car. Where are the conductors? Where is the service? Disorder like this is unacceptable — and where there is disorder, sooner or later, problems begin."
+            },
+            "locomotive": {
+                "name": "Locomotive",
+                "value": "Locomotive"
+            },
+            "menuCreators": {
+                "name": "Creators",
+                "value": "Creators"
+            },
+            "creatorScenario": {
+                "name": "Creator - Scenario",
+                "value": "Idea, scenario"
+            },
+            "creatorCodingArt": {
+                "name": "Creator - Coding, Art",
+                "value": "Coding, art"
+            }
+        }
+    },
+    "data": {
+        "0": {},
+        "9": {},
+        "11": {},
+        "18": {},
+        "20": {},
+        "21": {
+            "0": {
+                "containerID": 0,
+                "content": "There's a knife in my hand,<div>and I'm going after the one</div><div>which I must kill.</div>"
+            }
+        },
+        "22": {
+            "3": {
+                "containerID": 3,
+                "content": "A knife in her heart, she is silent,<div></div>"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "My own."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "however, I still hear the scream..."
+            }
+        },
+        "23": {
+            "2": {
+                "containerID": 2,
+                "content": "<div>One more moment,</div><div>and there's a dead end ahead.</div><div>I got you.</div>"
+            }
+        },
+        "24": {
+            "1": {
+                "containerID": 1,
+                "content": "<div>She runs away</div><div>through the alleys of the</div><div>nighttime city.</div>"
+            }
+        },
+        "32": {
+            "0": {
+                "containerID": 0,
+                "content": "With a scream, I flail my arms around and hit the nightstand."
+            }
+        },
+        "35": {
+            "1": {
+                "containerID": 1,
+                "content": "Oh, that was another nightmare. "
+            }
+        },
+        "39": {},
+        "40": {
+            "0": {
+                "containerID": 0,
+                "content": "It's hard for me to take this job. And I don't want to. I'll let Mr. Shiller know."
+            }
+        },
+        "50": {
+            "0": {
+                "containerID": 0,
+                "content": "Debts"
+            }
+        },
+        "52": {
+            "0": {
+                "containerID": 0,
+                "content": "Debts"
+            }
+        },
+        "53": {
+            "3": {
+                "containerID": 3,
+                "content": "Debts"
+            }
+        },
+        "54": {
+            "2": {
+                "containerID": 2,
+                "content": "Debts"
+            }
+        },
+        "55": {
+            "1": {
+                "containerID": 1,
+                "content": "Debts"
+            }
+        },
+        "56": {
+            "3": {
+                "containerID": 3,
+                "content": "Debts"
+            }
+        },
+        "57": {
+            "2": {
+                "containerID": 2,
+                "content": "Debts"
+            }
+        },
+        "58": {
+            "1": {
+                "containerID": 1,
+                "content": "Debts"
+            }
+        },
+        "71": {
+            "0": {
+                "containerID": 0,
+                "content": "I need a distraction, something to keep me busy."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "All right, Mr. Shiller called me in today. He wanted to offer me some work. "
+            }
+        },
+        "74": {
+            "0": {
+                "containerID": 0,
+                "content": "There's still plenty of time before our meeting, but I don't feel like sleeping anymore."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I think I'll go for a walk in the park while I wait for the meeting."
+            }
+        },
+        "75": {},
+        "77": {},
+        "81": {
+            "0": {
+                "containerID": 0,
+                "content": "Another dream in which I kill."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I had a knife in my hand, and the victim in my previous case was killed with it. I'm a detective, not a murderer."
+            }
+        },
+        "83": {
+            "0": {
+                "containerID": 0,
+                "content": "The girl - showed up at my door and asked me to find the person who sent her threatening letters."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I took her up on her offer and started investigating."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I advised her to spend more time with people she trusts."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Myself decided to proceed in the simplest way possible. It is necessary to calculate <span class=\"italic isStyled\">how exactly</span> the notes got to her."
+            }
+        },
+        "90": {},
+        "91": {
+            "0": {
+                "containerID": 0,
+                "content": "Mr. Shiller is a big magnate. I wonder what kind of job he'll offer me."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I wish it wasn't an investigation. I've been feeling like quitting detective work lately. I don't want to take a job like this."
+            }
+        },
+        "95": {},
+        "96": {
+            "0": {
+                "containerID": 0,
+                "content": "Hello, my dear Richter."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "It pleased me with the ease with which he addressed me, and I immediately felt at ease."
+            }
+        },
+        "98": {
+            "0": {
+                "containerID": 0,
+                "content": "That's not exactly true. I want you to gather information for me and escort my son Joseph."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Escort? You're implying that he's in danger."
+            }
+        },
+        "99": {
+            "0": {
+                "containerID": 0,
+                "content": "You bet! I'm a detective, not a spy. All right, I'll see what he has to say next."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "That's right, but I want to hear you all the way through before I jump to conclusions."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "My son will have to get to a certain village. And you will need to write down where he went, who he talked to and who approached him."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "For all this I will pay you ten times your usual fee, and you will make a full report.<wait contenteditable=\"false\" class=\"cvne_customtag_wait\"></wait>&nbsp;Get it done, the money's yours."
+            }
+        },
+        "100": {
+            "0": {
+                "containerID": 0,
+                "content": "So you're in. Good! Ask away, my boy."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "The magnate is even more ingratiating than he was in the beginning. It was starting to get annoying."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Why don't you hire someone a little simpler than a detective? After all, an ordinary guard can do the job!"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Come on, what's the point of all these questions? Why don't you just tell me if you're up for the job?"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Shiller doesn't really want me to know why. I don't care if he hides it, it's his business. But there are still some things worth knowing."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Let's say... but one last question: what are the risks?"
+            }
+        },
+        "101": {
+            "0": {
+                "containerID": 0,
+                "content": "The magnate hesitated."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Should've told me you were worried about your life in the first place."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "You figured me out."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "I grinned."
+            }
+        },
+        "102": {
+            "0": {
+                "containerID": 0,
+                "content": "Doesn't sound like Mr. Shiller is lying, but it's hard to trust him either."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "When do I need to escort your son? Do I still have time to think about the offer?"
+            }
+        },
+        "103": {},
+        "108": {
+            "0": {
+                "containerID": 0,
+                "content": "Should I refuse?"
+            }
+        },
+        "109": {
+            "0": {
+                "content": "Take the job",
+                "containerID": 0
+            },
+            "1": {
+                "content": "Refuse",
+                "containerID": 1
+            }
+        },
+        "112": {},
+        "117": {},
+        "118": {},
+        "119": {},
+        "125": {},
+        "126": {},
+        "129": {
+            "0": {
+                "containerID": 0,
+                "content": "Greetings, Mr. Shiller."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Hello, Richter. I assume you've come with an answer to my proposal. "
+            },
+            "2": {
+                "containerID": 2,
+                "content": "You're absolutely right. I have been thinking for a long time about what I should do, and I confess that the right decision did not come to me immediately."
+            }
+        },
+        "132": {
+            "0": {
+                "containerID": 0,
+                "content": "I'm sorry, but I don't want to be a part of this case."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I hope you can find someone else for the job. "
+            },
+            "3": {
+                "containerID": 3,
+                "content": "All right, fine. Of course, you'd be doing me a big favor by agreeing, but if you don't want to do it, do whatever you want."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Speaking of which, what are you gonna do now? A friend of mine told me you don't want to be a detective anymore."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "I guess I need to be less vocal about these things. Yeah, that's true. I don't know what to do. I'm still thinking."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "I hope he realizes that I have a personal reason for saying no and doesn't get pushy and beg me to change my mind."
+            }
+        },
+        "133": {},
+        "136": {
+            "1": {
+                "containerID": 1,
+                "content": "Perhaps I'll see you again. However,<wait contenteditable=\"false\" class=\"cvne_customtag_wait\"></wait> goodbye, Richter."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Goodbye."
+            }
+        },
+        "140": {
+            "4": {
+                "containerID": 4,
+                "content": "But really, what am I supposed to do now? This could have been my last case as a detective. What should I do now? "
+            },
+            "5": {
+                "containerID": 5,
+                "content": "The time was passing, and I had been walking in the park for hours, thinking about what I should do. I could give up detective work, or, on the contrary, I could continue trying to succeed."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "On the one hand, as I investigated the reasons why Shiller had asked me to take on the case, a fond sense of nostalgia enveloped me: it was as if I had become a child again, dreaming of a career as a detective."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "On the other side were nightmares that clearly weren't going to leave me."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "So what should I do?"
+            }
+        },
+        "142": {
+            "0": {
+                "content": "Continue detective work",
+                "containerID": 0
+            },
+            "1": {
+                "content": "Pursue a different occupation",
+                "containerID": 1
+            }
+        },
+        "146": {
+            "0": {
+                "containerID": 0,
+                "content": "I just made the decision, but I'm already uncomfortable.... "
+            },
+            "1": {
+                "containerID": 1,
+                "content": "All right, I need to take action. Need to find an alternative to today's contract. I'll go home and then start looking for a job to replace the one I missed today."
+            }
+        },
+        "149": {
+            "0": {
+                "containerID": 0,
+                "content": "Went to all my acquaintances. One of them was an investigator, but even he couldn't find any work."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "It's a shame, but it can't be helped. I've been a lot of places today, and I'm too tired to do anything else. It's time to go to bed."
+            }
+        },
+        "152": {
+            "0": {
+                "containerID": 0,
+                "content": "All around me is darkness. I can't see a thing."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Where am I? I can't remember anything."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I need to find a way out."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "<div>My legs can barely move.</div><div>And instead of walking,</div><div>I drag them on the ground.</div>"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "<div>I'm getting worse,</div><div>and now I'm crawling on my knees. Where am I?</div>"
+            }
+        },
+        "153": {},
+        "154": {
+            "0": {
+                "containerID": 0,
+                "content": "<div>Losing strength, I fall forward with my arms.</div><div>and realize my surroundings are wet.</div>"
+            }
+        },
+        "155": {},
+        "156": {
+            "0": {
+                "containerID": 0,
+                "content": "I look at my hands: they're covered in blood."
+            }
+        },
+        "159": {
+            "0": {
+                "containerID": 0,
+                "content": "It was just another bizarre dream."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Okay, I can't give up. I've got to keep looking for work."
+            }
+        },
+        "161": {},
+        "164": {
+            "0": {
+                "containerID": 0,
+                "content": "I need to find something. But I can't remember what?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Where, where... is it?"
+            }
+        },
+        "167": {
+            "0": {
+                "containerID": 0,
+                "content": "And today, another failure..."
+            }
+        },
+        "171": {
+            "2": {
+                "containerID": 2,
+                "content": "It's been a few months since I gave up a very rewarding opportunity. After that, I started actively looking for work, but I haven't found anything. Probably just bad luck, or maybe no one wants to do business with me anymore because of my reputation. "
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I just don't know what to do. These debts, these nightmares."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "It may seem like simple bad luck, but I can't help but feel as if someone is deliberately preventing me from finding any source of income."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Well, there's no point in staying home, I'd better go for a walk."
+            }
+        },
+        "174": {
+            "1": {
+                "containerID": 1,
+                "content": "There are, of course, many different jobs in our city, but it was investigations that I was lucky enough to go into. Perhaps this is due in no small part to the fact that as a child I loved riddles."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Not the best idea to indulge in memories from the past while in such a deplorable state, but I can't stop myself anymore."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "What a crazy idea for me to go into investigative work. There's so many jobs in the city..."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Yeah, my childhood love has taken its toll."
+            }
+        },
+        "176": {
+            "3": {
+                "containerID": 3,
+                "content": "Uh, should I buy a newspaper?"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "The seller had a lot of different publications to choose from, but the vast majority of them were the most common \"yellow press\"."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Upon arriving at the park, I finally decided to examine the front page of the newspaper and was immediately taken aback. The headline on the front page of the issue read:"
+            },
+            "6": {
+                "containerID": 6,
+                "content": "\"The son of magnate Wolfgang Shiller was murdered.\""
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Among all these tabloids with screaming headlines and flashy illustrations, I could find only one newspaper that fell under the category of a serious news periodical; I gave it my preference."
+            }
+        },
+        "180": {
+            "4": {
+                "containerID": 4,
+                "content": "All right, that's settled. I'll try another career, although probably a similar one."
+            }
+        },
+        "183": {
+            "0": {
+                "containerID": 0,
+                "content": "I'm standing in the middle of the street.<div>The sun is unbearably hot in the sky.</div>"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I need to find a place to hide."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "In the distance I can see a shed.<div>I hurry towards it.</div>"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I breathe a sigh of relief.<div>The sun is not so hot now.</div>"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "I'm about to move on,<div>but suddenly I hear a scream.</div>"
+            }
+        },
+        "184": {},
+        "185": {
+            "0": {
+                "containerID": 0,
+                "content": "Suddenly someone comes at me from behind<div>and starts choking me.</div>"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Panicked, I start searching the floor for anything<div>that might save me.</div>"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "When I find the knife,<div>I grab it and go on the attack.</div>"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Right in my hands,<div>the knife turns into a fire poker.</div>"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "My arms are tired, but it's like I'm crazy.<div>And I can't stop. Or rather,</div><div>I don't want to stop.</div>"
+            },
+            "5": {
+                "containerID": 5,
+                "content": "<div> Relentlessly, I began beating my abuser with it.</div>"
+            }
+        },
+        "186": {},
+        "187": {},
+        "189": {
+            "0": {
+                "containerID": 0,
+                "content": "My strength has completely left me<div>and I can't lift my arms anymore.</div>"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Yes, I just realized now.<div>I killed a completely innocent man.</div>"
+            }
+        },
+        "191": {
+            "0": {
+                "containerID": 0,
+                "content": "I agree to take the job."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Great, I'm glad. I was beginning to fear that you would refuse my offer. Apparently I shouldn't."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I believe it's time to discuss the details of this case."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "You're right! There's no point in dragging this out."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "The man in front of me suddenly became much more serious than I was used to seeing him. "
+            }
+        },
+        "192": {
+            "0": {
+                "containerID": 0,
+                "content": "Your main task is to take the train with my son to the village of Mittenwald and escort him without being seen. Follow him when he arrives, remembering to make a report."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "If you want to earn more, you have to fulfill one more condition: before the train leaves, come at 6 a.m. to the Nachtgarten store near the main road. That's where my son will start from."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "The payment for the main part of the assignment will be enough for me. But I'll try to fulfill the assignment in full, I could use the extra money."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "If you find out and write in the report what he was doing in town, you'll receive one tenth of the increase in your fee. If you lose sight of my son, don't worry and just get on the train."
+            }
+        },
+        "193": {
+            "0": {
+                "containerID": 0,
+                "content": "And what time does the train leave?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Departure time is twelve o'clock. You don't have to buy a ticket, just come to pick it up at my place tomorrow."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Six hours of tracking... and then there's no telling how long I'll have to travel. I'm sure I'll be exhausted by the end of the day."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I got you. Is that all?"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "The magnate's seriousness disappeared as quickly as it had appeared."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Yes, absolutely right, Ludwig!"
+            }
+        },
+        "194": {
+            "0": {
+                "containerID": 0,
+                "content": "Well, I guess I'll be going, then. Goodbye."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Goodbye. I look forward to your return!"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Talking like I'm not coming to get my tickets tomorrow!"
+            }
+        },
+        "197": {
+            "0": {
+                "containerID": 0,
+                "content": "Final preparations are complete. I don't have to worry about tomorrow."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I had already prepared my notebook, made myself some sandwiches, and picked up the tickets from Shiller. The preparation was easier than the case required of me."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Am I just going to have to follow Shiller's son around and write down everything he does in a notebook?"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "A suspiciously simple task for the amount of money I was promised. I'm sensing a catch."
+            }
+        },
+        "205": {
+            "0": {
+                "containerID": 0,
+                "content": "The day had come. I decided to arrive at the appointed place early - I didn't want to miss my goal. To avoid suspicion, I sat down with a newspaper at the coffee table in front of the store and waited. "
+            }
+        },
+        "206": {},
+        "207": {},
+        "208": {
+            "0": {
+                "containerID": 0,
+                "content": "There aren't too many people on the street, which is good for me. "
+            },
+            "1": {
+                "containerID": 1,
+                "content": "However, the waiting process itself turned out to be quite tedious. I'm bored and distracted by the noises around me and the passersby. I need to concentrate. Where is he?"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "It's fifteen past seven, and Shiller's son still hasn't shown up. I'm getting tired of this, but I can't help it, I'll wait another ten minutes. After all, waiting is part of my job, too."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Just then the fear began to awaken in me that I had already overlooked everything, when suddenly...."
+            }
+        },
+        "211": {},
+        "212": {
+            "0": {
+                "containerID": 0,
+                "content": "That looks like him! Why is he going to the Nachtgarten store?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Better get in a better position and see what he's doing. I could, of course, go into the store itself, but then there was a chance that my surveillance would be discovered later."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Can't risk it, I'll just get closer."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "No matter how hard I tried to find him with my eyes, there was no sign of him among the store's customers."
+            }
+        },
+        "215": {
+            "0": {
+                "containerID": 0,
+                "content": "How long has he been in there? I feel like I've lost my sense of time. I reach for my watch, which I always carry with me wherever I go. "
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Seven minutes passed and suddenly Shiller's son came out of the store, and not alone."
+            }
+        },
+        "216": {},
+        "217": {},
+        "219": {
+            "0": {
+                "containerID": 0,
+                "content": "In the end, I missed him. My bonus money's gone, but all is not lost. It's all about getting the job done."
+            }
+        },
+        "220": {},
+        "222": {
+            "0": {
+                "containerID": 0,
+                "content": "One thing is clear: Shiller suspects his son of something, and the root of the problem is the obvious misunderstanding and mistrust between them."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Only after I had organized my thoughts was I able to calm down a bit."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "The rest of the details I'll have to ferret out, and to make sure I don't miss anything, I'll keep an eye on both my target and his companion just in case."
+            }
+        },
+        "225": {
+            "0": {
+                "containerID": 0,
+                "content": "I wish I knew how many more hours I had to bum around."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I looked at the time. Still a couple hours to go. So, what carriage am I in?<wait contenteditable=\"false\" class=\"cvne_customtag_wait\"></wait> Right, the twelfth."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Guess I can finally relax a little now."
+            }
+        },
+        "227": {},
+        "229": {},
+        "230": {
+            "0": {
+                "containerID": 0,
+                "content": "It had only been a couple minutes since I'd sprawled out on the bench."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "The surroundings were filled with the noise of trains and people, but it didn't annoy me one bit. The only thing that kept catching my attention was the ringing voice of a man walking in circles around the station."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Neither bothered much, though, because the man would periodically fall silent."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "It was even good that he was making noise, because it kept me from fully relaxing and falling asleep. "
+            },
+            "4": {
+                "containerID": 4,
+                "content": "As soon as I had this thought in my head, the man began to slowly approach. The closer he got, the more I could hear the question he was asking people: \"Where is the village of Mittenwald?"
+            },
+            "5": {
+                "containerID": 5,
+                "content": "What a coincidence."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Excuse me... Can you tell me where the village of Mittenwald is?",
+                "meta": {
+                    "customName": "Stranger"
+                }
+            },
+            "7": {
+                "containerID": 7,
+                "content": "I'd be happy to help you, but alas, I don't know.",
+                "meta": {
+                    "customName": "Passerby"
+                }
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Another dialog, and another setback for the stranger."
+            }
+        },
+        "232": {},
+        "233": {
+            "0": {
+                "containerID": 0,
+                "content": "His footsteps are very close. I think he's heading straight for me. Well, I guess he won't make a mistake this time."
+            }
+        },
+        "235": {},
+        "236": {
+            "0": {
+                "containerID": 0,
+                "content": "That's sad.",
+                "meta": {
+                    "customName": "Stranger"
+                }
+            },
+            "1": {
+                "containerID": 1,
+                "content": "An avid smoker. When you don't have money, you can quit such a pernicious habit."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I hear cigarettes aren't cheap these days, but do you really like smoking so much that you're willing to buy them even piece by piece?"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I wouldn't say that; in fact, on the contrary, I recently quit. But just now I'm so frustrated that I'm forced to start again. It's not like I have any idea where I'm going.",
+                "meta": {
+                    "customName": "Stranger"
+                }
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Well, once you quit, there's no need to start over. I need to go to the same village, by the way."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "That's very good news. For me, of course. What's your name?",
+                "meta": {
+                    "customName": "Stranger"
+                }
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Ludwig Richter"
+            },
+            "7": {
+                "containerID": 7,
+                "content": "I'm Bruno Braun, I'd like to introduce myself. I hope I'm not bothering you yet.",
+                "meta": {
+                    "customName": "Stranger"
+                }
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Bruno, then... I don't even know how to feel about my new acquaintance. He seems harmless, but he's a little weird. Well, I certainly don't want to drive him away. At least I'll always have time to do it, and this way I won't die of boredom."
+            },
+            "9": {
+                "containerID": 9,
+                "content": "Let's get acquainted. What carriage are you in?"
+            },
+            "10": {
+                "containerID": 10,
+                "content": "Let's see...in the twelfth."
+            },
+            "11": {
+                "containerID": 11,
+                "content": "What a coincidence, I'll give you that. I'm riding in it, too."
+            },
+            "12": {
+                "containerID": 12,
+                "content": "Apparently we were both surprised at this coincidence."
+            },
+            "13": {
+                "containerID": 13,
+                "content": "Well, as it stands, I don't think we'll be parting company anytime soon."
+            }
+        },
+        "239": {},
+        "240": {
+            "0": {
+                "containerID": 0,
+                "content": "That's right! I was beginning to think it would be boring to go to the middle of nowhere like this. Not even anyone to talk to. Unless you're lucky enough to talk to the hillbillies going their way back home."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "You've suddenly changed your tone. Is it something to do with you not liking country folk?"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Why don't we use the first name? It's always nice to address strangers politely, but it's too formal. And I don't like formality when it comes to people I already know."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Well, if that's the case, go ahead."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Almost forgot, it's only an hour before the train leaves. It's time to start looking for the magnate's son. There's no time to sit still."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "My legs are a little stiff. I think I'll take a walk."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Well, I'll go with you then."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Said he'd follow me before I even suggested it. Apparently, he's not going to leave me alone."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "I started to look around. There were many people around, but no one who looked anything like the magnate's son."
+            },
+            "9": {
+                "containerID": 9,
+                "content": "While I was looking around, Bruno tried several times to approach different girls to get to know them. I wondered where his former politeness and caution had gone."
+            },
+            "10": {
+                "containerID": 10,
+                "content": "Again, I'm distracted. Perhaps the surest way to get on the trail is to go to the road and see if that car is there. It would be easy for me to recognize it, and I have the license plate number memorized and written down. "
+            },
+            "11": {
+                "containerID": 11,
+                "content": "We got closer to the road."
+            }
+        },
+        "241": {
+            "1": {
+                "containerID": 1,
+                "content": "I notice you're not walking aimlessly around the train station."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "You got me, I'll give you that. Well, what are you trying to say?"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I don't mean anything."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Why don't we slide down the hill?"
+            },
+            "5": {
+                "containerID": 5,
+                "content": "He pointed to a building attached to the hill. The bizarre roof of this building was a gentle iron slope. It really did look like a slide."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Are you kidding me?"
+            },
+            "7": {
+                "containerID": 7,
+                "content": "No, I'm dead serious, so what's it gonna be? Are we gonna roll?"
+            }
+        },
+        "243": {},
+        "244": {
+            "0": {
+                "content": "Slide",
+                "containerID": 0
+            },
+            "1": {
+                "content": "Refuse",
+                "containerID": 1
+            }
+        },
+        "245": {},
+        "246": {},
+        "247": {
+            "0": {
+                "containerID": 0,
+                "content": "I, of course, dislike the whole thing terribly. It sounds silly, and there are a lot of people around, but on the other hand, it's just a harmless mischief, so why not? And it's quicker to get to the road."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Here we go!"
+            }
+        },
+        "248": {},
+        "250": {
+            "0": {
+                "containerID": 0,
+                "content": "Before I knew it, I was downstairs. As I looked around, I realized that the passersby were staring at us, their faces astonishment bordering on bewilderment."
+            }
+        },
+        "252": {
+            "0": {
+                "containerID": 0,
+                "content": "Your offer doesn't inspire enthusiasm, and I don't really want to get injured. So I'll pass."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Then I'll do it alone!"
+            }
+        },
+        "253": {
+            "5": {
+                "containerID": 5,
+                "content": "I see you're in one piece, and judging by the look on your face, you're very happy with what you've accomplished. Your clothes, however, are much less fortunate."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Yeah, it was great! And the clothes, they're long since torn."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Guess you shouldn't rest on your laurels and perform a cooler trick next time."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "A zeppelin jump!"
+            }
+        },
+        "256": {},
+        "257": {},
+        "259": {
+            "0": {
+                "containerID": 0,
+                "content": "Bruno may be a fool, but he was very observant - he saw that I was not just walking around, but looking for someone."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "All right, let's go to the road, see if we can find what I need."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Let's go, and I'll get a snack."
+            }
+        },
+        "261": {},
+        "262": {
+            "0": {
+                "containerID": 0,
+                "content": "Suddenly I thought I saw Shiller's son, but at the same moment he was lost in the crowd. I need to take a cool look around me."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Aha, there he is!"
+            }
+        },
+        "264": {},
+        "265": {
+            "0": {
+                "containerID": 0,
+                "content": "You think it's ours?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I think so."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Let's hurry up, then!"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "And where are you so anxious to go...."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Who knows?"
+            },
+            "5": {
+                "containerID": 5,
+                "content": "We headed for the train. On the way, I thought about a plan of action: first I would take a seat, and then I would get to work."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Bruno's eyes were burning."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "I need to find out which carriage Mr. Shiller's son is in. And be careful about following him - it's very easy to give yourself away on a small train."
+            }
+        },
+        "266": {
+            "0": {
+                "containerID": 0,
+                "content": "No, no, I'm sorry. Your tickets?",
+                "meta": {
+                    "customName": "Conductor"
+                }
+            },
+            "1": {
+                "containerID": 1,
+                "content": "The conductor came to his senses and we were able to show him our tickets and go into the carriage. There were quite a few empty seats inside it."
+            }
+        },
+        "269": {
+            "0": {
+                "containerID": 0,
+                "content": "The train finally started moving, and Bruno appeared in the aisle."
+            }
+        },
+        "270": {
+            "5": {
+                "containerID": 5,
+                "content": "So, is being homeless your line of work?"
+            },
+            "6": {
+                "containerID": 6,
+                "content": "More or less. Okay, I’ll take a seat on the left."
+            }
+        },
+        "292": {},
+        "295": {
+            "0": {
+                "containerID": 0,
+                "content": "I returned to my carriage and went straight to the conductor."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Hello again… We still have a couple of stops ahead, and tomorrow we’ll reach the last settlement before Mittenwald. All in all, the journey takes three days.",
+                "meta": {
+                    "customName": "Conductor"
+                }
+            },
+            "2": {
+                "containerID": 2,
+                "content": "A serious mistake — not to ask how far we still had to go. It seemed that spying was starting to turn into a survival game aboard the train. At least I had some money with me. But how on earth did Schiller persuade his son to endure such a long journey?"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I seem to be making a disastrously large number of mistakes— even more than before. Once I’m back in my compartment, maybe I should rest. Sharing the news with Bruno wouldn’t hurt either. "
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Hello, could you tell me — how much longer until we reach Mittenwald?"
+            }
+        },
+        "300": {},
+        "302": {
+            "0": {
+                "containerID": 0,
+                "content": "Hey again, I’m just finishing up my supplies here."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I’ve come with news, but before I start, I’d recommend leaving the sandwiches alone."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Very well, I’m all ears."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "The journey to Mittenwald takes three days, including today."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Without a word, Bruno turned and tucked his sandwiches out of sight."
+            }
+        },
+        "303": {
+            "5": {
+                "containerID": 5,
+                "content": "No kidding! That’s quite a stretch… How about the stops?"
+            },
+            "6": {
+                "containerID": 6,
+                "content": "The conductor mentioned a few stops. Tomorrow we’ll arrive at the last station before Mittenwald, and after that — the final destination."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Well, I have money, and I hope you do too. We’ll figure something out."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "It looks like nothing could persuade him to leave the train at this point. "
+            },
+            "9": {
+                "containerID": 9,
+                "content": "Yes, you're right. Let's stock up at the nearest station."
+            },
+            "10": {
+                "containerID": 10,
+                "content": "I trust you."
+            },
+            "11": {
+                "containerID": 11,
+                "content": "Very well…"
+            },
+            "12": {
+                "containerID": 12,
+                "content": "After that, there was silence."
+            }
+        },
+        "306": {
+            "0": {
+                "containerID": 0,
+                "content": "We will be stopping for fifteen minutes! During this time, you may leave the carriage.",
+                "meta": {
+                    "customName": "Conductor"
+                }
+            },
+            "1": {
+                "containerID": 1,
+                "content": "What? Will we even have time to buy anything?"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "If we rush, we’ll have time. Let’s split up. Do you have enough money for the two of us, just in case? "
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Absolutely!"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Alright, let’s go. We can settle the money later."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "We stepped off the train and went our separate ways."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "A sharp voice from the conductor broke the silence."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Bruno gave me a puzzled look."
+            }
+        },
+        "309": {
+            "0": {
+                "containerID": 0,
+                "content": "The prices were far from pleasant, though what else could one expect from station stalls?.. After purchasing food for Bruno and myself, I couldn’t ignore how much my wallet had been drained."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "When we met up, it turned out we now had enough food to last us about a week."
+            }
+        },
+        "323": {
+            "0": {
+                "containerID": 0,
+                "content": "The minor issue was swiftly dealt with. Still, Schiller hadn’t mentioned how far the village was."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Besides, a man had tagged along behind me — coincidentally heading to the same village. Perhaps it was just a coincidence: after all, sending spy after spy would be a bit excessive."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Is there anything I should do about him? "
+            },
+            "3": {
+                "containerID": 3,
+                "content": "If Bruno is truly a spy, they might as well have sent him directly to follow Joseph. Why make it more complicated?"
+            }
+        },
+        "325": {
+            "0": {
+                "content": "Look out the window",
+                "containerID": 0
+            },
+            "1": {
+                "content": "Talk to Bruno",
+                "containerID": 1
+            }
+        },
+        "328": {
+            "0": {
+                "containerID": 0,
+                "content": "No books, no papers, nothing to occupy me. With nothing else to do, I’ll gaze out the window — perhaps to bring some order to my thoughts."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I started watching the view outside—fields and little clusters of trees fading into the distance. How marvelous it would be to behold the horizon so serenely in the city. In fact, I used to manage that as a child, but only at the railway station."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "In my childhood, I loved visiting the railway and waiting for the train—another iron beast rolling in. It felt as if magic had breathed life into that mass of metal."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I’d better check on Bruno. He..."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Better not to think about it."
+            },
+            "9": {
+                "containerID": 9,
+                "content": "When I grew up, the magic of these iron beasts faded, giving way to a realistic, scientific worldview— but only until recently. Now, troubling thoughts are relentlessly wearing away that foundation."
+            }
+        },
+        "329": {
+            "6": {
+                "containerID": 6,
+                "content": "I’ll leave him to his thoughts; it makes me uneasy otherwise."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "…"
+            }
+        },
+        "331": {},
+        "333": {
+            "0": {
+                "containerID": 0,
+                "content": "Why not talk a bit? There’s nothing else going on, and we already know each other a little."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Bruno, what will you do when you arrive at the village?"
+            }
+        },
+        "337": {},
+        "343": {},
+        "344": {},
+        "345": {},
+        "346": {
+            "0": {
+                "containerID": 0,
+                "content": "No matter how long I look, nothing changes outside the window. In the distance, there’s a forest, and right before me, a village."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "There was just one change I didn’t catch right away — it was already evening. My watch read 5:43 PM."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I’ve been up and about for almost twelve hours. Once I realized that, sleep hit me fast."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Having made plans for tomorrow, I began preparing for sleep."
+            }
+        },
+        "350": {},
+        "351": {},
+        "352": {
+            "0": {
+                "containerID": 0,
+                "content": "I’m standing in the middle of the line."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Bruno is standing in front of me. That’s good — maybe I’ll find out “where we are.”"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "So what are we waiting for? Where are we headed?",
+                "meta": {
+                    "customName": "I"
+                }
+            }
+        },
+        "354": {},
+        "356": {
+            "0": {
+                "containerID": 0,
+                "content": "The dream ended, and I found myself back on the very same train. I don't know when I fell asleep, but I woke up at seven o'clock in a sitting position. How I managed not to wake up even once remains a mystery to me."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I don't think I'll feel like going to bed as early today as I did yesterday."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I started looking around and noticed that Bruno was not there. Bruno must have decided to take a walk."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "But this is a good opportunity to test whether he is really spying on me. Now I can do what I planned: gather rumors."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "When he comes back, he may start looking for me, but that's not certain. We're on a train, and he may not care where exactly I am."
+            }
+        },
+        "360": {
+            "0": {
+                "content": "Stay",
+                "containerID": 0
+            },
+            "1": {
+                "content": "Go back",
+                "containerID": 1
+            }
+        },
+        "362": {},
+        "363": {},
+        "368": {
+            "0": {
+                "containerID": 0,
+                "content": "I’ll stay here. There’s nothing to do in my compartment anyway — Bruno probably still hasn’t come back. And I don’t really feel like spending the whole day staring out the window like I did yesterday."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "…Sometimes I overthink things, and I just want to be alone instead of looking for clues."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "<span class=\"breathOfWind isStyled\">*Whispering*...</span>&nbsp;<wait contenteditable=\"false\" class=\"cvne_customtag_wait\"></wait> <span class=\"breathOfWind isStyled cvne_selected\">*Whispering*...</span>"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "I guess nothing’s stopping me from doing both. I’ll just have to listen closely."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "I hope I catch at least something that interests me."
+            }
+        },
+        "370": {
+            "0": {
+                "containerID": 0,
+                "content": "Alright, I guess I’ll head back."
+            }
+        },
+        "373": {
+            "0": {
+                "containerID": 0,
+                "content": "While I was gone, Bruno was already back. And the main thing is, he’s fiddling with something in his hands — I can even guess what it is. "
+            }
+        },
+        "374": {},
+        "376": {
+            "0": {
+                "containerID": 0,
+                "content": "I got closer, and the sound became clearer."
+            }
+        },
+        "378": {
+            "0": {
+                "containerID": 0,
+                "content": "Hi, want to play?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Good morning, where did you get them?"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Well, I bought them at one of the stations where the train stopped this morning."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I would play, but not on the train, and certainly not for money."
+            }
+        },
+        "379": {
+            "4": {
+                "containerID": 4,
+                "content": "What’s with the distrust…"
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Trusting a stranger you just happened to meet isn’t very smart. Besides, we still have the return trip ahead, and if someone ends up without money, it’ll be tough. "
+            },
+            "6": {
+                "containerID": 6,
+                "content": "So, sorry, but I’m not going to play cards with you."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "How about we play anyway? You can pick any card game, and we won’t play for money!"
+            }
+        },
+        "380": {
+            "8": {
+                "containerID": 8,
+                "content": "I used to play cards a lot back in the day, but I gave it up. Maybe I should play? Got a return ticket anyway..."
+            },
+            "9": {
+                "containerID": 9,
+                "content": "Let things be as they will! I’ll play, despite the fact that he seems suspicious."
+            },
+            "10": {
+                "containerID": 10,
+                "content": "Let’s go for something exotic, so that others won’t join us. "
+            }
+        },
+        "381": {
+            "12": {
+                "containerID": 12,
+                "content": "Alright, let’s play Durak."
+            },
+            "13": {
+                "containerID": 13,
+                "content": "Durak? I’ve never heard of it before."
+            },
+            "14": {
+                "containerID": 14,
+                "content": "I’ll tell you about it — hardly anyone around here knows it, so no worries, no one else will jump in. The game’s super easy — any kid could pick it up in ten minutes."
+            },
+            "15": {
+                "containerID": 15,
+                "content": "He deftly began to shuffle the deck and, with equal briskness, dealt the cards while explaining the rules."
+            }
+        },
+        "382": {
+            "16": {
+                "containerID": 16,
+                "content": "I got a solid hand: three trumps — the ten, jack, and king of clubs. Plus the queen of hearts, the queen of spades, the king of diamonds, and, best of all, the six of hearts."
+            },
+            "17": {
+                "containerID": 17,
+                "content": "So, who makes the first move?"
+            },
+            "18": {
+                "containerID": 18,
+                "content": "Guess it’s you. I’ve got no trumps."
+            },
+            "19": {
+                "containerID": 19,
+                "content": "Ten of clubs — alright, I’ll go first."
+            },
+            "20": {
+                "containerID": 20,
+                "content": "I like this hand; I’ll keep it."
+            }
+        },
+        "383": {
+            "20": {
+                "containerID": 20,
+                "content": "I began my turn, just as I had planned, with the six."
+            },
+            "21": {
+                "containerID": 21,
+                "content": "You can’t take me down with low cards. "
+            },
+            "22": {
+                "containerID": 22,
+                "content": "Bruno beat my six with a seven."
+            },
+            "23": {
+                "containerID": 23,
+                "content": "Now it’s my turn. "
+            },
+            "24": {
+                "containerID": 24,
+                "content": "Ten on the table."
+            }
+        },
+        "419": {
+            "0": {
+                "containerID": 0,
+                "content": "Spying"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "To the dining car"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Snoop around"
+            }
+        },
+        "426": {
+            "0": {
+                "containerID": 0,
+                "content": "To spy… I am not even certain upon whom."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "On the train staff. What if they’re not doing their job?"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "And why would we need that? I don’t think most of the staff’s work really matters to us anyway."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "We’ll demand that they do their job, or else we’ll sue!"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "That would constitute blackmail rather than espionage."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "I’d better stop him with this idea, or something bad might happen and we’ll have to get off the train early."
+            }
+        },
+        "428": {
+            "0": {
+                "containerID": 0,
+                "content": "Let’s go to the dining car."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "But you didn’t want to…"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I didn’t want to, and I still don’t. Besides, I’m not hungry, and I don’t have much money."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I just want to see what they serve there. Who knows, maybe next time I travel by train I’ll feel like having something to eat. "
+            }
+        },
+        "478": {},
+        "479": {},
+        "481": {
+            "0": {
+                "containerID": 0,
+                "content": "While we were engaged in these so-called \"adventures,\" the train had already made two stops. And now, as we were sitting in our compartment, it came to a halt once more."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "There are significantly fewer passengers in our carriage now. The train is making stops more frequently than it did at the start of the journey."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I looked at Bruno, and he was in the same condition as yesterday: visibly tense, staring fixedly at one point. Perhaps his anxiety is caused by the large number of people on the train."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I could talk to Bruno, but I don’t think it’s a good idea to bother him."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "In that case, I can go on a little reconnaissance myself. I’ll take a walk and organize my thoughts. "
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Before leaving, I take one last look around the carriage. There are only a few people left: Bruno, some strangers, and the conductor."
+            }
+        },
+        "484": {
+            "0": {
+                "containerID": 0,
+                "content": "I walked through all the cars I could get into and saw that almost all the passengers got off at the last stop. Maybe the train will be even emptier at the next stop. Then it’ll be no different from the village it’s heading to..."
+            }
+        },
+        "499": {
+            "0": {
+                "containerID": 0,
+                "content": "Yeah, I’m back — but what now?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Bruno’s already out, fast asleep."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "All around, it is unusually quiet — only the hum of the train and the clatter of the wheels on the rails."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "And then I realize… the train has almost completely emptied. Apparently, there were stops, and people got off."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Without fully realizing it, I repeated to myself once more: there is hardly anyone left on the train, it is unusually quiet, and Bruno is asleep. "
+            }
+        },
+        "501": {},
+        "502": {},
+        "503": {
+            "0": {
+                "containerID": 0,
+                "content": "After an endless sleep, all I could do was lie down and try to fall asleep again."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I stretched out on the spacious, empty bench and closed my eyes…"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "But it seems I’ve already had too much sleep. My eyelids refuse to close despite all my efforts, yet the strange heaviness in my head compels me to keep trying."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I might have been able to fall asleep if I weren’t constantly tossing and turning, but it’s so uncomfortable here — a hard berth covered in leather."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "And so, hour after hour passed. It seemed to me that twelve hours must have gone by already, and it should be light outside."
+            }
+        },
+        "506": {},
+        "507": {
+            "0": {
+                "containerID": 0,
+                "content": "Fine, if I can’t sleep, I’ll just think instead."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "So many events have already taken place that caught my attention:"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "A wealthy man asked me to watch over his son;<wait contenteditable=\"false\" class=\"cvne_customtag_wait\"></wait> a certain Bruno Brown, by the will of “chance,” is also heading to the same village;"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "There are too few conductors on the train;<wait contenteditable=\"false\" class=\"cvne_customtag_wait\"></wait> and an elderly couple told me about what had been happening in their village."
+            }
+        },
+        "508": {},
+        "509": {},
+        "510": {
+            "0": {
+                "containerID": 0,
+                "content": "And then it struck me: the train was standing still. The sound of the wheels had long since ceased, and the carriage no longer shook."
+            }
+        },
+        "513": {
+            "0": {
+                "containerID": 0,
+                "content": "There’s no answer, and the door is locked. In that case, I’ll keep going — someone’s bound to open up."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Looks like I’ll have to knock on every conductor’s cabin — there are fewer of them than there are carriages."
+            }
+        },
+        "515": {
+            "0": {
+                "containerID": 0,
+                "content": "Silence again — but that’s alright, I’ll find them."
+            }
+        },
+        "517": {
+            "0": {
+                "containerID": 0,
+                "content": "Not here either."
+            }
+        },
+        "519": {
+            "0": {
+                "containerID": 0,
+                "content": "Once again, no reply."
+            }
+        },
+        "521": {
+            "0": {
+                "containerID": 0,
+                "content": "This is starting to get unsettling; it feels as if the conductors have vanished from the train."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "But as I was passing through, I did see a few people around. I even spotted an old couple asleep. Okay, I’ll head on — maybe someone down the way isn’t asleep."
+            }
+        },
+        "523": {
+            "0": {
+                "containerID": 0,
+                "content": "One more time."
+            }
+        },
+        "525": {
+            "0": {
+                "containerID": 0,
+                "content": "One more time."
+            }
+        },
+        "527": {
+            "0": {
+                "containerID": 0,
+                "content": "So what? Are they nowhere to be found, or is everyone just asleep?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "If everyone’s asleep, I could try sneaking into that second car — the one where the magnate’s son is supposed to be."
+            }
+        },
+        "528": {},
+        "531": {},
+        "532": {
+            "0": {
+                "containerID": 0,
+                "content": "You could say it was just as calm here as in the rest of the train, but the moment I stepped inside, I felt the difference — it was noticeably colder. No wonder, the door to the vestibule was wide open."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "In the remaining carriages, the doors were shut."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "There are no conductors to be seen, and the conductor’s compartment stands wide open. Could it be that they all went outside?"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I’m not sure I want to follow them off the train. Last time I didn’t really get a chance to look around, so I’d better make up for it now."
+            }
+        },
+        "533": {},
+        "534": {},
+        "562": {
+            "0": {
+                "containerID": 0,
+                "content": "<div>I'm in the middle of a city.</div><div>And the sun is blazing over it:</div><div>hot enough to make my skin itch.</div>"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I need to find a place to hide!"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I see an awning in the distance<div>and I head over there, but when I get under it,</div><div>the sun suddenly gets even hotter.</div>"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "At the same moment,<div>letters sprinkled from the sky.</div>"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "<div>I haven't even opened them, but I already know</div><div>what's written in each one.</div>"
+            },
+            "5": {
+                "containerID": 5,
+                "content": "They contain curses, insults, and...."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "So much hotter,<div>that my skin cracked with pain.</div>"
+            }
+        },
+        "579": {},
+        "581": {},
+        "589": {},
+        "591": {
+            "3": {
+                "containerID": 3,
+                "content": "Damn it, where is he? If he's still in the store, I need to find him, and if he's already gone, I need to find a lead."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Calm down! I can always just go to the station and wait for him there. I'll stand outside the store for another ten minutes."
+            }
+        },
+        "593": {
+            "3": {
+                "containerID": 3,
+                "content": "Some girl in a red dress is walking with him. Ah, dang, so he's not alone...."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "They headed down the road. Well, I'll follow them."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "After walking about a hundred meters through the park, they began to gradually shift towards the road."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "And then I notice a car a little farther away. They're definitely heading towards it."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "What should I do? If they get in it, I'll never catch up with them. "
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Need to come up with something... Bicycles? Cabs? As luck would have it, there was none of that around. "
+            }
+        },
+        "595": {
+            "8": {
+                "containerID": 8,
+                "content": "While I was thinking about my next steps, Shiller's son and his companion had already gotten into the car and promptly drove away."
+            }
+        },
+        "600": {
+            "1": {
+                "containerID": 1,
+                "content": "I apologize for disturbing you. Can I ask you a question?",
+                "meta": {
+                    "customName": "Stranger"
+                }
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Though the stranger spoke deliberately loudly, but in his intonation one could clearly hear a respect for his interlocutor."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "You may ask."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Do you know where the village of Mittenwald is found?",
+                "meta": {
+                    "customName": "Stranger"
+                }
+            },
+            "5": {
+                "containerID": 5,
+                "content": "I know, in the south of our country. In the middle of nowhere, you might say."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "In the middle of nowhere, then... doesn't sound like much. The important thing is that I finally got an answer!",
+                "meta": {
+                    "customName": "Stranger"
+                }
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Do you happen to know if there's anything interesting there? Or is it completely out of the woods that you can't find anything?",
+                "meta": {
+                    "customName": "Stranger"
+                }
+            },
+            "8": {
+                "containerID": 8,
+                "content": "The stranger clearly looked interested."
+            },
+            "9": {
+                "containerID": 9,
+                "content": "I wish I knew more about this village myself."
+            },
+            "10": {
+                "containerID": 10,
+                "content": "All right, all right. Would you be willing to sell me one cigarette?",
+                "meta": {
+                    "customName": "Stranger"
+                }
+            },
+            "11": {
+                "containerID": 11,
+                "content": "Troubled? I'm not surprised: his looks speak for himself, he can't even afford cigarettes."
+            },
+            "12": {
+                "containerID": 12,
+                "content": "Uh... sorry I don't smoke, I don't have any."
+            },
+            "13": {
+                "containerID": 13,
+                "content": "I squinted my eyes."
+            }
+        },
+        "602": {
+            "2": {
+                "containerID": 2,
+                "content": "Bruno jumped up and slid down. I followed his example, but decided to roll a little to the left so that I wouldn't hit him."
+            }
+        },
+        "606": {
+            "1": {
+                "containerID": 1,
+                "content": "Shifting my gaze to Bruno, I noticed that his cloak was torn."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Bruno, your cape seems to have suffered a bit."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "It's not exactly new anyway. It's a shame about yours, though."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Well, there was even less point to this pampering."
+            }
+        },
+        "610": {
+            "6": {
+                "containerID": 6,
+                "content": "The conductor was standing at the entrance to the twelfth car. He had already checked the tickets of several people, but when the turn came to us, he froze silently. "
+            },
+            "7": {
+                "containerID": 7,
+                "content": "…",
+                "meta": {
+                    "customName": "Conductor"
+                }
+            },
+            "8": {
+                "containerID": 8,
+                "content": "I'm sorry, are you all right?"
+            },
+            "9": {
+                "containerID": 9,
+                "content": "Did he fall asleep?"
+            },
+            "10": {
+                "containerID": 10,
+                "content": "Only four doors were opened — those of the twelfth, eighth, fifth, and second carriages. When our turn arrived, the conductor halted, his mouth closing in silence."
+            }
+        },
+        "612": {
+            "7": {
+                "containerID": 7,
+                "content": "All of a sudden, Bruno remembered his treasured cigarette and, the moment he set foot in the carriage, darted back out onto the platform for a smoke. I just shrugged and headed off to grab my seat and check out the surroundings. "
+            },
+            "8": {
+                "containerID": 8,
+                "content": "The train’s interior immediately betrayed its age: the wood paneling had long since faded in the sun, patches of rust showed on the metal window frames, and the leather seats looked a bit worn."
+            },
+            "9": {
+                "containerID": 9,
+                "content": "My seat was at the far right side of the carriage, where there were far fewer people. Quite convenient, since I was planning to leave it rather often."
+            },
+            "10": {
+                "containerID": 10,
+                "content": "It just hit me how much trouble Bruno could cause. With the way he acts on impulse, keeping things low-key is gonna be tough. And honestly, I’m not even sure I can trust him. Sure, he doesn’t know anything about me, but I don’t need any extra eyes on what I’m doing."
+            },
+            "11": {
+                "containerID": 11,
+                "content": "I got comfortable in my seat and stared out the window. Right next to it, someone — probably some kids — had scratched a little devil. You don’t see that too often: normally, vandalism gets you a fine, and they fix it right away. But not this time, for some reason. Funny."
+            }
+        },
+        "620": {},
+        "623": {
+            "1": {
+                "containerID": 1,
+                "content": "So many empty seats… I’m not even sure which one to take."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Cheerful notes crept into his words despite his sad face. It was clear that with each word, his optimism was returning."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Looks like you’re up and running again."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "I’m always up and running."
+            }
+        },
+        "636": {
+            "0": {
+                "containerID": 0,
+                "content": "Listening to birdsong is the best way to relax. I always come here to distract myself. "
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I wanted the little birds to relieve my tension this time too, but since the morning I have been plagued by an unrelenting anxiety."
+            }
+        },
+        "638": {
+            "2": {
+                "containerID": 2,
+                "content": "I really want to keep listening to the birds singing and enjoying the air in the park, but the moment of the appointment is approaching and with it one memory of my past."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I don't want to think about this case, but I can't stop thinking about it."
+            }
+        },
+        "639": {},
+        "640": {
+            "0": {
+                "containerID": 0,
+                "content": "It turned out that each time the notes got to her in different ways: delivered by a messenger from the postal company; some stranger, according to neighbors, left them right at the door; children from another neighborhood handed them to her personally!"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "The delivery man worked for a company that wouldn't tell me anything."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "There was no clear evidence on any of the letters. If someone happened to get their hands on this letter, they would first think it was a blank sheet of paper."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "And the neighbors either did not remember or did not consider the stranger's appearance."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "After all, not a single word was written on it. Instead, the perpetrator had carefully shredded the paper with something like glass, leaving his message in thin block letters."
+            }
+        },
+        "641": {
+            "0": {
+                "containerID": 0,
+                "content": "There were no assumptions as to who would do such a thing, so I decided to first look for the children who had brought the letter to the girl."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "As it turned out, they were from another neighborhood in the suburbs."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Although the girl described each of them well, I spent a decent amount of time looking for them - several days."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "By the time they told me what the man who sent the letters looked like, it was late evening. "
+            },
+            "4": {
+                "containerID": 4,
+                "content": "How I wondered then if she knew the man the children described."
+            }
+        },
+        "642": {
+            "5": {
+                "containerID": 5,
+                "content": "I didn't get a chance to talk to her, by then she was already dead."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "I didn't think at the time that a man who allowed himself to be seen by so many people was ready for anything."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "I didn't think to give her any protection. Instead, I was completely immersed in the investigation."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Wish I knew why she came to me and not the police. But now it's a closed door."
+            },
+            "9": {
+                "containerID": 9,
+                "content": "He killed her with a knife in an alley. Just like my nightmare."
+            }
+        },
+        "643": {
+            "10": {
+                "containerID": 10,
+                "content": "All my recent dreams have been nightmares."
+            },
+            "11": {
+                "containerID": 11,
+                "content": "In them, I kill people, and those people are familiar to me."
+            },
+            "12": {
+                "containerID": 12,
+                "content": "They were victims in cases I investigated."
+            },
+            "13": {
+                "containerID": 13,
+                "content": "Not all of them were killed. Some were saved from the threat. "
+            },
+            "14": {
+                "containerID": 14,
+                "content": "Those damn dreams in which I find myself in the murderer's shoes keep me uneasy."
+            }
+        },
+        "644": {
+            "15": {
+                "containerID": 15,
+                "content": "The feeling of dread is slowly starting to return, and the better I remember each dream, the stronger the panic becomes."
+            }
+        },
+        "646": {
+            "3": {
+                "containerID": 3,
+                "content": "Greetings, Mr. Shiller. Let's get to the point."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "For a serious job. I heard from a friend of mine that you were pretty desperate after your last case. "
+            },
+            "5": {
+                "containerID": 5,
+                "content": "You want to hire me for an investigation?"
+            },
+            "6": {
+                "containerID": 6,
+                "content": "That's what I thought!"
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Of course! I just want to ask you first. Are you up for it?"
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Up for what? "
+            }
+        },
+        "649": {
+            "16": {
+                "containerID": 16,
+                "content": "\"Pull yourself together!\" - I said, trying to regain myself."
+            },
+            "17": {
+                "containerID": 17,
+                "content": "The time of our meeting is at hand, and I am going to Mr. Shiller."
+            }
+        },
+        "651": {
+            "0": {
+                "containerID": 0,
+                "content": "&nbsp; &nbsp; A week had passed since our last meeting. All this time I had been trying to figure out why Mr. Shiller had come to me. To tell the truth, at first my attempts were fruitless.<div><br></div><div>&nbsp; &nbsp; But in the last couple of days, I've been able to find out a few things. I'll start with Shiller's son: about six months ago, he attended the opening of the new plant as one of his representatives. Apparently, Shiller himself owns the plant. Perhaps he was trying to get his son into a work place in this way. But that's strange: why not just choose some management position for him?&nbsp;▼</div>"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "&nbsp; &nbsp; What adds to the strangeness of this news is the newspaper in which I found it - it was printed by a very dubious publication that closed down about four months ago. ▼"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "&nbsp; &nbsp; The newspaper headline read: \"The son of a local oligarch thinks he's a prince and fears for his life!\". It seems that Shiller's son was indeed frightened: he caused quite a scandal at the opening of the factory, accusing one of the attendees of making an attempt on his life.<div><br></div><div>&nbsp; &nbsp; Nevertheless, it did not come to court proceedings, and the \"suspected assassin\" was left alone: I decided to check this out personally and visited the accused. Unfortunately, the meeting was unsuccessful: he refused to comment and sent me away. ▼</div>"
+            }
+        },
+        "652": {
+            "1": {
+                "containerID": 1,
+                "content": "&nbsp; &nbsp; Another curious fact is related to the \"silence\" of other publishers on the subject of the incident. Considering that the only newspaper that decided to cover the events closed down after a while, the conclusion is that Mr. Shiller did his best here.<div><br></div><div>&nbsp; &nbsp; He really didn't want the rumors to start. After all, this was clearly a case of paranoia, not an actual assassination attempt. ▼</div>"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "&nbsp; &nbsp; It also explains why he decided to hire me, not the most famous detective - he doesn't want a scandal, which is quite possible if you offer the job to a mere guard or, on the contrary, to someone with a big name.<div><br></div><div>&nbsp; &nbsp; Although... There is another option: others already know what his son is, and do not want to interfere, so as not to get themselves in trouble. The third fact that I found out is related to Mr. Shiller and his activities. Of course, these are all rumors, but it is not superfluous to pay attention to them. ▼</div>"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "&nbsp; &nbsp; About a year ago, someone sponsored a political party called the Free Way. It is still unknown who it was, but since then Mr. Shiller has been frequently seen with representatives of this very party. ▼"
+            }
+        },
+        "653": {
+            "2": {
+                "containerID": 2,
+                "content": "&nbsp; &nbsp; There were rumors that he was the sponsor. But that's not all... About five months ago, a terrorist attack organized by a radical political group, a staunch opponent of the Free Way, was thwarted. ▼"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "&nbsp; &nbsp; One of the detainees stated: \"They will not stop until they are heard. The Free Way Party and those who help them must be destroyed\".<div><br></div><div>&nbsp; &nbsp; Of course, I am not sure that the danger really exists. And the radical organization, according to the authorities, was completely destroyed two months ago. ▼</div>"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "&nbsp; &nbsp; But should I take such a strange job, and with Shiller's son? I found him to be an unpleasant man from the start.<div><br></div>&nbsp; &nbsp;&nbsp;Incidentally, so does Shiller himself, who keeps all newspapers on a short leash. Although we should not jump to conclusions here, the newspaper that was shut down does not inspire confidence with its screaming headlines either."
+            }
+        },
+        "658": {
+            "5": {
+                "containerID": 5,
+                "content": "It's been a few months now. During this time I was able to get a job as a lawyer. I knew the law quite well, so it was easy for me to start my new position."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "I've gotten pretty good at it, much better than at detective work, so I've been able to pay off most of my debts. I hope to be able to get rid of them soon."
+            }
+        },
+        "659": {
+            "7": {
+                "containerID": 7,
+                "content": "The most important thing that changed in my life was that the nightmares disappeared. Of course, at first they still visited me, but it was so long ago that now it seems as if everything was happening to another person."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "And everything seems fine, but I keep feeling like I'm forgetting something."
+            }
+        },
+        "684": {},
+        "701": {},
+        "720": {},
+        "721": {},
+        "722": {},
+        "727": {},
+        "734": {},
+        "735": {},
+        "737": {
+            "0": {
+                "containerID": 0,
+                "content": "I hope it all goes smoothly."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Although who am I kidding?"
+            }
+        },
+        "739": {},
+        "752": {},
+        "757": {
+            "2": {
+                "containerID": 2,
+                "content": "What's your hurry?"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "The magnate smiled unnaturally. Oh, not for nothing."
+            }
+        },
+        "759": {
+            "4": {
+                "containerID": 4,
+                "content": "You see...<wait contenteditable=\"false\" class=\"cvne_customtag_wait\"></wait> I have entrusted my son with a very important matter. But I'm still not sure that he's taken full responsibility for it."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "The request must have seemed very strange to you."
+            }
+        },
+        "761": {
+            "4": {
+                "containerID": 4,
+                "content": "An unusual offer. It's not exactly detective work, but it pays well. I need to find out exactly why Mr. Shiller wants surveillance. Maybe his son's too young and his father wants a babysitter."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "It's a very hard to refuse such an offer, but I'd like to ask a couple questions."
+            }
+        },
+        "765": {
+            "3": {
+                "containerID": 3,
+                "content": "The Magnate laughed loudly with a gruff but good-natured laugh."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Don't worry, you're in no danger: escort my son and then report back to me. That will be the end of your work."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Oh, well, that's comforting, isn't it? "
+            }
+        },
+        "767": {
+            "2": {
+                "containerID": 2,
+                "content": "You have two weeks to think it over. My son must leave for the village within twenty days."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "To accompany the \"prince\", my detective skills will definitely come in handy.... "
+            }
+        },
+        "777": {},
+        "801": {
+            "1": {
+                "containerID": 1,
+                "content": "Realizing that I was in no position to chase this car on my own two feet, I decided that it would be better to just show up at the train station. A decision with absolutely no pretensions whatsoever. Perhaps I should have prepared better, but it was impossible."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Practically the entire advance I spent on paying off my debts. It makes sense that the son of a magnate would have a car, and I knew it myself. But what could I do without money? I couldn't even buy a bicycle, and the surveillance would be over in no time."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "A lone madman trying to chase a car on a bicycle...."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Rather listen to the birds than keep imagining a chase that didn't happen."
+            }
+        },
+        "846": {},
+        "856": {},
+        "875": {},
+        "878": {},
+        "880": {},
+        "918": {
+            "2": {
+                "containerID": 2,
+                "content": "Daredevil rushed forward and almost tripped before the edge and rolled down."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Lucky him, but even from above you could see that he had torn his cloak."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "I quickly walked down the long driveway to him - I had to make sure he hadn't injured anything."
+            }
+        },
+        "925": {
+            "3": {
+                "containerID": 3,
+                "content": "We came to the road and Bruno went about his business. We split up, but agreed to meet at the same place in a couple of minutes."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "…"
+            },
+            "5": {
+                "containerID": 5,
+                "content": "…"
+            },
+            "6": {
+                "containerID": 6,
+                "content": "While I was walking alone, I managed to find the car I was looking for. So Mr. Shiller's son did make it to the station, which means everything's going according to plan so far. Oh, that's great."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Well, it's time to head back to the rendezvous point. I wouldn't be surprised if my new comrade disappears, carried away by a new \"great\" idea."
+            }
+        },
+        "928": {
+            "3": {
+                "containerID": 3,
+                "content": "Bruno was already waiting at the meeting place."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "You're punctual."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "I thought I was the one who would have to wait for him, but it turned out to be the other way around. But maybe he just stuck to me like a bath sheet."
+            }
+        },
+        "929": {
+            "2": {
+                "containerID": 2,
+                "content": "Now I know for sure he's here. Good, I can go to Bruno and wait for the train, which will arrive at the station soon. "
+            }
+        },
+        "938": {},
+        "941": {},
+        "944": {},
+        "947": {},
+        "950": {
+            "0": {
+                "containerID": 0,
+                "content": "This is the end of the demo."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Just some text."
+            }
+        },
+        "963": {},
+        "964": {},
+        "965": {
+            "0": {
+                "containerID": 0,
+                "content": "&nbsp; &nbsp; Sdfsdf df sdfsd fsdf sdfds fsdf sdfsdfsdfsdf&nbsp;sdfsd fsdf sdfds fsdf sdfsdfsdfsdf&nbsp;sdfsd fsdf sdfds fsdf sdfsdfsdfsdf&nbsp;sdfsd fsdf sdfds fsdf sdfsdfsdfsdf&nbsp;sdfsd fsdf sdfds fsdf sdfsdfsdfsdf&nbsp;sdfsd fsdf sdfds fsdf sdfsdfsdfsdf.<div><br></div><div>&nbsp; &nbsp; Sfsdfsdfsd sdfsdf dsfsdfsdfsdfsddfsdfsdf sdfdsf&nbsp;sdfsd fsdf sdfds fsdf sdfsdfsdfsdf sdfsd fsdf sdfds fsdf sdfsdfsdfsdf sdfsd fsdf sdfds fsdf sdfsdfsdfsdf sdfsd fsdf sdfds fsdf sdfsdfsdfsdf sdfsd fsdf sdfds fsdf sdfsdfsdfsdf sdfsd fsdf sdfds fsdf sdfsdfsdfsdf</div>"
+            }
+        },
+        "967": {
+            "0": {
+                "containerID": 0,
+                "content": "I saw a dream like mist, and mist like a dream.<div>Perhaps even now I am seeing yet another dream?</div>"
+            }
+        },
+        "968": {
+            "0": {
+                "containerID": 0,
+                "content": "End of demo"
+            }
+        },
+        "979": {},
+        "1031": {
+            "9": {
+                "containerID": 9,
+                "content": "The license plate number and model of the car I remembered, but I don't think it will do me any good now. I'll walk around, see if I'm lucky, and they stopped nearby."
+            },
+            "10": {
+                "containerID": 10,
+                "content": "If I don't find anything, I'll just go to the station. I hope he goes there, too. "
+            }
+        },
+        "1062": {},
+        "1064": {},
+        "1079": {
+            "0": {
+                "containerID": 0,
+                "content": "No one’s here."
+            }
+        },
+        "1093": {
+            "0": {
+                "containerID": 0,
+                "content": "And the next one is empty as well."
+            }
+        },
+        "1095": {
+            "0": {
+                "containerID": 0,
+                "content": "Surely there will be someone in the next carriage?"
+            }
+        },
+        "1099": {
+            "0": {
+                "containerID": 0,
+                "content": "I’ve already gone through eleven carriages but still haven’t found who I’m looking for. Could it be that Schiller’s son didn’t get on the train? "
+            },
+            "1": {
+                "containerID": 1,
+                "content": "No way, I saw him myself at the station... Anyway, there’s still one carriage left — he has to be there."
+            }
+        },
+        "1105": {
+            "0": {
+                "containerID": 0,
+                "content": "I didn’t get to look around the carriage for long — out of nowhere, the conductor appeared, probably wanting to kick me out quickly."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Hellooo, how can I help you?",
+                "meta": {
+                    "customName": "Conductor"
+                }
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Whether it was nerves or just how he talks, the conductor had a bit of a lisp."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Nothing, actually. I just wish to pass through, thank you."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "You are not permitted to proceesss further. Thisss carriage isss private.",
+                "meta": {
+                    "customName": "Conductor"
+                }
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Private? Someone’s personal space, and the owner doesn’t want people going in?"
+            },
+            "6": {
+                "containerID": 6,
+                "content": "You have underssstood correctly.",
+                "meta": {
+                    "customName": "Conductor"
+                }
+            },
+            "7": {
+                "containerID": 7,
+                "content": "That’s a clue. And a pretty promising one. This bought-out carriage definitely belongs to a rich guy. Plus, it looks a bit different inside from the others."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "You could say the scouting went well. "
+            },
+            "9": {
+                "containerID": 9,
+                "content": "It’s time to return and clarify the final question: how much longer is the journey?"
+            }
+        },
+        "1113": {},
+        "1128": {
+            "0": {
+                "containerID": 0,
+                "content": "Ludwig, it seems we may have gone a little overboard."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I see... Honestly, I didn’t expect to spend that much just on food. Now I’ll have to be more careful with money."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "You know, can I buy the extra food from you? "
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Why would he need it? He also has a large amount of food."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "I’m not sure… it’s just that you also seem to have a lot of food."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Yeah, but what difference does it make? My job is to offer, and it’s up to you to say yes or no."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Getting some money back sounds good, but it’s kind of awkward to take Bruno’s weird offer. Otherwise, it looks like he’s the one who overpaid for food he won’t even eat. "
+            }
+        },
+        "1129": {
+            "0": {
+                "containerID": 0,
+                "content": "Sell the supplies"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Share"
+            }
+        },
+        "1130": {
+            "0": {
+                "containerID": 0,
+                "content": "Very well."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Great!"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Bruno promptly took out his well-used wallet and quickly began counting the money."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "How much are you willing to sell me half for?"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "For the same price I bought it for."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "I don’t want to make a profit off a fool. That wouldn’t be gentlemanly."
+            }
+        },
+        "1133": {
+            "0": {
+                "containerID": 0,
+                "content": "You know what?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "What?"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "He was already pulling out his wallet. "
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I don’t want to sell you this food. It’s not just me who’s spent extra money — you have too."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Don’t be silly, I’m the one with the demand and you’ve got the goods. I don’t see any problem selling you what I want to buy myself."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "I’ve got a better idea. Since we both spent a lot and neither of us can eat all this alone, why not combine our supplies and enjoy the food together during the whole trip?"
+            }
+        },
+        "1139": {
+            "0": {
+                "containerID": 0,
+                "content": "Too bad, you could’ve added like ten percent extra."
+            }
+        },
+        "1140": {
+            "1": {
+                "containerID": 1,
+                "content": "Is he seriously proposing to deceive himself financially? I absolutely refuse to do that."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "We calmly exchanged the goods at a completely fair price and headed back."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Alright, the hit to my wallet doesn’t feel so bad now. But the question is, why does Bruno need all this? He’s not gonna eat it himself!"
+            }
+        },
+        "1142": {
+            "0": {
+                "containerID": 0,
+                "content": "You’re proposing to combine our supplies? What if I consume everything on my own? Wouldn’t that be unfair?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Go ahead, if you’re not afraid to be tough on yourself. "
+            },
+            "2": {
+                "containerID": 2,
+                "content": "But I insist you think it over before answering. You made the offer, and I gave my reply. So don’t rush."
+            }
+        },
+        "1144": {
+            "0": {
+                "containerID": 0,
+                "content": "He looked at his wallet, then at me, and then at our food supplies. "
+            },
+            "1": {
+                "containerID": 1,
+                "content": "You know what, you’re right. Now I actually like your idea even more. That way, we can pick what and when to eat. "
+            },
+            "2": {
+                "containerID": 2,
+                "content": "That’s settled then."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "And that was the agreement."
+            }
+        },
+        "1150": {
+            "0": {
+                "containerID": 0,
+                "content": "I don’t think I’ll bother with that. Even if he is following me, it changes nothing for me. After all, maybe he’s just watching to make sure I don’t lie to Schiller about keeping an eye on his son in the city."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Now, until I arrive, I’ll have plenty of free time. I need to find something to do so I don’t die of boredom. But what?"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I suspect where the magnate’s son is, but I’ll try to confirm later what’s happening with him. The key is to stay unnoticed."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Alright, it’s time to move on."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Besides, it’s not exactly clear how I could discover Bruno’s motives without asking him directly."
+            }
+        },
+        "1151": {
+            "4": {
+                "containerID": 4,
+                "content": "He sits, observing the passengers in turn, intensely focused — perhaps even a bit tense."
+            },
+            "10": {
+                "containerID": 10,
+                "content": "His gaze now drifts across the carriage, and it seems he sees nothing else — not even what he’s looking at."
+            }
+        },
+        "1163": {
+            "2": {
+                "containerID": 2,
+                "content": "Not certain yet, but chances are I’ll get a ticket to another place and keep moving on."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "“Somewhere,” you say — as if you have endless money and can roam the country forever."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Around the country, and if I wish, even beyond. That’s right! Beyond the borders! How did I never consider that before? You just sparked a great idea."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "When I arrive at that village, I’ll catch the first train back to the capital. From the capital, I’ll set off for other countries — heading south sounds good."
+            }
+        },
+        "1165": {
+            "0": {
+                "containerID": 0,
+                "content": "It's hard to believe his words — they sound too much like bravado."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Good luck, then. Hope you find what you're after."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I’m not after anything, just out there wandering."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "And how far have you traveled so far?"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Not too far yet. Hit three or four big cities and a couple of provinces. But I stuck around in the cities for a good while."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "As for me, I've lived in the same city my whole life. I've visited other places, but only for vacations."
+            }
+        },
+        "1167": {
+            "0": {
+                "containerID": 0,
+                "content": "You're lucky. I've never had a real vacation in my life."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Really? That’s a bit hard to believe."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I don’t really believe it myself, even though I said it. Just never gone anywhere just to chill."
+            }
+        },
+        "1168": {
+            "0": {
+                "containerID": 0,
+                "content": "Maybe this village could be your chance — if you decide to stick around, that is."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "You’re right, it all depends on me, and now I’ve decided to go abroad!"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Good luck with whatever you’re up to..."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "This conversation wasn’t long, but it has quite tired me. I’d better take a look outside the window and rest for a bit."
+            }
+        },
+        "1170": {
+            "3": {
+                "containerID": 3,
+                "content": "I don’t know; they told us to wait, so we wait.",
+                "meta": {
+                    "customName": "He"
+                }
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Who told you that?",
+                "meta": {
+                    "customName": "I"
+                }
+            },
+            "5": {
+                "containerID": 5,
+                "content": "He didn’t introduce himself.",
+                "meta": {
+                    "customName": "He"
+                }
+            },
+            "6": {
+                "containerID": 6,
+                "content": "All of a sudden the line moved, and we all stepped forward together, in sync. Where are we going? And why?"
+            }
+        },
+        "1173": {},
+        "1174": {
+            "0": {
+                "containerID": 0,
+                "content": "I am standing in line. In front of me there are four more people, and behind me about thirteen."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I look around and spot Bruno."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Hey, Bruno, what are you doing here?",
+                "meta": {
+                    "customName": "I"
+                }
+            }
+        },
+        "1176": {
+            "0": {
+                "containerID": 0,
+                "content": "Just waiting for us to finally get going! Man, I can’t stand waiting."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Where are we going? And for what purpose?",
+                "meta": {
+                    "customName": "I"
+                }
+            },
+            "2": {
+                "containerID": 2,
+                "content": "No idea, he didn’t tell me."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Who is “he”?",
+                "meta": {
+                    "customName": "I"
+                }
+            },
+            "4": {
+                "containerID": 4,
+                "content": "He introduced himself as Charon, said that he is a carrier of things."
+            }
+        },
+        "1177": {},
+        "1178": {
+            "5": {
+                "containerID": 5,
+                "content": "Carrier? But we don’t have anything with us."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "A man dressed like a real train conductor came down from above."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Have you left everything behind? Then let’s proceed.",
+                "meta": {
+                    "customName": "Charon"
+                }
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Finally, our carrier waved his hand, and we suddenly moved forward, one after another…"
+            }
+        },
+        "1181": {
+            "4": {
+                "containerID": 4,
+                "content": "But the main thing is, even if he is following me, it's not a fact that he was hired by the magnate..."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Okay, in any case, it's worth going to check out the rumors first, otherwise there might be no one left on the train; there are already fewer people in our car."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "I headed for the second car, next to the one from which the conductor had kicked me out."
+            }
+        },
+        "1188": {
+            "16": {
+                "containerID": 16,
+                "content": "Is everything clear?"
+            }
+        },
+        "1189": {},
+        "1191": {
+            "0": {
+                "containerID": 0,
+                "content": "Another ten!"
+            }
+        },
+        "1192": {},
+        "1194": {
+            "0": {
+                "containerID": 0,
+                "content": "You’re playing small; you should start with trumps right away. I’ll defend."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Even at the cost of good cards."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "My move again. I’ll keep tossing little cards at him — but should I? Just drew another six. Too bad, I could’ve waited and dropped both sixes together. Either way, I gotta dump this six."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "My hand’s not as good as it was, and I don’t really want to keep throwing away my strong cards."
+            }
+        },
+        "1195": {
+            "0": {
+                "containerID": 0,
+                "content": "What are you waiting for? Make your move."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Don’t rush me — there’s no time limit on a move, and we still have a long journey ahead."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Bruno let out an annoyed grunt."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I’ll play quickly."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Guess he’s not a fan of the slow pace. Fine, I’ll speed things up for him!"
+            }
+        },
+        "1196": {},
+        "1199": {},
+        "1203": {
+            "0": {
+                "containerID": 0,
+                "content": "I like it better like this — you were playing slow as a turtle before."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "It happens with me, sorry about that. I’m still learning."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "The game is only halfway through, and it already feels like I’ve lost. I’ve started picking up almost all the cards!"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "It’s time for you to start playing trumps; you’re relying too much on small cards."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "I hope he throws in some good cards that I can take advantage of! "
+            }
+        },
+        "1205": {
+            "0": {
+                "containerID": 0,
+                "content": "That’s fine, little cards work too — saves me from waiting for change."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "He’s mocking me! I’ll change my strategy and start playing strong cards."
+            }
+        },
+        "1208": {
+            "0": {
+                "containerID": 0,
+                "content": "Queen of spades, Queen of diamonds!"
+            }
+        },
+        "1211": {
+            "0": {
+                "containerID": 0,
+                "content": "*Blocked*"
+            }
+        },
+        "1216": {
+            "0": {
+                "containerID": 0,
+                "content": "King of clubs, King of hearts!"
+            }
+        },
+        "1219": {
+            "0": {
+                "containerID": 0,
+                "content": "*Blocked*"
+            }
+        },
+        "1222": {
+            "0": {
+                "containerID": 0,
+                "content": "Ace of spades, Ace of hearts!"
+            }
+        },
+        "1225": {
+            "0": {
+                "containerID": 0,
+                "content": "*Blocked*"
+            }
+        },
+        "1226": {
+            "0": {
+                "containerID": 0,
+                "content": "No worries, you’ll get the hang of it eventually."
+            }
+        },
+        "1227": {},
+        "1232": {
+            "0": {
+                "containerID": 0,
+                "content": "<span class=\"breathOfWind isStyled cvne_selected\">*Whispering*</span>"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Terrible train. Why did we even get on it?"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "<span class=\"breathOfWind isStyled cvne_selected\">*Whispering*</span>"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Its departure was merely postponed by one hour, and yet you…"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Who am I?! Are you trying to say I’m hysterical? Always complaining about everything?"
+            },
+            "5": {
+                "containerID": 5,
+                "content": "No, not really…"
+            }
+        },
+        "1233": {
+            "0": {
+                "containerID": 0,
+                "content": "<span class=\"breathOfWind isStyled cvne_selected\">*Whispering*…</span>"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Oh yes, it is! But just think how long we had to wait…"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Why am I even listening to this? It’s just an argument between two young people."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Yet a remark uttered by someone returned me to my senses."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Two… For a few moments I fell into a trance-like state, my thoughts entirely lost as my gaze fixed upon the void."
+            }
+        },
+        "1234": {
+            "0": {
+                "containerID": 0,
+                "content": "<span class=\"breathOfWind isStyled cvne_selected\">*Whispering*</span>"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Moreover, no one is being admitted into the first carriage. What folly is this? Ours was meant to be the leading carriage! Yet at the station, an additional one was attached."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "There it is. At least something useful."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "The train got an extra car, most likely because of a new passenger, and the delay was probably due to that unexpected addition. So, the first three points are connected."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "From her words, four statements can be made: the train was an hour late, people aren’t allowed into the first car, except for me (which was obvious anyway), there should be one fewer carriages, and she really hated the train. The last point is irrelevant, so we can discard it."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "I need to sum up everything she said."
+            }
+        },
+        "1235": {
+            "0": {
+                "containerID": 0,
+                "content": "But what about the fact that my ticket has clearly said “departure time 12:00” for a week already?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Looks like money can even make time move — just throw in a twelfth car."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Wait! I’ve just come across another lead, but it’s far stranger than the previous one."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "The train left at twelve, there are twelve cars, and my ticket’s for the twelfth one too…"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "So, it all seems to add up. And yet, it’s nothing but nonsense. A kind of number magic that tried to take hold of my mind and distract me from what truly matters. Or is that just what I’m telling myself?"
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Just nonsense — better to toss it away and move on."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "It’s good that I learned at least something — that’s already an outcome. Time to return."
+            }
+        },
+        "1238": {
+            "0": {
+                "containerID": 0,
+                "content": "Bruno had already returned and, apparently, had been entertaining himself for quite some time by playing solitaire."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Morning."
+            }
+        },
+        "1241": {
+            "7": {
+                "containerID": 7,
+                "content": "Bruno, indulging himself without restraint, seated himself directly opposite me."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "And what if the person whose place you took shows up?"
+            },
+            "9": {
+                "containerID": 9,
+                "content": "No big deal, I’ll switch seats."
+            },
+            "10": {
+                "containerID": 10,
+                "content": "I’m wondering, what are you going to Mittenwald for?"
+            },
+            "11": {
+                "containerID": 11,
+                "content": "Why do you want to know?"
+            },
+            "12": {
+                "containerID": 12,
+                "content": "Oh, no reason."
+            }
+        },
+        "1243": {
+            "0": {
+                "containerID": 0,
+                "content": "How come? You just up and set off in a random direction like that? "
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Yeah, kind of. I decided to go traveling — just buying random tickets and hopping between towns. The last one I grabbed brought me to this village."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "You know, I don’t really know anything about you. The mysterious Ludwig Richter… How about you tell me a bit about yourself? I mean, you’ve kinda turned into my travel buddy, and we’ve got nothing to chat about."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I don’t know anything about him either, so what now? Is he supposed to tell me all his secrets? I think I’ll lie — he’s just a bit too curious."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "I want to look for a house. If I find one I like, I’ll buy it. Land in Mittenwald should be inexpensive."
+            }
+        },
+        "1244": {
+            "0": {
+                "containerID": 0,
+                "content": "Let me guess, you’re sick of city life."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Yeah, kind of."
+            }
+        },
+        "1245": {
+            "0": {
+                "containerID": 0,
+                "content": "And so our brief conversation came to an end."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Although the whole day still lay ahead, it wasn’t worth delaying matters. So I decided to go on a little reconnaissance and find out how young Schiller was doing. At the same time, I could also learn how much longer the journey would take."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I need to check all the passenger carriages. I would be very glad to meet not only this Joseph Schiller, but also his companion in the red dress. "
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I stepped out of our carriage and proceeded to the next one."
+            }
+        },
+        "1280": {},
+        "1283": {},
+        "1290": {},
+        "1298": {},
+        "1308": {},
+        "1310": {},
+        "1312": {},
+        "1317": {},
+        "1318": {},
+        "1324": {},
+        "1332": {
+            "7": {
+                "containerID": 7,
+                "content": "The car was half empty. I sat in the middle so I could hear the passengers better from either side."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "No matter how hard I listened, nothing worthwhile was being said. People were picking each other apart, complaining about life, and, surprisingly, sharing good news from their own lives, but none of it was of any interest to me."
+            },
+            "9": {
+                "containerID": 9,
+                "content": "Sadly, it's possible to spend an entire day this way and come away having learned nothing of real value."
+            },
+            "10": {
+                "containerID": 10,
+                "content": "Maybe I should go already. But then again, there's nothing else waiting for me."
+            },
+            "11": {
+                "containerID": 11,
+                "content": "Should I sit a bit longer and keep listening, or just return to my carriage?"
+            }
+        },
+        "1343": {
+            "2": {
+                "containerID": 2,
+                "content": "Morning to you too.<wait contenteditable=\"false\" class=\"cvne_customtag_wait\"></wait> You know what I’ve noticed? You’re always sneaking off to the other cars!"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Just curious — what do you even do over there?"
+            }
+        },
+        "1351": {
+            "17": {
+                "containerID": 17,
+                "content": "Something like that…"
+            },
+            "18": {
+                "containerID": 18,
+                "content": "Okay, let’s start — you’ll pick up the rest along the way."
+            }
+        },
+        "1368": {
+            "1": {
+                "containerID": 1,
+                "content": "That’s how the game wrapped up — he knocked out my best cards and then buried me under trumps."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Even though a few things really threw me off, I gotta admit — he knows how to play cards."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "After all, cards aren’t really my thing — I play them far too thoughtlessly."
+            }
+        },
+        "1370": {
+            "4": {
+                "containerID": 4,
+                "content": "Alright, and besides cards, do you play anything else?"
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Sure! Chess! But it’s kind of a hassle — the pieces are too big. Honestly, I probably wouldn’t have even bought these cards — usually there’s no one to play with anyway."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "I’m not the best opponent either, as you can see. But there are still plenty of people in our carriage, and in the others as well. Someone would surely agree to a couple of games."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Knew it! You’re always sneaking off to the other cars. Just curious — what do you even get up to there?"
+            }
+        },
+        "1372": {
+            "5": {
+                "containerID": 5,
+                "content": "And to conclude our game, Bruno Brown shuffled the entire deck in the blink of an eye and hid it away."
+            }
+        },
+        "1382": {},
+        "1383": {
+            "0": {
+                "containerID": 0,
+                "content": "He decided to find out everything firsthand."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I’m gonna give him a plain, simple answer."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Bored... trying to find something to do."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "So, did you find something?"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "He’s grinning too."
+            }
+        },
+        "1384": {
+            "5": {
+                "containerID": 5,
+                "content": "You know, nothing has worked out so far."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Then I can offer you my help. I’m an expert when it comes to adventures."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Expert — not of adventures, but rather of troubles."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Help is good, but why do you want this?"
+            },
+            "9": {
+                "containerID": 9,
+                "content": "Clingy and annoying, I’ll be fine without him."
+            }
+        },
+        "1385": {
+            "10": {
+                "containerID": 10,
+                "content": "There’s nothing to explain here. This train ride is boring and uninteresting."
+            },
+            "11": {
+                "containerID": 11,
+                "content": "True, but what did you expect? A circus or some party spot around here?"
+            },
+            "12": {
+                "containerID": 12,
+                "content": "Why not? There’s a bar here, after all."
+            },
+            "13": {
+                "containerID": 13,
+                "content": "That’s not a bar, it’s a dining car—and they don’t pour anything stronger than soup."
+            },
+            "14": {
+                "containerID": 14,
+                "content": "Whatever they’re pouring, it’s kinda depressing. Honestly, this train’s just weird."
+            },
+            "15": {
+                "containerID": 15,
+                "content": "So I’m offering to help you make this place more fun."
+            }
+        },
+        "1386": {
+            "0": {
+                "containerID": 0,
+                "content": "I suspect that even if you are refused, you still won’t give up. Fine, tell me — what have you come up with?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Great, here’s my first awesome idea: let’s hit the dining car and check out what they’re pouring."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "He is definitely pretending to be a fool."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I have nothing to do there, and we’ve already stocked up on food."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Okay, but how about checking out the other passenger cars…"
+            },
+            "5": {
+                "containerID": 5,
+                "content": "And find someone to play cards with."
+            }
+        },
+        "1387": {
+            "0": {
+                "containerID": 0,
+                "content": "Nah, don’t feel like playing cards with you anymore, let alone with strangers. They’ll definitely play for cash and clean you out."
+            }
+        },
+        "1388": {
+            "0": {
+                "containerID": 0,
+                "content": "One day for sure, but definitely not with strangers."
+            }
+        },
+        "1390": {
+            "0": {
+                "containerID": 0,
+                "content": "Alright, then how about… spying a little!"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Funny enough, that’s what I’m up to right now…"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Didn’t get your fill of war games? No spies around here."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Except for you, of course."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "If none of that sounds good, throw out your own ideas. And hey, you can always say no to my generous offer."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Suspicions are just suspicions. I could be mistaken about his motives and intentions on this train. Perhaps he simply wants to make friends? After all, ancient wisdom says: “Keep your friends close, and your enemies closer.”"
+            }
+        },
+        "1391": {
+            "6": {
+                "containerID": 6,
+                "content": "Maybe I should test those words out? I’ve never kept my enemies close, but maybe I should’ve."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Alright, I really have nothing to do until evening. I can try doing as you suggested."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "So, what’s the plan?"
+            },
+            "9": {
+                "containerID": 9,
+                "content": "Let me think for a moment. I don’t want my decision to seem unwise."
+            },
+            "10": {
+                "containerID": 10,
+                "content": "Scared of looking dumb? "
+            }
+        },
+        "1392": {
+            "0": {
+                "containerID": 0,
+                "content": "That’s part of it, yes."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Yeah, I’d dub your philosophy “dualistic pessimism,” where cowardice and boredom take center stage."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Trying to provoke me into action by mocking my indecision? Those tricks stopped working on me back in school."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Alright, I won’t let him down, but he definitely needs to work on his smooth talk."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Let’s take a stroll, and I’ll figure it out as we go."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Now that’s a real man’s move, not some dualistic pessimist’s nonsense."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Bruno is joking, and there’s nothing unusual about that. For him, it’s a reason to have fun; for me, it’s just carrying out the same work."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Rumors can be anywhere on the train, not just where I was this morning. It’s just more likely at the front that someone noticed Mr. Schiller’s son boarding."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Let’s go already."
+            }
+        },
+        "1395": {
+            "0": {
+                "containerID": 0,
+                "content": "As we were walking, we noticed a conductor who had come out of the front car and stood by its aisle."
+            }
+        },
+        "1396": {
+            "5": {
+                "containerID": 5,
+                "content": "What about him? His face is just an ordinary face."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "He’s not smiling at all — his face is like a rock."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "He’s on post, doing his job."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Ludwig, he’s no Buckingham Palace guard! He’s just a conductor and ought to be in his booth or wherever they crash on the train."
+            },
+            "9": {
+                "containerID": 9,
+                "content": "That’s curious — what’s up with that?"
+            },
+            "10": {
+                "containerID": 10,
+                "content": "... Suspicious, very suspicious..."
+            }
+        },
+        "1397": {
+            "0": {
+                "containerID": 0,
+                "content": "By the time I was chatting with Bruno, we’d already switched to the next car. I’m curious — what was that all about? Maybe he was just joking."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "But when we were talking to Bruno, we were walking right past the conductor, and he must have heard everything. Apparently, he didn't care, or maybe it was just his duty... Probably a former military man."
+            }
+        },
+        "1398": {
+            "2": {
+                "containerID": 2,
+                "content": "Alright, while we were walking, I finally made up my mind."
+            }
+        },
+        "1417": {
+            "1": {
+                "containerID": 1,
+                "content": "We kept getting closer and closer, but he remained motionless."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Did you notice it too? He's just staring."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Where is he looking? Don’t pay attention to him."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "I can't help it! It really bothers me that he's looking straight at us without blinking. And his face..."
+            }
+        },
+        "1423": {
+            "4": {
+                "containerID": 4,
+                "content": "So we’ll just be staring at the food, is that it? That won’t do. Do what you like, but I’m placing an order."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "And you expect me to just sit and watch you eat?"
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Not just that, we can talk too! "
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Sure, if I ever feel like wishing you’d choke."
+            }
+        },
+        "1424": {
+            "8": {
+                "containerID": 8,
+                "content": "How rude. Oh, if they have delicacies there, I won’t share with you, and you’ll have to answer for your words."
+            },
+            "9": {
+                "containerID": 9,
+                "content": "I hope they won’t have any."
+            },
+            "10": {
+                "containerID": 10,
+                "content": "Alright, let’s go already."
+            }
+        },
+        "1427": {
+            "0": {
+                "containerID": 0,
+                "content": "Didn’t have to go far — the dining car was right in the middle of the train. Fair and square placement, but the car itself was completely empty."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Bruno didn’t care nearly as much about where the cars were as I did — he was already trying to order something."
+            }
+        },
+        "1428": {
+            "0": {
+                "containerID": 0,
+                "content": "Where’s the waiter?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "If you are asking me, I do not know."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "That was a rhetorical question. If this is a restaurant, the service should be up to standard."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "The standard might be high, but there’s no one here to show it."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Come on… there’s got to be someone here."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Someone will definitely be willing to play the waiter, especially if you pay them."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "What are you getting at?"
+            }
+        },
+        "1429": {
+            "0": {
+                "containerID": 0,
+                "content": "You’re trying to joke, but believe me, not everyone can joke about Bruno himself!"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I won’t deny I tried to make a joke, but what I really meant was that there’s simply no one here to serve you. And if you paid someone, they’d serve you properly, by all the rules."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "What do you mean no one’s here? There’s got to be someone around."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Maybe someone does work here, but right now they’re somewhere else."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Better take a look at the menu instead of stressing your head."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "I handed the menu to Bruno."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Where did you get it?"
+            },
+            "7": {
+                "containerID": 7,
+                "content": "It was lying on the next table, so that’s good news for you: there definitely is a waiter here who left this menu."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Well, at least we got lucky with something!"
+            }
+        },
+        "1430": {
+            "0": {
+                "containerID": 0,
+                "content": "The menu consists of only two pages — not much. I had hoped to see a wider selection. Still, at least all the basics are available here: starters, main courses, and even desserts!"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "But the prices leave much to be desired. There is no way I will spend that much on food, especially of this kind. Ice cream priced like a kilogram of apples! Everything Bruno and I bought together ended up costing the same as a single full meal here. And we stocked up for several days…"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "It’s a good thing we didn’t even consider dining in the dining car, since there are far too many drawbacks: expensive, limited selection, no service. One could quite literally starve to death here while waiting for a waiter."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "And I think I might know why no one is here — for the same reason there’s no one on the train itself. If only I knew what that reason was…"
+            }
+        },
+        "1431": {
+            "0": {
+                "containerID": 0,
+                "content": "I was expecting more. There aren’t any delicacies here, except for ice cream."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Ice cream does not qualify as a delicacy."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "That depends upon one’s worldview."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "In that case, given such prices, the entire menu might be deemed a collection of delicacies."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Maybe… but no need to. Alright, looks like no one’s here, let’s go somewhere else."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Since you’re suggesting it, then…"
+            }
+        },
+        "1433": {
+            "0": {
+                "containerID": 0,
+                "content": "Let's check out the front carriages."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "While we were inspecting the carriage, I noticed that something was missing."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "For what?"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "You'll see."
+            }
+        },
+        "1436": {
+            "0": {
+                "containerID": 0,
+                "content": "Now everything is clear to me. Upon this train, there are fewer conductors than carriages."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "If only I could find out why."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "So, what did we achieve with this?"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Did you count how many conductors we’ve seen on this train?"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Two. The conductor from our car and the one from the eighth."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Exactly. And we’ve walked through more carriages than that."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Understood. It follows that there are fewer conductors than carriages on the train."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "That’s right."
+            }
+        },
+        "1437": {
+            "0": {
+                "containerID": 0,
+                "content": "Our investigation has brought a small success. When I walked alone, I was mostly preoccupied with the rumors and paid little attention to more important matters. I think the other passengers may have noticed it too, but most likely they know nothing about the reasons behind this strange circumstance."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Anyway, that doesn’t really matter at the moment."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Alright, let’s stop here."
+            }
+        },
+        "1439": {},
+        "1440": {
+            "0": {
+                "containerID": 0,
+                "content": "We took the empty seats, and at that very moment another conductor rushed through the carriage. Though, maybe he wasn’t a conductor at all, but some other train worker with a job title I’ve never even heard of."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "So what do we do next?"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "We’ll just sit and wait."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "How long?"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Not long, I just need to think."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "We sat down and waited. But looking at Bruno, it was already hard to say how long he’d last. You could tell it was tough for him to sit still and do nothing."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Scarcely five minutes had elapsed when Bruno rose and departed from the carriage."
+            }
+        },
+        "1441": {
+            "0": {
+                "containerID": 0,
+                "content": "I’ve met some people here. They’re exactly what we need!"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Are they to assist us?.."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Well, not exactly. If you want, you can go and talk to them yourself."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "…Alright, Bruno, lead the way."
+            }
+        },
+        "1443": {},
+        "1446": {
+            "0": {
+                "containerID": 0,
+                "content": "I have found another individual who is most willing to converse with you."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Good day, I am Petra Lehmann.",
+                "meta": {
+                    "customName": "Elderly woman"
+                }
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Good day, young man, I am Nicholas Lehmann.",
+                "meta": {
+                    "customName": "Elderly gentleman"
+                }
+            },
+            "3": {
+                "containerID": 3,
+                "content": "Well, since I came here, I should introduce myself too."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Good day, I am Ludwig Richter."
+            }
+        },
+        "1449": {
+            "0": {
+                "containerID": 0,
+                "content": "Your companion mentioned that you are bound for the village of Mittenwald, is this correct? Might I inquire as to the purpose? Pray, tell me, if it is not too much trouble."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I beg your pardon, but I would prefer not to speak of it; my reasons are personal."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Then best not to. Petra, who starts a conversation with questions like that!"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I thought perhaps we might be able to offer some guidance to this young gentleman. It is pleasant when one is given attention. I am no longer bored, and thus we ought to return the favor!"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Can they actually help, or did that woman just say it to keep the conversation going?"
+            },
+            "5": {
+                "containerID": 5,
+                "content": "I’d like to know how often trains run from that village back to the city."
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Seldom, about once in a fortnight. The inhabitants of our village depart but rarely, chiefly for employment. Guests are a rarity to us."
+            }
+        },
+        "1450": {},
+        "1451": {
+            "0": {
+                "containerID": 0,
+                "content": "And just how rare are these visitors? So, you live in that village?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Very rare. You won’t meet new people in our village."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Indeed so. We are of that village. The village has aged, and with it, its people."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "It turned out the village has been dying out for a long time, all because of poor transport connections."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "So what’s the son of a magnate doing here then? This elderly couple might know something."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "Do you mean to say that your village has not the slightest chance of survival?"
+            },
+            "6": {
+                "containerID": 6,
+                "content": "That is so, though not entirely. Hope has presented itself to us."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "Recently, about a year past, a certain representative of a magnate visited our village. I cannot, however, recall his name."
+            }
+        },
+        "1452": {
+            "0": {
+                "containerID": 0,
+                "content": "Schiller. This envoy requested an audience with the former aristocracy, seeking to negotiate some matter."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "He arrived with a proposal to revitalize our settlement, to establish additional roads."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Did he fulfill his promises?"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "As yet, no. "
+            }
+        },
+        "1454": {},
+        "1455": {
+            "0": {
+                "containerID": 0,
+                "content": "You could indulge the whims of these rich folks forever."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Very well, I beg your pardon, but I must take my leave of you."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "That’s alright."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "You have helped us while away some time. Should you wish, do come and converse again."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "I’ll catch up with you a bit later."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "As you wish."
+            }
+        },
+        "1456": {
+            "0": {
+                "containerID": 0,
+                "content": "I think I’ll head back to my good old twelfth compartment."
+            }
+        },
+        "1457": {
+            "0": {
+                "containerID": 0,
+                "content": "When I got back, another five minutes passed before Bruno returned."
+            }
+        },
+        "1459": {
+            "0": {
+                "containerID": 0,
+                "content": "Tell me, how did you find them?"
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I wasn’t even looking for them. I just felt like going over to talk."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Maybe there’s nothing unusual about it. After all, the old folks themselves said that it’s mostly locals who travel to the village."
+            }
+        },
+        "1474": {},
+        "1475": {
+            "0": {
+                "containerID": 0,
+                "content": "An empty village with nothing left but a cemetery that’s taken over everything. It’s been bigger than the settlement itself for a long time, and it’ll keep growing until it swallows everything up. Then Mittenwald will be truly dead, just like it’s supposed to be."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I don’t think anyone’s gonna go there after that. I wouldn’t care about those images if my own apartment wasn’t as empty as Mittenwald — and it looks like the demons have already moved in there a long time ago."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "It won’t be able to hide behind the emptiness anymore, hoping it’ll fill up with people. And the moment that hope fades, hellish creatures born from human imagination will crawl out of the cemetery. Devils, ghouls, and other demons will become permanent residents of this village."
+            }
+        },
+        "1477": {
+            "2": {
+                "containerID": 2,
+                "content": "<span class=\"breathOfWind\">*Whispering...*</span>",
+                "meta": {
+                    "customName": "People"
+                }
+            },
+            "3": {
+                "containerID": 3,
+                "content": "<span class=\"breathOfWind\">*...whispering*</span>",
+                "meta": {
+                    "customName": "People"
+                }
+            },
+            "4": {
+                "containerID": 4,
+                "content": "The whispering of people brought me back to reality. It was precisely when I had gotten carried away with my fantasies that they began to discuss something intently."
+            }
+        },
+        "1478": {
+            "0": {
+                "containerID": 0,
+                "content": "Perhaps there is nothing strange about this. The villagers became more active among their own once most of the outsiders had left the train."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I should try to catch what they’re talking about. Who knows, maybe it’s something important…"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "<span class=\"breathOfWind isStyled cvne_selected\">*Whispering...*</span>",
+                "meta": {
+                    "customName": "People"
+                }
+            },
+            "3": {
+                "containerID": 3,
+                "content": "<span class=\"breathOfWind isStyled cvne_selected\">*...whispering...*</span>",
+                "meta": {
+                    "customName": "People"
+                }
+            },
+            "4": {
+                "containerID": 4,
+                "content": "<span class=\"breathOfWind isStyled cvne_selected\">*...whispering*</span>",
+                "meta": {
+                    "customName": "People"
+                }
+            }
+        },
+        "1485": {
+            "0": {
+                "containerID": 0,
+                "content": "..."
+            }
+        },
+        "1492": {
+            "0": {
+                "containerID": 0,
+                "content": "..."
+            }
+        },
+        "1494": {
+            "0": {
+                "containerID": 0,
+                "content": "..."
+            }
+        },
+        "1507": {},
+        "1509": {},
+        "1513": {
+            "7": {
+                "containerID": 7,
+                "content": "I was keeping an eye on people at the time, but it didn’t lead to anything. Everyone was just busy with their morning chats about the weather."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "While I was busy observing things in my own cautious way, Bruno was already coming back with a triumphant smile on his face."
+            }
+        },
+        "1543": {},
+        "1549": {},
+        "1550": {},
+        "1552": {},
+        "1553": {
+            "0": {
+                "containerID": 0,
+                "content": "No matter how much I tried to listen in, I just couldn’t catch what they were saying."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "<span class=\"breathOfWind isStyled cvne_selected\">*Whispering*</span>",
+                "meta": {
+                    "customName": "People"
+                }
+            },
+            "2": {
+                "containerID": 2,
+                "content": "A wave of fatigue overcomes me, though I don’t know why. Not long ago, after all, I had felt full of energy."
+            }
+        },
+        "1556": {
+            "0": {
+                "containerID": 0,
+                "content": "I opened my eyes and it was already dark. Looks like I dozed off."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "I should check the time. I pull out my watch — it’s already eight in the evening. Something knocked me out so hard I slept way too long. I still can’t even keep my eyes open."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "Alright, I’ll return to my carriage."
+            }
+        },
+        "1557": {
+            "0": {
+                "containerID": 0,
+                "content": "This carriage, if you look closely, seems a bit different—newer, fancier. And most of it is taken up by Joseph’s compartment. Better not go in there, of course."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Still, I can’t help wanting to know what’s inside, just out of curiosity. I turned my head toward the exit, and right then a reckless thought popped into my mind."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "What if I step outside and peek through his window?"
+            },
+            "3": {
+                "containerID": 3,
+                "content": "What if the curtains are drawn? Or what if, the moment I step off, the door slams shut and the train leaves, abandoning me alone in the night forest?"
+            },
+            "4": {
+                "containerID": 4,
+                "content": "As for the first worry, that’s nothing serious, I thought, quickly coming up with a counterargument in my debate with myself — I could always just go back."
+            },
+            "5": {
+                "containerID": 5,
+                "content": "The second worry wasn’t really a problem either. The doors wouldn’t shut on their own — someone had to do it, and in my case that someone would be the carriage attendant. I wouldn’t go far, so I’d hear the footsteps right away and could shout that I was there. After all, I was only going to take a quick peek, just a glance."
+            }
+        },
+        "1559": {},
+        "1561": {},
+        "1562": {
+            "0": {
+                "containerID": 0,
+                "content": "Giving in to temptation, I stepped outside, and right away the icy autumn wind hit me, cutting straight to the bone."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "Who in their right mind would even want to step out of the train in weather like this?"
+            },
+            "2": {
+                "containerID": 2,
+                "content": "I took a few steps toward the carriage windows and let out a disappointed sigh. Just as I’d feared, they were tightly curtained, and inside was nothing but darkness — I couldn’t make out a thing."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "I almost thought about climbing up like some kid to sneak a peek at the “rich boy,” but fate had other plans."
+            }
+        },
+        "1564": {
+            "0": {
+                "containerID": 0,
+                "content": "Suddenly, I heard a whisper, carried to me only by the silence of the night."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "The sound emanated from the locomotive cab."
+            }
+        },
+        "1566": {
+            "0": {
+                "containerID": 0,
+                "content": "It’s not a single voice — there are several."
+            },
+            "1": {
+                "containerID": 1,
+                "content": "It’s unlikely they’re passengers, since almost all of them got off the train; that means it must be the field crew. A perfect opportunity to ask why we’re stuck here."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "The closer I got, the easier it was to make out what they were saying."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "“And wha.&nbsp; .e do”",
+                "meta": {
+                    "customName": "Someone"
+                }
+            },
+            "4": {
+                "containerID": 4,
+                "content": "\"… tell?\"",
+                "meta": {
+                    "customName": "Someone"
+                }
+            },
+            "5": {
+                "containerID": 5,
+                "content": "But what exactly are they talking about? It’s unclear. I’m starting to feel more and more uneasy."
+            }
+        },
+        "1567": {
+            "6": {
+                "containerID": 6,
+                "content": "I froze on the spot, not daring to step through the half-open door."
+            }
+        },
+        "1571": {
+            "0": {
+                "containerID": 0,
+                "content": "..."
+            }
+        },
+        "1578": {
+            "0": {
+                "containerID": 0,
+                "content": "..."
+            }
+        },
+        "1580": {
+            "0": {
+                "containerID": 0,
+                "content": "..."
+            }
+        },
+        "1601": {},
+        "1618": {
+            "1": {
+                "containerID": 1,
+                "content": "I glanced out the window, and it was all forest. Not like the fields we saw yesterday — just dense woods everywhere."
+            },
+            "2": {
+                "containerID": 2,
+                "content": "There’s nothing else to do anyway. I might as well ask the conductor what happened and check the time while I’m at it."
+            }
+        },
+        "1627": {
+            "0": {
+                "containerID": 0,
+                "content": "..."
+            }
+        },
+        "1628": {
+            "0": {
+                "containerID": 0,
+                "content": "... ..."
+            }
+        },
+        "1629": {},
+        "1630": {
+            "0": {
+                "containerID": 0,
+                "content": "... ... ..."
+            }
+        },
+        "1631": {},
+        "1632": {
+            "2": {
+                "containerID": 2,
+                "content": "What the elderly couple told me quite explains why the magnate’s son, Joseph, is traveling to that village on his father’s orders."
+            },
+            "3": {
+                "containerID": 3,
+                "content": "But Bruno still remains a mystery. Perhaps it is just a coincidence, or perhaps he has his own goal that he is pursuing."
+            }
+        },
+        "1633": {},
+        "1639": {
+            "3": {
+                "containerID": 3,
+                "content": "Midnight is the best time to avoid drawing attention."
+            },
+            "4": {
+                "containerID": 4,
+                "content": "Alright, here’s the conductor’s compartment."
+            }
+        },
+        "1674": {},
+        "1677": {},
+        "1679": {
+            "11": {
+                "containerID": 11,
+                "content": "I faltered mid-utterance. At the center of the cab, upon the floor, a pool of blood was spreading, and within it lay a man. Upon closer scrutiny, I discerned that a stoker’s poker had pierced his neck, as though by the bite of a vampire…"
+            }
+        },
+        "1680": {},
+        "1682": {},
+        "1684": {},
+        "1685": {
+            "7": {
+                "containerID": 7,
+                "content": "All of a sudden, the talking stopped, like they’d figured out someone was standing outside the door."
+            },
+            "8": {
+                "containerID": 8,
+                "content": "Maybe I shouldn’t have come here? Whatever. What happens, happens. I slowly started opening the door to go in."
+            },
+            "9": {
+                "containerID": 9,
+                "content": "Who’s there?! Identify yourself!",
+                "meta": {
+                    "customName": "Train worker"
+                }
+            },
+            "10": {
+                "containerID": 10,
+                "content": "Hello, I would like to…"
+            }
+        },
+        "1686": {},
+        "1711": {
+            "0": {
+                "containerID": 0,
+                "content": "He’s not so simple after all: he handles the cards skillfully, clearly not the first time he’s held them."
+            }
+        },
+        "1725": {},
+        "1733": {},
+        "1745": {},
+        "1751": {},
+        "1756": {},
+        "1761": {},
+        "1766": {},
+        "1787": {},
+        "1788": {
+            "4": {
+                "containerID": 4,
+                "content": "Was she not the cause of Mr. Shiller's concern? Was it important for him to know what his son was doing and with whom? If Mr. Shiller knows about this girl and is suspicious of her, then my assumption may well be true. "
+            },
+            "5": {
+                "containerID": 5,
+                "content": "And what if not?"
+            },
+            "6": {
+                "containerID": 6,
+                "content": "Does the father know as much about his son as I thought he did? I'm not sure."
+            },
+            "7": {
+                "containerID": 7,
+                "content": "I still can't get that incident at the factory out of my head. Was there even an assassination attempt? Or was Shiller's son just trying to tickle his father's nerves?"
+            },
+            "9": {
+                "containerID": 9,
+                "content": "I wonder who that girl was. "
+            }
+        },
+        "1799": {},
+        "1801": {},
+        "1802": {},
+        "1803": {},
+        "1805": {},
+        "1806": {},
+        "1807": {},
+        "1808": {},
+        "1809": {},
+        "1810": {},
+        "1811": {},
+        "1812": {},
+        "1813": {},
+        "1814": {},
+        "1815": {},
+        "1816": {},
+        "1817": {},
+        "1818": {},
+        "1819": {},
+        "1820": {},
+        "1821": {},
+        "1822": {},
+        "1823": {},
+        "1828": {
+            "0": {
+                "containerID": 0,
+                "content": "End"
+            }
+        },
+        "1829": {},
+        "1830": {},
+        "1831": {},
+        "1833": {}
+    }
+}

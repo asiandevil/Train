@@ -1,0 +1,520 @@
+{
+    "meta": {
+        "id": "miniImagesMain",
+        "name": "Mini Images",
+        "type": "scene",
+        "width": 1750,
+        "height": 1150,
+        "parent": "miniImages"
+    },
+    "nodes": {
+        "1026": {
+            "type": "start",
+            "pos": {
+                "x": 550,
+                "y": 50
+            },
+            "starting": true,
+            "id": 1026,
+            "connections": [
+                {
+                    "id": 1038,
+                    "x": 550,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "MI: show car"
+        },
+        "1027": {
+            "type": "actor",
+            "pos": {
+                "x": 550,
+                "y": 250
+            },
+            "id": 1027,
+            "actors": [
+                {
+                    "id": "assets-images-mini_car.png",
+                    "state": "default",
+                    "action": "show",
+                    "position": {
+                        "x": "50.5600%",
+                        "y": "53.5275%",
+                        "rx": "",
+                        "ry": "",
+                        "scale": 1.4
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 2
+                        }
+                    },
+                    "animations": {
+                        "pulse": {
+                            "name": "pulse",
+                            "duration": 1,
+                            "delay": 0,
+                            "repeat": 1,
+                            "transitfunction": "ease",
+                            "persistent": false,
+                            "params": {
+                                "scale": 1.2
+                            }
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1029,
+                    "x": 550,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1038
+            ]
+        },
+        "1029": {
+            "type": "end",
+            "pos": {
+                "x": 550,
+                "y": 350
+            },
+            "id": 1029,
+            "ending": true,
+            "entrances": [
+                1027
+            ]
+        },
+        "1032": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 50
+            },
+            "id": 1032,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "MI: hide all",
+            "connections": [
+                {
+                    "id": 1039,
+                    "x": 250,
+                    "y": 150
+                }
+            ]
+        },
+        "1033": {
+            "type": "actor",
+            "pos": {
+                "x": 250,
+                "y": 250
+            },
+            "id": 1033,
+            "actors": [
+                {
+                    "id": "assets-images-mini_car.png",
+                    "state": "default",
+                    "action": "hide",
+                    "position": {
+                        "x": "50%",
+                        "y": "50%",
+                        "scale": 1
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 1,
+                            "delay": 0,
+                            "transitfunction": "ease"
+                        },
+                        "type": "still",
+                        "effect": true
+                    },
+                    "animations": {
+                        "pulse": {
+                            "name": "pulse",
+                            "duration": 0,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease",
+                            "persistent": false,
+                            "params": {
+                                "scale": 1
+                            }
+                        }
+                    },
+                    "zIndex": 2000,
+                    "flip": false,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                {
+                    "id": "assets-images-cards.png",
+                    "state": "default",
+                    "action": "hide",
+                    "position": {
+                        "x": "50%",
+                        "y": "50%",
+                        "scale": 1
+                    },
+                    "animations": {
+                        "pulse": {
+                            "name": "pulse",
+                            "duration": 0,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease",
+                            "persistent": false,
+                            "params": {
+                                "scale": 1
+                            }
+                        }
+                    },
+                    "actionAnimation": {
+                        "type": "still",
+                        "effect": true,
+                        "transition": {
+                            "duration": 1,
+                            "delay": 0,
+                            "transitfunction": "ease"
+                        }
+                    },
+                    "zIndex": 2000,
+                    "flip": false,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1034,
+                    "x": 250,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1039
+            ]
+        },
+        "1034": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 350
+            },
+            "id": 1034,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                1033
+            ]
+        },
+        "1038": {
+            "type": "ui",
+            "pos": {
+                "x": 550,
+                "y": 150
+            },
+            "id": 1038,
+            "connections": [
+                {
+                    "id": 1027,
+                    "x": 550,
+                    "y": 250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "miniImage",
+                    "action": "show"
+                }
+            ],
+            "entrances": [
+                1026
+            ]
+        },
+        "1039": {
+            "type": "ui",
+            "pos": {
+                "x": 250,
+                "y": 150
+            },
+            "id": 1039,
+            "connections": [
+                {
+                    "id": 1033,
+                    "x": 250,
+                    "y": 250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "miniImage",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                1032
+            ]
+        },
+        "1360": {
+            "type": "start",
+            "pos": {
+                "x": 750,
+                "y": 50
+            },
+            "starting": true,
+            "id": 1360,
+            "connections": [
+                {
+                    "id": 1363,
+                    "x": 750,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "MI: show cards"
+        },
+        "1361": {
+            "type": "actor",
+            "pos": {
+                "x": 750,
+                "y": 250
+            },
+            "id": 1361,
+            "actors": [
+                {
+                    "id": "assets-images-cards.png",
+                    "state": "default",
+                    "action": "show",
+                    "position": {
+                        "x": "50.5600%",
+                        "y": "53.5275%",
+                        "rx": "",
+                        "ry": "",
+                        "scale": 1.4
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 2,
+                            "delay": 0,
+                            "transitfunction": "ease"
+                        },
+                        "type": "still",
+                        "effect": true
+                    },
+                    "animations": {
+                        "pulse": {
+                            "name": "pulse",
+                            "duration": 1,
+                            "delay": 0,
+                            "repeat": 1,
+                            "transitfunction": "ease",
+                            "persistent": false,
+                            "params": {
+                                "scale": 1.2
+                            }
+                        }
+                    },
+                    "zIndex": 2000,
+                    "flip": false,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1362,
+                    "x": 750,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1363
+            ]
+        },
+        "1362": {
+            "type": "end",
+            "pos": {
+                "x": 750,
+                "y": 350
+            },
+            "id": 1362,
+            "ending": true,
+            "entrances": [
+                1361
+            ]
+        },
+        "1363": {
+            "type": "ui",
+            "pos": {
+                "x": 750,
+                "y": 150
+            },
+            "id": 1363,
+            "connections": [
+                {
+                    "id": 1361,
+                    "x": 750,
+                    "y": 250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "miniImage",
+                    "action": "show"
+                }
+            ],
+            "entrances": [
+                1360
+            ]
+        },
+        "1783": {
+            "type": "start",
+            "pos": {
+                "x": 950,
+                "y": 50
+            },
+            "starting": true,
+            "id": 1783,
+            "connections": [
+                {
+                    "id": 1786,
+                    "x": 950,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "MI: dead body"
+        },
+        "1784": {
+            "type": "actor",
+            "pos": {
+                "x": 950,
+                "y": 250
+            },
+            "id": 1784,
+            "actors": [
+                {
+                    "id": "assets-images-body.png",
+                    "state": "default",
+                    "action": "show",
+                    "position": {
+                        "x": "50.5600%",
+                        "y": "53.5275%",
+                        "rx": "",
+                        "ry": "",
+                        "scale": 1.4
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 2,
+                            "delay": 0,
+                            "transitfunction": "ease"
+                        },
+                        "type": "still",
+                        "effect": true
+                    },
+                    "animations": {
+                        "pulse": {
+                            "name": "pulse",
+                            "duration": 1,
+                            "delay": 0,
+                            "repeat": 1,
+                            "transitfunction": "ease",
+                            "persistent": false,
+                            "params": {
+                                "scale": 1.2
+                            }
+                        }
+                    },
+                    "zIndex": 2000,
+                    "flip": false,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1785,
+                    "x": 950,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1786
+            ]
+        },
+        "1785": {
+            "type": "end",
+            "pos": {
+                "x": 950,
+                "y": 350
+            },
+            "id": 1785,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                1784
+            ]
+        },
+        "1786": {
+            "type": "ui",
+            "pos": {
+                "x": 950,
+                "y": 150
+            },
+            "id": 1786,
+            "connections": [
+                {
+                    "id": 1784,
+                    "x": 950,
+                    "y": 250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "miniImage",
+                    "action": "show"
+                }
+            ],
+            "entrances": [
+                1783
+            ]
+        }
+    }
+}

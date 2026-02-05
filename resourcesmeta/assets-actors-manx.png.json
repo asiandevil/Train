@@ -1,0 +1,21 @@
+{
+    "id": "assets-actors-manx.png",
+    "name": "ManX",
+    "type": "image",
+    "assign": "actor",
+    "filename": "manx.png",
+    "vendor": "assets",
+    "collection": "actors",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "ManX",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 612,
+        "height": 1500
+    }
+}

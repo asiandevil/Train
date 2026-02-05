@@ -1,0 +1,962 @@
+{
+    "meta": {
+        "id": "dream20",
+        "name": "Сон 20",
+        "type": "scene",
+        "width": 2050,
+        "height": 2050,
+        "parent": "folderDreams",
+        "tags": [
+            "textProofread",
+            "backgroundsReady",
+            "actorsReady",
+            "musicReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "350": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 350,
+            "starting": true,
+            "name": "Сон 20",
+            "connections": [
+                {
+                    "id": 1312,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "352": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 352,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1171,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                1312
+            ]
+        },
+        "355": {
+            "type": "jump",
+            "pos": {
+                "x": 350,
+                "y": 750
+            },
+            "id": 355,
+            "ending": true,
+            "targetScene": "afterDream20",
+            "targetNode": 354,
+            "entrances": [
+                1324
+            ]
+        },
+        "1170": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "text": [
+                {
+                    "textNodeId": 3,
+                    "actorId": "brunno",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 4,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 5,
+                    "actorId": "brunno"
+                },
+                {
+                    "textNodeId": 6
+                }
+            ],
+            "id": 1170,
+            "connections": [
+                {
+                    "id": 1324,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                1171
+            ]
+        },
+        "1171": {
+            "type": "actor",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 1171,
+            "connections": [
+                {
+                    "id": 1170,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "state5",
+                    "action": "show",
+                    "position": {
+                        "x": "50.00%",
+                        "y": "100.00%",
+                        "scale": 2,
+                        "rx": "",
+                        "ry": ""
+                    },
+                    "animations": {},
+                    "actionAnimation": {
+                        "type": "still",
+                        "effect": true,
+                        "transition": {
+                            "duration": 3,
+                            "delay": 0,
+                            "transitfunction": "ease-out"
+                        }
+                    },
+                    "zIndex": 2000,
+                    "flip": false,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            ],
+            "entrances": [
+                352
+            ]
+        },
+        "1172": {
+            "type": "start",
+            "pos": {
+                "x": 550,
+                "y": 150
+            },
+            "id": 1172,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Сон 20-2",
+            "connections": [
+                {
+                    "id": 1313,
+                    "x": 550,
+                    "y": 250
+                }
+            ],
+            "entrances": [
+                1173
+            ]
+        },
+        "1173": {
+            "type": "comment",
+            "pos": {
+                "x": 750,
+                "y": 150,
+                "width": 214,
+                "height": 125.609375
+            },
+            "id": 1173,
+            "connections": [
+                {
+                    "id": 1172,
+                    "x": 550,
+                    "y": 150
+                }
+            ]
+        },
+        "1174": {
+            "type": "text",
+            "pos": {
+                "x": 550,
+                "y": 350
+            },
+            "id": 1174,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1175,
+                    "x": 550,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                1313
+            ]
+        },
+        "1175": {
+            "type": "actor",
+            "pos": {
+                "x": 550,
+                "y": 450
+            },
+            "id": 1175,
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "state4",
+                    "action": "show",
+                    "position": {
+                        "x": "50.00%",
+                        "y": "100.00%",
+                        "scale": 2,
+                        "rx": "",
+                        "ry": ""
+                    },
+                    "animations": {},
+                    "actionAnimation": {
+                        "type": "still",
+                        "effect": true,
+                        "transition": {
+                            "duration": 3,
+                            "delay": 0,
+                            "transitfunction": "ease-out"
+                        }
+                    },
+                    "zIndex": 2000,
+                    "flip": false,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1176,
+                    "x": 550,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                1174
+            ]
+        },
+        "1176": {
+            "type": "text",
+            "pos": {
+                "x": 550,
+                "y": 550
+            },
+            "id": 1176,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "brunno",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "brunno",
+                    "actorState": "state3",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 3,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 4,
+                    "actorId": "brunno"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1178,
+                    "x": 550,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                1175
+            ]
+        },
+        "1177": {
+            "type": "jump",
+            "pos": {
+                "x": 550,
+                "y": 850
+            },
+            "id": 1177,
+            "ending": true,
+            "targetScene": "afterDream20",
+            "targetNode": 354,
+            "entrances": [
+                1325
+            ]
+        },
+        "1178": {
+            "type": "text",
+            "pos": {
+                "x": 550,
+                "y": 650
+            },
+            "text": [
+                {
+                    "textNodeId": 5
+                },
+                {
+                    "textNodeId": 6
+                },
+                {
+                    "textNodeId": 7,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 8
+                }
+            ],
+            "id": 1178,
+            "connections": [
+                {
+                    "id": 1325,
+                    "x": 550,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                1176
+            ]
+        },
+        "1308": {
+            "type": "start",
+            "pos": {
+                "x": 1050,
+                "y": 150
+            },
+            "id": 1308,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1314,
+                    "x": 1050,
+                    "y": 250
+                }
+            ],
+            "name": "Общий сетап для сна"
+        },
+        "1309": {
+            "type": "back",
+            "pos": {
+                "x": 1050,
+                "y": 450
+            },
+            "id": 1309,
+            "connections": [
+                {
+                    "id": 1802,
+                    "x": 1050,
+                    "y": 550
+                }
+            ],
+            "backgroundId": "user-backgrounds-trainout.png",
+            "waitToFinish": false,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "entrances": [
+                1315
+            ]
+        },
+        "1310": {
+            "type": "sound",
+            "pos": {
+                "x": 1050,
+                "y": 650
+            },
+            "id": 1310,
+            "sound": {
+                "type": "env",
+                "volume": 10,
+                "id": "assets-sounds-trainMove.mp3"
+            },
+            "connections": [
+                {
+                    "id": 1311,
+                    "x": 1050,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                1802
+            ]
+        },
+        "1311": {
+            "type": "end",
+            "pos": {
+                "x": 1050,
+                "y": 750
+            },
+            "id": 1311,
+            "ending": true,
+            "entrances": [
+                1310
+            ]
+        },
+        "1312": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 1312,
+            "connections": [
+                {
+                    "id": 352,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "targetScene": "dream20",
+            "targetNode": 1308,
+            "entrances": [
+                350
+            ]
+        },
+        "1313": {
+            "type": "call",
+            "pos": {
+                "x": 550,
+                "y": 250
+            },
+            "id": 1313,
+            "targetScene": "dream20",
+            "targetNode": 1308,
+            "connections": [
+                {
+                    "id": 1174,
+                    "x": 550,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1172
+            ]
+        },
+        "1314": {
+            "type": "ui",
+            "pos": {
+                "x": 1050,
+                "y": 250
+            },
+            "id": 1314,
+            "connections": [
+                {
+                    "id": 1315,
+                    "x": 1050,
+                    "y": 350
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                1308
+            ]
+        },
+        "1315": {
+            "type": "call",
+            "pos": {
+                "x": 1050,
+                "y": 350
+            },
+            "id": 1315,
+            "targetScene": "fogEffects",
+            "targetNode": 815,
+            "connections": [
+                {
+                    "id": 1309,
+                    "x": 1050,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                1314
+            ]
+        },
+        "1318": {
+            "type": "start",
+            "pos": {
+                "x": 1250,
+                "y": 150
+            },
+            "id": 1318,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Общий конец сна",
+            "connections": [
+                {
+                    "id": 1328,
+                    "x": 1250,
+                    "y": 250
+                }
+            ]
+        },
+        "1319": {
+            "type": "end",
+            "pos": {
+                "x": 1250,
+                "y": 1250
+            },
+            "id": 1319,
+            "ending": true,
+            "entrances": [
+                1687
+            ]
+        },
+        "1320": {
+            "type": "ui",
+            "pos": {
+                "x": 1250,
+                "y": 750
+            },
+            "id": 1320,
+            "connections": [
+                {
+                    "id": 1329,
+                    "x": 1250,
+                    "y": 850
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "entrances": [
+                1327
+            ]
+        },
+        "1322": {
+            "type": "call",
+            "pos": {
+                "x": 1250,
+                "y": 550
+            },
+            "id": 1322,
+            "targetScene": "fogEffects",
+            "targetNode": 827,
+            "connections": [
+                {
+                    "id": 1327,
+                    "x": 1250,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                1323
+            ]
+        },
+        "1323": {
+            "type": "back",
+            "pos": {
+                "x": 1250,
+                "y": 450
+            },
+            "id": 1323,
+            "connections": [
+                {
+                    "id": 1322,
+                    "x": 1250,
+                    "y": 550
+                }
+            ],
+            "backgroundId": "assets-backgrounds-dark.jpg",
+            "waitToFinish": true,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "entrances": [
+                1326
+            ]
+        },
+        "1324": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 1324,
+            "targetScene": "dream20",
+            "targetNode": 1318,
+            "connections": [
+                {
+                    "id": 355,
+                    "x": 350,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                1170
+            ]
+        },
+        "1325": {
+            "type": "call",
+            "pos": {
+                "x": 550,
+                "y": 750
+            },
+            "id": 1325,
+            "targetScene": "dream20",
+            "targetNode": 1318,
+            "connections": [
+                {
+                    "id": 1177,
+                    "x": 550,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                1178
+            ]
+        },
+        "1326": {
+            "type": "hideActor",
+            "pos": {
+                "x": 1250,
+                "y": 350
+            },
+            "id": 1326,
+            "connections": [
+                {
+                    "id": 1323,
+                    "x": 1250,
+                    "y": 450
+                }
+            ],
+            "actors": [
+                {
+                    "id": "brunno",
+                    "action": "hide",
+                    "state": "default",
+                    "actionAnimation": {
+                        "type": "still",
+                        "effect": true,
+                        "transition": {
+                            "duration": 1,
+                            "delay": 0,
+                            "transitfunction": "ease"
+                        }
+                    }
+                }
+            ],
+            "entrances": [
+                1328
+            ]
+        },
+        "1327": {
+            "type": "wait",
+            "pos": {
+                "x": 1250,
+                "y": 650
+            },
+            "id": 1327,
+            "connections": [
+                {
+                    "id": 1320,
+                    "x": 1250,
+                    "y": 750
+                }
+            ],
+            "wait": {
+                "pause": 3,
+                "skippable": false
+            },
+            "entrances": [
+                1322
+            ]
+        },
+        "1328": {
+            "type": "ui",
+            "pos": {
+                "x": 1250,
+                "y": 250
+            },
+            "id": 1328,
+            "connections": [
+                {
+                    "id": 1326,
+                    "x": 1250,
+                    "y": 350
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "default",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                1318
+            ]
+        },
+        "1329": {
+            "type": "sound",
+            "pos": {
+                "x": 1250,
+                "y": 850
+            },
+            "id": 1329,
+            "sound": {
+                "type": "env",
+                "volume": 46,
+                "id": "assets-sounds-trainMove.mp3"
+            },
+            "connections": [
+                {
+                    "id": 1803,
+                    "x": 1250,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                1320
+            ]
+        },
+        "1330": {
+            "type": "value",
+            "pos": {
+                "x": 1250,
+                "y": 1050
+            },
+            "id": 1330,
+            "connections": [
+                {
+                    "id": 1687,
+                    "x": 1250,
+                    "y": 1150
+                }
+            ],
+            "updateValues": [
+                {
+                    "scope": "uiStates",
+                    "id": "isNight",
+                    "operand": false,
+                    "action": "set"
+                }
+            ],
+            "name": "Set day",
+            "entrances": [
+                1803
+            ]
+        },
+        "1687": {
+            "type": "call",
+            "pos": {
+                "x": 1250,
+                "y": 1150
+            },
+            "id": 1687,
+            "connections": [
+                {
+                    "id": 1319,
+                    "x": 1250,
+                    "y": 1250
+                }
+            ],
+            "targetScene": "setdate",
+            "targetNode": 1688,
+            "entrances": [
+                1330
+            ]
+        },
+        "1802": {
+            "type": "sound",
+            "pos": {
+                "x": 1050,
+                "y": 550
+            },
+            "id": 1802,
+            "connections": [
+                {
+                    "id": 1310,
+                    "x": 1050,
+                    "y": 650
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 51,
+                "id": "assets-music-Chewing Devil Grass.mp3"
+            },
+            "entrances": [
+                1309
+            ]
+        },
+        "1803": {
+            "type": "sound",
+            "pos": {
+                "x": 1250,
+                "y": 950
+            },
+            "id": 1803,
+            "connections": [
+                {
+                    "id": 1330,
+                    "x": 1250,
+                    "y": 1050
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100,
+                "id": ""
+            },
+            "entrances": [
+                1329
+            ]
+        }
+    }
+}

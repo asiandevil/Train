@@ -1,0 +1,796 @@
+{
+    "meta": {
+        "id": "scene11",
+        "name": "В вагон-ресторан",
+        "type": "scene",
+        "width": 1200,
+        "height": 2050,
+        "parent": "trainActions",
+        "tags": [
+            "backgroundsReady",
+            "actorsReady",
+            "textProofread",
+            "musicReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "421": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 421,
+            "starting": true,
+            "name": "В вагон-ресторан",
+            "connections": [
+                {
+                    "id": 544,
+                    "x": 350,
+                    "y": 250
+                }
+            ]
+        },
+        "428": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 428,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "brunno",
+                    "actorState": "state",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1423,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                544
+            ]
+        },
+        "544": {
+            "type": "value",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 544,
+            "connections": [
+                {
+                    "id": 428,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "updateValues": [
+                {
+                    "scope": "user",
+                    "id": "choicesArray",
+                    "operand": "Выбрал: В вагон-ресторан",
+                    "action": "push"
+                }
+            ],
+            "name": "Выбрал: В вагон-ресторан",
+            "entrances": [
+                421
+            ]
+        },
+        "1423": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "text": [
+                {
+                    "textNodeId": 4,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "brunno",
+                    "actorState": "default",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 5,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 6,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "brunno",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 7,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "id": 1423,
+            "connections": [
+                {
+                    "id": 1424,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                428
+            ]
+        },
+        "1424": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "text": [
+                {
+                    "textNodeId": 8,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "brunno",
+                    "actorState": "state2",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 9,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 10,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "id": 1424,
+            "connections": [
+                {
+                    "id": 1426,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                1423
+            ]
+        },
+        "1425": {
+            "type": "start",
+            "pos": {
+                "x": 650,
+                "y": 150
+            },
+            "id": 1425,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "В вагон-ресторане",
+            "connections": [
+                {
+                    "id": 1481,
+                    "x": 650,
+                    "y": 250
+                }
+            ]
+        },
+        "1426": {
+            "type": "jump",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 1426,
+            "ending": true,
+            "targetScene": "scene11",
+            "targetNode": 1425,
+            "entrances": [
+                1424
+            ]
+        },
+        "1427": {
+            "type": "text",
+            "pos": {
+                "x": 650,
+                "y": 650
+            },
+            "id": 1427,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1428,
+                    "x": 650,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                1482
+            ]
+        },
+        "1428": {
+            "type": "text",
+            "pos": {
+                "x": 650,
+                "y": 750
+            },
+            "id": 1428,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "brunno",
+                    "actorState": "state2",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "brunno",
+                    "actorState": "default",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "brunno",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 5,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 6,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "brunno",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1429,
+                    "x": 650,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                1427
+            ]
+        },
+        "1429": {
+            "type": "text",
+            "pos": {
+                "x": 650,
+                "y": 850
+            },
+            "id": 1429,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "brunno",
+                    "actorState": "state",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "brunno",
+                    "actorState": "default",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 5,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 6,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "brunno",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 7,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 8,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "brunno",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1769,
+                    "x": 650,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                1428
+            ]
+        },
+        "1430": {
+            "type": "text",
+            "pos": {
+                "x": 650,
+                "y": 1050
+            },
+            "id": 1430,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1431,
+                    "x": 650,
+                    "y": 1150
+                }
+            ],
+            "entrances": [
+                1769
+            ]
+        },
+        "1431": {
+            "type": "text",
+            "pos": {
+                "x": 650,
+                "y": 1150
+            },
+            "id": 1431,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "brunno",
+                    "actorState": "state2",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "brunno",
+                    "actorState": "state",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "brunno",
+                    "actorState": "default",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 5,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1432,
+                    "x": 650,
+                    "y": 1250
+                }
+            ],
+            "entrances": [
+                1430
+            ]
+        },
+        "1432": {
+            "type": "end",
+            "pos": {
+                "x": 650,
+                "y": 1250
+            },
+            "id": 1432,
+            "ending": true,
+            "entrances": [
+                1431
+            ]
+        },
+        "1463": {
+            "type": "call",
+            "pos": {
+                "x": 650,
+                "y": 350
+            },
+            "id": 1463,
+            "connections": [
+                {
+                    "id": 1470,
+                    "x": 650,
+                    "y": 450
+                }
+            ],
+            "targetScene": "traincabs",
+            "targetNode": 1085,
+            "entrances": [
+                1481
+            ]
+        },
+        "1470": {
+            "type": "call",
+            "pos": {
+                "x": 650,
+                "y": 450
+            },
+            "id": 1470,
+            "connections": [
+                {
+                    "id": 1482,
+                    "x": 650,
+                    "y": 550
+                }
+            ],
+            "targetScene": "traincabs",
+            "targetNode": 1464,
+            "entrances": [
+                1463
+            ]
+        },
+        "1481": {
+            "type": "hideActor",
+            "pos": {
+                "x": 650,
+                "y": 250
+            },
+            "id": 1481,
+            "connections": [
+                {
+                    "id": 1463,
+                    "x": 650,
+                    "y": 350
+                }
+            ],
+            "actors": [
+                {
+                    "id": "brunno",
+                    "action": "hide",
+                    "state": "default",
+                    "actionAnimation": {
+                        "type": "right",
+                        "effect": true,
+                        "transition": {
+                            "duration": 3,
+                            "delay": 0,
+                            "transitfunction": "ease"
+                        }
+                    }
+                }
+            ],
+            "entrances": [
+                1425
+            ]
+        },
+        "1482": {
+            "type": "actor",
+            "pos": {
+                "x": 650,
+                "y": 550
+            },
+            "id": 1482,
+            "connections": [
+                {
+                    "id": 1427,
+                    "x": 650,
+                    "y": 650
+                }
+            ],
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "default",
+                    "action": "show",
+                    "position": {
+                        "x": "25.00%",
+                        "y": "100.00%",
+                        "scale": 2,
+                        "rx": "",
+                        "ry": ""
+                    },
+                    "animations": {},
+                    "actionAnimation": {
+                        "type": "left",
+                        "effect": true,
+                        "transition": {
+                            "duration": 2,
+                            "delay": 1,
+                            "transitfunction": "ease"
+                        }
+                    },
+                    "zIndex": 2000,
+                    "flip": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            ],
+            "entrances": [
+                1470
+            ]
+        },
+        "1769": {
+            "type": "call",
+            "pos": {
+                "x": 650,
+                "y": 950
+            },
+            "id": 1769,
+            "connections": [
+                {
+                    "id": 1430,
+                    "x": 650,
+                    "y": 1050
+                }
+            ],
+            "targetScene": "setNewClue",
+            "targetNode": 1762,
+            "entrances": [
+                1429
+            ]
+        }
+    }
+}

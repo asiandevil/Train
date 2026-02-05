@@ -1,0 +1,292 @@
+{
+    "id": "notes",
+    "name": "Notes Window",
+    "comment": "",
+    "role": "gui",
+    "deletable": false,
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "notes",
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 918,
+                    "height": 500
+                },
+                "zIndex": 3010
+            },
+            "listSetup": {},
+            "background": {
+                "setup": {},
+                "color": {
+                    "red": 36,
+                    "green": 123,
+                    "blue": 160,
+                    "alpha": 0.5
+                }
+            },
+            "text": {
+                "example": "none"
+            },
+            "children": [
+                {
+                    "id": "title",
+                    "name": "title",
+                    "role": "gui",
+                    "entityID": "notes",
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "shift": {
+                            "x": 20,
+                            "y": 15
+                        }
+                    },
+                    "listSetup": {},
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 128,
+                            "green": 128,
+                            "blue": 128,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "size": 30,
+                        "font": "roboto",
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "notes",
+                            "reactive": true
+                        }
+                    }
+                },
+                {
+                    "id": "content",
+                    "name": "Content",
+                    "role": "gui",
+                    "entityID": "notes",
+                    "position": {
+                        "shift": {
+                            "x": 19,
+                            "y": 60
+                        },
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "size": {
+                            "width": 880,
+                            "height": 383
+                        }
+                    },
+                    "listSetup": {
+                        "direction": "column",
+                        "isWrap": false
+                    },
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "example": "none",
+                        "size": 15,
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 1
+                        },
+                        "font": "roboto"
+                    },
+                    "children": [
+                        {
+                            "id": "listmodel",
+                            "name": "List model",
+                            "role": "listModel",
+                            "entityID": "notes",
+                            "text": {
+                                "example": "none"
+                            },
+                            "listSetup": {
+                                "reverse": true,
+                                "listModel": "notes"
+                            },
+                            "position": {
+                                "origin": {},
+                                "type": "static",
+                                "padding": {
+                                    "x": 5
+                                }
+                            },
+                            "border": {
+                                "width": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "x2": 2,
+                                    "y2": 0
+                                },
+                                "style": {
+                                    "x": "none",
+                                    "y": "none",
+                                    "x2": "solid",
+                                    "y2": "none"
+                                },
+                                "color": {
+                                    "x": {
+                                        "red": 255,
+                                        "green": 255,
+                                        "blue": 255,
+                                        "alpha": 1
+                                    }
+                                }
+                            },
+                            "background": {
+                                "setup": {},
+                                "color": {
+                                    "red": 128,
+                                    "green": 128,
+                                    "blue": 128,
+                                    "alpha": 0
+                                }
+                            },
+                            "children": [
+                                {
+                                    "id": "text",
+                                    "name": "Text",
+                                    "role": "gui",
+                                    "entityID": "notes",
+                                    "text": {
+                                        "size": 18,
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "__pseudo_notes",
+                                            "id": "message",
+                                            "reactive": true
+                                        }
+                                    },
+                                    "position": {
+                                        "type": "static"
+                                    },
+                                    "listSetup": {},
+                                    "border": {},
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 128,
+                                            "green": 128,
+                                            "blue": 128,
+                                            "alpha": 0
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "visibility": {
+                        "overflow": "scroll"
+                    }
+                },
+                {
+                    "id": "close",
+                    "name": "Close button",
+                    "role": "gui",
+                    "entityID": "notes",
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "shift": {
+                            "x": 419,
+                            "y": -8
+                        },
+                        "padding": {
+                            "x": 10,
+                            "y": 10
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "close",
+                            "reactive": true
+                        }
+                    },
+                    "background": {
+                        "setup": {}
+                    },
+                    "hover": [
+                        {
+                            "trigger": "close",
+                            "background": {
+                                "setup": {}
+                            },
+                            "text": {}
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "id": "generalbutton",
+                            "overwrite": false
+                        }
+                    ],
+                    "events": {
+                        "click": {
+                            "uiController": [
+                                {
+                                    "id": "overlay",
+                                    "action": "remove"
+                                },
+                                {
+                                    "id": "notes",
+                                    "action": "remove"
+                                }
+                            ],
+                            "sound": "core-basic-fast.wav"
+                        },
+                        "mouseEnter": {
+                            "sound": "core-basic-hover.wav"
+                        }
+                    },
+                    "visibility": {}
+                }
+            ],
+            "visibility": {
+                "positionLocked": true
+            },
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-out"
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-in"
+                }
+            }
+        }
+    ],
+    "doNotHide": true,
+    "unique": true
+}

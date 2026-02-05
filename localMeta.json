@@ -1,0 +1,2745 @@
+{
+    "selectedTab": "1731660603821",
+    "tabs": [
+        {
+            "id": "1731597209308",
+            "sceneId": "trainwalk",
+            "scale": 1,
+            "posX": 0,
+            "posY": 0
+        },
+        {
+            "id": "1731660603821",
+            "sceneId": "badEnd",
+            "scale": 1,
+            "posX": {},
+            "posY": 0
+        },
+        {
+            "id": "1753229177951",
+            "sceneId": "line4GoStay",
+            "scale": 1,
+            "posX": {},
+            "posY": 79.07979870596694
+        }
+    ],
+    "node": {
+        "0": {
+            "generatedName": "Scenario start"
+        },
+        "10": {
+            "generatedName": "Background: <b>Blood dream</b>"
+        },
+        "11": {
+            "generatedName": "Play Music: <b>malictusmusic - Ambient Dream</b>"
+        },
+        "13": {
+            "generatedName": "Show: Blood Dream transpar... "
+        },
+        "16": {
+            "generatedName": "Background: <b>GG Room</b>"
+        },
+        "18": {
+            "generatedName": "Ночной кошмар"
+        },
+        "20": {
+            "generatedName": "Начинает с показа интро с ночным кошмаром."
+        },
+        "21": {
+            "generatedName": "В руке моей нож, и я..."
+        },
+        "22": {
+            "generatedName": "Нож в её сердце, она..."
+        },
+        "23": {
+            "generatedName": "Еще миг, и впереди т..."
+        },
+        "24": {
+            "generatedName": "Она убегает по переу..."
+        },
+        "30": {
+            "generatedName": "Show: Blood Dream transpar... "
+        },
+        "31": {
+            "generatedName": "Wait: 2 seconds"
+        },
+        "32": {
+            "generatedName": "Я с криком размахива..."
+        },
+        "34": {
+            "generatedName": "Hide: Blood Dream transpar..."
+        },
+        "35": {
+            "generatedName": "Ох, это был очередно..."
+        },
+        "39": {
+            "generatedName": "Background: <b>GG Room</b>"
+        },
+        "40": {
+            "generatedName": "Тяжело мне согласить..."
+        },
+        "44": {
+            "generatedName": "End"
+        },
+        "49": {
+            "generatedName": "Кошмар про долги"
+        },
+        "50": {
+            "generatedName": "Долги"
+        },
+        "51": {
+            "generatedName": "End"
+        },
+        "52": {
+            "generatedName": "Долги"
+        },
+        "53": {
+            "generatedName": "Долги"
+        },
+        "54": {
+            "generatedName": "Долги"
+        },
+        "55": {
+            "generatedName": "Долги"
+        },
+        "56": {
+            "generatedName": "Долги"
+        },
+        "57": {
+            "generatedName": "Долги"
+        },
+        "58": {
+            "generatedName": "Долги"
+        },
+        "59": {
+            "generatedName": "Wait: 0.5 seconds"
+        },
+        "60": {
+            "generatedName": "Wait: 0.5 seconds"
+        },
+        "61": {
+            "generatedName": "Wait: 0.5 seconds"
+        },
+        "62": {
+            "generatedName": "Wait: 0.5 seconds"
+        },
+        "63": {
+            "generatedName": "Wait: 0.5 seconds"
+        },
+        "64": {
+            "generatedName": "Wait: 0.5 seconds"
+        },
+        "65": {
+            "generatedName": "Wait: 0.5 seconds"
+        },
+        "67": {
+            "generatedName": "Появление с небольшой задержкой множества фраз \"долги\"."
+        },
+        "70": {
+            "generatedName": "Play Sound: <b>Звук умывания</b>"
+        },
+        "71": {
+            "generatedName": "Нужно отвлечься, чем..."
+        },
+        "73": {
+            "generatedName": "Background: <b>GG Room</b>"
+        },
+        "74": {
+            "generatedName": "До нашей встречи вре..."
+        },
+        "75": {
+            "generatedName": "Start"
+        },
+        "76": {
+            "generatedName": "Background: <b>City Park</b>"
+        },
+        "77": {
+            "generatedName": "Play Envirounment: <b>Птицы в парке</b>"
+        },
+        "81": {
+            "generatedName": "Опять сон, в котором..."
+        },
+        "82": {
+            "generatedName": "Play Envirounment: <b>Птицы в парке</b>"
+        },
+        "83": {
+            "generatedName": "Девушка - явилась ко..."
+        },
+        "91": {
+            "generatedName": "Мистер Шиллер — круп..."
+        },
+        "94": {
+            "generatedName": "Background: <b>cabinet.png</b>"
+        },
+        "95": {
+            "generatedName": "Главный герой заходит в богатый на вид кабинет. 6"
+        },
+        "96": {
+            "generatedName": "Привет, дорогой мой ..."
+        },
+        "97": {
+            "generatedName": "Show: Шиллер "
+        },
+        "98": {
+            "generatedName": "Это не совсем так. Я..."
+        },
+        "99": {
+            "generatedName": "Ещё бы! Я пока что д..."
+        },
+        "100": {
+            "generatedName": "Так ты согласен. Отл..."
+        },
+        "101": {
+            "generatedName": "Магнат задумался."
+        },
+        "102": {
+            "generatedName": "Не похоже, что мисте..."
+        },
+        "104": {
+            "generatedName": "Background: <b>GG Room</b>"
+        },
+        "108": {
+            "generatedName": "Может, стоит отказат..."
+        },
+        "113": {
+            "generatedName": "Background: <b>Blood dream</b>"
+        },
+        "117": {
+            "generatedName": "Снова дома. Решение."
+        },
+        "118": {
+            "generatedName": "Я взялся за дело"
+        },
+        "119": {
+            "generatedName": "Игрок может отказаться от дела, но это ведет на инста бед рут"
+        },
+        "120": {
+            "generatedName": "End"
+        },
+        "121": {
+            "generatedName": "End"
+        },
+        "122": {
+            "generatedName": "End"
+        },
+        "123": {
+            "generatedName": "End"
+        },
+        "124": {
+            "generatedName": "ГГ проснулся"
+        },
+        "125": {
+            "generatedName": "Прогулка по парку"
+        },
+        "126": {
+            "generatedName": "У Шиллера"
+        },
+        "127": {
+            "generatedName": "End"
+        },
+        "129": {
+            "generatedName": "Здравствуйте, мистер..."
+        },
+        "130": {
+            "generatedName": "End"
+        },
+        "132": {
+            "generatedName": "Извините, но я не хо..."
+        },
+        "133": {
+            "generatedName": "Я отказался от дела"
+        },
+        "136": {
+            "generatedName": "Возможно, ещё увидим..."
+        },
+        "138": {
+            "generatedName": "Выходит на улицу. Идет по парку"
+        },
+        "139": {
+            "generatedName": "Background: <b>City Park</b>"
+        },
+        "140": {
+            "generatedName": "А ведь и вправду, чт..."
+        },
+        "143": {
+            "generatedName": "Продолжить работу детективом"
+        },
+        "144": {
+            "generatedName": "Поискать себя в другом занятие"
+        },
+        "146": {
+            "generatedName": "Я только принял реше..."
+        },
+        "147": {
+            "generatedName": "Background: <b>GG Room</b>"
+        },
+        "148": {
+            "generatedName": "Наступает ночь 9"
+        },
+        "149": {
+            "generatedName": "Зашёл ко всем своим ..."
+        },
+        "150": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "151": {
+            "generatedName": "Засыпает.\nКошмар 10"
+        },
+        "152": {
+            "generatedName": "Кругом тьма. Ничего ..."
+        },
+        "153": {
+            "generatedName": "Play Sound: <b>A juicy liquid sound.</b>"
+        },
+        "154": {
+            "generatedName": "Потеряв силы, падаю ..."
+        },
+        "155": {
+            "generatedName": "Play Sound: <b>A juicy liquid sound.</b>"
+        },
+        "156": {
+            "generatedName": "Я смотрю на свои рук..."
+        },
+        "157": {
+            "generatedName": "Background: <b>GG Room</b>"
+        },
+        "158": {
+            "generatedName": "Сон прекращается 11"
+        },
+        "159": {
+            "generatedName": "Это был всего лишь е..."
+        },
+        "160": {
+            "generatedName": "Background: <b>Blood dream</b>"
+        },
+        "161": {
+            "generatedName": "Сон 12. Скример"
+        },
+        "162": {
+            "generatedName": "Background: <b>Blood dream</b>"
+        },
+        "163": {
+            "generatedName": "Сон 13"
+        },
+        "164": {
+            "generatedName": "Мне нужно что-то най...",
+            "building": true
+        },
+        "165": {
+            "generatedName": "Background: <b>GG Room</b>"
+        },
+        "166": {
+            "generatedName": "День"
+        },
+        "167": {
+            "generatedName": "Очередной провал. И ..."
+        },
+        "168": {
+            "generatedName": "Что значит 14? Ссылка на еще один сон?"
+        },
+        "170": {
+            "generatedName": "Следующие утро. 15"
+        },
+        "171": {
+            "generatedName": "Прошло уже несколько..."
+        },
+        "172": {
+            "generatedName": "Background: <b>City</b>"
+        },
+        "173": {
+            "generatedName": "Улица 16"
+        },
+        "174": {
+            "generatedName": "В нашем городе, коне..."
+        },
+        "175": {
+            "generatedName": "Play Envirounment: <b>Шум толпы в городе</b>"
+        },
+        "176": {
+            "generatedName": "Эх, газету что ли ку..."
+        },
+        "177": {
+            "generatedName": "End"
+        },
+        "180": {
+            "generatedName": "Ладно, решено. Найду..."
+        },
+        "181": {
+            "generatedName": "End"
+        },
+        "183": {
+            "generatedName": "Я стою посреди улицы..."
+        },
+        "184": {
+            "generatedName": "Сон 8"
+        },
+        "185": {
+            "generatedName": "Внезапно кто-то напа..."
+        },
+        "186": {
+            "generatedName": "Play Sound: <b>Punching</b>"
+        },
+        "187": {
+            "generatedName": "Play Sound: <b>Punching</b>"
+        },
+        "188": {
+            "generatedName": "Play Sound: <b>Punching</b>"
+        },
+        "189": {
+            "generatedName": "Силы полностью покин..."
+        },
+        "191": {
+            "generatedName": "Я согласен взяться з..."
+        },
+        "192": {
+            "generatedName": "Ваша основная задача..."
+        },
+        "193": {
+            "generatedName": "А во сколько отбывае..."
+        },
+        "194": {
+            "generatedName": "Ну тогда я, пожалуй,..."
+        },
+        "197": {
+            "generatedName": "Пожалуй, финальные п..."
+        },
+        "205": {
+            "generatedName": "Этот день наступил. ..."
+        },
+        "206": {
+            "generatedName": "Play Envirounment: <b>Шум толпы в городе</b>"
+        },
+        "207": {
+            "generatedName": "Звуки толпы"
+        },
+        "208": {
+            "generatedName": "Людей на улице не оч..."
+        },
+        "209": {
+            "generatedName": "Show: Сын Магната "
+        },
+        "211": {
+            "generatedName": "Появляется спрайт магната"
+        },
+        "212": {
+            "generatedName": "А вот это, кажется, ..."
+        },
+        "214": {
+            "generatedName": "Play Envirounment: <b>Шум толпы в городе</b>"
+        },
+        "215": {
+            "generatedName": "Сколько он уже там? ..."
+        },
+        "216": {
+            "generatedName": "Звуки города"
+        },
+        "217": {
+            "generatedName": "Background: <b>Trainout</b>"
+        },
+        "218": {
+            "generatedName": "Локация станция поезда 12"
+        },
+        "219": {
+            "generatedName": "В итоге я его упусти..."
+        },
+        "220": {
+            "generatedName": "Play Envirounment: <b>Птицы в парке</b>"
+        },
+        "221": {
+            "generatedName": "Пение птиц"
+        },
+        "222": {
+            "generatedName": "Ясно одно: Шиллер в ..."
+        },
+        "223": {
+            "generatedName": "Play Music: <b>Relaxing music</b>"
+        },
+        "224": {
+            "generatedName": "Смена музыки на более спокойную"
+        },
+        "225": {
+            "generatedName": "Выяснить бы, сколько..."
+        },
+        "226": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "227": {
+            "generatedName": "Затемнение"
+        },
+        "228": {
+            "generatedName": "End"
+        },
+        "230": {
+            "generatedName": "Прошла лишь пара мин..."
+        },
+        "231": {
+            "generatedName": "Play Sound: <b>Шаги по полу в холе</b>"
+        },
+        "232": {
+            "generatedName": "Звуки шагов"
+        },
+        "233": {
+            "generatedName": "Его шаги совсем рядо..."
+        },
+        "234": {
+            "generatedName": "Show: Бруно "
+        },
+        "235": {
+            "generatedName": "Браун делает грустное лицо"
+        },
+        "236": {
+            "generatedName": "That's sad."
+        },
+        "238": {
+            "generatedName": "Show: Бруно "
+        },
+        "239": {
+            "generatedName": "Бруно делает самодовольное лицо"
+        },
+        "240": {
+            "generatedName": "Вот-вот! А то я, чес..."
+        },
+        "241": {
+            "generatedName": "Я заметил, что ты не..."
+        },
+        "243": {
+            "generatedName": "На станции"
+        },
+        "247": {
+            "generatedName": "Мне, конечно, это вс..."
+        },
+        "248": {
+            "generatedName": "Play Sound: <b>Быстрый шум ветра</b>"
+        },
+        "249": {
+            "generatedName": "Вжухх звук ветра"
+        },
+        "250": {
+            "generatedName": "Не успел я опомнитьс..."
+        },
+        "251": {
+            "generatedName": "End"
+        },
+        "252": {
+            "generatedName": "Твое предложение не ..."
+        },
+        "253": {
+            "generatedName": "Как вижу, ты цел, а ..."
+        },
+        "254": {
+            "generatedName": "End"
+        },
+        "256": {
+            "generatedName": "Скатиться"
+        },
+        "257": {
+            "generatedName": "Не соглашаться"
+        },
+        "259": {
+            "generatedName": "Может, Бруно и дурак..."
+        },
+        "260": {
+            "generatedName": "Show: Сын Магната "
+        },
+        "261": {
+            "generatedName": "На мгновенние появляется силуэт сына Шиллера"
+        },
+        "262": {
+            "generatedName": "Внезапно мне показал..."
+        },
+        "263": {
+            "generatedName": "Play Sound: <b>Гудок поезда</b>"
+        },
+        "264": {
+            "generatedName": "Гудок поезда"
+        },
+        "265": {
+            "generatedName": "Как думаешь, это наш..."
+        },
+        "266": {
+            "generatedName": "Нет-нет, прошу проще..."
+        },
+        "267": {
+            "generatedName": "Play Sound: <b>Гудок поезда</b>"
+        },
+        "268": {
+            "generatedName": "Гудок поезда и после звуки движения поезда."
+        },
+        "269": {
+            "generatedName": "Поїзд, нарешті, руши..."
+        },
+        "270": {
+            "generatedName": "Бездомним працюєш?"
+        },
+        "288": {
+            "generatedName": "End"
+        },
+        "289": {
+            "generatedName": "Обход вагонов"
+        },
+        "290": {
+            "generatedName": "End"
+        },
+        "292": {
+            "generatedName": "Show: Контролер "
+        },
+        "293": {
+            "generatedName": "Появление крысоватого проводника"
+        },
+        "294": {
+            "generatedName": "Вернулся в свой вагон"
+        },
+        "295": {
+            "generatedName": "Я повернувся до свог..."
+        },
+        "300": {
+            "generatedName": "Show: Бруно "
+        },
+        "301": {
+            "generatedName": "Появляется спрайт Бруно, а проводника исчезает"
+        },
+        "302": {
+            "generatedName": "Знову привіт, а я ту..."
+        },
+        "303": {
+            "generatedName": "No kidding! That’s q..."
+        },
+        "305": {
+            "generatedName": "Затемнение. Появление фона вагона."
+        },
+        "306": {
+            "generatedName": "Пролунав дзвінкий го..."
+        },
+        "307": {
+            "generatedName": "Background: <b>City</b>"
+        },
+        "309": {
+            "generatedName": "Ціни виявилися не на..."
+        },
+        "323": {
+            "generatedName": "Небольшая проблема б..."
+        },
+        "325": {
+            "building": true
+        },
+        "328": {
+            "generatedName": "Книги немає, газети ..."
+        },
+        "329": {
+            "generatedName": "Краще залишу його на..."
+        },
+        "331": {
+            "generatedName": "Получить улику"
+        },
+        "332": {
+            "generatedName": "End"
+        },
+        "333": {
+            "generatedName": "Чому б і не поспілку..."
+        },
+        "337": {
+            "generatedName": "Получить улику, что он всегда напряжен."
+        },
+        "339": {
+            "generatedName": "End"
+        },
+        "341": {
+            "generatedName": "Посмотреть в окно"
+        },
+        "342": {
+            "generatedName": "Пообщаться с Бруно"
+        },
+        "343": {
+            "generatedName": "Общая линия 4"
+        },
+        "344": {
+            "generatedName": "Тут происходит выбор улик"
+        },
+        "346": {
+            "generatedName": "Скільки б я не дивив..."
+        },
+        "348": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "349": {
+            "generatedName": "Постепенно фон затемняется и параллельно появляется звук поезда и становится всё громче."
+        },
+        "351": {
+            "generatedName": "Сон 20"
+        },
+        "352": {
+            "generatedName": "Я стою посеред черги..."
+        },
+        "355": {
+            "generatedName": "Сон закончился"
+        },
+        "356": {
+            "generatedName": "Сон закінчився, і я ..."
+        },
+        "360": {
+            "building": true
+        },
+        "362": {
+            "generatedName": "Остаться"
+        },
+        "363": {
+            "generatedName": "Вернуться"
+        },
+        "368": {
+            "generatedName": "Залишуся тут. У себе..."
+        },
+        "369": {
+            "generatedName": "End"
+        },
+        "370": {
+            "generatedName": "Гаразд, мабуть, піду..."
+        },
+        "372": {
+            "generatedName": "Возвращение в свой вагон"
+        },
+        "373": {
+            "generatedName": "Поки мене не було, Б..."
+        },
+        "374": {
+            "generatedName": "Play Sound: <b>Перемешивание карт</b>"
+        },
+        "375": {
+            "generatedName": "на фоне звук, как будто кто-то мешает карты.\n"
+        },
+        "376": {
+            "generatedName": "Я підійшов ще ближче..."
+        },
+        "377": {
+            "generatedName": "Play Sound: <b>Перемешивание карт</b>"
+        },
+        "378": {
+            "generatedName": "Привіт, не хочеш зіг..."
+        },
+        "379": {
+            "generatedName": "Та що за недовіра…"
+        },
+        "380": {
+            "generatedName": "У минулому я дуже ча..."
+        },
+        "381": {
+            "generatedName": "Добре, давай зіграєм..."
+        },
+        "382": {
+            "generatedName": "У моїй руці опинилис..."
+        },
+        "383": {
+            "generatedName": "Я почав свій хід, як..."
+        },
+        "426": {
+            "generatedName": "Шпигувати... навіть ..."
+        },
+        "427": {
+            "generatedName": "End"
+        },
+        "428": {
+            "generatedName": "Пішли до вагона-рест..."
+        },
+        "447": {
+            "generatedName": "End"
+        },
+        "478": {
+            "generatedName": "Start"
+        },
+        "479": {
+            "generatedName": "Play Sound: <b>Гудок поезда</b>"
+        },
+        "481": {
+            "generatedName": "Поки ми займалися ци..."
+        },
+        "483": {
+            "generatedName": "Смена вагона три раза"
+        },
+        "484": {
+            "generatedName": "Я пройшовся по всіх ..."
+        },
+        "486": {
+            "generatedName": "Play Envirounment: <b>Whispering</b>"
+        },
+        "488": {
+            "generatedName": "Звуки шепота начинают постоянно звучать"
+        },
+        "499": {
+            "generatedName": "Повернувся-то я пове..."
+        },
+        "500": {
+            "generatedName": "Вернулся к себе в вагон"
+        },
+        "501": {
+            "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
+        },
+        "502": {
+            "generatedName": "Звуки поезда 3 раза. Эффект пропуска времени."
+        },
+        "503": {
+            "generatedName": "Після нескінченного ..."
+        },
+        "504": {
+            "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
+        },
+        "505": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "506": {
+            "generatedName": "Полная тишина и черный фон"
+        },
+        "507": {
+            "generatedName": "Гаразд, раз не виход..."
+        },
+        "508": {
+            "generatedName": "Play Sound: <b>Быстрый шум ветра</b>"
+        },
+        "509": {
+            "generatedName": "Внезапный звук"
+        },
+        "510": {
+            "generatedName": "І тут мене осінило: ..."
+        },
+        "511": {
+            "generatedName": "Play Sound: <b>Knocking on a door</b>"
+        },
+        "512": {
+            "generatedName": "Тук-тук"
+        },
+        "513": {
+            "generatedName": "Відповіді немає, а д..."
+        },
+        "514": {
+            "generatedName": "Play Sound: <b>Knocking on a door</b>"
+        },
+        "515": {
+            "generatedName": "Знову тиша, але нічо..."
+        },
+        "516": {
+            "generatedName": "Play Sound: <b>Knocking on a door</b>"
+        },
+        "517": {
+            "generatedName": "І тут немає."
+        },
+        "518": {
+            "generatedName": "Play Sound: <b>Knocking on a door</b>"
+        },
+        "519": {
+            "generatedName": "Знову без відповіді."
+        },
+        "520": {
+            "generatedName": "Play Sound: <b>Knocking on a door</b>"
+        },
+        "521": {
+            "generatedName": "Це вже починає напру..."
+        },
+        "522": {
+            "generatedName": "Play Sound: <b>Knocking on a door</b>"
+        },
+        "523": {
+            "generatedName": "І ще раз."
+        },
+        "524": {
+            "generatedName": "Play Sound: <b>Knocking on a door</b>"
+        },
+        "525": {
+            "generatedName": "І ще раз."
+        },
+        "526": {
+            "generatedName": "Play Sound: <b>Knocking on a door</b>"
+        },
+        "527": {
+            "generatedName": "І що? Їх ніде немає ..."
+        },
+        "529": {
+            "generatedName": "Во второй вагон"
+        },
+        "531": {
+            "generatedName": "Смена вагона"
+        },
+        "532": {
+            "generatedName": "Можна було б сказати..."
+        },
+        "533": {
+            "generatedName": "Play Envirounment: <b>Whispering</b>"
+        },
+        "534": {
+            "generatedName": "Звук плохо слышного разговора"
+        },
+        "549": {
+            "generatedName": "Wait: 3 seconds"
+        },
+        "551": {
+            "generatedName": "Play Sound: <b>Шаги по полу в холе</b>"
+        },
+        "552": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "553": {
+            "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
+        },
+        "560": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "561": {
+            "generatedName": "Background: <b>City</b>"
+        },
+        "562": {
+            "generatedName": "Я посреди города.А н..."
+        },
+        "563": {
+            "generatedName": "End"
+        },
+        "564": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "567": {
+            "generatedName": "Показать текст с долгами"
+        },
+        "575": {
+            "generatedName": "Background: <b>cabinet.png</b>"
+        },
+        "576": {
+            "generatedName": "Show: Шиллер "
+        },
+        "580": {
+            "generatedName": "End"
+        },
+        "581": {
+            "generatedName": "Убийство в поезде"
+        },
+        "585": {
+            "generatedName": "Прошло 6 дней"
+        },
+        "586": {
+            "generatedName": "Погоня за машиной"
+        },
+        "587": {
+            "generatedName": "Общая линия 2"
+        },
+        "588": {
+            "generatedName": "Background: <b>City</b>"
+        },
+        "589": {
+            "generatedName": "Переход через черный экран."
+        },
+        "591": {
+            "generatedName": "Чёрт, где он? Если о..."
+        },
+        "592": {
+            "generatedName": "Hide: Сын Магната"
+        },
+        "593": {
+            "generatedName": "С ним идёт какая-то ..."
+        },
+        "594": {
+            "generatedName": "Show: Сын Магната, Девушка "
+        },
+        "595": {
+            "generatedName": "Пока я думал над сво..."
+        },
+        "596": {
+            "generatedName": "Hide: Сын Магната, Девушка"
+        },
+        "598": {
+            "generatedName": "На вокзале"
+        },
+        "599": {
+            "generatedName": "Background: <b>Trainout</b>"
+        },
+        "600": {
+            "generatedName": "Прошу прощения, я ва..."
+        },
+        "601": {
+            "generatedName": "Show: Бруно "
+        },
+        "602": {
+            "generatedName": "Бруно резко сорвался..."
+        },
+        "606": {
+            "generatedName": "Переведя взгляд на Б..."
+        },
+        "609": {
+            "generatedName": "Hide: Сын Магната"
+        },
+        "610": {
+            "generatedName": "Біля входу у дванадц..."
+        },
+        "611": {
+            "generatedName": "Show: Бруно, Контролер "
+        },
+        "612": {
+            "generatedName": "Раптом Бруно згадав ..."
+        },
+        "614": {
+            "generatedName": "Hide: Бруно"
+        },
+        "620": {
+            "generatedName": "Play Music: <b>Birds for Scale - Smarties</b>"
+        },
+        "621": {
+            "generatedName": "Start"
+        },
+        "623": {
+            "generatedName": "Скільки вільних місц..."
+        },
+        "624": {
+            "generatedName": "Show: Бруно "
+        },
+        "632": {
+            "generatedName": "Wait: 4 seconds"
+        },
+        "633": {
+            "generatedName": "Wait: 2 seconds"
+        },
+        "635": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "636": {
+            "generatedName": "Слушать пение птиц -..."
+        },
+        "638": {
+            "generatedName": "Мне очень хочется пр..."
+        },
+        "639": {
+            "generatedName": "Белый туман"
+        },
+        "640": {
+            "generatedName": "Оказалось, что кажды..."
+        },
+        "641": {
+            "generatedName": "Предположений кто бы..."
+        },
+        "642": {
+            "generatedName": "Поговорить с ней не ..."
+        },
+        "643": {
+            "generatedName": "Все мои последние сн..."
+        },
+        "644": {
+            "generatedName": "Ощущение страха поне..."
+        },
+        "645": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "646": {
+            "generatedName": "Здравствуйте, мистер..."
+        },
+        "647": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "649": {
+            "generatedName": "«Соберись!» — говорю..."
+        },
+        "651": {
+            "generatedName": "    Прошла неделя с ..."
+        },
+        "652": {
+            "generatedName": "    Ещё один любопыт..."
+        },
+        "653": {
+            "generatedName": "    Пошли слухи, что..."
+        },
+        "658": {
+            "generatedName": "Прошло уже несколько..."
+        },
+        "659": {
+            "generatedName": "Самое главное, что и..."
+        },
+        "664": {
+            "generatedName": "Wait: 2 seconds"
+        },
+        "667": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "668": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "669": {
+            "generatedName": "Wait: 4 seconds"
+        },
+        "671": {
+            "generatedName": "Wait: 8 seconds"
+        },
+        "672": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "676": {
+            "generatedName": "Wait: 2 seconds"
+        },
+        "677": {
+            "generatedName": "Wait: 4 seconds"
+        },
+        "680": {
+            "generatedName": "Wait: 2 seconds"
+        },
+        "682": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "683": {
+            "generatedName": "Background: <b>GG Room</b>"
+        },
+        "684": {
+            "generatedName": "Start"
+        },
+        "686": {
+            "generatedName": "Scenario end"
+        },
+        "687": {
+            "generatedName": "Bad end"
+        },
+        "688": {
+            "generatedName": "Bad end"
+        },
+        "689": {
+            "generatedName": "Wait: 4 seconds"
+        },
+        "695": {
+            "generatedName": "Wait: 2 seconds"
+        },
+        "699": {
+            "generatedName": "Background: <b>GG Room</b>"
+        },
+        "702": {
+            "generatedName": "[Шиллер слегка улыбнулся]"
+        },
+        "704": {
+            "generatedName": "Wait: 6 seconds"
+        },
+        "706": {
+            "generatedName": "Wait: 4 seconds"
+        },
+        "720": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "721": {
+            "generatedName": "Play Music: <b>Kris Keypovsky - Silence</b>"
+        },
+        "722": {
+            "generatedName": "Play Music: <b>Roman - choice</b>"
+        },
+        "724": {
+            "generatedName": "Play Music: <b>Мрачная музыка.</b>"
+        },
+        "725": {
+            "generatedName": "Play Music: <b>Холодная, напряженная музыка.</b>"
+        },
+        "727": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "729": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "730": {
+            "generatedName": "Wait: 2 seconds"
+        },
+        "731": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "734": {
+            "generatedName": "Play Music: <b>Roman - choice</b>"
+        },
+        "735": {
+            "generatedName": "Вспышка, обозначающая повреждения у главного героя. "
+        },
+        "737": {
+            "generatedName": "Надеюсь, всё пройдёт..."
+        },
+        "739": {
+            "generatedName": "Show: Blood Dream transpar... "
+        },
+        "741": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "742": {
+            "generatedName": "Wait: 5 seconds"
+        },
+        "744": {
+            "generatedName": "Hide: Blood Dream transpar..."
+        },
+        "746": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "749": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "750": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "752": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "753": {
+            "generatedName": "Play Music: <b>Мрачная музыка.</b>"
+        },
+        "754": {
+            "generatedName": "Play Music: <b>Музыка живого города</b>"
+        },
+        "755": {
+            "generatedName": "Hide: Шиллер"
+        },
+        "757": {
+            "generatedName": "Ну куда вы спешите....."
+        },
+        "758": {
+            "generatedName": "Show: Шиллер "
+        },
+        "759": {
+            "generatedName": "Понимаете ли… я пору..."
+        },
+        "760": {
+            "generatedName": "Show: Шиллер "
+        },
+        "761": {
+            "generatedName": "Необычное предложени..."
+        },
+        "762": {
+            "generatedName": "Show: Шиллер "
+        },
+        "763": {
+            "generatedName": "Show: Шиллер "
+        },
+        "764": {
+            "generatedName": "Show: Шиллер "
+        },
+        "765": {
+            "generatedName": "Магнат громко рассме..."
+        },
+        "766": {
+            "generatedName": "Show: Шиллер "
+        },
+        "767": {
+            "generatedName": "У Вас на раздумье дв..."
+        },
+        "768": {
+            "generatedName": "Show: Шиллер "
+        },
+        "770": {
+            "generatedName": "Play Music: <b>Мрачная музыка.</b>"
+        },
+        "771": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "772": {
+            "generatedName": "Wait: 0.6 seconds"
+        },
+        "775": {
+            "generatedName": "Play Music: <b>Мрачная музыка.</b>"
+        },
+        "776": {
+            "generatedName": "Play Music: <b>Мрачная музыка.</b>"
+        },
+        "777": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "791": {
+            "generatedName": "Красная вспышка"
+        },
+        "792": {
+            "generatedName": "Play Sound: <b>Punching</b>"
+        },
+        "793": {
+            "generatedName": "Hide: Шиллер"
+        },
+        "796": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "797": {
+            "generatedName": "Play Music: <b>Game over music</b>"
+        },
+        "800": {
+            "generatedName": "Play Music: <b>Музыка живого города</b>"
+        },
+        "801": {
+            "generatedName": "Понимая, что я не в ..."
+        },
+        "812": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "813": {
+            "generatedName": "Wait: 5 seconds"
+        },
+        "831": {
+            "generatedName": "Shake-Pulse"
+        },
+        "832": {
+            "generatedName": "Shake-Pulse: Hide"
+        },
+        "833": {
+            "generatedName": "Shake-Pulse"
+        },
+        "834": {
+            "generatedName": "Shake-Pulse: Hide"
+        },
+        "835": {
+            "generatedName": "Shake-Pulse"
+        },
+        "836": {
+            "generatedName": "Shake-Pulse: Hide"
+        },
+        "845": {
+            "generatedName": "Place: Home"
+        },
+        "846": {
+            "generatedName": "Place: Park"
+        },
+        "847": {
+            "generatedName": "Place: Shiller"
+        },
+        "856": {
+            "generatedName": "Place: Home"
+        },
+        "857": {
+            "generatedName": "Place: Shiller"
+        },
+        "858": {
+            "generatedName": "Place: Park"
+        },
+        "859": {
+            "generatedName": "Place: Home"
+        },
+        "865": {
+            "generatedName": "Place: In Town"
+        },
+        "866": {
+            "generatedName": "Place: Home"
+        },
+        "867": {
+            "generatedName": "Place: In Town"
+        },
+        "868": {
+            "generatedName": "Place: Station"
+        },
+        "874": {
+            "generatedName": "Starting date"
+        },
+        "880": {
+            "generatedName": "Прошла неделя"
+        },
+        "885": {
+            "generatedName": "Снова у Шиллера"
+        },
+        "891": {
+            "generatedName": "зашёл ко всем своим"
+        },
+        "896": {
+            "generatedName": "это был всего"
+        },
+        "901": {
+            "generatedName": "очередной провал"
+        },
+        "910": {
+            "generatedName": "4 января"
+        },
+        "911": {
+            "generatedName": "10 апреля"
+        },
+        "916": {
+            "generatedName": "этот день наступил"
+        },
+        "918": {
+            "generatedName": "Сорвиголова помчался..."
+        },
+        "920": {
+            "generatedName": "Show: Бруно "
+        },
+        "921": {
+            "generatedName": "Hide: Бруно"
+        },
+        "923": {
+            "generatedName": "Hide: Бруно"
+        },
+        "924": {
+            "generatedName": "Show: Бруно "
+        },
+        "925": {
+            "generatedName": "Мы пришли к дороге, ..."
+        },
+        "927": {
+            "generatedName": "Hide: Бруно"
+        },
+        "928": {
+            "generatedName": "Бруно уже ожидал на ..."
+        },
+        "929": {
+            "generatedName": "Теперь точно понятно..."
+        },
+        "930": {
+            "generatedName": "Show: Бруно "
+        },
+        "935": {
+            "generatedName": "Wait: 3 seconds"
+        },
+        "936": {
+            "generatedName": "Background: <b>Trainout</b>"
+        },
+        "937": {
+            "generatedName": "Wait: 3 seconds"
+        },
+        "941": {
+            "generatedName": "Start"
+        },
+        "943": {
+            "generatedName": "End"
+        },
+        "944": {
+            "generatedName": "Play Music: <b>Kris Keypovsky - Silence</b>"
+        },
+        "948": {
+            "generatedName": "Show: Девушка "
+        },
+        "949": {
+            "generatedName": "Background: <b>Trainout</b>"
+        },
+        "950": {
+            "generatedName": "Какой-то текст"
+        },
+        "952": {
+            "generatedName": "Конец Демо"
+        },
+        "953": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "955": {
+            "generatedName": "Wait: 3 seconds"
+        },
+        "956": {
+            "generatedName": "Background: <b>GG Room</b>"
+        },
+        "957": {
+            "generatedName": "Wait: 3 seconds"
+        },
+        "959": {
+            "generatedName": "Play Music: <b>Музыка живого города</b>"
+        },
+        "960": {
+            "generatedName": "Play Music: <b>Game over music</b>"
+        },
+        "963": {
+            "generatedName": "Start"
+        },
+        "964": {
+            "generatedName": "Background: <b>Trainout</b>"
+        },
+        "965": {
+            "generatedName": "    Sdfsdf df sdfsd ..."
+        },
+        "966": {
+            "generatedName": "End"
+        },
+        "967": {
+            "generatedName": "Видел сон как туман ..."
+        },
+        "968": {
+            "generatedName": "Конец демо"
+        },
+        "972": {
+            "generatedName": "End"
+        },
+        "974": {
+            "generatedName": "Show dark screen"
+        },
+        "976": {
+            "generatedName": "End"
+        },
+        "980": {
+            "generatedName": "End"
+        },
+        "985": {
+            "generatedName": "End"
+        },
+        "989": {
+            "generatedName": "Show dark screen"
+        },
+        "991": {
+            "generatedName": "End"
+        },
+        "993": {
+            "generatedName": "Show dark screen"
+        },
+        "995": {
+            "generatedName": "End"
+        },
+        "997": {
+            "generatedName": "Show dark screen"
+        },
+        "999": {
+            "generatedName": "End"
+        },
+        "1000": {
+            "generatedName": "Check prev windows"
+        },
+        "1001": {
+            "generatedName": "Check prev windows"
+        },
+        "1002": {
+            "generatedName": "Check prev windows"
+        },
+        "1003": {
+            "generatedName": "Check prev windows"
+        },
+        "1008": {
+            "generatedName": "Close all windows"
+        },
+        "1009": {
+            "generatedName": "Show Setup Window"
+        },
+        "1010": {
+            "generatedName": "End"
+        },
+        "1016": {
+            "building": true
+        },
+        "1023": {
+            "generatedName": "Play Sound: <b>A juicy liquid sound.</b>"
+        },
+        "1025": {
+            "generatedName": "Hide: Шиллер"
+        },
+        "1027": {
+            "generatedName": "Show: Mini Car "
+        },
+        "1029": {
+            "generatedName": "End"
+        },
+        "1030": {
+            "generatedName": "MI: show car"
+        },
+        "1031": {
+            "generatedName": "Номер и марку машины..."
+        },
+        "1033": {
+            "generatedName": "Hide: Mini Car, Cards"
+        },
+        "1034": {
+            "generatedName": "End"
+        },
+        "1035": {
+            "generatedName": "MI: hide all"
+        },
+        "1047": {
+            "generatedName": "Start"
+        },
+        "1049": {
+            "generatedName": "Background: <b>Trainout</b>"
+        },
+        "1050": {
+            "generatedName": "Show: Бруно "
+        },
+        "1060": {
+            "generatedName": "Майнц - вагон 12"
+        },
+        "1062": {
+            "generatedName": "Start"
+        },
+        "1076": {
+            "generatedName": "Background: <b>Cab day closed</b>"
+        },
+        "1079": {
+            "generatedName": "Нікого немає."
+        },
+        "1080": {
+            "generatedName": "End"
+        },
+        "1087": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1088": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1090": {
+            "generatedName": "Background: <b>Cab day half</b>"
+        },
+        "1093": {
+            "generatedName": "Та й у наступному ні..."
+        },
+        "1094": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1095": {
+            "generatedName": "Ну в наступному то т..."
+        },
+        "1097": {
+            "generatedName": "Background: <b>Cab day closed</b>"
+        },
+        "1099": {
+            "generatedName": "Я вже пройшов одинад..."
+        },
+        "1100": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1103": {
+            "generatedName": "Background: <b>Cab rich closed</b>"
+        },
+        "1104": {
+            "generatedName": "Show: Руди "
+        },
+        "1105": {
+            "generatedName": "Довго розглядати ваг..."
+        },
+        "1106": {
+            "generatedName": "Первый обход вагонов"
+        },
+        "1108": {
+            "generatedName": "Hide: Контролер"
+        },
+        "1109": {
+            "generatedName": "В дороге - вагон 12"
+        },
+        "1114": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1116": {
+            "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1117": {
+            "generatedName": "Show: Бруно "
+        },
+        "1120": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1122": {
+            "generatedName": "Play Sound: <b>Гудок поезда</b>"
+        },
+        "1125": {
+            "generatedName": "Франкфурт"
+        },
+        "1126": {
+            "generatedName": "End"
+        },
+        "1127": {
+            "generatedName": "Show: Бруно "
+        },
+        "1128": {
+            "generatedName": "Людвіг, ми дещо пере..."
+        },
+        "1129": {
+            "building": true
+        },
+        "1130": {
+            "generatedName": "А давай."
+        },
+        "1132": {
+            "generatedName": "End"
+        },
+        "1133": {
+            "generatedName": "Знаєш що?"
+        },
+        "1135": {
+            "generatedName": "End"
+        },
+        "1136": {
+            "generatedName": "Продать"
+        },
+        "1137": {
+            "generatedName": "Поделиться"
+        },
+        "1139": {
+            "generatedName": "Даремно, міг накинут..."
+        },
+        "1140": {
+            "generatedName": "Він серйозно пропону..."
+        },
+        "1142": {
+            "generatedName": "Об'єднатися пропонує..."
+        },
+        "1143": {
+            "generatedName": "Show: Бруно "
+        },
+        "1144": {
+            "generatedName": "Він подивився на сві..."
+        },
+        "1147": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1148": {
+            "generatedName": "End"
+        },
+        "1149": {
+            "generatedName": "Общая линия 3"
+        },
+        "1150": {
+            "generatedName": "Думаю, не буду цим з..."
+        },
+        "1151": {
+            "generatedName": "Сидить та дивиться н..."
+        },
+        "1161": {
+            "generatedName": "Show: Бруно "
+        },
+        "1163": {
+            "generatedName": "Не впевнений, але шв..."
+        },
+        "1164": {
+            "generatedName": "Show: Бруно "
+        },
+        "1165": {
+            "generatedName": "Важко повірити його ..."
+        },
+        "1167": {
+            "generatedName": "Щастить. Я ніколи в ..."
+        },
+        "1168": {
+            "generatedName": "Можливо, це містечко..."
+        },
+        "1170": {
+            "generatedName": "Не знаю, сказали чек..."
+        },
+        "1171": {
+            "generatedName": "Show: Бруно "
+        },
+        "1173": {
+            "generatedName": "Вторая версия (Игрок видит его если выбрал скатиться с горки и поговорить с Бруно)"
+        },
+        "1174": {
+            "generatedName": "Я стою в черзі. Попе..."
+        },
+        "1175": {
+            "generatedName": "Show: Бруно "
+        },
+        "1176": {
+            "generatedName": "Чекаю, коли ж нарешт..."
+        },
+        "1177": {
+            "generatedName": "Сон закончился"
+        },
+        "1178": {
+            "generatedName": "Перевізник? У нас же..."
+        },
+        "1181": {
+            "generatedName": "Але головне, навіть ..."
+        },
+        "1186": {
+            "generatedName": "Игра в карты"
+        },
+        "1188": {
+            "generatedName": "Все зрозуміло?"
+        },
+        "1189": {
+            "generatedName": "Play Sound: <b>Карта 1</b>"
+        },
+        "1190": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1191": {
+            "generatedName": "Десятка два!"
+        },
+        "1192": {
+            "generatedName": "Play Sound: <b>Карта 3</b>"
+        },
+        "1193": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1194": {
+            "generatedName": "Дрібниш, треба відра..."
+        },
+        "1195": {
+            "generatedName": "Чого чекаєш? Ходи."
+        },
+        "1196": {
+            "generatedName": "Play Sound: <b>Карта 1</b>"
+        },
+        "1197": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1199": {
+            "generatedName": "Play Sound: <b>Карта 2</b>"
+        },
+        "1200": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1201": {
+            "generatedName": "Play Sound: <b>Карта 3</b>"
+        },
+        "1202": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1203": {
+            "generatedName": "Така гра мені подоба..."
+        },
+        "1205": {
+            "generatedName": "Та годі, мелочь це т..."
+        },
+        "1206": {
+            "generatedName": "Play Sound: <b>Карта 1</b>"
+        },
+        "1207": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1208": {
+            "generatedName": "Дама пік, Дама бубен..."
+        },
+        "1209": {
+            "generatedName": "Play Sound: <b>Карта 3</b>"
+        },
+        "1210": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1211": {
+            "generatedName": "*Відбив*"
+        },
+        "1214": {
+            "generatedName": "Play Sound: <b>Карта 2</b>"
+        },
+        "1215": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1216": {
+            "generatedName": "Король хрест, Король..."
+        },
+        "1217": {
+            "generatedName": "Play Sound: <b>Карта 1</b>"
+        },
+        "1218": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1219": {
+            "generatedName": "*Відбив*"
+        },
+        "1220": {
+            "generatedName": "Play Sound: <b>Карта 3</b>"
+        },
+        "1221": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1222": {
+            "generatedName": "Туз пік, Туз черв!"
+        },
+        "1223": {
+            "generatedName": "Play Sound: <b>Карта 1</b>"
+        },
+        "1224": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1225": {
+            "generatedName": "*Відбив*"
+        },
+        "1226": {
+            "generatedName": "Нічого, з часом навч..."
+        },
+        "1227": {
+            "generatedName": "End"
+        },
+        "1229": {
+            "generatedName": "End"
+        },
+        "1230": {
+            "generatedName": "End"
+        },
+        "1232": {
+            "generatedName": "*Шепіт*..."
+        },
+        "1233": {
+            "generatedName": "*Шепіт*…..."
+        },
+        "1234": {
+            "generatedName": "*Шепіт*..."
+        },
+        "1235": {
+            "generatedName": "Але як бути з тим, щ..."
+        },
+        "1238": {
+            "generatedName": "Бруно вже повернувся..."
+        },
+        "1241": {
+            "generatedName": "Бруно, ні в чому соб..."
+        },
+        "1242": {
+            "generatedName": "Show: Бруно "
+        },
+        "1243": {
+            "generatedName": "Як це так? Просто та..."
+        },
+        "1244": {
+            "generatedName": "Дай вгадаю, втомився..."
+        },
+        "1245": {
+            "generatedName": "Так і закінчилася на..."
+        },
+        "1246": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1247": {
+            "generatedName": "Hide: Руди"
+        },
+        "1248": {
+            "generatedName": "Hide: Контролер"
+        },
+        "1249": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1250": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1251": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1257": {
+            "generatedName": "Place: Frankfurt, train"
+        },
+        "1258": {
+            "generatedName": "Place: On the road"
+        },
+        "1277": {
+            "generatedName": "Place: Frankfurt, city"
+        },
+        "1278": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "1280": {
+            "generatedName": "Сон 20-2"
+        },
+        "1281": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1282": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1283": {
+            "generatedName": "Play Sound: <b>Гудок поезда</b>"
+        },
+        "1284": {
+            "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
+        },
+        "1286": {
+            "generatedName": "В дороге - вагон 12"
+        },
+        "1290": {
+            "generatedName": "Вагон 12 - переход в ночь"
+        },
+        "1298": {
+            "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
+        },
+        "1299": {
+            "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
+        },
+        "1309": {
+            "generatedName": "Background: <b>Trainout</b>"
+        },
+        "1310": {
+            "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
+        },
+        "1311": {
+            "generatedName": "End"
+        },
+        "1312": {
+            "generatedName": "Общий сетап для сна"
+        },
+        "1313": {
+            "generatedName": "Общий сетап для сна"
+        },
+        "1315": {
+            "generatedName": "Shake-Jump"
+        },
+        "1317": {
+            "generatedName": "В дороге - вагон 12"
+        },
+        "1319": {
+            "generatedName": "End"
+        },
+        "1322": {
+            "generatedName": "Shake-Jump: Hide"
+        },
+        "1323": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "1324": {
+            "generatedName": "Общий конец сна"
+        },
+        "1325": {
+            "generatedName": "Общий конец сна"
+        },
+        "1326": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1327": {
+            "generatedName": "Wait: 3 seconds"
+        },
+        "1329": {
+            "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
+        },
+        "1332": {
+            "generatedName": "Вагон виявився напол..."
+        },
+        "1333": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1339": {
+            "generatedName": "Background: <b>Cab day closed</b>"
+        },
+        "1340": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1342": {
+            "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1343": {
+            "generatedName": "І тобі. Знаєш, я пом..."
+        },
+        "1344": {
+            "generatedName": "Show: Бруно "
+        },
+        "1345": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1347": {
+            "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1348": {
+            "generatedName": "Show: Бруно "
+        },
+        "1349": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "1351": {
+            "generatedName": "Приблизно..."
+        },
+        "1354": {
+            "generatedName": "Play Sound: <b>Перемешивание карт</b>"
+        },
+        "1355": {
+            "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1359": {
+            "generatedName": "MI: show cards"
+        },
+        "1361": {
+            "generatedName": "Show: Cards "
+        },
+        "1362": {
+            "generatedName": "End"
+        },
+        "1367": {
+            "generatedName": "Show: Bruno "
+        },
+        "1368": {
+            "generatedName": "Так і закінчилася гр..."
+        },
+        "1369": {
+            "generatedName": "MI: hide all"
+        },
+        "1370": {
+            "generatedName": "Добре, а крім карт г..."
+        },
+        "1371": {
+            "generatedName": "Play Sound: <b>Перемешивание карт</b>"
+        },
+        "1372": {
+            "generatedName": "Та на завершення наш..."
+        },
+        "1383": {
+            "generatedName": "Він вирішив дізнатис..."
+        },
+        "1384": {
+            "generatedName": "Знаєш, поки що нічог..."
+        },
+        "1385": {
+            "generatedName": "Та тут і пояснювати ..."
+        },
+        "1386": {
+            "generatedName": "Підозрюю, навіть якщ..."
+        },
+        "1387": {
+            "generatedName": "Ні, в карти з тобою ..."
+        },
+        "1388": {
+            "generatedName": "Колись обов'язково, ..."
+        },
+        "1390": {
+            "generatedName": "Добре, тоді можна......"
+        },
+        "1391": {
+            "generatedName": "Може, перевірити ці ..."
+        },
+        "1392": {
+            "generatedName": "І це, в тому числі."
+        },
+        "1395": {
+            "generatedName": "Поки ми йшли, то пом..."
+        },
+        "1396": {
+            "generatedName": "А що з ним? Обличчя,..."
+        },
+        "1397": {
+            "generatedName": "Поки я розмовляв з Б..."
+        },
+        "1398": {
+            "generatedName": "Гаразд, поки ми йшли..."
+        },
+        "1399": {
+            "generatedName": "Выбор действия"
+        },
+        "1400": {
+            "generatedName": "Общая линия 5"
+        },
+        "1401": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1403": {
+            "generatedName": "Background: <b>Cab day closed</b>"
+        },
+        "1404": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1405": {
+            "generatedName": "Show: Бруно "
+        },
+        "1406": {
+            "generatedName": "Wait: 2 seconds"
+        },
+        "1408": {
+            "generatedName": "ОЛ5 - вагон 8"
+        },
+        "1410": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1412": {
+            "generatedName": "Background: <b>Cab day half</b>"
+        },
+        "1413": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1414": {
+            "generatedName": "Show: Бруно "
+        },
+        "1415": {
+            "generatedName": "Wait: 2 seconds"
+        },
+        "1416": {
+            "generatedName": "ОЛ5 - вагон 7"
+        },
+        "1417": {
+            "generatedName": "Ми підходили все бли..."
+        },
+        "1418": {
+            "generatedName": "Show: Вильхельм "
+        },
+        "1419": {
+            "generatedName": "Hide: Вильхельм"
+        },
+        "1423": {
+            "generatedName": "На їжу тільки дивити..."
+        },
+        "1424": {
+            "generatedName": "Як грубо. Ох, якщо т..."
+        },
+        "1426": {
+            "generatedName": "В вагон-ресторане"
+        },
+        "1427": {
+            "generatedName": "Йти довго не довелос..."
+        },
+        "1428": {
+            "generatedName": "Де офіціант?"
+        },
+        "1429": {
+            "generatedName": "Ти намагаєшся пожарт..."
+        },
+        "1430": {
+            "generatedName": "Меню складається з д..."
+        },
+        "1431": {
+            "generatedName": "Я очікував більшого...."
+        },
+        "1432": {
+            "generatedName": "End"
+        },
+        "1433": {
+            "generatedName": " Давай оглянемо пере..."
+        },
+        "1436": {
+            "generatedName": "Тепер мені все зрозу..."
+        },
+        "1437": {
+            "generatedName": "Наша розвідка принес..."
+        },
+        "1438": {
+            "generatedName": "Show: Контролер "
+        },
+        "1439": {
+            "generatedName": "Появляется спрайт проводника и быстро исчезает"
+        },
+        "1440": {
+            "generatedName": "Ми сіли на вільні мі..."
+        },
+        "1441": {
+            "generatedName": "Я тут познайомився з..."
+        },
+        "1443": {
+            "generatedName": "Седьмой вагон"
+        },
+        "1444": {
+            "generatedName": "Show: Николас Леманн, Петра Леманн "
+        },
+        "1446": {
+            "generatedName": "Я знайшов ще одну лю..."
+        },
+        "1449": {
+            "generatedName": "Ваш друг сказав, що ..."
+        },
+        "1450": {
+            "generatedName": "TODO: Добавить сюда в ноду локализированные имена \"Старик\" и \"Старуха\""
+        },
+        "1451": {
+            "generatedName": "І наскільки рідкісні..."
+        },
+        "1452": {
+            "generatedName": "Шиллером. Цей посиль..."
+        },
+        "1454": {
+            "generatedName": "Улика сын едет в деревню, в которой должен работать отец."
+        },
+        "1455": {
+            "generatedName": "Примхам цих багатіїв..."
+        },
+        "1456": {
+            "generatedName": "Піду-но назад у рідн..."
+        },
+        "1457": {
+            "generatedName": "Коли я прийшов, мину..."
+        },
+        "1459": {
+            "generatedName": "Ти мені скажи, як ти..."
+        },
+        "1461": {
+            "generatedName": "Общая линия 6"
+        },
+        "1462": {
+            "generatedName": "End"
+        },
+        "1463": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1470": {
+            "generatedName": "В дороге - ресторан"
+        },
+        "1474": {
+            "generatedName": "Белый туман"
+        },
+        "1475": {
+            "generatedName": "Порожнє поселення, в..."
+        },
+        "1477": {
+            "generatedName": "*Шепочуть...*..."
+        },
+        "1478": {
+            "generatedName": "Мабуть, нічого дивно..."
+        },
+        "1481": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1482": {
+            "generatedName": "Show: Бруно "
+        },
+        "1483": {
+            "generatedName": "Background: <b>Cab day half</b>"
+        },
+        "1485": {
+            "generatedName": "..."
+        },
+        "1486": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1487": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1489": {
+            "generatedName": "Background: <b>Cab day closed</b>"
+        },
+        "1492": {
+            "generatedName": "..."
+        },
+        "1493": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1494": {
+            "generatedName": "..."
+        },
+        "1496": {
+            "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1499": {
+            "generatedName": "End"
+        },
+        "1500": {
+            "generatedName": "Разведывать - обход вагонов"
+        },
+        "1501": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1502": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1503": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1504": {
+            "generatedName": "Show: Бруно "
+        },
+        "1505": {
+            "generatedName": "Show: Бруно "
+        },
+        "1506": {
+            "generatedName": "Show: Бруно "
+        },
+        "1509": {
+            "generatedName": "Леманны"
+        },
+        "1510": {
+            "generatedName": "End"
+        },
+        "1511": {
+            "generatedName": "Wait: 2 seconds"
+        },
+        "1512": {
+            "generatedName": "Hide: Контролер"
+        },
+        "1513": {
+            "generatedName": "Я ж у цей час спосте..."
+        },
+        "1514": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1515": {
+            "generatedName": "Show: Бруно "
+        },
+        "1516": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1517": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1518": {
+            "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1521": {
+            "generatedName": "Show: Бруно "
+        },
+        "1522": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1523": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1524": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1525": {
+            "generatedName": "Hide: Николас Леманн"
+        },
+        "1526": {
+            "generatedName": "Hide: Петра Леманн"
+        },
+        "1528": {
+            "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1529": {
+            "generatedName": "Show: Бруно "
+        },
+        "1543": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1545": {
+            "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1546": {
+            "generatedName": "Show: Бруно "
+        },
+        "1547": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1549": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1550": {
+            "generatedName": "Start"
+        },
+        "1551": {
+            "generatedName": "End"
+        },
+        "1552": {
+            "generatedName": "ОЛ6 - Переход"
+        },
+        "1553": {
+            "generatedName": "Як би я не вслухався..."
+        },
+        "1556": {
+            "generatedName": "Я відкрив очі, а нав..."
+        },
+        "1557": {
+            "generatedName": "Цей вагон, якщо прид..."
+        },
+        "1558": {
+            "generatedName": "Background: <b>Forest night</b>"
+        },
+        "1559": {
+            "generatedName": "Фон лес, затемнённый?"
+        },
+        "1560": {
+            "generatedName": "Play Envirounment: <b>Wind in the forest</b>"
+        },
+        "1561": {
+            "generatedName": "Дуновение ветра"
+        },
+        "1562": {
+            "generatedName": "Піддавшись спокусі, ..."
+        },
+        "1564": {
+            "generatedName": "Раптово почув шепіт,..."
+        },
+        "1566": {
+            "generatedName": "Голос не один, їх де..."
+        },
+        "1567": {
+            "generatedName": "Я завмер на місці, н..."
+        },
+        "1568": {
+            "generatedName": "End"
+        },
+        "1569": {
+            "generatedName": "Background: <b>Cab day half</b>"
+        },
+        "1571": {
+            "generatedName": "...",
+            "building": true
+        },
+        "1572": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1573": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1575": {
+            "generatedName": "Background: <b>Cab day closed</b>"
+        },
+        "1578": {
+            "generatedName": "..."
+        },
+        "1579": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1580": {
+            "generatedName": "..."
+        },
+        "1582": {
+            "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1585": {
+            "generatedName": "End"
+        },
+        "1586": {
+            "generatedName": "Hide: Бруно"
+        },
+        "1592": {
+            "generatedName": "ОЛ6 - обход вагонов"
+        },
+        "1593": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1594": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1596": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1598": {
+            "generatedName": "ОЛ6 - Мысли"
+        },
+        "1600": {
+            "generatedName": "Shake-Jump"
+        },
+        "1601": {
+            "generatedName": "Shake-Jump: Hide"
+        },
+        "1602": {
+            "generatedName": "End"
+        },
+        "1603": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1605": {
+            "generatedName": "Background: <b>Cab night</b>"
+        },
+        "1607": {
+            "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
+        },
+        "1609": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1611": {
+            "generatedName": "Background: <b>Cab night</b>"
+        },
+        "1614": {
+            "generatedName": "End"
+        },
+        "1615": {
+            "generatedName": "Смена фона"
+        },
+        "1616": {
+            "generatedName": "Shake-Jump"
+        },
+        "1618": {
+            "generatedName": "Я виглянув у вікно, ..."
+        },
+        "1619": {
+            "generatedName": "Размышления"
+        },
+        "1620": {
+            "generatedName": "End"
+        },
+        "1621": {
+            "generatedName": "Shake-Jump: Hide"
+        },
+        "1622": {
+            "generatedName": "Background: <b>Cab night nl</b>"
+        },
+        "1625": {
+            "generatedName": "Wait: 2 seconds"
+        },
+        "1627": {
+            "generatedName": "..."
+        },
+        "1628": {
+            "generatedName": "... ..."
+        },
+        "1629": {
+            "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
+        },
+        "1630": {
+            "generatedName": "... ... ..."
+        },
+        "1631": {
+            "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
+        },
+        "1632": {
+            "generatedName": "Те, що розповіли мен..."
+        },
+        "1633": {
+            "generatedName": "Play Music: <b>Sergey Cheremisinov - Sense</b>"
+        },
+        "1634": {
+            "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
+        },
+        "1638": {
+            "generatedName": "Поиски проводников"
+        },
+        "1639": {
+            "generatedName": "Північ — найкращий ч..."
+        },
+        "1640": {
+            "generatedName": "Background: <b>Cab night nl closed</b>"
+        },
+        "1643": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1647": {
+            "generatedName": "Background: <b>Cab night nl half</b>"
+        },
+        "1649": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1651": {
+            "generatedName": "Background: <b>Cab night nl closed</b>"
+        },
+        "1652": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1654": {
+            "generatedName": "Background: <b>Cab night nl closed</b>"
+        },
+        "1655": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1657": {
+            "generatedName": "Background: <b>Cab night nl half</b>"
+        },
+        "1658": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1660": {
+            "generatedName": "Background: <b>Cab night nl closed</b>"
+        },
+        "1661": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1663": {
+            "generatedName": "Background: <b>Cab night nl half</b>"
+        },
+        "1664": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1666": {
+            "generatedName": "Background: <b>Cab night nl closed</b>"
+        },
+        "1674": {
+            "generatedName": "Вагон 7"
+        },
+        "1675": {
+            "generatedName": "Переход между вагонами"
+        },
+        "1677": {
+            "generatedName": "Background: <b>Cab rich night</b>"
+        },
+        "1679": {
+            "generatedName": "Я запнувся на півсло..."
+        },
+        "1680": {
+            "generatedName": "Background: <b>Locomotive night</b>"
+        },
+        "1681": {
+            "generatedName": "Wait: 4 seconds"
+        },
+        "1682": {
+            "generatedName": "MI: dead body"
+        },
+        "1685": {
+            "generatedName": "І тут раптом розмова..."
+        },
+        "1686": {
+            "generatedName": "Play Music: <b>Kris Keypovsky - Silence</b>"
+        },
+        "1687": {
+            "generatedName": "День убийства"
+        },
+        "1711": {
+            "generatedName": "Але він не такий про..."
+        },
+        "1734": {
+            "generatedName": "Улика 1: Газета"
+        },
+        "1736": {
+            "generatedName": "Улика 2: Бруно"
+        },
+        "1746": {
+            "generatedName": "Улика 3: Бруно"
+        },
+        "1767": {
+            "generatedName": "Улика 4: Сын Шиллера"
+        },
+        "1768": {
+            "generatedName": "Улика 6: Слухи"
+        },
+        "1769": {
+            "generatedName": "Улика 7: Наблюдение"
+        },
+        "1784": {
+            "generatedName": "Show: Body "
+        },
+        "1785": {
+            "generatedName": "End"
+        },
+        "1787": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1788": {
+            "generatedName": "Интересно, что это б..."
+        },
+        "1789": {
+            "generatedName": "Play Music: <b>Sergey Cheremisinov - Fog</b>"
+        },
+        "1791": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1792": {
+            "generatedName": "Wait: 2 seconds"
+        },
+        "1793": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1794": {
+            "generatedName": "Play Music: <b>Guifrog - Suco de Abacaxi</b>"
+        },
+        "1795": {
+            "generatedName": "Play Envirounment: <b>Silence</b>"
+        },
+        "1796": {
+            "generatedName": "Play Music: <b>Relaxing music</b>"
+        },
+        "1797": {
+            "generatedName": "Play Music: <b>Guifrog - Suco de Abacaxi</b>"
+        },
+        "1798": {
+            "generatedName": "Play Music: <b>Relaxing music</b>"
+        },
+        "1799": {
+            "generatedName": "Play Music: <b>Birds for Scale - Smarties</b>"
+        },
+        "1800": {
+            "generatedName": "Play Music: <b>Guifrog - Suco de Abacaxi</b>"
+        },
+        "1801": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1802": {
+            "generatedName": "Play Music: <b>Мрачная музыка.</b>"
+        },
+        "1803": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1804": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1805": {
+            "generatedName": "Play Music: <b>Guifrog - Suco de Abacaxi</b>"
+        },
+        "1806": {
+            "generatedName": "Play Music: <b>Guifrog - Suco de Abacaxi</b>"
+        },
+        "1807": {
+            "generatedName": "Play Music: <b>Sergey Cheremisinov - Sense</b>"
+        },
+        "1808": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1809": {
+            "generatedName": "Play Music: <b>Maarten Schellekens - Spring Morning</b>"
+        },
+        "1810": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1811": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1812": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1813": {
+            "generatedName": "Play Music: <b>Guifrog - Suco de Abacaxi</b>"
+        },
+        "1814": {
+            "generatedName": "Play Music: <b>Maarten Schellekens - Spring Morning</b>"
+        },
+        "1815": {
+            "generatedName": "Play Music: <b>Maarten Schellekens - Spring Morning</b>"
+        },
+        "1816": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1817": {
+            "generatedName": "Play Music: <b>Maarten Schellekens - Spring Morning</b>"
+        },
+        "1818": {
+            "generatedName": "Play Music: <b>Sergey Cheremisinov - Sense</b>"
+        },
+        "1819": {
+            "generatedName": "Play Music: <b>Silence</b>"
+        },
+        "1820": {
+            "generatedName": "Конец Демо"
+        },
+        "1821": {
+            "generatedName": "Play Envirounment: <b>Silence</b>"
+        },
+        "1828": {
+            "generatedName": "End"
+        },
+        "1830": {
+            "generatedName": "Play Envirounment: <b>Silence</b>"
+        },
+        "1831": {
+            "generatedName": "Play Envirounment: <b>Silence</b>"
+        },
+        "1833": {
+            "generatedName": "MI: hide all"
+        }
+    }
+}

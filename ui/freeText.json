@@ -1,0 +1,192 @@
+{
+    "id": "freeText",
+    "name": "Free Text",
+    "role": "textbox",
+    "comment": "Text box without any styling. Useful when you just need to add a simple text on the screen.",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "freeText",
+            "name": "Textbox",
+            "role": "gui",
+            "children": [
+                {
+                    "id": "actor",
+                    "entityID": "freeText",
+                    "name": "Actor name",
+                    "role": "actorname",
+                    "deletable": false,
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "size": {
+                            "width": 0,
+                            "height": 0
+                        },
+                        "padding": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "shift": {
+                            "x": 0,
+                            "y": -20
+                        }
+                    },
+                    "text": {
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 1
+                        },
+                        "textStroke": {
+                            "color": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0,
+                                "alpha": 0.5
+                            },
+                            "width": 1
+                        },
+                        "size": 18,
+                        "example": "none"
+                    },
+                    "background": {
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "events": {
+                        "click": {
+                            "allowContinueEvent": true
+                        }
+                    }
+                },
+                {
+                    "id": "text",
+                    "entityID": "freeText",
+                    "name": "Text container",
+                    "role": "text",
+                    "deletable": false,
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "size": {
+                            "width": 0,
+                            "height": 0
+                        },
+                        "padding": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "shift": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "background": {
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "size": 30,
+                        "font": "roboto",
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 1
+                        },
+                        "textStroke": {
+                            "color": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0,
+                                "alpha": 1
+                            },
+                            "width": 1
+                        },
+                        "example": "short"
+                    },
+                    "events": {
+                        "click": {
+                            "allowContinueEvent": true
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 0,
+                    "height": 0
+                },
+                "padding": {
+                    "x": 0,
+                    "y": 0
+                },
+                "shift": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "background": {
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0
+                }
+            },
+            "text": {
+                "example": "none"
+            },
+            "events": {
+                "click": {
+                    "allowContinueEvent": true
+                }
+            },
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 1
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 1
+                }
+            },
+            "visibility": {},
+            "animations": {},
+            "transform": {}
+        }
+    ],
+    "doNotHide": true
+}

@@ -1,0 +1,59 @@
+{
+    "id": "assets-actors-magnatsprt.png",
+    "name": "Магнат",
+    "type": "image",
+    "assign": "actor",
+    "filename": "magnatsprt.png",
+    "vendor": "assets",
+    "collection": "actors",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OCT",
+        "license": "OCT",
+        "description": "Спрайт Магната",
+        "link": "OCT"
+    },
+    "imageSize": {
+        "width": 2448,
+        "height": 1500
+    },
+    "spritesheet": {
+        "default": {
+            "name": "Normal",
+            "x": 0,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": true
+        },
+        "angry": {
+            "name": "Angry",
+            "x": 612,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": false
+        },
+        "sneaky": {
+            "name": "Sneaky",
+            "x": 1224,
+            "y": 0,
+            "width": 612,
+            "height": 1500
+        },
+        "smiling": {
+            "name": "Smiling",
+            "x": 1836,
+            "y": 0,
+            "width": 612,
+            "height": 1500
+        }
+    },
+    "gridMarking": {
+        "sliceWidth": 612,
+        "sliceHeight": 1500,
+        "offsetX": 0,
+        "offsetY": 0
+    }
+}

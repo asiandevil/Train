@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "id": "ark2",
+        "name": "Акт 2: Начало пути",
+        "type": "folder",
+        "width": 800,
+        "height": 600,
+        "parent": "main",
+        "children": [
+            "scene7",
+            "scene8",
+            "station"
+        ]
+    },
+    "nodes": {}
+}

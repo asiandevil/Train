@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-rchoice.png",
+    "name": "rchoice",
+    "type": "image",
+    "assign": "ui",
+    "filename": "rchoice.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Choice UI right",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 69,
+        "height": 52
+    }
+}

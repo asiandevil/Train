@@ -1,0 +1,196 @@
+{
+    "meta": {
+        "id": "scene7",
+        "name": "7: Подготовка",
+        "type": "scene",
+        "width": 1200,
+        "height": 1450,
+        "parent": "ark2",
+        "children": [
+            "followup"
+        ],
+        "tags": [
+            "translationReady",
+            "backgroundsReady",
+            "actorsReady",
+            "musicReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "196": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 196,
+            "starting": true,
+            "name": "Прошло 6 дней",
+            "connections": [
+                {
+                    "id": 749,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "clear": {
+                "actors": true,
+                "images": true,
+                "back": false,
+                "music": false,
+                "sound": false,
+                "bgm": false
+            }
+        },
+        "197": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 197,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1
+                },
+                {
+                    "textNodeId": 2
+                },
+                {
+                    "textNodeId": 3
+                }
+            ],
+            "connections": [
+                {
+                    "id": 737,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                754
+            ]
+        },
+        "586": {
+            "type": "jump",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 586,
+            "ending": true,
+            "targetScene": "followup",
+            "targetNode": 584,
+            "entrances": [
+                737
+            ]
+        },
+        "737": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "id": 737,
+            "connections": [
+                {
+                    "id": 586,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1
+                }
+            ],
+            "entrances": [
+                197
+            ]
+        },
+        "749": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 749,
+            "connections": [
+                {
+                    "id": 754,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "backgroundId": "assets-backgrounds-dark.jpg",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "waitToFinish": false,
+            "entrances": [
+                196
+            ]
+        },
+        "754": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 754,
+            "connections": [
+                {
+                    "id": 197,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "id": "assets-music-Cityscape Backdrop.mp3",
+                "volume": 41
+            },
+            "entrances": [
+                749
+            ]
+        }
+    }
+}

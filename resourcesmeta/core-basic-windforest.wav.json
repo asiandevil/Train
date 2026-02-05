@@ -1,0 +1,14 @@
+{
+    "name": "Forest wind",
+    "type": "audio",
+    "assign": "env",
+    "filename": "windforest.wav",
+    "vendor": "core",
+    "collection": "basic",
+    "meta": {
+        "author": "teadrinker",
+        "license": "Creative Commons 0 License",
+        "description": "Wind in the forest"
+    },
+    "id": "core-basic-windforest.wav"
+}

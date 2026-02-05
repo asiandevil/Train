@@ -1,0 +1,91 @@
+{
+    "id": "background",
+    "name": "Background",
+    "comment": "Main background container",
+    "role": "gui",
+    "deletable": false,
+    "unique": true,
+    "startsVisible": true,
+    "doNotHide": true,
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "background",
+            "name": "Background wrapper",
+            "role": "background",
+            "deletable": false,
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioWidth",
+                        "reactive": true
+                    },
+                    "height": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioHeight",
+                        "reactive": true
+                    }
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "zIndex": 2
+            },
+            "text": {
+                "example": "none"
+            },
+            "background": {
+                "setup": {},
+                "color": {
+                    "red": 128,
+                    "green": 128,
+                    "blue": 128,
+                    "alpha": 0
+                }
+            },
+            "events": {
+                "click": {
+                    "allowContinueEvent": true
+                }
+            },
+            "visibility": {
+                "overflow": "hide"
+            },
+            "children": [
+                {
+                    "id": "__meta_backgroundImage_base",
+                    "entityID": "background",
+                    "name": "Background image",
+                    "role": "gui",
+                    "metaRole": "backgroundImage",
+                    "position": {
+                        "size": {
+                            "width": 720,
+                            "height": 400
+                        },
+                        "shift": {
+                            "x": 0,
+                            "y": -60
+                        }
+                    },
+                    "animations": {},
+                    "listSetup": {},
+                    "visibility": {
+                        "mask": {
+                            "resource": "assets-uis-maskb.png"
+                        }
+                    }
+                }
+            ],
+            "listSetup": {}
+        }
+    ]
+}

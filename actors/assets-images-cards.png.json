@@ -1,0 +1,16 @@
+{
+    "id": "assets-images-cards.png",
+    "name": "Cards",
+    "localizedName": {
+        "default": "Cards"
+    },
+    "comment": "Cards",
+    "type": "image",
+    "height": "50%",
+    "states": {
+        "default": {
+            "name": "default",
+            "resource": "assets-images-cards.png"
+        }
+    }
+}

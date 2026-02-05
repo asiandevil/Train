@@ -1,0 +1,21 @@
+{
+    "id": "assets-images-body.png",
+    "name": "Body",
+    "type": "image",
+    "assign": "image",
+    "filename": "body.png",
+    "vendor": "assets",
+    "collection": "images",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Capibara",
+        "license": "Capibara",
+        "description": "Body",
+        "link": "Capibara"
+    },
+    "imageSize": {
+        "width": 1000,
+        "height": 1000
+    }
+}

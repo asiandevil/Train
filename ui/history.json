@@ -1,0 +1,354 @@
+{
+    "id": "history",
+    "name": "History Window",
+    "comment": "",
+    "role": "gui",
+    "deletable": false,
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "history",
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 930,
+                    "height": 560
+                },
+                "zIndex": 3010,
+                "align": {
+                    "x": "center",
+                    "y": "top"
+                }
+            },
+            "listSetup": {},
+            "background": {
+                "setup": {},
+                "resource": "assets-uis-winback.png"
+            },
+            "text": {
+                "example": "none"
+            },
+            "children": [
+                {
+                    "id": "title",
+                    "name": "title",
+                    "role": "gui",
+                    "entityID": "history",
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "shift": {
+                            "x": 50,
+                            "y": 14
+                        }
+                    },
+                    "listSetup": {},
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 128,
+                            "green": 128,
+                            "blue": 128,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "size": 26,
+                        "font": "raleway",
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "history",
+                            "reactive": true
+                        },
+                        "italic": true
+                    },
+                    "border": {}
+                },
+                {
+                    "id": "content",
+                    "name": "Content",
+                    "role": "gui",
+                    "entityID": "history",
+                    "position": {
+                        "shift": {
+                            "x": 19,
+                            "y": 95
+                        },
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "size": {
+                            "width": 880,
+                            "height": 383
+                        }
+                    },
+                    "listSetup": {
+                        "direction": "columnr",
+                        "isWrap": false
+                    },
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "example": "none",
+                        "size": 15,
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 1
+                        },
+                        "font": "raleway"
+                    },
+                    "children": [
+                        {
+                            "id": "listmodel",
+                            "name": "List model",
+                            "role": "listModel",
+                            "entityID": "history",
+                            "position": {
+                                "origin": {},
+                                "type": "static",
+                                "padding": {
+                                    "x": 5
+                                }
+                            },
+                            "listSetup": {
+                                "max": 20,
+                                "reverse": true,
+                                "listModel": "history"
+                            },
+                            "background": {
+                                "setup": {},
+                                "color": {
+                                    "red": 128,
+                                    "green": 128,
+                                    "blue": 128,
+                                    "alpha": 0
+                                }
+                            },
+                            "border": {
+                                "width": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "x2": 1,
+                                    "y2": 0
+                                },
+                                "style": {
+                                    "x": "none",
+                                    "y": "none",
+                                    "x2": "solid",
+                                    "y2": "none"
+                                },
+                                "color": {
+                                    "x": {
+                                        "red": 255,
+                                        "green": 255,
+                                        "blue": 255,
+                                        "alpha": 1
+                                    }
+                                }
+                            },
+                            "text": {
+                                "example": "none",
+                                "font": "raleway"
+                            },
+                            "children": [
+                                {
+                                    "id": "actor",
+                                    "name": "Actor name",
+                                    "role": "gui",
+                                    "entityID": "history",
+                                    "position": {
+                                        "type": "static",
+                                        "size": {
+                                            "width": 200
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "top"
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 128,
+                                            "green": 128,
+                                            "blue": 128,
+                                            "alpha": 0
+                                        }
+                                    },
+                                    "text": {
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "__pseudo_history",
+                                            "id": "actor",
+                                            "reactive": true
+                                        },
+                                        "size": 18,
+                                        "font": "raleway"
+                                    }
+                                },
+                                {
+                                    "id": "text",
+                                    "name": "Text",
+                                    "role": "gui",
+                                    "entityID": "history",
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 208,
+                                            "green": 2,
+                                            "blue": 27,
+                                            "alpha": 0
+                                        }
+                                    },
+                                    "position": {
+                                        "type": "block",
+                                        "size": {
+                                            "width": 670,
+                                            "height": 0
+                                        },
+                                        "padding": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "x2": 0,
+                                            "y2": 10
+                                        },
+                                        "align": {
+                                            "x": "left",
+                                            "y": "top"
+                                        }
+                                    },
+                                    "listSetup": {
+                                        "direction": "row"
+                                    },
+                                    "text": {
+                                        "size": 18,
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "__pseudo_history",
+                                            "id": "message",
+                                            "reactive": true
+                                        },
+                                        "font": "raleway"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "visibility": {
+                        "overflow": "scroll"
+                    },
+                    "border": {}
+                },
+                {
+                    "id": "close",
+                    "name": "Close button",
+                    "role": "gui",
+                    "entityID": "history",
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "shift": {
+                            "y": -20
+                        },
+                        "padding": {
+                            "x": 10,
+                            "y": 10
+                        },
+                        "size": {
+                            "width": 150,
+                            "height": 0
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "close",
+                            "reactive": true
+                        }
+                    },
+                    "background": {
+                        "setup": {}
+                    },
+                    "hover": [
+                        {
+                            "trigger": "close",
+                            "background": {
+                                "setup": {}
+                            },
+                            "text": {}
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "id": "closeButton",
+                            "index": 1699281894245,
+                            "overwrite": false
+                        }
+                    ],
+                    "events": {
+                        "click": {
+                            "uiController": [],
+                            "sound": "core-basic-fast.wav",
+                            "startFlow": [
+                                {
+                                    "nodeId": 978,
+                                    "sceneId": "keys"
+                                }
+                            ]
+                        },
+                        "mouseEnter": {
+                            "sound": "core-basic-hover.wav"
+                        }
+                    },
+                    "visibility": {}
+                }
+            ],
+            "visibility": {
+                "positionLocked": true
+            },
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-out"
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-in"
+                }
+            },
+            "border": {}
+        }
+    ],
+    "doNotHide": true,
+    "unique": true
+}

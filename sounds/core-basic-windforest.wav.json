@@ -1,0 +1,7 @@
+{
+    "id": "core-basic-windforest.wav",
+    "name": "Forest wind",
+    "comment": "Wind in the forest",
+    "resource": "core-basic-windforest.wav",
+    "type": "env"
+}

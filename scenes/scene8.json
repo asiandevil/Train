@@ -1,0 +1,521 @@
+{
+    "meta": {
+        "id": "scene8",
+        "name": "8: Вокзал",
+        "type": "scene",
+        "width": 1200,
+        "height": 2250,
+        "parent": "ark2",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 597,
+            "end": 228,
+            "selectedRoutes": {}
+        },
+        "tags": [
+            "translationReady",
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "217": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "id": 217,
+            "backgroundId": "user-backgrounds-trainout.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 801,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "waitToFinish": false,
+            "entrances": [
+                218,
+                868
+            ]
+        },
+        "218": {
+            "type": "comment",
+            "pos": {
+                "x": 550,
+                "y": 550,
+                "width": 175,
+                "height": 95.34375
+            },
+            "id": 218,
+            "connections": [
+                {
+                    "id": 217,
+                    "x": 350,
+                    "y": 550
+                }
+            ]
+        },
+        "219": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 219,
+            "text": [
+                {
+                    "textNodeId": 0
+                }
+            ],
+            "connections": [
+                {
+                    "id": 868,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                220
+            ]
+        },
+        "220": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 220,
+            "connections": [
+                {
+                    "id": 219,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "sound": {
+                "type": "env",
+                "id": "assets-ambient-park.mp3",
+                "volume": 100
+            },
+            "entrances": [
+                221,
+                1787
+            ]
+        },
+        "221": {
+            "type": "comment",
+            "pos": {
+                "x": 550,
+                "y": 250,
+                "width": 179,
+                "height": 90.34375
+            },
+            "id": 221,
+            "connections": [
+                {
+                    "id": 220,
+                    "x": 350,
+                    "y": 250
+                }
+            ]
+        },
+        "222": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 950
+            },
+            "id": 222,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 3
+                },
+                {
+                    "textNodeId": 1
+                }
+            ],
+            "connections": [
+                {
+                    "id": 223,
+                    "x": 350,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                1788
+            ]
+        },
+        "223": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 1050
+            },
+            "id": 223,
+            "sound": {
+                "type": "music",
+                "id": "assets-music-rest.mp3",
+                "volume": 100
+            },
+            "connections": [
+                {
+                    "id": 225,
+                    "x": 350,
+                    "y": 1150
+                }
+            ],
+            "entrances": [
+                222,
+                224
+            ]
+        },
+        "224": {
+            "type": "comment",
+            "pos": {
+                "x": 550,
+                "y": 1050,
+                "width": 190,
+                "height": 96.34375
+            },
+            "id": 224,
+            "connections": [
+                {
+                    "id": 223,
+                    "x": 350,
+                    "y": 1050
+                }
+            ]
+        },
+        "225": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1150
+            },
+            "id": 225,
+            "text": [
+                {
+                    "textNodeId": 0
+                },
+                {
+                    "textNodeId": 1
+                },
+                {
+                    "textNodeId": 2
+                }
+            ],
+            "connections": [
+                {
+                    "id": 869,
+                    "x": 350,
+                    "y": 1250
+                }
+            ],
+            "entrances": [
+                223
+            ]
+        },
+        "226": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 1350
+            },
+            "id": 226,
+            "backgroundId": "assets-backgrounds-dark.jpg",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 228,
+                    "x": 350,
+                    "y": 1450
+                }
+            ],
+            "waitToFinish": false,
+            "entrances": [
+                227,
+                869
+            ]
+        },
+        "227": {
+            "type": "comment",
+            "pos": {
+                "x": 550,
+                "y": 1350,
+                "width": 202,
+                "height": 92.34375
+            },
+            "id": 227,
+            "connections": [
+                {
+                    "id": 226,
+                    "x": 350,
+                    "y": 1350
+                }
+            ]
+        },
+        "228": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 1450
+            },
+            "id": 228,
+            "ending": true,
+            "entrances": [
+                226
+            ]
+        },
+        "597": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 50
+            },
+            "id": 597,
+            "starting": true,
+            "connections": [
+                {
+                    "id": 1787,
+                    "x": 350,
+                    "y": 150
+                }
+            ],
+            "name": "На вокзале",
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": true
+            }
+        },
+        "801": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "text": [
+                {
+                    "textNodeId": 1,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 2
+                },
+                {
+                    "textNodeId": 3
+                },
+                {
+                    "textNodeId": 8
+                }
+            ],
+            "id": 801,
+            "connections": [
+                {
+                    "id": 1789,
+                    "x": 350,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                217
+            ]
+        },
+        "868": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 868,
+            "connections": [
+                {
+                    "id": 217,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "targetScene": "placeInfo",
+            "targetNode": 852,
+            "entrances": [
+                219
+            ]
+        },
+        "869": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 1250
+            },
+            "id": 869,
+            "connections": [
+                {
+                    "id": 226,
+                    "x": 350,
+                    "y": 1350
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "hide"
+                },
+                {
+                    "id": "default",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                225
+            ]
+        },
+        "1787": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 1787,
+            "connections": [
+                {
+                    "id": 220,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100
+            },
+            "entrances": [
+                597
+            ]
+        },
+        "1788": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 850
+            },
+            "text": [
+                {
+                    "textNodeId": 9,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 4
+                },
+                {
+                    "textNodeId": 5
+                },
+                {
+                    "textNodeId": 6
+                },
+                {
+                    "textNodeId": 7
+                }
+            ],
+            "id": 1788,
+            "connections": [
+                {
+                    "id": 222,
+                    "x": 350,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                1789
+            ]
+        },
+        "1789": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 750
+            },
+            "id": 1789,
+            "connections": [
+                {
+                    "id": 1788,
+                    "x": 350,
+                    "y": 850
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100,
+                "id": "assets-music-Sergey Cheremisinov - Fog.mp3"
+            },
+            "entrances": [
+                801
+            ]
+        }
+    }
+}

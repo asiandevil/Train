@@ -1,0 +1,17 @@
+{
+    "id": "keyF5",
+    "comment": "F5",
+    "isSystem": false,
+    "alt": false,
+    "shift": false,
+    "ctrl": false,
+    "keyCode": 116,
+    "event": {
+        "startFlow": [
+            {
+                "nodeId": 996,
+                "sceneId": "keys"
+            }
+        ]
+    }
+}

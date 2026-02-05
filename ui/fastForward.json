@@ -1,0 +1,74 @@
+{
+    "id": "fastForward",
+    "name": "Fast Forward",
+    "comment": "FF indicator",
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "fastForward",
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "size": {
+                    "width": 50,
+                    "height": 30
+                },
+                "origin": {
+                    "x": "center",
+                    "y": "top"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "top"
+                },
+                "shift": {
+                    "x": 0,
+                    "y": 67
+                }
+            },
+            "listSetup": {},
+            "text": {
+                "example": "none"
+            },
+            "background": {
+                "setup": {},
+                "resource": "assets-uis-ff.png",
+                "color": {
+                    "red": 128,
+                    "green": 128,
+                    "blue": 128,
+                    "alpha": 0
+                }
+            },
+            "transition": {},
+            "appearAnimation": {
+                "transition": {}
+            },
+            "disappearAnimation": {
+                "transition": {}
+            },
+            "visibility": {
+                "mask": {}
+            },
+            "classes": [
+                {
+                    "id": "disable",
+                    "index": 1660837906331,
+                    "overwrite": true,
+                    "condition": [
+                        {
+                            "scope": "system",
+                            "id": "isSkip",
+                            "action": "is",
+                            "value": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "unique": true,
+    "startsVisible": true,
+    "doNotHide": true
+}

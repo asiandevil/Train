@@ -1,0 +1,270 @@
+{
+    "id": "largeTextbox",
+    "name": "Larget Textbox",
+    "role": "textbox",
+    "comment": "Larget Textbox",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "largeTextbox",
+            "name": "Textbox",
+            "role": "gui",
+            "children": [
+                {
+                    "id": "backgrond",
+                    "name": "Background",
+                    "role": "gui",
+                    "entityID": "largeTextbox",
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 128,
+                            "green": 128,
+                            "blue": 128,
+                            "alpha": 0
+                        },
+                        "resource": "assets-uis-largeTextbox.png"
+                    },
+                    "position": {
+                        "size": {
+                            "width": 800,
+                            "height": 450
+                        },
+                        "shift": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "type": "absolute",
+                        "origin": {
+                            "x": "right",
+                            "y": "top"
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "visibility": {
+                        "opacity": 98,
+                        "mask": {}
+                    },
+                    "transform": {},
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    }
+                },
+                {
+                    "id": "actor",
+                    "entityID": "largeTextbox",
+                    "name": "Actor name",
+                    "role": "actorname",
+                    "deletable": false,
+                    "text": {
+                        "font": "caveat",
+                        "size": 30,
+                        "italic": false,
+                        "bold": true,
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 1
+                        },
+                        "example": "none"
+                    },
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "align": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "size": {
+                            "width": 0,
+                            "height": 0
+                        },
+                        "padding": {
+                            "x": 20,
+                            "y": 0
+                        },
+                        "shift": {
+                            "x": 138,
+                            "y": -36
+                        }
+                    },
+                    "background": {
+                        "color": {
+                            "red": 8,
+                            "green": 199,
+                            "blue": 215,
+                            "alpha": 0.62
+                        },
+                        "setup": {
+                            "sizeType": "full"
+                        },
+                        "resource": "assets-uis-gtbui1.png"
+                    },
+                    "events": {
+                        "click": {
+                            "allowContinueEvent": true
+                        }
+                    },
+                    "border": {},
+                    "visibility": {},
+                    "listSetup": {},
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    }
+                },
+                {
+                    "id": "text",
+                    "entityID": "largeTextbox",
+                    "name": "Text container",
+                    "role": "text",
+                    "deletable": false,
+                    "text": {
+                        "font": "raleway",
+                        "size": 20,
+                        "color": {
+                            "red": 209,
+                            "green": 209,
+                            "blue": 209,
+                            "alpha": 1
+                        },
+                        "textStroke": {
+                            "color": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0,
+                                "alpha": 1
+                            },
+                            "width": 0
+                        },
+                        "italic": true,
+                        "bold": false,
+                        "example": "medium",
+                        "textBogieSound": {
+                            "id": "core-basic-fast.wav",
+                            "volume": 14
+                        }
+                    },
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "align": {
+                            "x": "left",
+                            "y": "center"
+                        },
+                        "size": {
+                            "width": 700,
+                            "height": 400
+                        },
+                        "padding": {
+                            "x": 20
+                        },
+                        "shift": {}
+                    },
+                    "background": {
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        },
+                        "setup": {}
+                    },
+                    "visibility": {},
+                    "listSetup": {},
+                    "events": {
+                        "click": {
+                            "allowContinueEvent": true
+                        }
+                    },
+                    "border": {},
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {
+                            "duration": 1
+                        }
+                    },
+                    "disappearAnimation": {
+                        "transition": {
+                            "duration": 3
+                        }
+                    }
+                }
+            ],
+            "background": {
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0
+                },
+                "setup": {}
+            },
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 800,
+                    "height": 450
+                },
+                "padding": {},
+                "shift": {
+                    "x": 0,
+                    "y": -57
+                }
+            },
+            "text": {
+                "example": "none"
+            },
+            "events": {
+                "click": {
+                    "allowContinueEvent": true
+                }
+            },
+            "border": {
+                "width": {},
+                "style": {
+                    "y2": "none",
+                    "x": "none"
+                },
+                "color": {}
+            },
+            "listSetup": {},
+            "transform": {},
+            "visibility": {},
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0
+                }
+            }
+        }
+    ],
+    "unique": false
+}

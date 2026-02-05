@@ -1,0 +1,20 @@
+{
+    "id": "assets-uis-demoPaper.png",
+    "name": "demoPaper.png",
+    "localizedName": {
+        "russian": "demoPaper",
+        "english": "demoPaper",
+        "ukrainian": "demoPaper"
+    },
+    "comment": "Paper image",
+    "type": "image",
+    "height": "50%",
+    "states": {
+        "default": {
+            "name": "default",
+            "resource": "assets-uis-demoPaper.png"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

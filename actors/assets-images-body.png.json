@@ -1,0 +1,16 @@
+{
+    "id": "assets-images-body.png",
+    "name": "Body",
+    "localizedName": {
+        "default": "Body"
+    },
+    "comment": "Body",
+    "type": "image",
+    "height": "50%",
+    "states": {
+        "default": {
+            "name": "default",
+            "resource": "assets-images-body.png"
+        }
+    }
+}

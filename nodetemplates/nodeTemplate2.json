@@ -1,0 +1,35 @@
+{
+    "name": "Переход через черный экран",
+    "id": "nodeTemplate2",
+    "nodeBody": {
+        "type": "back",
+        "backgroundId": "assets-backgrounds-park.jpg",
+        "backgroundTrasition": {
+            "new": {
+                "type": "",
+                "animation": "",
+                "opacity": true,
+                "transition": {
+                    "duration": 3,
+                    "delay": 2,
+                    "transitfunction": "ease"
+                }
+            },
+            "old": {
+                "type": "",
+                "animation": "blackFade",
+                "opacity": false,
+                "transition": {
+                    "duration": 2,
+                    "delay": 0,
+                    "transitfunction": "ease"
+                }
+            }
+        },
+        "generatedName": "Background: <b>Вагон</b>"
+    },
+    "textBody": {
+        "default": {},
+        "language": {}
+    }
+}

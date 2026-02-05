@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "id": "generalbutton",
+        "name": "General Button",
+        "comment": "General Button",
+        "deletable": false,
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "background": {
+            "setup": {},
+            "resource": "assets-uis-winbutton.png"
+        },
+        "text": {
+            "color": {
+                "red": 115,
+                "green": 86,
+                "blue": 56,
+                "alpha": 1
+            },
+            "font": "raleway",
+            "textStroke": {
+                "width": 1,
+                "color": {
+                    "red": 249,
+                    "green": 245,
+                    "blue": 245,
+                    "alpha": 0.05
+                }
+            },
+            "size": 14,
+            "italic": false,
+            "bold": true
+        },
+        "transition": {
+            "duration": 0.5,
+            "delay": 0,
+            "transitfunction": "ease"
+        },
+        "hover": [
+            {
+                "trigger": "__self",
+                "background": {
+                    "setup": {}
+                },
+                "animations": {},
+                "text": {
+                    "color": {
+                        "red": 246,
+                        "green": 85,
+                        "blue": 14,
+                        "alpha": 1
+                    },
+                    "textStroke": {
+                        "width": 0,
+                        "color": {
+                            "red": 246,
+                            "green": 85,
+                            "blue": 14,
+                            "alpha": 0.35
+                        }
+                    }
+                }
+            }
+        ],
+        "animations": {},
+        "cursor": {
+            "resource": "assets-cursors-curnD.png"
+        },
+        "position": {},
+        "listSetup": {}
+    }
+}

@@ -1,0 +1,495 @@
+{
+    "meta": {
+        "id": "scene5",
+        "name": "5: Снова дома. Решение.",
+        "type": "scene",
+        "width": 1200,
+        "height": 2450,
+        "parent": "ark1",
+        "children": [
+            "scene5c",
+            "dreamdebt"
+        ],
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 103,
+            "end": 127,
+            "selectedRoutes": {}
+        },
+        "tags": [
+            "actorsReady",
+            "backgroundsReady",
+            "translationReady",
+            "musicReady"
+        ]
+    },
+    "nodes": {
+        "103": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 50
+            },
+            "starting": true,
+            "id": 103,
+            "name": "Снова дома. Решение.",
+            "clear": {
+                "actors": true,
+                "images": true,
+                "back": false,
+                "music": true,
+                "sound": false,
+                "bgm": true
+            },
+            "connections": [
+                {
+                    "id": 664,
+                    "x": 350,
+                    "y": 150
+                }
+            ]
+        },
+        "104": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 104,
+            "backgroundId": "assets-backgrounds-ggroom.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 667,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "waitToFinish": false,
+            "entrances": [
+                856
+            ]
+        },
+        "108": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1550
+            },
+            "id": 108,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "noWait": false,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "connections": [
+                {
+                    "id": 127,
+                    "x": 350,
+                    "y": 1650
+                }
+            ],
+            "entrances": [
+                1808
+            ]
+        },
+        "127": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 1650
+            },
+            "id": 127,
+            "ending": true,
+            "entrances": [
+                108
+            ]
+        },
+        "651": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 850
+            },
+            "id": 651,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "largeTextbox",
+                    "noDelay": true,
+                    "cloneId": "1",
+                    "closeOthers": true,
+                    "actorId": "",
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "largeTextbox",
+                    "noDelay": true,
+                    "cloneId": "2",
+                    "closeOthers": true
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "largeTextbox",
+                    "noDelay": true,
+                    "cloneId": "3",
+                    "closeOthers": true
+                }
+            ],
+            "connections": [
+                {
+                    "id": 652,
+                    "x": 350,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                1807
+            ]
+        },
+        "652": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 950
+            },
+            "text": [
+                {
+                    "textNodeId": 1,
+                    "textBox": "largeTextbox",
+                    "noDelay": true,
+                    "cloneId": "4",
+                    "closeOthers": true
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "largeTextbox",
+                    "noDelay": true,
+                    "closeOthers": true,
+                    "cloneId": "5"
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "largeTextbox",
+                    "noDelay": true,
+                    "cloneId": "6",
+                    "closeOthers": true
+                }
+            ],
+            "id": 652,
+            "connections": [
+                {
+                    "id": 653,
+                    "x": 350,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                651
+            ]
+        },
+        "653": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1050
+            },
+            "text": [
+                {
+                    "textNodeId": 2,
+                    "textBox": "largeTextbox",
+                    "noDelay": true,
+                    "cloneId": "7",
+                    "closeOthers": true,
+                    "actorId": "",
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "largeTextbox",
+                    "noDelay": true,
+                    "cloneId": "8",
+                    "closeOthers": true
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "largeTextbox",
+                    "noDelay": true,
+                    "cloneId": "9",
+                    "closeOthers": true
+                }
+            ],
+            "id": 653,
+            "connections": [
+                {
+                    "id": 1046,
+                    "x": 350,
+                    "y": 1150
+                }
+            ],
+            "entrances": [
+                652
+            ]
+        },
+        "655": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 655,
+            "connections": [
+                {
+                    "id": 1807,
+                    "x": 350,
+                    "y": 750
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "default",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                667
+            ]
+        },
+        "664": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 664,
+            "connections": [
+                {
+                    "id": 880,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "wait": {
+                "pause": 2,
+                "skippable": false
+            },
+            "entrances": [
+                103
+            ]
+        },
+        "667": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "id": 667,
+            "connections": [
+                {
+                    "id": 655,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "wait": {
+                "pause": 1,
+                "skippable": true
+            },
+            "entrances": [
+                104
+            ]
+        },
+        "856": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 856,
+            "connections": [
+                {
+                    "id": 104,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "targetScene": "placeInfo",
+            "targetNode": 837,
+            "entrances": [
+                880
+            ]
+        },
+        "880": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 880,
+            "connections": [
+                {
+                    "id": 856,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "targetScene": "setdate",
+            "targetNode": 875,
+            "entrances": [
+                664
+            ]
+        },
+        "962": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 1350
+            },
+            "id": 962,
+            "connections": [
+                {
+                    "id": 1808,
+                    "x": 350,
+                    "y": 1450
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "largeTextbox",
+                    "action": "remove"
+                },
+                {
+                    "id": "largeTextbox",
+                    "cloneId": "9",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                1734
+            ]
+        },
+        "1046": {
+            "type": "value",
+            "pos": {
+                "x": 350,
+                "y": 1150
+            },
+            "id": 1046,
+            "connections": [
+                {
+                    "id": 1734,
+                    "x": 350,
+                    "y": 1250
+                }
+            ],
+            "updateValues": [
+                {
+                    "scope": "user",
+                    "id": "choicesArray",
+                    "operand": "Прочитал Газету",
+                    "action": "push"
+                }
+            ],
+            "name": "выбор: прочитал газету",
+            "entrances": [
+                653
+            ]
+        },
+        "1734": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 1250
+            },
+            "id": 1734,
+            "connections": [
+                {
+                    "id": 962,
+                    "x": 350,
+                    "y": 1350
+                }
+            ],
+            "targetScene": "setNewClue",
+            "targetNode": 1715,
+            "entrances": [
+                1046
+            ]
+        },
+        "1807": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 750
+            },
+            "id": 1807,
+            "connections": [
+                {
+                    "id": 651,
+                    "x": 350,
+                    "y": 850
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100,
+                "id": "assets-music-Sergey Cheremisinov - Sense.mp3"
+            },
+            "entrances": [
+                655
+            ]
+        },
+        "1808": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 1450
+            },
+            "id": 1808,
+            "connections": [
+                {
+                    "id": 108,
+                    "x": 350,
+                    "y": 1550
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100,
+                "id": ""
+            },
+            "entrances": [
+                962
+            ]
+        }
+    }
+}

@@ -1,0 +1,575 @@
+{
+    "id": "loading",
+    "name": "Loading Window",
+    "comment": "",
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "loading",
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "left",
+                    "y": "top"
+                },
+                "size": {
+                    "width": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioWidth",
+                        "reactive": true
+                    },
+                    "height": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioHeight",
+                        "reactive": true
+                    }
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "zIndex": 4000
+            },
+            "listSetup": {},
+            "text": {
+                "example": "none"
+            },
+            "background": {
+                "setup": {},
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 1
+                }
+            },
+            "children": [],
+            "border": {},
+            "transition": {},
+            "appearAnimation": {
+                "transition": {}
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 4
+                }
+            },
+            "animations": {},
+            "transform": {},
+            "cursor": {}
+        },
+        {
+            "id": "percentReady",
+            "name": "Percent Ready",
+            "role": "gui",
+            "entityID": "loading",
+            "background": {
+                "setup": {}
+            },
+            "position": {
+                "size": {
+                    "width": 200,
+                    "height": 100
+                },
+                "origin": {
+                    "x": "center",
+                    "y": "bottom"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "zIndex": 4002,
+                "shift": {
+                    "x": 0,
+                    "y": -15
+                }
+            },
+            "listSetup": {},
+            "children": [
+                {
+                    "id": "percent",
+                    "name": "Percent",
+                    "role": "gui",
+                    "entityID": "loading",
+                    "animations": {},
+                    "position": {
+                        "size": {
+                            "width": 100,
+                            "height": 100
+                        },
+                        "origin": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "shift": {}
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "size": 64,
+                        "color": {
+                            "red": 187,
+                            "green": 187,
+                            "blue": 187,
+                            "alpha": 1
+                        },
+                        "textStroke": {
+                            "color": {
+                                "red": 106,
+                                "green": 86,
+                                "blue": 9,
+                                "alpha": 1
+                            },
+                            "width": 0
+                        },
+                        "bold": false,
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "system",
+                            "id": "loadingResourcesState",
+                            "reactive": true
+                        },
+                        "example": "none",
+                        "font": "MarckScript-Regular"
+                    },
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 128,
+                            "green": 128,
+                            "blue": 128,
+                            "alpha": 0
+                        }
+                    },
+                    "classes": [
+                        {
+                            "id": "disable",
+                            "index": 1702517647161,
+                            "overwrite": true,
+                            "condition": [
+                                {
+                                    "scope": "system",
+                                    "id": "loadingResourcesState",
+                                    "action": "moreis",
+                                    "value": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    }
+                },
+                {
+                    "id": "isReady",
+                    "name": "Is Ready",
+                    "role": "gui",
+                    "entityID": "loading",
+                    "background": {
+                        "setup": {}
+                    },
+                    "text": {
+                        "size": 64,
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "ready",
+                            "reactive": true
+                        },
+                        "color": {
+                            "red": 243,
+                            "green": 149,
+                            "blue": 17,
+                            "alpha": 1
+                        },
+                        "textStroke": {
+                            "color": {
+                                "red": 106,
+                                "green": 86,
+                                "blue": 9,
+                                "alpha": 1
+                            },
+                            "width": 0
+                        },
+                        "bold": false,
+                        "font": "MarckScript-Regular"
+                    },
+                    "position": {},
+                    "listSetup": {},
+                    "classes": [
+                        {
+                            "id": "disable",
+                            "index": 1702517672746,
+                            "overwrite": true,
+                            "condition": [
+                                {
+                                    "scope": "system",
+                                    "id": "loadingResourcesState",
+                                    "action": "less",
+                                    "value": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {
+                            "duration": 2
+                        }
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    }
+                }
+            ],
+            "text": {
+                "example": "none"
+            }
+        },
+        {
+            "id": "circleContainer",
+            "name": "Circle Container",
+            "role": "gui",
+            "entityID": "loading",
+            "background": {
+                "setup": {}
+            },
+            "animations": {
+                "spin": {
+                    "name": "spin",
+                    "duration": 600,
+                    "delay": 0,
+                    "repeat": 0,
+                    "transitfunction": "linear",
+                    "persistent": false
+                }
+            },
+            "children": [
+                {
+                    "id": "circle",
+                    "name": "Circle",
+                    "role": "gui",
+                    "entityID": "loading",
+                    "background": {
+                        "setup": {},
+                        "resource": "assets-uis-lic.png"
+                    },
+                    "position": {
+                        "size": {
+                            "width": 512,
+                            "height": 512
+                        },
+                        "origin": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "zIndex": 2
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "animations": {},
+                    "visibility": {
+                        "mask": {}
+                    },
+                    "transform": {},
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {
+                            "duration": 5,
+                            "transitfunction": "linear"
+                        }
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    }
+                },
+                {
+                    "id": "circleB",
+                    "name": "Circle Black",
+                    "role": "gui",
+                    "entityID": "loading",
+                    "background": {
+                        "setup": {},
+                        "resource": "assets-uis-licb.png"
+                    },
+                    "position": {
+                        "size": {
+                            "width": 512,
+                            "height": 512
+                        },
+                        "origin": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "zIndex": 1
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "animations": {},
+                    "children": [],
+                    "transform": {},
+                    "visibility": {
+                        "mask": {}
+                    },
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    }
+                }
+            ],
+            "position": {
+                "size": {
+                    "width": 512,
+                    "height": 512
+                },
+                "zIndex": 4002,
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                }
+            },
+            "listSetup": {},
+            "text": {
+                "example": "none"
+            },
+            "visibility": {
+                "render": true,
+                "mask": {}
+            }
+        },
+        {
+            "id": "ImageContainer",
+            "name": "Image container",
+            "role": "gui",
+            "entityID": "loading",
+            "background": {
+                "setup": {}
+            },
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 512,
+                    "height": 512
+                },
+                "shift": {},
+                "zIndex": 4001
+            },
+            "listSetup": {},
+            "children": [
+                {
+                    "id": "tree",
+                    "name": "Tree",
+                    "role": "gui",
+                    "entityID": "loading",
+                    "background": {
+                        "setup": {},
+                        "resource": "assets-uis-lit.png"
+                    },
+                    "position": {
+                        "size": {
+                            "width": 512,
+                            "height": 512
+                        },
+                        "origin": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "zIndex": 1
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "animations": {},
+                    "visibility": {
+                        "mask": {}
+                    },
+                    "transform": {},
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    }
+                },
+                {
+                    "id": "treeB",
+                    "name": "Tree Black",
+                    "role": "gui",
+                    "entityID": "loading",
+                    "background": {
+                        "setup": {},
+                        "resource": "assets-uis-litb.png"
+                    },
+                    "position": {
+                        "size": {
+                            "width": 512,
+                            "height": 512
+                        },
+                        "origin": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "zIndex": 2
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "animations": {},
+                    "children": [],
+                    "visibility": {
+                        "mask": {}
+                    },
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {
+                            "duration": 8,
+                            "transitfunction": "linear"
+                        }
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    },
+                    "transform": {}
+                }
+            ],
+            "text": {
+                "example": "none"
+            },
+            "animations": {},
+            "visibility": {
+                "render": true,
+                "mask": {}
+            }
+        },
+        {
+            "id": "cover",
+            "entityID": "loading",
+            "name": "Cover",
+            "role": "gui",
+            "position": {
+                "size": {
+                    "width": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioWidth",
+                        "reactive": true
+                    },
+                    "height": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioHeight",
+                        "reactive": true
+                    }
+                },
+                "zIndex": 4002,
+                "origin": {
+                    "x": "left",
+                    "y": "top"
+                }
+            },
+            "listSetup": {},
+            "border": {},
+            "text": {
+                "example": "none"
+            },
+            "background": {
+                "setup": {},
+                "color": {
+                    "red": 128,
+                    "green": 128,
+                    "blue": 128,
+                    "alpha": 0
+                }
+            },
+            "events": {
+                "click": {
+                    "uiController": [
+                        {
+                            "id": "loading",
+                            "action": "remove"
+                        }
+                    ]
+                }
+            },
+            "animations": {},
+            "visibility": {
+                "render": false,
+                "positionLocked": true
+            },
+            "classes": [
+                {
+                    "id": "enable",
+                    "index": 1620417206571,
+                    "overwrite": true,
+                    "condition": [
+                        {
+                            "scope": "system",
+                            "id": "loadingResourcesState",
+                            "action": "moreis",
+                            "value": "100"
+                        }
+                    ]
+                }
+            ],
+            "transform": {},
+            "transition": {},
+            "appearAnimation": {
+                "transition": {}
+            },
+            "disappearAnimation": {
+                "transition": {}
+            }
+        }
+    ],
+    "unique": true,
+    "doNotHide": true
+}

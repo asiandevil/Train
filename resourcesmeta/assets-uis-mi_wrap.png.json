@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-mi_wrap.png",
+    "name": "mi_wrap",
+    "type": "image",
+    "assign": "ui",
+    "filename": "mi_wrap.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Mini image wrapper",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 1000,
+        "height": 675
+    }
+}

@@ -1,0 +1,1037 @@
+{
+    "meta": {
+        "id": "traincabs",
+        "name": "Train Cabs",
+        "type": "scene",
+        "width": 1750,
+        "height": 2050,
+        "parent": "effects"
+    },
+    "nodes": {
+        "1054": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 50
+            },
+            "starting": true,
+            "id": 1054,
+            "connections": [
+                {
+                    "id": 1107,
+                    "x": 350,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Майнц - вагон 12"
+        },
+        "1055": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 1055,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "backgroundId": "assets-backgrounds-cab_day.png",
+            "waitToFinish": true,
+            "connections": [
+                {
+                    "id": 1056,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                1058
+            ]
+        },
+        "1056": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 1056,
+            "uiController": [
+                {
+                    "id": "backoutside",
+                    "action": "show"
+                },
+                {
+                    "id": "number",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1059,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                1055
+            ]
+        },
+        "1058": {
+            "type": "value",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 1058,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "mainCity"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "cab12"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "cabNumber",
+                    "operand": "12",
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1055,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "name": "Set place and cab",
+            "entrances": [
+                1107
+            ]
+        },
+        "1059": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "id": 1059,
+            "ending": true,
+            "entrances": [
+                1056
+            ]
+        },
+        "1074": {
+            "type": "wait",
+            "pos": {
+                "x": 150,
+                "y": 450
+            },
+            "id": 1074,
+            "wait": {
+                "pause": 1,
+                "skippable": false
+            },
+            "connections": [
+                {
+                    "id": 1077,
+                    "x": 150,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                1083
+            ]
+        },
+        "1075": {
+            "type": "ui",
+            "pos": {
+                "x": 150,
+                "y": 150
+            },
+            "id": 1075,
+            "connections": [
+                {
+                    "id": 1084,
+                    "x": 150,
+                    "y": 250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "backoutside",
+                    "action": "remove"
+                },
+                {
+                    "id": "number",
+                    "action": "remove"
+                },
+                {
+                    "id": "default",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                1085
+            ]
+        },
+        "1077": {
+            "type": "ui",
+            "pos": {
+                "x": 150,
+                "y": 550
+            },
+            "id": 1077,
+            "uiController": [
+                {
+                    "id": "backoutside",
+                    "action": "show"
+                },
+                {
+                    "id": "number",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1086,
+                    "x": 150,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                1074
+            ]
+        },
+        "1083": {
+            "type": "back",
+            "pos": {
+                "x": 150,
+                "y": 350
+            },
+            "id": 1083,
+            "connections": [
+                {
+                    "id": 1074,
+                    "x": 150,
+                    "y": 450
+                }
+            ],
+            "backgroundId": "assets-backgrounds-dark.jpg",
+            "waitToFinish": true,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "entrances": [
+                1084
+            ]
+        },
+        "1084": {
+            "type": "wait",
+            "pos": {
+                "x": 150,
+                "y": 250
+            },
+            "id": 1084,
+            "connections": [
+                {
+                    "id": 1083,
+                    "x": 150,
+                    "y": 350
+                }
+            ],
+            "wait": {
+                "pause": 1,
+                "skippable": false
+            },
+            "entrances": [
+                1075
+            ]
+        },
+        "1085": {
+            "type": "start",
+            "pos": {
+                "x": 150,
+                "y": 50
+            },
+            "id": 1085,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Переход между вагонами",
+            "connections": [
+                {
+                    "id": 1075,
+                    "x": 150,
+                    "y": 150
+                }
+            ]
+        },
+        "1086": {
+            "type": "end",
+            "pos": {
+                "x": 150,
+                "y": 650
+            },
+            "id": 1086,
+            "ending": true,
+            "entrances": [
+                1077
+            ]
+        },
+        "1107": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 1107,
+            "connections": [
+                {
+                    "id": 1058,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "backoutside",
+                    "action": "remove"
+                },
+                {
+                    "id": "number",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                1054
+            ]
+        },
+        "1154": {
+            "type": "start",
+            "pos": {
+                "x": 550,
+                "y": 50
+            },
+            "starting": true,
+            "id": 1154,
+            "connections": [
+                {
+                    "id": 1159,
+                    "x": 550,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Франкфурт - вагон 12"
+        },
+        "1155": {
+            "type": "back",
+            "pos": {
+                "x": 550,
+                "y": 350
+            },
+            "id": 1155,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "backgroundId": "assets-backgrounds-cab_day.png",
+            "waitToFinish": true,
+            "connections": [
+                {
+                    "id": 1156,
+                    "x": 550,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                1157
+            ]
+        },
+        "1156": {
+            "type": "ui",
+            "pos": {
+                "x": 550,
+                "y": 450
+            },
+            "id": 1156,
+            "uiController": [
+                {
+                    "id": "backoutside",
+                    "action": "show"
+                },
+                {
+                    "id": "number",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1158,
+                    "x": 550,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                1155
+            ]
+        },
+        "1157": {
+            "type": "value",
+            "pos": {
+                "x": 550,
+                "y": 250
+            },
+            "id": 1157,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placeFrankfurt"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "cab12"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "cabNumber",
+                    "operand": "12",
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1155,
+                    "x": 550,
+                    "y": 350
+                }
+            ],
+            "name": "Set place and cab",
+            "entrances": [
+                1159
+            ]
+        },
+        "1158": {
+            "type": "end",
+            "pos": {
+                "x": 550,
+                "y": 550
+            },
+            "id": 1158,
+            "ending": true,
+            "entrances": [
+                1156
+            ]
+        },
+        "1159": {
+            "type": "ui",
+            "pos": {
+                "x": 550,
+                "y": 150
+            },
+            "id": 1159,
+            "connections": [
+                {
+                    "id": 1157,
+                    "x": 550,
+                    "y": 250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "backoutside",
+                    "action": "remove"
+                },
+                {
+                    "id": "number",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                1154
+            ]
+        },
+        "1271": {
+            "type": "start",
+            "pos": {
+                "x": 750,
+                "y": 50
+            },
+            "starting": true,
+            "id": 1271,
+            "connections": [
+                {
+                    "id": 1276,
+                    "x": 750,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "В дороге - вагон 12"
+        },
+        "1272": {
+            "type": "back",
+            "pos": {
+                "x": 750,
+                "y": 350
+            },
+            "id": 1272,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "backgroundId": "assets-backgrounds-cab_day.png",
+            "waitToFinish": true,
+            "connections": [
+                {
+                    "id": 1273,
+                    "x": 750,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                1274
+            ]
+        },
+        "1273": {
+            "type": "ui",
+            "pos": {
+                "x": 750,
+                "y": 450
+            },
+            "id": 1273,
+            "uiController": [
+                {
+                    "id": "backoutside",
+                    "action": "show"
+                },
+                {
+                    "id": "number",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1275,
+                    "x": 750,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                1272
+            ]
+        },
+        "1274": {
+            "type": "value",
+            "pos": {
+                "x": 750,
+                "y": 250
+            },
+            "id": 1274,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placeTrain"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "cab12"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "cabNumber",
+                    "operand": "12",
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1272,
+                    "x": 750,
+                    "y": 350
+                }
+            ],
+            "name": "Set place and cab",
+            "entrances": [
+                1276
+            ]
+        },
+        "1275": {
+            "type": "end",
+            "pos": {
+                "x": 750,
+                "y": 550
+            },
+            "id": 1275,
+            "ending": true,
+            "entrances": [
+                1273
+            ]
+        },
+        "1276": {
+            "type": "ui",
+            "pos": {
+                "x": 750,
+                "y": 150
+            },
+            "id": 1276,
+            "connections": [
+                {
+                    "id": 1274,
+                    "x": 750,
+                    "y": 250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "backoutside",
+                    "action": "remove"
+                },
+                {
+                    "id": "number",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                1271
+            ]
+        },
+        "1291": {
+            "type": "start",
+            "pos": {
+                "x": 950,
+                "y": 50
+            },
+            "starting": true,
+            "id": 1291,
+            "connections": [
+                {
+                    "id": 1297,
+                    "x": 950,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Вагон 12 - переход в ночь"
+        },
+        "1292": {
+            "type": "back",
+            "pos": {
+                "x": 950,
+                "y": 350
+            },
+            "id": 1292,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 4,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "backgroundId": "assets-backgrounds-cab_night.png",
+            "waitToFinish": true,
+            "connections": [
+                {
+                    "id": 1295,
+                    "x": 950,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                1294
+            ]
+        },
+        "1294": {
+            "type": "value",
+            "pos": {
+                "x": 950,
+                "y": 250
+            },
+            "id": 1294,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placeTrain"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "cab12"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "cabNumber",
+                    "operand": "12",
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1292,
+                    "x": 950,
+                    "y": 350
+                }
+            ],
+            "name": "Set place and cab",
+            "entrances": [
+                1297
+            ]
+        },
+        "1295": {
+            "type": "end",
+            "pos": {
+                "x": 950,
+                "y": 450
+            },
+            "id": 1295,
+            "ending": true,
+            "entrances": [
+                1292
+            ]
+        },
+        "1297": {
+            "type": "value",
+            "pos": {
+                "x": 950,
+                "y": 150
+            },
+            "id": 1297,
+            "connections": [
+                {
+                    "id": 1294,
+                    "x": 950,
+                    "y": 250
+                }
+            ],
+            "updateValues": [
+                {
+                    "scope": "uiStates",
+                    "id": "isNight",
+                    "operand": true,
+                    "action": "set"
+                }
+            ],
+            "name": "Set is Night",
+            "entrances": [
+                1291
+            ]
+        },
+        "1464": {
+            "type": "start",
+            "pos": {
+                "x": 150,
+                "y": 850
+            },
+            "starting": true,
+            "id": 1464,
+            "connections": [
+                {
+                    "id": 1469,
+                    "x": 150,
+                    "y": 950
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "В дороге - ресторан"
+        },
+        "1465": {
+            "type": "back",
+            "pos": {
+                "x": 150,
+                "y": 1150
+            },
+            "id": 1465,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "backgroundId": "assets-backgrounds-rest_move.png",
+            "waitToFinish": true,
+            "connections": [
+                {
+                    "id": 1468,
+                    "x": 150,
+                    "y": 1250
+                }
+            ],
+            "entrances": [
+                1467
+            ]
+        },
+        "1467": {
+            "type": "value",
+            "pos": {
+                "x": 150,
+                "y": 1050
+            },
+            "id": 1467,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeTopText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placeTrain"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "cab6"
+                    },
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "cabNumber",
+                    "operand": "6",
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1465,
+                    "x": 150,
+                    "y": 1150
+                }
+            ],
+            "name": "Set place and cab",
+            "entrances": [
+                1469
+            ]
+        },
+        "1468": {
+            "type": "end",
+            "pos": {
+                "x": 150,
+                "y": 1250
+            },
+            "id": 1468,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                1465
+            ]
+        },
+        "1469": {
+            "type": "ui",
+            "pos": {
+                "x": 150,
+                "y": 950
+            },
+            "id": 1469,
+            "connections": [
+                {
+                    "id": 1467,
+                    "x": 150,
+                    "y": 1050
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "backoutside",
+                    "action": "remove"
+                },
+                {
+                    "id": "number",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                1464
+            ]
+        }
+    }
+}

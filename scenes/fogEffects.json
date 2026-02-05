@@ -1,0 +1,457 @@
+{
+    "meta": {
+        "id": "fogEffects",
+        "name": "Fogs",
+        "type": "scene",
+        "width": 1750,
+        "height": 1450,
+        "parent": "effects",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 827,
+            "end": 828,
+            "selectedRoutes": {}
+        }
+    },
+    "nodes": {
+        "815": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 50
+            },
+            "starting": true,
+            "id": 815,
+            "connections": [
+                {
+                    "id": 816,
+                    "x": 250,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Shake-Jump",
+            "entrances": [
+                829
+            ]
+        },
+        "816": {
+            "type": "actor",
+            "pos": {
+                "x": 250,
+                "y": 150
+            },
+            "id": 816,
+            "actors": [
+                {
+                    "id": "assets-images-greydreamt.png",
+                    "state": "default",
+                    "action": "show",
+                    "flip": false,
+                    "position": {
+                        "x": "50%",
+                        "y": "50%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2.8
+                    },
+                    "animations": {
+                        "shake": {
+                            "name": "shake",
+                            "duration": 500,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "linear",
+                            "persistent": false,
+                            "params": {
+                                "percent": 10
+                            }
+                        },
+                        "jump": {
+                            "name": "jump",
+                            "duration": 40,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease-in-out",
+                            "persistent": false,
+                            "params": {
+                                "percent": 10
+                            }
+                        }
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 5
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 817,
+                    "x": 250,
+                    "y": 250
+                }
+            ],
+            "name": "Shake-Jump",
+            "entrances": [
+                815
+            ]
+        },
+        "817": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 250
+            },
+            "id": 817,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                816
+            ]
+        },
+        "818": {
+            "type": "actor",
+            "pos": {
+                "x": 750,
+                "y": 150
+            },
+            "id": 818,
+            "actors": [
+                {
+                    "id": "assets-images-greydreamt.png",
+                    "state": "default",
+                    "action": "show",
+                    "flip": false,
+                    "position": {
+                        "x": "50%",
+                        "y": "50%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 3.6
+                    },
+                    "animations": {
+                        "shake": {
+                            "name": "shake",
+                            "duration": 300,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease",
+                            "persistent": false
+                        },
+                        "pulse": {
+                            "name": "pulse",
+                            "duration": 5,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease",
+                            "persistent": false,
+                            "params": {
+                                "scale": 1.1
+                            }
+                        }
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 10
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 820,
+                    "x": 750,
+                    "y": 250
+                }
+            ],
+            "name": "Shake-Pulse",
+            "entrances": [
+                819
+            ]
+        },
+        "819": {
+            "type": "start",
+            "pos": {
+                "x": 750,
+                "y": 50
+            },
+            "id": 819,
+            "starting": true,
+            "connections": [
+                {
+                    "id": 818,
+                    "x": 750,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Shake-Pulse",
+            "entrances": [
+                830
+            ]
+        },
+        "820": {
+            "type": "end",
+            "pos": {
+                "x": 750,
+                "y": 250
+            },
+            "id": 820,
+            "ending": true,
+            "entrances": [
+                818
+            ]
+        },
+        "821": {
+            "type": "actor",
+            "pos": {
+                "x": 750,
+                "y": 550
+            },
+            "id": 821,
+            "actors": [
+                {
+                    "id": "assets-images-greydreamt.png",
+                    "state": "default",
+                    "action": "hide",
+                    "flip": false,
+                    "position": {
+                        "x": "50%",
+                        "y": "50%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 13.2
+                    },
+                    "animations": {
+                        "shake": {
+                            "name": "shake",
+                            "duration": 150,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease",
+                            "persistent": false
+                        },
+                        "pulse": {
+                            "name": "pulse",
+                            "duration": 5,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease",
+                            "persistent": false,
+                            "params": {
+                                "scale": 1.1
+                            }
+                        }
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 1
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 823,
+                    "x": 750,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                822
+            ]
+        },
+        "822": {
+            "type": "start",
+            "pos": {
+                "x": 750,
+                "y": 450
+            },
+            "id": 822,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Shake-Pulse: Hide",
+            "connections": [
+                {
+                    "id": 821,
+                    "x": 750,
+                    "y": 550
+                }
+            ]
+        },
+        "823": {
+            "type": "end",
+            "pos": {
+                "x": 750,
+                "y": 650
+            },
+            "id": 823,
+            "ending": true,
+            "entrances": [
+                821
+            ]
+        },
+        "826": {
+            "type": "actor",
+            "pos": {
+                "x": 250,
+                "y": 550
+            },
+            "id": 826,
+            "actors": [
+                {
+                    "id": "assets-images-greydreamt.png",
+                    "state": "default",
+                    "action": "hide",
+                    "flip": false,
+                    "position": {
+                        "x": "50%",
+                        "y": "50%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2.8
+                    },
+                    "animations": {
+                        "shake": {
+                            "name": "shake",
+                            "duration": 500,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "linear",
+                            "persistent": false,
+                            "params": {
+                                "percent": 10
+                            }
+                        },
+                        "jump": {
+                            "name": "jump",
+                            "duration": 40,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease-in-out",
+                            "persistent": false,
+                            "params": {
+                                "percent": 10
+                            }
+                        }
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 2,
+                            "delay": 0,
+                            "transitfunction": "ease"
+                        },
+                        "type": "still",
+                        "effect": true
+                    },
+                    "zIndex": 2000,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 828,
+                    "x": 250,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                827
+            ]
+        },
+        "827": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 450
+            },
+            "id": 827,
+            "starting": true,
+            "connections": [
+                {
+                    "id": 826,
+                    "x": 250,
+                    "y": 550
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Shake-Jump: Hide"
+        },
+        "828": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 650
+            },
+            "id": 828,
+            "ending": true,
+            "entrances": [
+                826
+            ]
+        },
+        "829": {
+            "type": "comment",
+            "pos": {
+                "x": 450,
+                "y": 50,
+                "width": 218,
+                "height": 108.390625
+            },
+            "id": 829,
+            "connections": [
+                {
+                    "id": 815,
+                    "x": 250,
+                    "y": 50
+                }
+            ]
+        },
+        "830": {
+            "type": "comment",
+            "pos": {
+                "x": 950,
+                "y": 50,
+                "width": 210,
+                "height": 114.390625
+            },
+            "id": 830,
+            "connections": [
+                {
+                    "id": 819,
+                    "x": 750,
+                    "y": 50
+                }
+            ]
+        }
+    }
+}

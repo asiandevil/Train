@@ -1,0 +1,54 @@
+{
+    "meta": {
+        "id": "system",
+        "name": "System readonly variables",
+        "readonly": true,
+        "isSystem": true
+    },
+    "values": {
+        "title": {
+            "id": "title",
+            "scope": "system",
+            "comment": "Game Title",
+            "defaultValue": "Train to Mittenwald",
+            "type": "string"
+        },
+        "scenarioWidth": {
+            "id": "scenarioWidth",
+            "scope": "system",
+            "comment": "Scenario width",
+            "defaultValue": 1280,
+            "type": "number"
+        },
+        "scenarioHeight": {
+            "id": "scenarioHeight",
+            "scope": "system",
+            "comment": "Scenario height",
+            "defaultValue": 720,
+            "type": "number"
+        },
+        "canContinue": {
+            "id": "canContinue",
+            "scope": "system",
+            "comment": "Can Continue",
+            "defaultValue": true,
+            "type": "boolean"
+        },
+        "isSkip": {
+            "id": "isSkip",
+            "scope": "system",
+            "comment": "Is skipping seen",
+            "defaultValue": false,
+            "type": "boolean"
+        },
+        "loadingResourcesState": {
+            "id": "loadingResourcesState",
+            "scope": "system",
+            "comment": "Loading resources state",
+            "defaultValue": 0,
+            "type": "number",
+            "max": 100,
+            "min": 0
+        }
+    }
+}

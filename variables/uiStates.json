@@ -1,0 +1,48 @@
+{
+    "meta": {
+        "id": "uiStates",
+        "name": "UI States",
+        "persistent": false,
+        "isSystem": false,
+        "readonly": false
+    },
+    "values": {
+        "showingWindow": {
+            "id": "showingWindow",
+            "scope": "uiStates",
+            "type": "boolean",
+            "defaultValue": "",
+            "comment": "Showing Window"
+        },
+        "outsideBack": {
+            "id": "outsideBack",
+            "scope": "uiStates",
+            "type": "asset",
+            "defaultValue": "assets-backgrounds-station.png",
+            "comment": "Background outside train window",
+            "assetType": "anyImage"
+        },
+        "isNight": {
+            "id": "isNight",
+            "scope": "uiStates",
+            "type": "boolean",
+            "defaultValue": false,
+            "comment": "Is Night"
+        },
+        "newClue": {
+            "id": "newClue",
+            "scope": "uiStates",
+            "type": "boolean",
+            "defaultValue": "",
+            "comment": "Have new Clue"
+        },
+        "newClueAlpha": {
+            "id": "newClueAlpha",
+            "scope": "uiStates",
+            "type": "number",
+            "defaultValue": 0,
+            "comment": "New Clue Alpha",
+            "max": "100"
+        }
+    }
+}

@@ -1,0 +1,583 @@
+{
+    "meta": {
+        "name": "5.3: Отказаться от дела",
+        "width": 1200,
+        "height": 2550,
+        "parent": "scene5",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 38,
+            "end": 44,
+            "selectedRoutes": {}
+        },
+        "id": "dreamdebt",
+        "children": [
+            "continueDetective",
+            "changeJob"
+        ],
+        "type": "scene",
+        "tags": [
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "translationReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "38": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 50
+            },
+            "starting": true,
+            "id": 38,
+            "connections": [
+                {
+                    "id": 39,
+                    "x": 250,
+                    "y": 150
+                }
+            ],
+            "name": "Я отказался от дела",
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "39": {
+            "type": "back",
+            "pos": {
+                "x": 250,
+                "y": 150
+            },
+            "id": 39,
+            "backgroundId": "assets-backgrounds-ggroom.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 40,
+                    "x": 250,
+                    "y": 250
+                }
+            ],
+            "waitToFinish": false,
+            "entrances": [
+                38
+            ]
+        },
+        "40": {
+            "type": "text",
+            "pos": {
+                "x": 250,
+                "y": 250
+            },
+            "id": 40,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "connections": [
+                {
+                    "id": 670,
+                    "x": 250,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                39
+            ]
+        },
+        "44": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 1750
+            },
+            "id": 44,
+            "ending": true,
+            "entrances": [
+                140
+            ]
+        },
+        "49": {
+            "type": "call",
+            "pos": {
+                "x": 250,
+                "y": 650
+            },
+            "id": 49,
+            "connections": [
+                {
+                    "id": 573,
+                    "x": 250,
+                    "y": 750
+                }
+            ],
+            "targetScene": "dream8",
+            "targetNode": 559,
+            "entrances": [
+                669
+            ]
+        },
+        "132": {
+            "type": "text",
+            "pos": {
+                "x": 250,
+                "y": 1050
+            },
+            "id": 132,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 6
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 3,
+                    "actorId": "actor"
+                },
+                {
+                    "textNodeId": 4,
+                    "actorId": "actor"
+                },
+                {
+                    "textNodeId": 5,
+                    "actorId": "mainHero"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 136,
+                    "x": 250,
+                    "y": 1150
+                }
+            ],
+            "entrances": [
+                569
+            ]
+        },
+        "136": {
+            "type": "text",
+            "pos": {
+                "x": 250,
+                "y": 1150
+            },
+            "id": 136,
+            "text": [
+                {
+                    "textNodeId": 1,
+                    "actorId": "actor",
+                    "actorState": "state3"
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "mainHero"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 755,
+                    "x": 250,
+                    "y": 1250
+                }
+            ],
+            "entrances": [
+                132,
+                702
+            ]
+        },
+        "138": {
+            "type": "comment",
+            "pos": {
+                "x": 400,
+                "y": 1550,
+                "width": 162,
+                "height": 89.34375
+            },
+            "id": 138,
+            "connections": [
+                {
+                    "id": 139,
+                    "x": 250,
+                    "y": 1550
+                }
+            ]
+        },
+        "139": {
+            "type": "back",
+            "pos": {
+                "x": 250,
+                "y": 1550
+            },
+            "id": 139,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 140,
+                    "x": 250,
+                    "y": 1650
+                }
+            ],
+            "backgroundId": "assets-backgrounds-city_park.png",
+            "waitToFinish": false,
+            "entrances": [
+                138,
+                858
+            ]
+        },
+        "140": {
+            "type": "text",
+            "pos": {
+                "x": 250,
+                "y": 1650
+            },
+            "id": 140,
+            "text": [
+                {
+                    "textNodeId": 4
+                },
+                {
+                    "textNodeId": 5
+                },
+                {
+                    "textNodeId": 6
+                },
+                {
+                    "textNodeId": 7
+                },
+                {
+                    "textNodeId": 8
+                }
+            ],
+            "connections": [
+                {
+                    "id": 44,
+                    "x": 250,
+                    "y": 1750
+                }
+            ],
+            "entrances": [
+                139
+            ]
+        },
+        "569": {
+            "type": "call",
+            "pos": {
+                "x": 250,
+                "y": 950
+            },
+            "id": 569,
+            "targetScene": "scene5c",
+            "targetNode": 128,
+            "connections": [
+                {
+                    "id": 132,
+                    "x": 250,
+                    "y": 1050
+                }
+            ],
+            "name": "Отказаться",
+            "entrances": [
+                725
+            ]
+        },
+        "573": {
+            "type": "ui",
+            "pos": {
+                "x": 250,
+                "y": 750
+            },
+            "id": 573,
+            "uiController": [
+                {
+                    "id": "freeText",
+                    "cloneId": "__all",
+                    "action": "remove"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 725,
+                    "x": 250,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                49
+            ]
+        },
+        "668": {
+            "type": "back",
+            "pos": {
+                "x": 250,
+                "y": 450
+            },
+            "id": 668,
+            "connections": [
+                {
+                    "id": 669,
+                    "x": 250,
+                    "y": 550
+                }
+            ],
+            "backgroundId": "assets-backgrounds-dark.jpg",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "waitToFinish": false,
+            "entrances": [
+                670
+            ]
+        },
+        "669": {
+            "type": "wait",
+            "pos": {
+                "x": 250,
+                "y": 550
+            },
+            "id": 669,
+            "connections": [
+                {
+                    "id": 49,
+                    "x": 250,
+                    "y": 650
+                }
+            ],
+            "wait": {
+                "pause": 4,
+                "skippable": false
+            },
+            "entrances": [
+                668
+            ]
+        },
+        "670": {
+            "type": "ui",
+            "pos": {
+                "x": 250,
+                "y": 350
+            },
+            "id": 670,
+            "connections": [
+                {
+                    "id": 668,
+                    "x": 250,
+                    "y": 450
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "default",
+                    "action": "hide"
+                },
+                {
+                    "id": "topPanel",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                40
+            ]
+        },
+        "680": {
+            "type": "wait",
+            "pos": {
+                "x": 250,
+                "y": 1350
+            },
+            "id": 680,
+            "connections": [
+                {
+                    "id": 858,
+                    "x": 250,
+                    "y": 1450
+                }
+            ],
+            "wait": {
+                "pause": 2,
+                "skippable": false
+            },
+            "entrances": [
+                755
+            ]
+        },
+        "702": {
+            "type": "comment",
+            "pos": {
+                "x": 450,
+                "y": 1150,
+                "width": 194,
+                "height": 91.234375
+            },
+            "id": 702,
+            "connections": [
+                {
+                    "id": 136,
+                    "x": 250,
+                    "y": 1150
+                }
+            ]
+        },
+        "725": {
+            "type": "sound",
+            "pos": {
+                "x": 250,
+                "y": 850
+            },
+            "id": 725,
+            "sound": {
+                "type": "music",
+                "id": "assets-music-Precisamos.mp3",
+                "volume": 100
+            },
+            "connections": [
+                {
+                    "id": 569,
+                    "x": 250,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                573
+            ]
+        },
+        "755": {
+            "type": "actor",
+            "pos": {
+                "x": 250,
+                "y": 1250
+            },
+            "id": 755,
+            "actors": [
+                {
+                    "id": "actor",
+                    "state": "default",
+                    "action": "hide",
+                    "flip": true,
+                    "position": {
+                        "x": "46.8254%",
+                        "y": "81.0371%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 1.8
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 2
+                        },
+                        "type": "still"
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 680,
+                    "x": 250,
+                    "y": 1350
+                }
+            ],
+            "entrances": [
+                136
+            ]
+        },
+        "858": {
+            "type": "call",
+            "pos": {
+                "x": 250,
+                "y": 1450
+            },
+            "id": 858,
+            "connections": [
+                {
+                    "id": 139,
+                    "x": 250,
+                    "y": 1550
+                }
+            ],
+            "targetScene": "placeInfo",
+            "targetNode": 841,
+            "entrances": [
+                680
+            ]
+        }
+    }
+}

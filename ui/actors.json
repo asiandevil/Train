@@ -1,0 +1,55 @@
+{
+    "id": "actors",
+    "name": "Actors",
+    "comment": "Actors container",
+    "role": "gui",
+    "deletable": false,
+    "unique": true,
+    "startsVisible": true,
+    "doNotHide": true,
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "actors",
+            "name": "Actors container",
+            "role": "actors",
+            "deletable": false,
+            "background": {
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0
+                },
+                "setup": {}
+            },
+            "position": {
+                "size": {
+                    "width": 720,
+                    "height": 400
+                },
+                "zIndex": 2000,
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "shift": {
+                    "x": 0,
+                    "y": -60
+                }
+            },
+            "events": {
+                "click": {
+                    "allowContinueEvent": true
+                }
+            },
+            "visibility": {
+                "overflow": "hide",
+                "mask": {
+                    "resource": "assets-uis-maskb.png"
+                }
+            },
+            "listSetup": {}
+        }
+    ]
+}

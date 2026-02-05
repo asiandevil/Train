@@ -1,0 +1,13 @@
+{
+    "id": "keyF7",
+    "comment": "F7",
+    "isSystem": false,
+    "alt": false,
+    "shift": false,
+    "ctrl": false,
+    "keyCode": 118,
+    "event": {
+        "valueUpdate": [],
+        "systemAction": "qload"
+    }
+}

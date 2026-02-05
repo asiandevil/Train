@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-gmenul.png",
+    "name": "gmenul",
+    "type": "image",
+    "assign": "ui",
+    "filename": "gmenul.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Bottom game menu",
+        "link": ""
+    },
+    "imageSize": {
+        "width": 101,
+        "height": 42
+    }
+}

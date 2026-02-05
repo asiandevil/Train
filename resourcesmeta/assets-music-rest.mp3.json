@@ -1,0 +1,17 @@
+{
+    "id": "assets-music-rest.mp3",
+    "name": "Rest",
+    "type": "sound",
+    "assign": "music",
+    "filename": "rest.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "P C III",
+        "license": "CC BY",
+        "description": "Relaxing music",
+        "link": "https://freemusicarchive.org/music/P_C_III/"
+    }
+}

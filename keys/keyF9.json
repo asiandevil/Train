@@ -1,0 +1,17 @@
+{
+    "id": "keyF9",
+    "comment": "F9",
+    "isSystem": false,
+    "alt": false,
+    "shift": false,
+    "ctrl": false,
+    "keyCode": 120,
+    "event": {
+        "startFlow": [
+            {
+                "nodeId": 988,
+                "sceneId": "keys"
+            }
+        ]
+    }
+}

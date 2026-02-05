@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-backlayer.png",
+    "name": "backlayer",
+    "type": "image",
+    "assign": "ui",
+    "filename": "backlayer.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "backlayer",
+        "license": "backlayer",
+        "description": "backlayer",
+        "link": "backlayer"
+    },
+    "imageSize": {
+        "width": 1280,
+        "height": 720
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "assets-music-Sergey Cheremisinov - Sense.mp3",
+    "name": "Sense",
+    "type": "sound",
+    "assign": "music",
+    "filename": "Sergey Cheremisinov - Sense.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Sergey Cheremisinov",
+        "license": "CC BY 4.0",
+        "description": "Sergey Cheremisinov - Sense",
+        "link": "https://freemusicarchive.org/music/Sergey_Cheremisinov/slow-light/sense-1/"
+    }
+}

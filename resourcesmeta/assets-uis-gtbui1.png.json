@@ -1,0 +1,20 @@
+{
+    "id": "assets-uis-gtbui1.png",
+    "name": "gtbui1.png",
+    "type": "image",
+    "assign": "ui",
+    "filename": "gtbui1.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "General textbox ui image"
+    },
+    "imageSize": {
+        "width": 1383,
+        "height": 174
+    }
+}

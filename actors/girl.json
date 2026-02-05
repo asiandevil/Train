@@ -1,0 +1,36 @@
+{
+    "id": "girl",
+    "name": "",
+    "localizedName": {
+        "russian": "Девушка",
+        "english": "Girl",
+        "ukrainian": "Дівчина"
+    },
+    "comment": "Girl",
+    "height": "65%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Normal",
+            "resource": "assets-actors-girlinred.png",
+            "slice": "default"
+        },
+        "state": {
+            "name": "Surprised",
+            "resource": "assets-actors-girlinred.png",
+            "slice": "surprised"
+        },
+        "state2": {
+            "name": "Angry",
+            "resource": "assets-actors-girlinred.png",
+            "slice": "angry"
+        },
+        "state3": {
+            "name": "Super Angry",
+            "resource": "assets-actors-girlinred.png",
+            "slice": "superAngry"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

@@ -1,0 +1,13 @@
+{
+    "id": "keyF8",
+    "comment": "F8",
+    "isSystem": false,
+    "alt": false,
+    "shift": false,
+    "ctrl": false,
+    "keyCode": 119,
+    "event": {
+        "valueUpdate": [],
+        "systemAction": "qsave"
+    }
+}

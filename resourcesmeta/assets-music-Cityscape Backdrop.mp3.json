@@ -1,0 +1,17 @@
+{
+    "id": "assets-music-Cityscape Backdrop.mp3",
+    "name": "Cityscape Backdrop",
+    "type": "sound",
+    "assign": "music",
+    "filename": "Cityscape Backdrop.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Jesse Spillane",
+        "license": "CC BY",
+        "description": "City music",
+        "link": "https://www.jessespillane.com"
+    }
+}

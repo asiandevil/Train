@@ -1,0 +1,57 @@
+{
+    "meta": {
+        "id": "uiText",
+        "name": "UI Text",
+        "persistent": false,
+        "isSystem": false,
+        "readonly": false
+    },
+    "values": {
+        "placeTopText": {
+            "id": "placeTopText",
+            "scope": "uiText",
+            "type": "string",
+            "defaultValue": "Place",
+            "comment": "Place top text"
+        },
+        "placeBottomText": {
+            "id": "placeBottomText",
+            "scope": "uiText",
+            "type": "string",
+            "defaultValue": "Place",
+            "comment": "Place bottom text"
+        },
+        "gamedate": {
+            "id": "gamedate",
+            "scope": "uiText",
+            "type": "object",
+            "defaultValue": "",
+            "comment": "Дата в игре",
+            "objectBody": {
+                "month": {
+                    "id": "month",
+                    "scope": "uiText",
+                    "defaultValue": "Сентябрь",
+                    "type": "string",
+                    "comment": "Месяц"
+                },
+                "monthDay": {
+                    "id": "monthDay",
+                    "scope": "uiText",
+                    "defaultValue": 25,
+                    "type": "number",
+                    "comment": "День",
+                    "min": "1",
+                    "max": "31"
+                }
+            }
+        },
+        "cabNumber": {
+            "id": "cabNumber",
+            "scope": "uiText",
+            "type": "string",
+            "defaultValue": "1",
+            "comment": "Train cab number"
+        }
+    }
+}

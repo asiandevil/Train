@@ -1,0 +1,20 @@
+{
+    "id": "assets-images-greydreamt.png",
+    "name": "greydreamt.png",
+    "type": "image",
+    "assign": "image",
+    "filename": "greydreamt.png",
+    "vendor": "assets",
+    "collection": "images",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Grey back for dreams"
+    },
+    "imageSize": {
+        "width": 1296,
+        "height": 758
+    }
+}

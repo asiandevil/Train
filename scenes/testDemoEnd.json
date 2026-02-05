@@ -1,0 +1,203 @@
+{
+    "meta": {
+        "id": "testDemoEnd",
+        "name": "Тест конца демо",
+        "type": "scene",
+        "width": 1200,
+        "height": 1500,
+        "parent": "tests"
+    },
+    "nodes": {
+        "947": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 100
+            },
+            "id": 947,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 951,
+                    "x": 350,
+                    "y": 200
+                }
+            ],
+            "name": "Конец демо тест"
+        },
+        "948": {
+            "type": "actor",
+            "pos": {
+                "x": 350,
+                "y": 500
+            },
+            "id": 948,
+            "actors": [
+                {
+                    "id": "girl",
+                    "state": "state",
+                    "action": "show",
+                    "position": {
+                        "x": "51.0613%",
+                        "y": "95.3732%",
+                        "scale": 2.2,
+                        "rx": "",
+                        "ry": ""
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 950,
+                    "x": 350,
+                    "y": 600
+                }
+            ],
+            "entrances": [
+                949
+            ]
+        },
+        "949": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 400
+            },
+            "id": 949,
+            "connections": [
+                {
+                    "id": 948,
+                    "x": 350,
+                    "y": 500
+                }
+            ],
+            "backgroundId": "user-backgrounds-trainout.png",
+            "waitToFinish": false,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "entrances": [
+                959
+            ]
+        },
+        "950": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 600
+            },
+            "id": 950,
+            "text": [
+                {
+                    "textNodeId": 1
+                },
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "connections": [
+                {
+                    "id": 952,
+                    "x": 350,
+                    "y": 700
+                }
+            ],
+            "entrances": [
+                948
+            ]
+        },
+        "951": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 200
+            },
+            "id": 951,
+            "connections": [
+                {
+                    "id": 959,
+                    "x": 350,
+                    "y": 300
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "entrances": [
+                947
+            ]
+        },
+        "952": {
+            "type": "jump",
+            "pos": {
+                "x": 350,
+                "y": 700
+            },
+            "id": 952,
+            "ending": true,
+            "targetScene": "demoEnd",
+            "targetNode": 941,
+            "entrances": [
+                950
+            ]
+        },
+        "959": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 300
+            },
+            "id": 959,
+            "connections": [
+                {
+                    "id": 949,
+                    "x": 350,
+                    "y": 400
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100,
+                "id": "assets-music-Cityscape Backdrop.mp3"
+            },
+            "entrances": [
+                951
+            ]
+        }
+    }
+}

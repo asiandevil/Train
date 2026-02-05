@@ -1,0 +1,17 @@
+{
+    "id": "assets-sounds-knocking.wav",
+    "name": "knocking",
+    "type": "sound",
+    "assign": "sound",
+    "filename": "knocking.wav",
+    "vendor": "assets",
+    "collection": "sounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Sclolex",
+        "license": "Creative Commons 0",
+        "description": "Knocking on a door",
+        "link": "https://freesound.org/people/Sclolex/sounds/210535/"
+    }
+}

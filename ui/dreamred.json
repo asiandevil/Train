@@ -1,0 +1,225 @@
+{
+    "id": "dreamred",
+    "name": "Dream red",
+    "role": "textbox",
+    "comment": "Dream red text",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "dreamred",
+            "name": "Textbox",
+            "role": "gui",
+            "children": [
+                {
+                    "id": "actor",
+                    "entityID": "dreamred",
+                    "name": "Actor name",
+                    "role": "actorname",
+                    "deletable": false,
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "size": {
+                            "width": 0,
+                            "height": 0
+                        },
+                        "padding": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "shift": {
+                            "x": 0,
+                            "y": -20
+                        }
+                    },
+                    "text": {
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 1
+                        },
+                        "textStroke": {
+                            "color": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0,
+                                "alpha": 0.5
+                            },
+                            "width": 1
+                        },
+                        "size": 18,
+                        "example": "none"
+                    },
+                    "background": {
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "events": {
+                        "click": {
+                            "allowContinueEvent": true
+                        }
+                    }
+                },
+                {
+                    "id": "text",
+                    "entityID": "dreamred",
+                    "name": "Text container",
+                    "role": "text",
+                    "deletable": false,
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "size": {
+                            "width": 0,
+                            "height": 0
+                        },
+                        "padding": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "shift": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "background": {
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "size": 30,
+                        "font": "roboto",
+                        "color": {
+                            "red": 208,
+                            "green": 2,
+                            "blue": 27,
+                            "alpha": 1
+                        },
+                        "textStroke": {
+                            "color": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0,
+                                "alpha": 1
+                            },
+                            "width": 0
+                        },
+                        "example": "short",
+                        "bold": true,
+                        "italic": false
+                    },
+                    "events": {
+                        "click": {
+                            "allowContinueEvent": true
+                        }
+                    },
+                    "animations": {
+                        "glow": {
+                            "name": "glow",
+                            "duration": 4,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease-in-out",
+                            "persistent": false,
+                            "params": {
+                                "color": {
+                                    "red": 208,
+                                    "green": 2,
+                                    "blue": 27,
+                                    "alpha": 0.5
+                                }
+                            }
+                        }
+                    },
+                    "listSetup": {},
+                    "transform": {}
+                }
+            ],
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 0,
+                    "height": 0
+                },
+                "padding": {
+                    "x": 0,
+                    "y": 0
+                },
+                "shift": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "background": {
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0
+                }
+            },
+            "text": {
+                "example": "none"
+            },
+            "events": {
+                "click": {
+                    "allowContinueEvent": true
+                }
+            },
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 1
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 2
+                }
+            },
+            "visibility": {},
+            "animations": {
+                "pulse": {
+                    "name": "pulse",
+                    "duration": 2,
+                    "delay": 0,
+                    "repeat": 1,
+                    "transitfunction": "ease",
+                    "persistent": false,
+                    "params": {
+                        "scale": 1.1
+                    }
+                }
+            },
+            "listSetup": {}
+        }
+    ]
+}

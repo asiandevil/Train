@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "id": "config",
+        "name": "Application configuration",
+        "readonly": false,
+        "isSystem": true
+    },
+    "values": {
+        "musicVolume": {
+            "id": "musicVolume",
+            "defaultValue": 80,
+            "comment": "Music volume",
+            "type": "number",
+            "scope": "config"
+        },
+        "soundVolume": {
+            "id": "soundVolume",
+            "defaultValue": 100,
+            "comment": "Sound volume",
+            "type": "number",
+            "scope": "config"
+        },
+        "envVolume": {
+            "id": "envVolume",
+            "defaultValue": 80,
+            "comment": "Environment volume",
+            "type": "number",
+            "scope": "config"
+        },
+        "textSpeed": {
+            "id": "textSpeed",
+            "defaultValue": 30,
+            "comment": "Text speed",
+            "type": "number",
+            "scope": "config"
+        },
+        "gameLanguage": {
+            "id": "gameLanguage",
+            "defaultValue": "default",
+            "comment": "Game language",
+            "type": "string",
+            "scope": "config"
+        }
+    }
+}

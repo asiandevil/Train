@@ -1,0 +1,853 @@
+{
+    "meta": {
+        "id": "keys",
+        "name": "Keys",
+        "type": "scene",
+        "width": 2250,
+        "height": 1850,
+        "parent": "uiEvents",
+        "buildingNodeId": 1016
+    },
+    "nodes": {
+        "970": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 50
+            },
+            "starting": true,
+            "id": 970,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 971,
+                    "x": 250,
+                    "y": 150
+                }
+            ],
+            "name": "Show dark screen"
+        },
+        "971": {
+            "type": "ui",
+            "pos": {
+                "x": 250,
+                "y": 150
+            },
+            "id": 971,
+            "uiController": [
+                {
+                    "id": "overlay",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 972,
+                    "x": 250,
+                    "y": 250
+                }
+            ],
+            "entrances": [
+                970
+            ]
+        },
+        "972": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 250
+            },
+            "id": 972,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                971
+            ]
+        },
+        "973": {
+            "type": "start",
+            "pos": {
+                "x": 850,
+                "y": 50
+            },
+            "id": 973,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1000,
+                    "x": 850,
+                    "y": 150
+                }
+            ],
+            "name": "Show History Window"
+        },
+        "974": {
+            "type": "call",
+            "pos": {
+                "x": 850,
+                "y": 250
+            },
+            "id": 974,
+            "targetScene": "keys",
+            "targetNode": 970,
+            "connections": [
+                {
+                    "id": 975,
+                    "x": 850,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1000
+            ]
+        },
+        "975": {
+            "type": "ui",
+            "pos": {
+                "x": 850,
+                "y": 350
+            },
+            "id": 975,
+            "uiController": [
+                {
+                    "id": "history",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 976,
+                    "x": 850,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                974
+            ]
+        },
+        "976": {
+            "type": "end",
+            "pos": {
+                "x": 850,
+                "y": 450
+            },
+            "id": 976,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                975
+            ]
+        },
+        "978": {
+            "type": "start",
+            "pos": {
+                "x": 450,
+                "y": 50
+            },
+            "id": 978,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 979,
+                    "x": 450,
+                    "y": 150
+                }
+            ],
+            "name": "Close all windows"
+        },
+        "979": {
+            "type": "ui",
+            "pos": {
+                "x": 450,
+                "y": 150
+            },
+            "id": 979,
+            "uiController": [
+                {
+                    "id": "overlay",
+                    "action": "remove"
+                },
+                {
+                    "id": "history",
+                    "action": "remove"
+                },
+                {
+                    "id": "load",
+                    "action": "remove"
+                },
+                {
+                    "id": "notes",
+                    "action": "remove"
+                },
+                {
+                    "id": "save",
+                    "action": "remove"
+                },
+                {
+                    "id": "setup",
+                    "action": "remove"
+                },
+                {
+                    "id": "musicRoom",
+                    "action": "remove"
+                },
+                {
+                    "id": "cluesWindow",
+                    "action": "remove"
+                },
+                {
+                    "id": "aboutus",
+                    "action": "remove"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1005,
+                    "x": 450,
+                    "y": 250
+                }
+            ],
+            "entrances": [
+                978
+            ]
+        },
+        "980": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 980,
+            "ending": true,
+            "entrances": [
+                1005
+            ]
+        },
+        "982": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 982,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Check prev windows",
+            "connections": [
+                {
+                    "id": 1016,
+                    "x": 350,
+                    "y": 750
+                }
+            ]
+        },
+        "985": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 1050
+            },
+            "id": 985,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                1017
+            ]
+        },
+        "988": {
+            "type": "start",
+            "pos": {
+                "x": 1050,
+                "y": 50
+            },
+            "id": 988,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1001,
+                    "x": 1050,
+                    "y": 150
+                }
+            ],
+            "name": "Show Setup Window"
+        },
+        "989": {
+            "type": "call",
+            "pos": {
+                "x": 1050,
+                "y": 250
+            },
+            "id": 989,
+            "targetScene": "keys",
+            "targetNode": 970,
+            "connections": [
+                {
+                    "id": 990,
+                    "x": 1050,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1001
+            ]
+        },
+        "990": {
+            "type": "ui",
+            "pos": {
+                "x": 1050,
+                "y": 350
+            },
+            "id": 990,
+            "uiController": [
+                {
+                    "id": "setup",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 991,
+                    "x": 1050,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                989
+            ]
+        },
+        "991": {
+            "type": "end",
+            "pos": {
+                "x": 1050,
+                "y": 450
+            },
+            "id": 991,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                990
+            ]
+        },
+        "992": {
+            "type": "start",
+            "pos": {
+                "x": 1250,
+                "y": 50
+            },
+            "id": 992,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1002,
+                    "x": 1250,
+                    "y": 150
+                }
+            ],
+            "name": "Show Save Window"
+        },
+        "993": {
+            "type": "call",
+            "pos": {
+                "x": 1250,
+                "y": 250
+            },
+            "id": 993,
+            "targetScene": "keys",
+            "targetNode": 970,
+            "connections": [
+                {
+                    "id": 994,
+                    "x": 1250,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1002
+            ]
+        },
+        "994": {
+            "type": "ui",
+            "pos": {
+                "x": 1250,
+                "y": 350
+            },
+            "id": 994,
+            "uiController": [
+                {
+                    "id": "save",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 995,
+                    "x": 1250,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                993
+            ]
+        },
+        "995": {
+            "type": "end",
+            "pos": {
+                "x": 1250,
+                "y": 450
+            },
+            "id": 995,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                994
+            ]
+        },
+        "996": {
+            "type": "start",
+            "pos": {
+                "x": 1450,
+                "y": 50
+            },
+            "id": 996,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1003,
+                    "x": 1450,
+                    "y": 150
+                }
+            ],
+            "name": "Show Load Window"
+        },
+        "997": {
+            "type": "call",
+            "pos": {
+                "x": 1450,
+                "y": 250
+            },
+            "id": 997,
+            "targetScene": "keys",
+            "targetNode": 970,
+            "connections": [
+                {
+                    "id": 998,
+                    "x": 1450,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1003
+            ]
+        },
+        "998": {
+            "type": "ui",
+            "pos": {
+                "x": 1450,
+                "y": 350
+            },
+            "id": 998,
+            "uiController": [
+                {
+                    "id": "load",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 999,
+                    "x": 1450,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                997
+            ]
+        },
+        "999": {
+            "type": "end",
+            "pos": {
+                "x": 1450,
+                "y": 450
+            },
+            "id": 999,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                998
+            ]
+        },
+        "1000": {
+            "type": "call",
+            "pos": {
+                "x": 850,
+                "y": 150
+            },
+            "id": 1000,
+            "connections": [
+                {
+                    "id": 974,
+                    "x": 850,
+                    "y": 250
+                }
+            ],
+            "targetScene": "keys",
+            "targetNode": 982,
+            "entrances": [
+                973
+            ]
+        },
+        "1001": {
+            "type": "call",
+            "pos": {
+                "x": 1050,
+                "y": 150
+            },
+            "id": 1001,
+            "targetScene": "keys",
+            "targetNode": 982,
+            "connections": [
+                {
+                    "id": 989,
+                    "x": 1050,
+                    "y": 250
+                }
+            ],
+            "entrances": [
+                988
+            ]
+        },
+        "1002": {
+            "type": "call",
+            "pos": {
+                "x": 1250,
+                "y": 150
+            },
+            "id": 1002,
+            "targetScene": "keys",
+            "targetNode": 982,
+            "connections": [
+                {
+                    "id": 993,
+                    "x": 1250,
+                    "y": 250
+                }
+            ],
+            "entrances": [
+                992
+            ]
+        },
+        "1003": {
+            "type": "call",
+            "pos": {
+                "x": 1450,
+                "y": 150
+            },
+            "id": 1003,
+            "targetScene": "keys",
+            "targetNode": 982,
+            "connections": [
+                {
+                    "id": 997,
+                    "x": 1450,
+                    "y": 250
+                }
+            ],
+            "entrances": [
+                996
+            ]
+        },
+        "1005": {
+            "type": "value",
+            "pos": {
+                "x": 450,
+                "y": 250
+            },
+            "id": 1005,
+            "connections": [
+                {
+                    "id": 980,
+                    "x": 450,
+                    "y": 350
+                }
+            ],
+            "updateValues": [
+                {
+                    "scope": "uiStates",
+                    "id": "showingWindow",
+                    "operand": false,
+                    "action": "set"
+                }
+            ],
+            "name": "Showing window - off",
+            "entrances": [
+                979
+            ]
+        },
+        "1006": {
+            "type": "start",
+            "pos": {
+                "x": 850,
+                "y": 650
+            },
+            "id": 1006,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "On Esc key",
+            "connections": [
+                {
+                    "id": 1022,
+                    "x": 850,
+                    "y": 750
+                }
+            ]
+        },
+        "1008": {
+            "type": "call",
+            "pos": {
+                "x": 700,
+                "y": 900
+            },
+            "id": 1008,
+            "targetScene": "keys",
+            "targetNode": 978,
+            "connections": [
+                {
+                    "id": 1010,
+                    "x": 850,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                1022
+            ]
+        },
+        "1009": {
+            "type": "call",
+            "pos": {
+                "x": 1000,
+                "y": 900
+            },
+            "id": 1009,
+            "targetScene": "keys",
+            "targetNode": 988,
+            "connections": [
+                {
+                    "id": 1010,
+                    "x": 850,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                1022
+            ]
+        },
+        "1010": {
+            "type": "end",
+            "pos": {
+                "x": 850,
+                "y": 1050
+            },
+            "id": 1010,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                1008,
+                1009
+            ]
+        },
+        "1016": {
+            "type": "fork",
+            "pos": {
+                "x": 350,
+                "y": 750
+            },
+            "id": 1016,
+            "preserveBuild": true,
+            "connections": [
+                {
+                    "id": 1017,
+                    "x": 350,
+                    "y": 950
+                },
+                {
+                    "id": 1018,
+                    "x": 250,
+                    "y": 850
+                }
+            ],
+            "defaultRoute": 1017,
+            "fork": [
+                {
+                    "comment": "True",
+                    "target": 1018,
+                    "condition": {
+                        "scope": "uiStates",
+                        "action": "is",
+                        "id": "showingWindow",
+                        "value": true
+                    }
+                }
+            ],
+            "name": "If showing a window",
+            "entrances": [
+                982
+            ]
+        },
+        "1017": {
+            "type": "value",
+            "pos": {
+                "x": 350,
+                "y": 950
+            },
+            "id": 1017,
+            "connections": [
+                {
+                    "id": 985,
+                    "x": 350,
+                    "y": 1050
+                }
+            ],
+            "updateValues": [
+                {
+                    "scope": "uiStates",
+                    "id": "showingWindow",
+                    "operand": true,
+                    "action": "set"
+                }
+            ],
+            "name": "Set to showing a window",
+            "entrances": [
+                1016,
+                1018
+            ]
+        },
+        "1018": {
+            "type": "ui",
+            "pos": {
+                "x": 250,
+                "y": 850
+            },
+            "id": 1018,
+            "uiController": [
+                {
+                    "id": "overlay",
+                    "action": "remove"
+                },
+                {
+                    "id": "history",
+                    "action": "remove"
+                },
+                {
+                    "id": "load",
+                    "action": "remove"
+                },
+                {
+                    "id": "notes",
+                    "action": "remove"
+                },
+                {
+                    "id": "save",
+                    "action": "remove"
+                },
+                {
+                    "id": "setup",
+                    "action": "remove"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1017,
+                    "x": 350,
+                    "y": 950
+                }
+            ],
+            "name": "Hide windows",
+            "entrances": [
+                1016
+            ]
+        },
+        "1022": {
+            "type": "fork",
+            "pos": {
+                "x": 850,
+                "y": 750
+            },
+            "id": 1022,
+            "preserveBuild": true,
+            "connections": [
+                {
+                    "id": 1009,
+                    "x": 1000,
+                    "y": 900
+                },
+                {
+                    "id": 1008,
+                    "x": 700,
+                    "y": 900
+                }
+            ],
+            "defaultRoute": 1009,
+            "fork": [
+                {
+                    "comment": "True",
+                    "target": 1008,
+                    "condition": {
+                        "scope": "uiStates",
+                        "action": "is",
+                        "id": "showingWindow",
+                        "value": true
+                    }
+                }
+            ],
+            "name": "If showing a window",
+            "entrances": [
+                1006
+            ]
+        }
+    }
+}

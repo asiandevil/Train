@@ -1,0 +1,44 @@
+{
+    "meta": {
+        "id": "saveSlotText",
+        "name": "Save slot text",
+        "comment": "стили текста сейв слота",
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "text": {
+            "color": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 1
+            },
+            "bold": true,
+            "size": 14,
+            "font": "raleway"
+        },
+        "hover": [],
+        "background": {
+            "setup": {},
+            "color": {
+                "red": 0,
+                "green": 0,
+                "blue": 0,
+                "alpha": 0.45
+            }
+        },
+        "border": {
+            "radius": {
+                "x": 20
+            }
+        },
+        "position": {
+            "padding": {
+                "x": 10,
+                "y": 5
+            }
+        },
+        "listSetup": {}
+    }
+}

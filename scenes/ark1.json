@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "id": "ark1",
+        "name": "Акт 1: Предложение Шиллера",
+        "type": "folder",
+        "width": 800,
+        "height": 600,
+        "parent": "main",
+        "children": [
+            "scene2",
+            "scene3",
+            "scene4",
+            "scene5",
+            "herewegoagain"
+        ]
+    },
+    "nodes": {}
+}

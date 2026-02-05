@@ -1,0 +1,20 @@
+{
+    "id": "assets-uis-demoPaper.png",
+    "name": "demoPaper.png",
+    "type": "image",
+    "assign": "image",
+    "filename": "demoPaper.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Unknown",
+        "license": "Pirated",
+        "description": "Paper image"
+    },
+    "imageSize": {
+        "width": 500,
+        "height": 352
+    }
+}

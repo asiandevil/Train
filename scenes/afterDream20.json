@@ -1,0 +1,478 @@
+{
+    "meta": {
+        "id": "afterDream20",
+        "name": "После сна 20",
+        "type": "scene",
+        "width": 1200,
+        "height": 2050,
+        "parent": "common4",
+        "tags": [
+            "textProofread",
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "sceneReady"
+        ],
+        "buildingNodeId": 360,
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 354,
+            "end": 360,
+            "selectedRoutes": {}
+        }
+    },
+    "nodes": {
+        "354": {
+            "type": "start",
+            "pos": {
+                "x": 450,
+                "y": 50
+            },
+            "id": 354,
+            "starting": true,
+            "name": "Сон закончился",
+            "connections": [
+                {
+                    "id": 1317,
+                    "x": 450,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "356": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 356,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1
+                },
+                {
+                    "textNodeId": 2
+                },
+                {
+                    "textNodeId": 3,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 6
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1181,
+                    "x": 450,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                1809
+            ]
+        },
+        "360": {
+            "type": "choise",
+            "pos": {
+                "x": 450,
+                "y": 850
+            },
+            "id": 360,
+            "preserveBuild": true,
+            "relatedUI": "gamechoice",
+            "connections": [
+                {
+                    "id": 362,
+                    "x": 250,
+                    "y": 950
+                },
+                {
+                    "id": 363,
+                    "x": 650,
+                    "y": 950
+                }
+            ],
+            "choises": [
+                {
+                    "textId": 0,
+                    "target": 362
+                },
+                {
+                    "textId": 1,
+                    "target": 363
+                }
+            ],
+            "name": "Посидеть еще или пойти в свой вагон?",
+            "defaultRoute": 362,
+            "entrances": [
+                1332
+            ]
+        },
+        "362": {
+            "type": "call",
+            "pos": {
+                "x": 250,
+                "y": 950
+            },
+            "id": 362,
+            "targetScene": "line4GoStay",
+            "targetNode": 366,
+            "connections": [
+                {
+                    "id": 1703,
+                    "x": 250,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                360
+            ]
+        },
+        "363": {
+            "type": "call",
+            "pos": {
+                "x": 650,
+                "y": 950
+            },
+            "id": 363,
+            "targetScene": "line4GoBack",
+            "targetNode": 367,
+            "connections": [
+                {
+                    "id": 1702,
+                    "x": 650,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                360
+            ]
+        },
+        "1181": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 450
+            },
+            "text": [
+                {
+                    "textNodeId": 4,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 5
+                },
+                {
+                    "textNodeId": 6,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "id": 1181,
+            "connections": [
+                {
+                    "id": 1333,
+                    "x": 450,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                356
+            ]
+        },
+        "1230": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 1250
+            },
+            "id": 1230,
+            "ending": true,
+            "entrances": [
+                1702,
+                1703
+            ]
+        },
+        "1317": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 150
+            },
+            "id": 1317,
+            "connections": [
+                {
+                    "id": 1809,
+                    "x": 450,
+                    "y": 250
+                }
+            ],
+            "targetScene": "traincabs",
+            "targetNode": 1271,
+            "entrances": [
+                354
+            ]
+        },
+        "1332": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 650
+            },
+            "text": [
+                {
+                    "textNodeId": 7,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 8,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 9
+                },
+                {
+                    "textNodeId": 10
+                },
+                {
+                    "textNodeId": 11
+                }
+            ],
+            "id": 1332,
+            "connections": [
+                {
+                    "id": 360,
+                    "x": 450,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                1337
+            ]
+        },
+        "1333": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 550
+            },
+            "id": 1333,
+            "targetScene": "traincabs",
+            "targetNode": 1085,
+            "connections": [
+                {
+                    "id": 1338,
+                    "x": 550,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                1181
+            ]
+        },
+        "1337": {
+            "type": "way",
+            "pos": {
+                "x": 650,
+                "y": 650
+            },
+            "id": 1337,
+            "connections": [
+                {
+                    "id": 1332,
+                    "x": 450,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                1339
+            ]
+        },
+        "1338": {
+            "type": "value",
+            "pos": {
+                "x": 550,
+                "y": 550
+            },
+            "id": 1338,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "cabNumber",
+                    "operand": "2",
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "cab2"
+                    },
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1339,
+                    "x": 650,
+                    "y": 550
+                }
+            ],
+            "name": "Set cab",
+            "entrances": [
+                1333
+            ]
+        },
+        "1339": {
+            "type": "back",
+            "pos": {
+                "x": 650,
+                "y": 550
+            },
+            "id": 1339,
+            "backgroundId": "assets-backgrounds-cab_day_closed.png",
+            "waitToFinish": true,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "right",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "right",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 1337,
+                    "x": 650,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                1338
+            ]
+        },
+        "1702": {
+            "type": "value",
+            "pos": {
+                "x": 650,
+                "y": 1050
+            },
+            "id": 1702,
+            "connections": [
+                {
+                    "id": 1230,
+                    "x": 450,
+                    "y": 1250
+                }
+            ],
+            "updateValues": [
+                {
+                    "scope": "relationship",
+                    "id": "relBrunno",
+                    "operand": 1,
+                    "action": "+"
+                }
+            ],
+            "entrances": [
+                363
+            ]
+        },
+        "1703": {
+            "type": "way",
+            "pos": {
+                "x": 250,
+                "y": 1050
+            },
+            "id": 1703,
+            "connections": [
+                {
+                    "id": 1230,
+                    "x": 450,
+                    "y": 1250
+                }
+            ],
+            "entrances": [
+                362
+            ]
+        },
+        "1809": {
+            "type": "sound",
+            "pos": {
+                "x": 450,
+                "y": 250
+            },
+            "id": 1809,
+            "connections": [
+                {
+                    "id": 356,
+                    "x": 450,
+                    "y": 350
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100,
+                "id": "assets-music-Maarten Schellekens - Spring Morning.mp3"
+            },
+            "entrances": [
+                1317
+            ]
+        }
+    }
+}

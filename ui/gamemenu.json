@@ -1,0 +1,481 @@
+{
+    "id": "gamemenu",
+    "name": "Game Menu",
+    "comment": "Default Game Menu",
+    "deletable": false,
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "gamemenu",
+            "name": "base",
+            "deletable": false,
+            "role": "gui",
+            "position": {
+                "size": {
+                    "width": 694,
+                    "height": 40
+                },
+                "origin": {
+                    "x": "center",
+                    "y": "bottom"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "bottom"
+                },
+                "padding": {
+                    "x": 0,
+                    "y": 0
+                },
+                "zIndex": 3001,
+                "shift": {
+                    "x": 0,
+                    "y": 20
+                }
+            },
+            "children": [
+                {
+                    "id": "bcontainer",
+                    "name": "Buttons container",
+                    "role": "gui",
+                    "entityID": "gamemenu",
+                    "background": {
+                        "setup": {}
+                    },
+                    "children": [
+                        {
+                            "id": "exit",
+                            "name": "Exit",
+                            "role": "gui",
+                            "entityID": "gamemenu",
+                            "listSetup": {
+                                "grow": 1
+                            },
+                            "isDefaultChild": true,
+                            "position": {
+                                "type": "static",
+                                "size": {
+                                    "width": 102,
+                                    "height": 40
+                                },
+                                "align": {
+                                    "x": "center",
+                                    "y": "center"
+                                },
+                                "padding": {
+                                    "x2": 0,
+                                    "y2": 0,
+                                    "x": 4,
+                                    "y": 0
+                                },
+                                "margin": {}
+                            },
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "exitGame",
+                                    "reactive": true
+                                },
+                                "size": 12,
+                                "italic": false,
+                                "bold": true,
+                                "color": {
+                                    "red": 115,
+                                    "green": 86,
+                                    "blue": 56,
+                                    "alpha": 1
+                                },
+                                "textStroke": {
+                                    "color": {
+                                        "red": 208,
+                                        "green": 151,
+                                        "blue": 76,
+                                        "alpha": 0.35
+                                    },
+                                    "width": 0
+                                },
+                                "font": "raleway"
+                            },
+                            "background": {
+                                "setup": {},
+                                "resource": "assets-uis-gmenul.png"
+                            },
+                            "hover": [
+                                {
+                                    "trigger": "exit",
+                                    "position": {
+                                        "shift": {},
+                                        "size": {}
+                                    },
+                                    "background": {
+                                        "setup": {}
+                                    },
+                                    "animations": {},
+                                    "cursor": {
+                                        "resource": "assets-cursors-curnD.png"
+                                    },
+                                    "listSetup": {},
+                                    "text": {
+                                        "textStroke": {
+                                            "width": 0,
+                                            "color": {
+                                                "red": 242,
+                                                "green": 164,
+                                                "blue": 41,
+                                                "alpha": 1
+                                            }
+                                        },
+                                        "color": {
+                                            "red": 246,
+                                            "green": 85,
+                                            "blue": 14,
+                                            "alpha": 1
+                                        }
+                                    },
+                                    "border": {},
+                                    "transform": {}
+                                }
+                            ],
+                            "transition": {
+                                "duration": 0.5
+                            },
+                            "events": {
+                                "click": {
+                                    "systemAction": "menu",
+                                    "sound": "core-basic-fast.wav"
+                                },
+                                "mouseEnter": {
+                                    "sound": "core-basic-hover.wav"
+                                }
+                            },
+                            "animations": {},
+                            "classes": [],
+                            "visibility": {
+                                "positionLocked": true
+                            },
+                            "cursor": {},
+                            "transform": {},
+                            "appearAnimation": {
+                                "transition": {}
+                            },
+                            "disappearAnimation": {
+                                "transition": {}
+                            },
+                            "border": {}
+                        },
+                        {
+                            "id": "qsave",
+                            "name": "Q.Save",
+                            "role": "gui",
+                            "entityID": "gamemenu",
+                            "isDefaultChild": false,
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "qSave",
+                                    "reactive": true
+                                }
+                            },
+                            "events": {
+                                "click": {
+                                    "systemAction": "qsave"
+                                }
+                            },
+                            "position": {},
+                            "listSetup": {},
+                            "visibility": {},
+                            "cursor": {}
+                        },
+                        {
+                            "id": "qload",
+                            "name": "Q.Load",
+                            "role": "gui",
+                            "entityID": "gamemenu",
+                            "isDefaultChild": false,
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "qLoad",
+                                    "reactive": true
+                                }
+                            },
+                            "events": {
+                                "click": {
+                                    "systemAction": "qload"
+                                }
+                            }
+                        },
+                        {
+                            "id": "save",
+                            "name": "Save",
+                            "role": "gui",
+                            "entityID": "gamemenu",
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "save",
+                                    "reactive": true
+                                }
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "systemAction": "none",
+                                    "uiController": [],
+                                    "startFlow": [
+                                        {
+                                            "nodeId": 992,
+                                            "sceneId": "keys"
+                                        }
+                                    ]
+                                }
+                            },
+                            "position": {},
+                            "listSetup": {},
+                            "background": {
+                                "setup": {},
+                                "resource": "assets-uis-gmenuc.png"
+                            }
+                        },
+                        {
+                            "id": "load",
+                            "name": "Load",
+                            "role": "gui",
+                            "entityID": "gamemenu",
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "load",
+                                    "reactive": true
+                                }
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "systemAction": "none",
+                                    "uiController": [],
+                                    "startFlow": [
+                                        {
+                                            "nodeId": 996,
+                                            "sceneId": "keys"
+                                        }
+                                    ]
+                                }
+                            },
+                            "background": {
+                                "setup": {},
+                                "resource": "assets-uis-gmenur.png"
+                            },
+                            "position": {
+                                "padding": {
+                                    "x2": 0,
+                                    "y2": 0,
+                                    "x": 4,
+                                    "y": 10
+                                }
+                            },
+                            "listSetup": {}
+                        },
+                        {
+                            "id": "history",
+                            "name": "History",
+                            "role": "gui",
+                            "entityID": "gamemenu",
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "history",
+                                    "reactive": true
+                                }
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "systemAction": "none",
+                                    "uiController": [],
+                                    "startFlow": [
+                                        {
+                                            "nodeId": 973,
+                                            "sceneId": "keys"
+                                        }
+                                    ]
+                                }
+                            },
+                            "background": {
+                                "setup": {},
+                                "resource": "assets-uis-gmenur.png"
+                            },
+                            "position": {
+                                "padding": {
+                                    "x2": 0,
+                                    "y2": 0,
+                                    "x": 4,
+                                    "y": 10
+                                }
+                            },
+                            "listSetup": {}
+                        },
+                        {
+                            "id": "notes",
+                            "name": "Notes",
+                            "role": "gui",
+                            "entityID": "gamemenu",
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "notes",
+                                    "reactive": true
+                                }
+                            },
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "systemAction": "none",
+                                    "uiController": [
+                                        {
+                                            "id": "overlay",
+                                            "action": "show"
+                                        },
+                                        {
+                                            "id": "notes",
+                                            "action": "show"
+                                        }
+                                    ]
+                                }
+                            },
+                            "position": {},
+                            "listSetup": {},
+                            "visibility": {
+                                "render": false
+                            }
+                        },
+                        {
+                            "id": "setup",
+                            "name": "Setup",
+                            "role": "gui",
+                            "entityID": "gamemenu",
+                            "text": {
+                                "custom": {
+                                    "isVariable": true,
+                                    "scope": "vocabulary",
+                                    "id": "setupPage",
+                                    "reactive": true
+                                }
+                            },
+                            "position": {
+                                "padding": {
+                                    "x2": 0,
+                                    "y2": 0,
+                                    "x": 4,
+                                    "y": 10
+                                }
+                            },
+                            "listSetup": {},
+                            "events": {
+                                "click": {
+                                    "valueUpdate": [],
+                                    "systemAction": "none",
+                                    "uiController": [],
+                                    "startFlow": [
+                                        {
+                                            "nodeId": 988,
+                                            "sceneId": "keys"
+                                        }
+                                    ]
+                                }
+                            },
+                            "background": {
+                                "setup": {},
+                                "resource": "assets-uis-gmenur.png"
+                            }
+                        }
+                    ],
+                    "text": {
+                        "example": "none"
+                    },
+                    "position": {
+                        "zIndex": 2,
+                        "shift": {
+                            "x": 0,
+                            "y": 3
+                        }
+                    },
+                    "listSetup": {}
+                },
+                {
+                    "id": "bplank",
+                    "name": "Bottom plank",
+                    "role": "gui",
+                    "entityID": "gamemenu",
+                    "background": {
+                        "setup": {},
+                        "resource": "assets-uis-gmenubtm.png"
+                    },
+                    "text": {
+                        "example": "none"
+                    },
+                    "position": {
+                        "size": {
+                            "width": 694,
+                            "height": 10
+                        },
+                        "zIndex": 1
+                    },
+                    "listSetup": {}
+                }
+            ],
+            "listSetup": {
+                "direction": "row"
+            },
+            "text": {
+                "example": "none"
+            },
+            "background": {
+                "setup": {
+                    "origin": {}
+                },
+                "color": {
+                    "red": 112,
+                    "green": 193,
+                    "blue": 179,
+                    "alpha": 0
+                }
+            },
+            "hover": [
+                {
+                    "trigger": "base",
+                    "position": {
+                        "shift": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "listSetup": {}
+                }
+            ],
+            "border": {},
+            "cursor": {},
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0.5
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0.5
+                }
+            }
+        }
+    ],
+    "startsVisible": false,
+    "unique": true
+}

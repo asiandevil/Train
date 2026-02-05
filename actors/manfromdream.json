@@ -1,0 +1,37 @@
+{
+    "id": "manfromdream",
+    "name": "",
+    "localizedName": {
+        "default": "",
+        "english": "manfromdream",
+        "russian": "manfromdream",
+        "ukrainian": "manfromdream"
+    },
+    "comment": "manfromdream",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Normal",
+            "resource": "assets-actors-manfromdream.png",
+            "slice": "normal"
+        },
+        "state": {
+            "name": "Crazy",
+            "resource": "assets-actors-manfromdream.png",
+            "slice": "crazy"
+        },
+        "state2": {
+            "name": "Serious",
+            "resource": "assets-actors-manfromdream.png",
+            "slice": "serious"
+        },
+        "state3": {
+            "name": "Grin",
+            "resource": "assets-actors-manfromdream.png",
+            "slice": "grin"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

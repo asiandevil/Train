@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-maskb.png",
+    "name": "Mask",
+    "type": "image",
+    "assign": "ui",
+    "filename": "maskb.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Mask",
+        "link": ""
+    },
+    "imageSize": {
+        "width": 850,
+        "height": 603
+    }
+}

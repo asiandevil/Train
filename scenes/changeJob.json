@@ -1,0 +1,268 @@
+{
+    "meta": {
+        "name": "5.5: Сменить карьеру",
+        "width": 1200,
+        "height": 1850,
+        "parent": "dreamdebt",
+        "id": "changeJob",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 179,
+            "end": 181,
+            "selectedRoutes": {}
+        },
+        "type": "scene",
+        "tags": [
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "translationReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "179": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 179,
+            "starting": true,
+            "name": "Поискать себя в другом занятие",
+            "connections": [
+                {
+                    "id": 180,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "back": false,
+                "music": true,
+                "sound": false,
+                "bgm": true
+            }
+        },
+        "180": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 180,
+            "text": [
+                {
+                    "textNodeId": 4
+                }
+            ],
+            "connections": [
+                {
+                    "id": 797,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                179
+            ]
+        },
+        "181": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 1050
+            },
+            "id": 181,
+            "ending": true,
+            "entrances": [
+                681
+            ]
+        },
+        "658": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 750
+            },
+            "text": [
+                {
+                    "textNodeId": 5,
+                    "textBox": "default"
+                },
+                {
+                    "textNodeId": 6,
+                    "textBox": "default"
+                }
+            ],
+            "id": 658,
+            "connections": [
+                {
+                    "id": 659,
+                    "x": 350,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                683
+            ]
+        },
+        "659": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 850
+            },
+            "text": [
+                {
+                    "textNodeId": 7
+                },
+                {
+                    "textNodeId": 8
+                }
+            ],
+            "id": 659,
+            "connections": [
+                {
+                    "id": 681,
+                    "x": 350,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                658
+            ]
+        },
+        "681": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 950
+            },
+            "id": 681,
+            "connections": [
+                {
+                    "id": 181,
+                    "x": 350,
+                    "y": 1050
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "default",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                659
+            ]
+        },
+        "683": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 683,
+            "backgroundId": "assets-backgrounds-ggroom.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "waitToFinish": false,
+            "connections": [
+                {
+                    "id": 658,
+                    "x": 350,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                866
+            ]
+        },
+        "797": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 797,
+            "connections": [
+                {
+                    "id": 911,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "id": "assets-music-gameovermusic",
+                "volume": 100
+            },
+            "entrances": [
+                180
+            ]
+        },
+        "866": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "id": 866,
+            "connections": [
+                {
+                    "id": 683,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "targetScene": "placeInfo",
+            "targetNode": 837,
+            "entrances": [
+                911
+            ]
+        },
+        "911": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 911,
+            "connections": [
+                {
+                    "id": 866,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "targetScene": "setdate",
+            "targetNode": 906,
+            "entrances": [
+                797
+            ]
+        }
+    }
+}

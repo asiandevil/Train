@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "id": "getClues",
+        "name": "Get clue",
+        "type": "scene",
+        "width": 1200,
+        "height": 1050,
+        "parent": "clues"
+    },
+    "nodes": {
+        "1713": {
+            "type": "value",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 1713,
+            "updateValues": [
+                {
+                    "scope": "uiStates",
+                    "id": "newClue",
+                    "operand": true,
+                    "action": "set"
+                },
+                {
+                    "scope": "uiStates",
+                    "id": "newClueAlpha",
+                    "operand": 100,
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1717,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "entrances": [
+                1714
+            ]
+        },
+        "1714": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 50
+            },
+            "starting": true,
+            "id": 1714,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1713,
+                    "x": 350,
+                    "y": 150
+                }
+            ],
+            "name": "Новая улика"
+        },
+        "1717": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 1717,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                1713
+            ]
+        }
+    }
+}

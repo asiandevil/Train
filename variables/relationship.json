@@ -1,0 +1,25 @@
+{
+    "meta": {
+        "id": "relationship",
+        "name": "Relationship",
+        "persistent": false,
+        "isSystem": false,
+        "readonly": false
+    },
+    "values": {
+        "relBrunno": {
+            "id": "relBrunno",
+            "scope": "relationship",
+            "type": "number",
+            "defaultValue": 0,
+            "comment": "Relationship with Brunno"
+        },
+        "determination": {
+            "id": "determination",
+            "scope": "relationship",
+            "type": "number",
+            "defaultValue": 0,
+            "comment": "determination"
+        }
+    }
+}

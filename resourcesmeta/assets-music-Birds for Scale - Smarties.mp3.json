@@ -1,0 +1,17 @@
+{
+    "id": "assets-music-Birds for Scale - Smarties.mp3",
+    "name": "Birds for Scale",
+    "type": "sound",
+    "assign": "music",
+    "filename": "Birds for Scale - Smarties.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Smarties",
+        "license": "CC BY-SA 4.0",
+        "description": "Birds for Scale - Smarties",
+        "link": "https://freemusicarchive.org/music/birds-for-scale/smarties/smarties/"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Short pause",
+    "id": "nodeTemplate",
+    "nodeBody": {
+        "type": "wait",
+        "wait": {
+            "pause": 0.5,
+            "skippable": true
+        }
+    },
+    "textBody": {
+        "default": {},
+        "language": {}
+    }
+}

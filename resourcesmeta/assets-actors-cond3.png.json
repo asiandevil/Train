@@ -1,0 +1,45 @@
+{
+    "id": "assets-actors-cond3.png",
+    "name": "cond3",
+    "type": "image",
+    "assign": "actor",
+    "filename": "cond3.png",
+    "vendor": "assets",
+    "collection": "actors",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Conductor 3",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 1224,
+        "height": 1500
+    },
+    "spritesheet": {
+        "default": {
+            "name": "Normal",
+            "x": 0,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": true
+        },
+        "pokerFace": {
+            "name": "pokerFace",
+            "x": 612,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": false
+        }
+    },
+    "gridMarking": {
+        "sliceWidth": 612,
+        "sliceHeight": 1500,
+        "offsetX": 0,
+        "offsetY": 0
+    }
+}

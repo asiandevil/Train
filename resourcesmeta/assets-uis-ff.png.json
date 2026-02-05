@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-ff.png",
+    "name": "Fast forward",
+    "type": "image",
+    "assign": "ui",
+    "filename": "ff.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "Public Domain",
+        "description": "Fast forward icon",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 96,
+        "height": 84
+    }
+}

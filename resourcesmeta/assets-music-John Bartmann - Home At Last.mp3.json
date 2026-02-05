@@ -1,0 +1,16 @@
+{
+    "id": "assets-music-John Bartmann - Home At Last.mp3",
+    "name": "Home At Last",
+    "type": "sound",
+    "assign": "music",
+    "filename": "John Bartmann - Home At Last.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "John Bartmann",
+        "license": "Public domain",
+        "description": "Home At Last"
+    }
+}

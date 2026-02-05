@@ -1,0 +1,36 @@
+{
+    "id": "oldwoman",
+    "name": "",
+    "localizedName": {
+        "russian": "Петра Леманн",
+        "english": "Petra Lehmann",
+        "ukrainian": "Петра Леманн"
+    },
+    "comment": "Petra Lehmann",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Smile",
+            "resource": "assets-actors-old2.png",
+            "slice": "smile"
+        },
+        "state": {
+            "name": "Happy",
+            "resource": "assets-actors-old2.png",
+            "slice": "happy"
+        },
+        "state2": {
+            "name": "Sad",
+            "resource": "assets-actors-old2.png",
+            "slice": "sadd"
+        },
+        "state3": {
+            "name": "Angry",
+            "resource": "assets-actors-old2.png",
+            "slice": "angry"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

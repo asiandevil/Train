@@ -1,0 +1,17 @@
+{
+    "id": "assets-music-Maarten Schellekens - Spring Morning.mp3",
+    "name": "Spring Morning",
+    "type": "sound",
+    "assign": "music",
+    "filename": "Maarten Schellekens - Spring Morning.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Maarten Schellekens",
+        "license": "CC BY 4.0",
+        "description": "Maarten Schellekens - Spring Morning",
+        "link": "https://freemusicarchive.org/music/maarten-schellekens/free-ambient-music-1/spring-morning/"
+    }
+}

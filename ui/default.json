@@ -1,0 +1,499 @@
+{
+    "id": "default",
+    "name": "General",
+    "role": "textbox",
+    "comment": "General Visual Novel textbox",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "default",
+            "name": "Textbox",
+            "role": "gui",
+            "children": [
+                {
+                    "id": "backgrond",
+                    "name": "Background",
+                    "role": "gui",
+                    "entityID": "default",
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 128,
+                            "green": 128,
+                            "blue": 128,
+                            "alpha": 0
+                        },
+                        "resource": "assets-uis-tbox.png"
+                    },
+                    "position": {
+                        "size": {
+                            "width": 920,
+                            "height": 187
+                        },
+                        "shift": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "type": "absolute",
+                        "origin": {
+                            "x": "right",
+                            "y": "top"
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "visibility": {
+                        "opacity": 98
+                    },
+                    "border": {},
+                    "events": {
+                        "click": {
+                            "allowContinueEvent": true
+                        }
+                    },
+                    "transform": {}
+                },
+                {
+                    "id": "actor",
+                    "entityID": "default",
+                    "name": "Actor name",
+                    "role": "actorname",
+                    "deletable": false,
+                    "text": {
+                        "font": "raleway",
+                        "size": 17,
+                        "italic": false,
+                        "bold": false,
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 1
+                        },
+                        "example": "short"
+                    },
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "size": {
+                            "height": 47,
+                            "width": 178
+                        },
+                        "padding": {
+                            "x": 0,
+                            "y": 0,
+                            "x2": 10,
+                            "y2": 0
+                        },
+                        "shift": {
+                            "x": 105,
+                            "y": 0
+                        }
+                    },
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        },
+                        "resource": "assets-uis-tboxn.png"
+                    },
+                    "events": {
+                        "click": {
+                            "allowContinueEvent": true
+                        }
+                    },
+                    "border": {},
+                    "visibility": {
+                        "mask": {}
+                    },
+                    "listSetup": {},
+                    "transform": {},
+                    "children": []
+                },
+                {
+                    "id": "text",
+                    "entityID": "default",
+                    "name": "Text container",
+                    "role": "text",
+                    "deletable": false,
+                    "text": {
+                        "font": "raleway",
+                        "size": 19,
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 1
+                        },
+                        "textStroke": {
+                            "color": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0,
+                                "alpha": 1
+                            },
+                            "width": 0
+                        },
+                        "italic": false,
+                        "bold": false,
+                        "example": "medium",
+                        "textBogieSound": {
+                            "id": "core-basic-fast.wav",
+                            "volume": 14
+                        }
+                    },
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "align": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "size": {
+                            "width": 850,
+                            "height": 85
+                        },
+                        "padding": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "shift": {
+                            "x": 16,
+                            "y": 27
+                        }
+                    },
+                    "background": {
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        },
+                        "setup": {}
+                    },
+                    "visibility": {},
+                    "listSetup": {},
+                    "events": {
+                        "click": {
+                            "allowContinueEvent": true
+                        }
+                    },
+                    "border": {}
+                },
+                {
+                    "id": "element",
+                    "name": "Element",
+                    "role": "gui",
+                    "entityID": "default",
+                    "background": {
+                        "setup": {},
+                        "resource": "assets-uis-tboxc.png"
+                    },
+                    "text": {
+                        "example": "none"
+                    },
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "size": {
+                            "width": 188,
+                            "height": 69
+                        },
+                        "shift": {
+                            "x": 361,
+                            "y": -135
+                        },
+                        "padding": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zIndex": 1
+                    },
+                    "listSetup": {},
+                    "events": {
+                        "click": {
+                            "allowContinueEvent": true
+                        }
+                    },
+                    "children": [],
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    },
+                    "transform": {},
+                    "visibility": {
+                        "render": true
+                    }
+                },
+                {
+                    "id": "cluesGlow",
+                    "name": "Clues glow",
+                    "role": "gui",
+                    "entityID": "default",
+                    "background": {
+                        "setup": {},
+                        "resource": "assets-uis-light.png"
+                    },
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "size": {
+                            "width": 70,
+                            "height": 70
+                        },
+                        "shift": {
+                            "x": 416,
+                            "y": -134
+                        },
+                        "zIndex": 2,
+                        "padding": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "events": {
+                        "click": {
+                            "uiController": []
+                        }
+                    },
+                    "cursor": {
+                        "resource": "assets-cursors-curnD.png"
+                    },
+                    "border": {},
+                    "visibility": {
+                        "mask": {},
+                        "opacity": {
+                            "isVariable": true,
+                            "scope": "uiStates",
+                            "id": "newClueAlpha",
+                            "reactive": true
+                        }
+                    },
+                    "classes": [
+                        {
+                            "id": "UiGlow",
+                            "index": 1753931363876,
+                            "overwrite": false
+                        }
+                    ],
+                    "transition": {
+                        "duration": 3
+                    },
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    }
+                },
+                {
+                    "id": "element2",
+                    "name": "Colored glass",
+                    "role": "gui",
+                    "entityID": "default",
+                    "background": {
+                        "setup": {},
+                        "resource": "assets-uis-tboxc2.png"
+                    },
+                    "text": {
+                        "example": "none"
+                    },
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "size": {
+                            "width": 188,
+                            "height": 69
+                        },
+                        "shift": {
+                            "x": 361,
+                            "y": -135
+                        },
+                        "zIndex": 3
+                    },
+                    "listSetup": {},
+                    "events": {
+                        "click": {
+                            "allowContinueEvent": true
+                        }
+                    },
+                    "visibility": {
+                        "render": true,
+                        "mask": {},
+                        "opacity": {
+                            "isVariable": true,
+                            "scope": "uiStates",
+                            "id": "newClueAlpha",
+                            "reactive": true
+                        }
+                    },
+                    "classes": [],
+                    "transition": {
+                        "duration": 3
+                    },
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    },
+                    "transform": {}
+                },
+                {
+                    "id": "openClues",
+                    "name": "Open Clues",
+                    "role": "gui",
+                    "entityID": "default",
+                    "background": {
+                        "setup": {}
+                    },
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "size": {
+                            "width": 45,
+                            "height": 45
+                        },
+                        "shift": {
+                            "x": 429,
+                            "y": -147
+                        },
+                        "zIndex": 4
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "events": {
+                        "click": {
+                            "uiController": [
+                                {
+                                    "id": "overlay",
+                                    "action": "show"
+                                },
+                                {
+                                    "id": "cluesWindow",
+                                    "action": "show"
+                                }
+                            ],
+                            "valueUpdate": [
+                                {
+                                    "scope": "uiStates",
+                                    "id": "newClue",
+                                    "action": "set",
+                                    "operand": false
+                                },
+                                {
+                                    "scope": "uiStates",
+                                    "id": "newClueAlpha",
+                                    "action": "set",
+                                    "operand": 0
+                                }
+                            ]
+                        }
+                    },
+                    "cursor": {
+                        "resource": "assets-cursors-curnD.png"
+                    },
+                    "transition": {},
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    }
+                }
+            ],
+            "background": {
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0
+                },
+                "setup": {}
+            },
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "bottom"
+                },
+                "align": {
+                    "x": "left",
+                    "y": "top"
+                },
+                "size": {
+                    "width": 920,
+                    "height": 187
+                },
+                "padding": {
+                    "x": 20,
+                    "y": 20
+                },
+                "shift": {
+                    "x": 0
+                }
+            },
+            "text": {
+                "example": "none"
+            },
+            "events": {
+                "click": {
+                    "allowContinueEvent": true
+                }
+            },
+            "border": {
+                "width": {},
+                "style": {
+                    "y2": "none"
+                },
+                "color": {}
+            },
+            "listSetup": {},
+            "transform": {},
+            "visibility": {
+                "mask": {}
+            },
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0.5
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0.5
+                }
+            }
+        }
+    ],
+    "unique": true
+}

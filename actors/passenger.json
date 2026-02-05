@@ -1,0 +1,21 @@
+{
+    "id": "passenger",
+    "name": "",
+    "localizedName": {
+        "default": "",
+        "english": "Passenger",
+        "russian": "Пассажир",
+        "ukrainian": "Пасажир"
+    },
+    "comment": "Unnamed Passenger",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Dev",
+            "resource": "assets-uis-tboxc.png"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

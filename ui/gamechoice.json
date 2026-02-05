@@ -1,0 +1,247 @@
+{
+    "id": "gamechoice",
+    "name": "User Choice UI",
+    "comment": "Default User Choice UI",
+    "deletable": false,
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "gamechoice",
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 420,
+                    "height": 0
+                },
+                "padding": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "listSetup": {
+                "direction": "column"
+            },
+            "text": {
+                "example": "none"
+            },
+            "children": [
+                {
+                    "id": "choicebutton",
+                    "name": "Choice Button",
+                    "role": "choice",
+                    "entityID": "gamechoice",
+                    "position": {
+                        "size": {
+                            "width": 400,
+                            "height": 38
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "padding": {
+                            "x": 0,
+                            "y": 10
+                        },
+                        "type": "static",
+                        "margin": {
+                            "x": 0,
+                            "y": 10
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "short",
+                        "color": {
+                            "red": 115,
+                            "green": 86,
+                            "blue": 56,
+                            "alpha": 1
+                        },
+                        "font": "raleway",
+                        "size": 15,
+                        "bold": true,
+                        "italic": true,
+                        "textStroke": {
+                            "color": {
+                                "red": 225,
+                                "green": 220,
+                                "blue": 220,
+                                "alpha": 0.15
+                            },
+                            "width": 0
+                        }
+                    },
+                    "background": {
+                        "setup": {
+                            "sizeType": "full",
+                            "origin": {
+                                "x": "center",
+                                "y": "center"
+                            }
+                        },
+                        "resource": "assets-uis-choicemid.png"
+                    },
+                    "transition": {
+                        "duration": 0.5
+                    },
+                    "isDefaultChild": true,
+                    "hover": [
+                        {
+                            "trigger": "choicebutton",
+                            "listSetup": {},
+                            "background": {
+                                "setup": {}
+                            },
+                            "animations": {},
+                            "position": {
+                                "shift": {
+                                    "x": -10
+                                }
+                            },
+                            "text": {
+                                "color": {
+                                    "red": 246,
+                                    "green": 85,
+                                    "blue": 14,
+                                    "alpha": 1
+                                }
+                            }
+                        }
+                    ],
+                    "animations": {},
+                    "classes": [],
+                    "events": {
+                        "click": {
+                            "uiController": [
+                                {
+                                    "id": "gamechoice",
+                                    "cloneId": "__all",
+                                    "action": "remove"
+                                }
+                            ],
+                            "sound": "core-basic-fast.wav"
+                        },
+                        "mouseEnter": {
+                            "sound": "core-basic-hover.wav"
+                        }
+                    },
+                    "visibility": {
+                        "positionLocked": true
+                    },
+                    "children": [
+                        {
+                            "id": "decorLeft",
+                            "name": "Decor Left",
+                            "role": "gui",
+                            "entityID": "gamechoice",
+                            "background": {
+                                "setup": {},
+                                "resource": "assets-uis-lchoice.png"
+                            },
+                            "position": {
+                                "size": {
+                                    "width": 69,
+                                    "height": 52
+                                },
+                                "origin": {
+                                    "x": "left",
+                                    "y": "center"
+                                },
+                                "shift": {
+                                    "x": -16,
+                                    "y": 1
+                                }
+                            },
+                            "listSetup": {},
+                            "text": {
+                                "example": "none"
+                            },
+                            "cursor": {
+                                "resource": "assets-cursors-curnD.png"
+                            }
+                        },
+                        {
+                            "id": "decorRight",
+                            "name": "Decor Right",
+                            "role": "gui",
+                            "entityID": "gamechoice",
+                            "background": {
+                                "setup": {},
+                                "resource": "assets-uis-rchoice.png"
+                            },
+                            "position": {
+                                "size": {
+                                    "width": 69,
+                                    "height": 52
+                                },
+                                "origin": {
+                                    "x": "right",
+                                    "y": "center"
+                                },
+                                "shift": {
+                                    "x": 16,
+                                    "y": 1
+                                }
+                            },
+                            "listSetup": {},
+                            "text": {
+                                "example": "none"
+                            },
+                            "cursor": {
+                                "resource": "assets-cursors-curnD.png"
+                            }
+                        }
+                    ],
+                    "border": {},
+                    "cursor": {
+                        "resource": "assets-cursors-curnD.png"
+                    },
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    }
+                }
+            ],
+            "background": {
+                "setup": {},
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0
+                }
+            },
+            "transition": {},
+            "animations": {},
+            "visibility": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-out"
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-in"
+                }
+            },
+            "transform": {},
+            "cursor": {}
+        }
+    ],
+    "startsVisible": false
+}

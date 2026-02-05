@@ -1,0 +1,542 @@
+{
+    "id": "save",
+    "name": "Save Window",
+    "comment": "",
+    "deletable": false,
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "save",
+            "name": "base",
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 930,
+                    "height": 560
+                },
+                "zIndex": 3010,
+                "align": {
+                    "x": "center",
+                    "y": "top"
+                }
+            },
+            "listSetup": {},
+            "background": {
+                "setup": {},
+                "resource": "assets-uis-winback.png"
+            },
+            "text": {
+                "example": "none"
+            },
+            "children": [
+                {
+                    "id": "title",
+                    "name": "title",
+                    "role": "gui",
+                    "entityID": "save",
+                    "position": {
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "shift": {
+                            "x": 50,
+                            "y": 14
+                        }
+                    },
+                    "listSetup": {},
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 128,
+                            "green": 128,
+                            "blue": 128,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "size": 26,
+                        "font": "raleway",
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "save",
+                            "reactive": true
+                        },
+                        "italic": true
+                    },
+                    "border": {}
+                },
+                {
+                    "id": "content",
+                    "name": "Content",
+                    "role": "gui",
+                    "entityID": "save",
+                    "position": {
+                        "shift": {
+                            "x": 25,
+                            "y": 95
+                        },
+                        "origin": {
+                            "x": "left",
+                            "y": "top"
+                        },
+                        "size": {
+                            "width": 880,
+                            "height": 383
+                        }
+                    },
+                    "listSetup": {
+                        "direction": "row",
+                        "isWrap": true
+                    },
+                    "background": {
+                        "setup": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "text": {
+                        "example": "none"
+                    },
+                    "children": [
+                        {
+                            "id": "listmodel",
+                            "name": "List model",
+                            "role": "listModel",
+                            "entityID": "save",
+                            "position": {
+                                "type": "static",
+                                "size": {},
+                                "align": {
+                                    "x": "center",
+                                    "y": "center"
+                                },
+                                "margin": {}
+                            },
+                            "listSetup": {
+                                "listModel": "saves",
+                                "max": 8
+                            },
+                            "text": {
+                                "textStroke": {},
+                                "example": "none"
+                            },
+                            "isDefaultChild": false,
+                            "background": {
+                                "setup": {
+                                    "origin": {
+                                        "x": "center",
+                                        "y": "center"
+                                    },
+                                    "sizeType": "cover"
+                                },
+                                "resource": {
+                                    "isVariable": true,
+                                    "scope": "__pseudo_saves",
+                                    "id": "background",
+                                    "reactive": true
+                                }
+                            },
+                            "events": {
+                                "click": {
+                                    "uiController": [
+                                        {
+                                            "id": "overlay",
+                                            "action": "remove"
+                                        },
+                                        {
+                                            "id": "save",
+                                            "action": "remove"
+                                        }
+                                    ],
+                                    "sound": "core-basic-fast.wav",
+                                    "valueUpdate": [],
+                                    "systemActionTarget": {
+                                        "isVariable": true,
+                                        "scope": "__pseudo_saves",
+                                        "id": "slotId",
+                                        "reactive": true
+                                    },
+                                    "systemAction": "save"
+                                },
+                                "mouseEnter": {
+                                    "sound": "core-basic-hover.wav"
+                                }
+                            },
+                            "visibility": {
+                                "positionLocked": true,
+                                "mask": {}
+                            },
+                            "children": [
+                                {
+                                    "id": "name",
+                                    "name": "Slot name",
+                                    "role": "gui",
+                                    "entityID": "save",
+                                    "text": {
+                                        "size": 15,
+                                        "textStroke": {},
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "__pseudo_saves",
+                                            "id": "message",
+                                            "reactive": true
+                                        },
+                                        "font": "raleway"
+                                    },
+                                    "position": {
+                                        "origin": {
+                                            "x": "center",
+                                            "y": "center"
+                                        },
+                                        "shift": {
+                                            "x": 0,
+                                            "y": 0
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 128,
+                                            "green": 128,
+                                            "blue": 128,
+                                            "alpha": 0
+                                        }
+                                    },
+                                    "border": {},
+                                    "classes": [
+                                        {
+                                            "id": "saveSlotText",
+                                            "index": 1633769275791,
+                                            "overwrite": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "date",
+                                    "name": "Date",
+                                    "role": "gui",
+                                    "entityID": "save",
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 128,
+                                            "green": 128,
+                                            "blue": 128,
+                                            "alpha": 0
+                                        }
+                                    },
+                                    "text": {
+                                        "size": 12,
+                                        "textStroke": {},
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "__pseudo_saves",
+                                            "id": "date",
+                                            "reactive": true
+                                        },
+                                        "font": "raleway"
+                                    },
+                                    "border": {},
+                                    "position": {
+                                        "shift": {
+                                            "x": -162,
+                                            "y": 32
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "classes": [
+                                        {
+                                            "id": "saveSlotDate",
+                                            "index": 1707250256163,
+                                            "overwrite": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "time",
+                                    "name": "Time",
+                                    "role": "gui",
+                                    "entityID": "save",
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 128,
+                                            "green": 128,
+                                            "blue": 128,
+                                            "alpha": 0
+                                        }
+                                    },
+                                    "text": {
+                                        "size": 12,
+                                        "textStroke": {},
+                                        "custom": {
+                                            "isVariable": true,
+                                            "scope": "__pseudo_saves",
+                                            "id": "time",
+                                            "reactive": true
+                                        },
+                                        "font": "raleway"
+                                    },
+                                    "border": {},
+                                    "position": {
+                                        "shift": {
+                                            "x": -90,
+                                            "y": 32
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "classes": [
+                                        {
+                                            "id": "saveSlotDate",
+                                            "index": 1707250260191,
+                                            "overwrite": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "isnew",
+                                    "name": "Is New",
+                                    "role": "gui",
+                                    "entityID": "save",
+                                    "border": {
+                                        "radius": {
+                                            "x": 20
+                                        }
+                                    },
+                                    "text": {
+                                        "custom": "New",
+                                        "size": 14,
+                                        "color": {
+                                            "red": 255,
+                                            "green": 255,
+                                            "blue": 255,
+                                            "alpha": 1
+                                        },
+                                        "font": "MarckScript-Regular"
+                                    },
+                                    "background": {
+                                        "setup": {},
+                                        "color": {
+                                            "red": 0,
+                                            "green": 0,
+                                            "blue": 0,
+                                            "alpha": 1
+                                        },
+                                        "gradient": {
+                                            "type": "radial",
+                                            "values": [
+                                                {
+                                                    "color": {
+                                                        "red": 248,
+                                                        "green": 162,
+                                                        "blue": 109,
+                                                        "alpha": 1
+                                                    },
+                                                    "start": "0%"
+                                                },
+                                                {
+                                                    "color": {
+                                                        "red": 92,
+                                                        "green": 43,
+                                                        "blue": 14,
+                                                        "alpha": 1
+                                                    },
+                                                    "start": "100%"
+                                                }
+                                            ],
+                                            "posX": "center",
+                                            "posY": "right",
+                                            "rotate": 45,
+                                            "radialSize": "farthest-side"
+                                        }
+                                    },
+                                    "position": {
+                                        "padding": {
+                                            "x": 8,
+                                            "y": 2
+                                        },
+                                        "origin": {
+                                            "x": "right",
+                                            "y": "top"
+                                        },
+                                        "shift": {
+                                            "x": -10,
+                                            "y": 10
+                                        }
+                                    },
+                                    "listSetup": {},
+                                    "visibility": {},
+                                    "classes": [
+                                        {
+                                            "id": "disable",
+                                            "index": 1624320453656,
+                                            "overwrite": true,
+                                            "condition": [
+                                                {
+                                                    "scope": "__pseudo_saves",
+                                                    "id": "isNew",
+                                                    "action": "is",
+                                                    "value": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "border": {
+                                "width": {},
+                                "color": {},
+                                "style": {}
+                            },
+                            "hover": [
+                                {
+                                    "trigger": "listmodel",
+                                    "border": {
+                                        "color": {},
+                                        "width": {}
+                                    },
+                                    "transform": {}
+                                }
+                            ],
+                            "cursor": {
+                                "resource": "assets-cursors-curnD.png"
+                            },
+                            "classes": [
+                                {
+                                    "id": "saveSlotWrapper",
+                                    "index": 1633769200959,
+                                    "overwrite": true
+                                },
+                                {
+                                    "id": "quickSaveSlot",
+                                    "index": 1705209022369,
+                                    "overwrite": true,
+                                    "condition": [
+                                        {
+                                            "scope": "__pseudo_saves",
+                                            "id": "isQuick",
+                                            "action": "is",
+                                            "value": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "transform": {},
+                            "transition": {},
+                            "appearAnimation": {
+                                "transition": {}
+                            },
+                            "disappearAnimation": {
+                                "transition": {}
+                            }
+                        }
+                    ],
+                    "border": {},
+                    "cursor": {}
+                },
+                {
+                    "id": "close",
+                    "name": "Close button",
+                    "role": "gui",
+                    "entityID": "save",
+                    "position": {
+                        "origin": {
+                            "x": "center",
+                            "y": "bottom"
+                        },
+                        "shift": {
+                            "y": -20
+                        },
+                        "padding": {
+                            "x": 10,
+                            "y": 10
+                        },
+                        "size": {
+                            "width": 150,
+                            "height": 0
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        }
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "vocabulary",
+                            "id": "close",
+                            "reactive": true
+                        }
+                    },
+                    "background": {
+                        "setup": {}
+                    },
+                    "hover": [
+                        {
+                            "trigger": "close",
+                            "background": {
+                                "setup": {}
+                            }
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "id": "closeButton",
+                            "index": 1699281868928,
+                            "overwrite": false
+                        }
+                    ],
+                    "events": {
+                        "click": {
+                            "uiController": [],
+                            "sound": "core-basic-fast.wav",
+                            "startFlow": [
+                                {
+                                    "nodeId": 978,
+                                    "sceneId": "keys"
+                                }
+                            ]
+                        },
+                        "mouseEnter": {
+                            "sound": "core-basic-hover.wav"
+                        }
+                    },
+                    "border": {}
+                }
+            ],
+            "visibility": {
+                "positionLocked": true
+            },
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-out"
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0.5,
+                    "transitfunction": "ease-in"
+                }
+            },
+            "border": {},
+            "cursor": {},
+            "transform": {}
+        }
+    ],
+    "doNotHide": true,
+    "unique": true
+}

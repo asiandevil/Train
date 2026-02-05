@@ -1,0 +1,974 @@
+{
+    "meta": {
+        "id": "scene9",
+        "name": "В другой вагон",
+        "type": "scene",
+        "width": 1200,
+        "height": 2650,
+        "parent": "common6",
+        "tags": [
+            "textReady"
+        ]
+    },
+    "nodes": {
+        "528": {
+            "type": "start",
+            "pos": {
+                "x": 450,
+                "y": 150
+            },
+            "id": 528,
+            "starting": true,
+            "connections": [
+                {
+                    "id": 1675,
+                    "x": 450,
+                    "y": 250
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Во второй вагон"
+        },
+        "531": {
+            "type": "comment",
+            "pos": {
+                "x": 200,
+                "y": 250,
+                "width": 143,
+                "height": 93.65625
+            },
+            "id": 531,
+            "connections": [
+                {
+                    "id": 1675,
+                    "x": 450,
+                    "y": 250
+                }
+            ]
+        },
+        "532": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 532,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1557,
+                    "x": 450,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                1678
+            ]
+        },
+        "533": {
+            "type": "sound",
+            "pos": {
+                "x": 450,
+                "y": 850
+            },
+            "id": 533,
+            "connections": [
+                {
+                    "id": 1564,
+                    "x": 450,
+                    "y": 950
+                }
+            ],
+            "sound": {
+                "type": "env",
+                "volume": 28,
+                "id": "assets-ambient-whispering.wav"
+            },
+            "entrances": [
+                534,
+                1562
+            ]
+        },
+        "534": {
+            "type": "comment",
+            "pos": {
+                "x": 600,
+                "y": 850,
+                "width": 243.00001356336804,
+                "height": 95
+            },
+            "id": 534,
+            "connections": [
+                {
+                    "id": 533,
+                    "x": 450,
+                    "y": 850
+                }
+            ]
+        },
+        "1557": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 450
+            },
+            "id": 1557,
+            "connections": [
+                {
+                    "id": 1684,
+                    "x": 650,
+                    "y": 450
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 5,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                }
+            ],
+            "entrances": [
+                532
+            ]
+        },
+        "1558": {
+            "type": "back",
+            "pos": {
+                "x": 450,
+                "y": 550
+            },
+            "id": 1558,
+            "connections": [
+                {
+                    "id": 1560,
+                    "x": 450,
+                    "y": 650
+                }
+            ],
+            "backgroundId": "assets-backgrounds-forest_night.png",
+            "waitToFinish": true,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 4,
+                        "delay": 3,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "entrances": [
+                1822
+            ]
+        },
+        "1559": {
+            "type": "comment",
+            "pos": {
+                "x": 150,
+                "y": 550,
+                "width": 230,
+                "height": 63.6875
+            },
+            "id": 1559
+        },
+        "1560": {
+            "type": "sound",
+            "pos": {
+                "x": 450,
+                "y": 650
+            },
+            "id": 1560,
+            "connections": [
+                {
+                    "id": 1562,
+                    "x": 450,
+                    "y": 750
+                }
+            ],
+            "sound": {
+                "type": "env",
+                "volume": 44,
+                "id": "core-basic-windforest.wav"
+            },
+            "entrances": [
+                1558,
+                1561
+            ]
+        },
+        "1561": {
+            "type": "comment",
+            "pos": {
+                "x": 600,
+                "y": 650,
+                "width": 235,
+                "height": 84.6875
+            },
+            "id": 1561,
+            "connections": [
+                {
+                    "id": 1560,
+                    "x": 450,
+                    "y": 650
+                }
+            ]
+        },
+        "1562": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 750
+            },
+            "id": 1562,
+            "connections": [
+                {
+                    "id": 533,
+                    "x": 450,
+                    "y": 850
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                }
+            ],
+            "entrances": [
+                1560
+            ]
+        },
+        "1564": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 950
+            },
+            "id": 1564,
+            "connections": [
+                {
+                    "id": 1566,
+                    "x": 450,
+                    "y": 1050
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                }
+            ],
+            "entrances": [
+                533
+            ]
+        },
+        "1566": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 1050
+            },
+            "id": 1566,
+            "connections": [
+                {
+                    "id": 1567,
+                    "x": 450,
+                    "y": 1150
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 5,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                }
+            ],
+            "entrances": [
+                1564
+            ]
+        },
+        "1567": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 1150
+            },
+            "text": [
+                {
+                    "textNodeId": 6,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                }
+            ],
+            "id": 1567,
+            "connections": [
+                {
+                    "id": 1686,
+                    "x": 450,
+                    "y": 1250
+                }
+            ],
+            "entrances": [
+                1566
+            ]
+        },
+        "1568": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 1850
+            },
+            "id": 1568,
+            "ending": true,
+            "entrances": [
+                1833
+            ]
+        },
+        "1675": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 250
+            },
+            "id": 1675,
+            "connections": [
+                {
+                    "id": 1676,
+                    "x": 550,
+                    "y": 250
+                }
+            ],
+            "targetScene": "traincabs",
+            "targetNode": 1085,
+            "entrances": [
+                528,
+                531
+            ]
+        },
+        "1676": {
+            "type": "value",
+            "pos": {
+                "x": 550,
+                "y": 250
+            },
+            "id": 1676,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "cabNumber",
+                    "operand": "2",
+                    "action": "set"
+                },
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "cab2"
+                    },
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1677,
+                    "x": 650,
+                    "y": 250
+                }
+            ],
+            "name": "Set Cab",
+            "entrances": [
+                1675
+            ]
+        },
+        "1677": {
+            "type": "back",
+            "pos": {
+                "x": 650,
+                "y": 250
+            },
+            "id": 1677,
+            "backgroundId": "assets-backgrounds-cab_rich_night.png",
+            "waitToFinish": true,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "right",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "right",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 1678,
+                    "x": 650,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1676
+            ]
+        },
+        "1678": {
+            "type": "way",
+            "pos": {
+                "x": 650,
+                "y": 350
+            },
+            "id": 1678,
+            "connections": [
+                {
+                    "id": 532,
+                    "x": 450,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1677
+            ]
+        },
+        "1679": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 1650
+            },
+            "text": [
+                {
+                    "textNodeId": 11,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                }
+            ],
+            "id": 1679,
+            "connections": [
+                {
+                    "id": 1833,
+                    "x": 450,
+                    "y": 1750
+                }
+            ],
+            "entrances": [
+                1682
+            ]
+        },
+        "1680": {
+            "type": "back",
+            "pos": {
+                "x": 750,
+                "y": 1450
+            },
+            "id": 1680,
+            "connections": [
+                {
+                    "id": 1681,
+                    "x": 750,
+                    "y": 1550
+                }
+            ],
+            "backgroundId": "assets-backgrounds-locomotive_night.png",
+            "waitToFinish": true,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "enlarge",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 3,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "entrances": [
+                1823
+            ]
+        },
+        "1681": {
+            "type": "wait",
+            "pos": {
+                "x": 750,
+                "y": 1550
+            },
+            "id": 1681,
+            "connections": [
+                {
+                    "id": 1682,
+                    "x": 750,
+                    "y": 1650
+                }
+            ],
+            "wait": {
+                "pause": 4,
+                "skippable": false
+            },
+            "entrances": [
+                1680
+            ]
+        },
+        "1682": {
+            "type": "call",
+            "pos": {
+                "x": 750,
+                "y": 1650
+            },
+            "id": 1682,
+            "connections": [
+                {
+                    "id": 1679,
+                    "x": 450,
+                    "y": 1650
+                }
+            ],
+            "targetScene": "miniImagesMain",
+            "targetNode": 1783,
+            "entrances": [
+                1681
+            ]
+        },
+        "1684": {
+            "type": "ui",
+            "pos": {
+                "x": 650,
+                "y": 450
+            },
+            "id": 1684,
+            "connections": [
+                {
+                    "id": 1822,
+                    "x": 650,
+                    "y": 550
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "backoutside",
+                    "action": "hide"
+                },
+                {
+                    "id": "number",
+                    "action": "hide"
+                },
+                {
+                    "id": "default",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                1557
+            ]
+        },
+        "1685": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 1450
+            },
+            "text": [
+                {
+                    "textNodeId": 7,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 8,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 9,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 10,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "id": 1685,
+            "connections": [
+                {
+                    "id": 1823,
+                    "x": 650,
+                    "y": 1450
+                }
+            ],
+            "entrances": [
+                1821
+            ]
+        },
+        "1686": {
+            "type": "sound",
+            "pos": {
+                "x": 450,
+                "y": 1250
+            },
+            "id": 1686,
+            "connections": [
+                {
+                    "id": 1821,
+                    "x": 450,
+                    "y": 1350
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100,
+                "id": "assets-music-Kris Keypovsky - Silence.mp3"
+            },
+            "entrances": [
+                1567
+            ]
+        },
+        "1821": {
+            "type": "sound",
+            "pos": {
+                "x": 450,
+                "y": 1350
+            },
+            "id": 1821,
+            "connections": [
+                {
+                    "id": 1685,
+                    "x": 450,
+                    "y": 1450
+                }
+            ],
+            "sound": {
+                "type": "env",
+                "volume": 100,
+                "id": ""
+            },
+            "entrances": [
+                1686
+            ]
+        },
+        "1822": {
+            "type": "value",
+            "pos": {
+                "x": 650,
+                "y": 550
+            },
+            "id": 1822,
+            "connections": [
+                {
+                    "id": 1558,
+                    "x": 450,
+                    "y": 550
+                }
+            ],
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "placeForest"
+                    },
+                    "action": "set"
+                }
+            ],
+            "entrances": [
+                1684
+            ]
+        },
+        "1823": {
+            "type": "value",
+            "pos": {
+                "x": 650,
+                "y": 1450
+            },
+            "id": 1823,
+            "connections": [
+                {
+                    "id": 1680,
+                    "x": 750,
+                    "y": 1450
+                }
+            ],
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "placeBottomText",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "locomotive"
+                    },
+                    "action": "set"
+                }
+            ],
+            "entrances": [
+                1685
+            ]
+        },
+        "1833": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 1750
+            },
+            "id": 1833,
+            "connections": [
+                {
+                    "id": 1568,
+                    "x": 450,
+                    "y": 1850
+                }
+            ],
+            "targetScene": "miniImagesMain",
+            "targetNode": 1032,
+            "entrances": [
+                1679
+            ]
+        }
+    }
+}

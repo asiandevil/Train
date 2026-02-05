@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-num.png",
+    "name": "Number",
+    "type": "image",
+    "assign": "ui",
+    "filename": "num.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Number",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 1060,
+        "height": 720
+    }
+}

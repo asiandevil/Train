@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "id": "clues",
+        "name": "Clues",
+        "persistent": false,
+        "isSystem": false,
+        "readonly": false
+    },
+    "values": {
+        "clue1": {
+            "id": "clue1",
+            "scope": "clues",
+            "type": "boolean",
+            "defaultValue": "",
+            "comment": "1: Прочитал газету"
+        },
+        "clue2": {
+            "id": "clue2",
+            "scope": "clues",
+            "type": "boolean",
+            "defaultValue": "",
+            "comment": "2: Бруно что-то тревожит"
+        },
+        "clue3": {
+            "id": "clue3",
+            "scope": "clues",
+            "type": "boolean",
+            "defaultValue": "",
+            "comment": "3: По словам Бруно, он никогда в своей жизни не отдыхал"
+        },
+        "clue4": {
+            "id": "clue4",
+            "scope": "clues",
+            "type": "boolean",
+            "defaultValue": "",
+            "comment": "4: Сын Шиллера едет в деревню"
+        },
+        "clue5": {
+            "id": "clue5",
+            "scope": "clues",
+            "type": "boolean",
+            "defaultValue": "",
+            "comment": "5: Нож"
+        },
+        "clue6": {
+            "id": "clue6",
+            "scope": "clues",
+            "type": "boolean",
+            "defaultValue": "",
+            "comment": "6: Слухи"
+        },
+        "clue7": {
+            "id": "clue7",
+            "scope": "clues",
+            "type": "boolean",
+            "defaultValue": "",
+            "comment": "7: Наблюдение"
+        }
+    }
+}

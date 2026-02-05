@@ -1,0 +1,17 @@
+{
+    "id": "assets-music-Guifrog - Suco de Abacaxi.mp3",
+    "name": "Guifrog - Suco de Abacaxi",
+    "type": "sound",
+    "assign": "music",
+    "filename": "Guifrog - Suco de Abacaxi.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Guifrog",
+        "license": "CC BY 3.0",
+        "description": "Guifrog - Suco de Abacaxi",
+        "link": "https://freemusicarchive.org/music/Guifrog/Suco_de_Abacaxi/Guifrog_-_Suco_de_Abacaxi"
+    }
+}

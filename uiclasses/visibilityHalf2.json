@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "id": "visibilityHalf2",
+        "name": "Visibility - 80",
+        "comment": "4/5 visibility",
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "visibility": {
+            "mask": {},
+            "opacity": 80
+        },
+        "hover": []
+    }
+}

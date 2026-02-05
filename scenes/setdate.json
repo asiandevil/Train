@@ -1,0 +1,993 @@
+{
+    "meta": {
+        "id": "setdate",
+        "name": "Set Date",
+        "type": "scene",
+        "width": 2000,
+        "height": 2250,
+        "parent": "effects"
+    },
+    "nodes": {
+        "870": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 50
+            },
+            "starting": true,
+            "id": 870,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "name": "Starting date",
+            "connections": [
+                {
+                    "id": 872,
+                    "x": 250,
+                    "y": 150
+                }
+            ],
+            "entrances": [
+                871
+            ]
+        },
+        "871": {
+            "type": "comment",
+            "pos": {
+                "x": 400,
+                "y": 50,
+                "width": 143,
+                "height": 91.453125
+            },
+            "id": 871,
+            "connections": [
+                {
+                    "id": 870,
+                    "x": 250,
+                    "y": 50
+                }
+            ]
+        },
+        "872": {
+            "type": "value",
+            "pos": {
+                "x": 250,
+                "y": 150
+            },
+            "id": 872,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "october"
+                    },
+                    "action": "set",
+                    "objectField": [
+                        "month"
+                    ]
+                },
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": 2,
+                    "action": "set",
+                    "objectField": [
+                        "monthDay"
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "id": 873,
+                    "x": 250,
+                    "y": 250
+                }
+            ],
+            "name": "Set Date",
+            "entrances": [
+                870
+            ]
+        },
+        "873": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 250
+            },
+            "id": 873,
+            "ending": true,
+            "entrances": [
+                872
+            ]
+        },
+        "875": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 350
+            },
+            "id": 875,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 879,
+                    "x": 250,
+                    "y": 450
+                }
+            ],
+            "name": "Прошла неделя",
+            "entrances": [
+                878
+            ]
+        },
+        "877": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 550
+            },
+            "id": 877,
+            "ending": true,
+            "entrances": [
+                879
+            ]
+        },
+        "878": {
+            "type": "comment",
+            "pos": {
+                "x": 400,
+                "y": 350,
+                "width": 233,
+                "height": 113.53125
+            },
+            "id": 878,
+            "connections": [
+                {
+                    "id": 875,
+                    "x": 250,
+                    "y": 350
+                }
+            ]
+        },
+        "879": {
+            "type": "value",
+            "pos": {
+                "x": 250,
+                "y": 450
+            },
+            "id": 879,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "october"
+                    },
+                    "action": "set",
+                    "objectField": [
+                        "month"
+                    ]
+                },
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": 8,
+                    "action": "set",
+                    "objectField": [
+                        "monthDay"
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "id": 877,
+                    "x": 250,
+                    "y": 550
+                }
+            ],
+            "name": "Set Date",
+            "entrances": [
+                875
+            ]
+        },
+        "881": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 650
+            },
+            "id": 881,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 884,
+                    "x": 250,
+                    "y": 750
+                }
+            ],
+            "name": "Снова у Шиллера",
+            "entrances": [
+                883
+            ]
+        },
+        "882": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 850
+            },
+            "id": 882,
+            "ending": true,
+            "entrances": [
+                884
+            ]
+        },
+        "883": {
+            "type": "comment",
+            "pos": {
+                "x": 400,
+                "y": 650,
+                "width": 203,
+                "height": 143.3125
+            },
+            "id": 883,
+            "connections": [
+                {
+                    "id": 881,
+                    "x": 250,
+                    "y": 650
+                }
+            ]
+        },
+        "884": {
+            "type": "value",
+            "pos": {
+                "x": 250,
+                "y": 750
+            },
+            "id": 884,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "october"
+                    },
+                    "action": "set",
+                    "objectField": [
+                        "month"
+                    ]
+                },
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": 9,
+                    "action": "set",
+                    "objectField": [
+                        "monthDay"
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "id": 882,
+                    "x": 250,
+                    "y": 850
+                }
+            ],
+            "name": "Set Date",
+            "entrances": [
+                881
+            ]
+        },
+        "887": {
+            "type": "start",
+            "pos": {
+                "x": 1050,
+                "y": 50
+            },
+            "id": 887,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 890,
+                    "x": 1050,
+                    "y": 150
+                }
+            ],
+            "name": "зашёл ко всем своим",
+            "entrances": [
+                889
+            ]
+        },
+        "888": {
+            "type": "end",
+            "pos": {
+                "x": 1050,
+                "y": 250
+            },
+            "id": 888,
+            "ending": true,
+            "entrances": [
+                890
+            ]
+        },
+        "889": {
+            "type": "comment",
+            "pos": {
+                "x": 1200,
+                "y": 50,
+                "width": 212,
+                "height": 121.3125
+            },
+            "id": 889,
+            "connections": [
+                {
+                    "id": 887,
+                    "x": 1050,
+                    "y": 50
+                }
+            ]
+        },
+        "890": {
+            "type": "value",
+            "pos": {
+                "x": 1050,
+                "y": 150
+            },
+            "id": 890,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "october"
+                    },
+                    "action": "set",
+                    "objectField": [
+                        "month"
+                    ]
+                },
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": 10,
+                    "action": "set",
+                    "objectField": [
+                        "monthDay"
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "id": 888,
+                    "x": 1050,
+                    "y": 250
+                }
+            ],
+            "name": "Set Date",
+            "entrances": [
+                887
+            ]
+        },
+        "892": {
+            "type": "start",
+            "pos": {
+                "x": 1050,
+                "y": 350
+            },
+            "id": 892,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 895,
+                    "x": 1050,
+                    "y": 450
+                }
+            ],
+            "name": "это был всего",
+            "entrances": [
+                894
+            ]
+        },
+        "893": {
+            "type": "end",
+            "pos": {
+                "x": 1050,
+                "y": 550
+            },
+            "id": 893,
+            "ending": true,
+            "entrances": [
+                895
+            ]
+        },
+        "894": {
+            "type": "comment",
+            "pos": {
+                "x": 1200,
+                "y": 350,
+                "width": 212,
+                "height": 121.3125
+            },
+            "id": 894,
+            "connections": [
+                {
+                    "id": 892,
+                    "x": 1050,
+                    "y": 350
+                }
+            ]
+        },
+        "895": {
+            "type": "value",
+            "pos": {
+                "x": 1050,
+                "y": 450
+            },
+            "id": 895,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "october"
+                    },
+                    "action": "set",
+                    "objectField": [
+                        "month"
+                    ]
+                },
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": 12,
+                    "action": "set",
+                    "objectField": [
+                        "monthDay"
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "id": 893,
+                    "x": 1050,
+                    "y": 550
+                }
+            ],
+            "name": "Set Date",
+            "entrances": [
+                892
+            ]
+        },
+        "897": {
+            "type": "start",
+            "pos": {
+                "x": 1050,
+                "y": 650
+            },
+            "id": 897,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 900,
+                    "x": 1050,
+                    "y": 750
+                }
+            ],
+            "name": "очередной провал",
+            "entrances": [
+                899
+            ]
+        },
+        "898": {
+            "type": "end",
+            "pos": {
+                "x": 1050,
+                "y": 850
+            },
+            "id": 898,
+            "ending": true,
+            "entrances": [
+                900
+            ]
+        },
+        "899": {
+            "type": "comment",
+            "pos": {
+                "x": 1200,
+                "y": 650,
+                "width": 212,
+                "height": 121.3125
+            },
+            "id": 899,
+            "connections": [
+                {
+                    "id": 897,
+                    "x": 1050,
+                    "y": 650
+                }
+            ]
+        },
+        "900": {
+            "type": "value",
+            "pos": {
+                "x": 1050,
+                "y": 750
+            },
+            "id": 900,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "october"
+                    },
+                    "action": "set",
+                    "objectField": [
+                        "month"
+                    ]
+                },
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": 19,
+                    "action": "set",
+                    "objectField": [
+                        "monthDay"
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "id": 898,
+                    "x": 1050,
+                    "y": 850
+                }
+            ],
+            "name": "Set Date",
+            "entrances": [
+                897
+            ]
+        },
+        "902": {
+            "type": "start",
+            "pos": {
+                "x": 1050,
+                "y": 950
+            },
+            "id": 902,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 905,
+                    "x": 1050,
+                    "y": 1050
+                }
+            ],
+            "name": "4 января",
+            "entrances": [
+                904
+            ]
+        },
+        "903": {
+            "type": "end",
+            "pos": {
+                "x": 1050,
+                "y": 1150
+            },
+            "id": 903,
+            "ending": true,
+            "entrances": [
+                905
+            ]
+        },
+        "904": {
+            "type": "comment",
+            "pos": {
+                "x": 1200,
+                "y": 950,
+                "width": 212,
+                "height": 121.3125
+            },
+            "id": 904,
+            "connections": [
+                {
+                    "id": 902,
+                    "x": 1050,
+                    "y": 950
+                }
+            ]
+        },
+        "905": {
+            "type": "value",
+            "pos": {
+                "x": 1050,
+                "y": 1050
+            },
+            "id": 905,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "january"
+                    },
+                    "action": "set",
+                    "objectField": [
+                        "month"
+                    ]
+                },
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": 4,
+                    "action": "set",
+                    "objectField": [
+                        "monthDay"
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "id": 903,
+                    "x": 1050,
+                    "y": 1150
+                }
+            ],
+            "name": "Set Date",
+            "entrances": [
+                902
+            ]
+        },
+        "906": {
+            "type": "start",
+            "pos": {
+                "x": 1050,
+                "y": 1250
+            },
+            "id": 906,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 909,
+                    "x": 1050,
+                    "y": 1350
+                }
+            ],
+            "name": "10 апреля",
+            "entrances": [
+                908
+            ]
+        },
+        "907": {
+            "type": "end",
+            "pos": {
+                "x": 1050,
+                "y": 1450
+            },
+            "id": 907,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                909
+            ]
+        },
+        "908": {
+            "type": "comment",
+            "pos": {
+                "x": 1200,
+                "y": 1250,
+                "width": 212,
+                "height": 121.3125
+            },
+            "id": 908,
+            "connections": [
+                {
+                    "id": 906,
+                    "x": 1050,
+                    "y": 1250
+                }
+            ]
+        },
+        "909": {
+            "type": "value",
+            "pos": {
+                "x": 1050,
+                "y": 1350
+            },
+            "id": 909,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "april"
+                    },
+                    "action": "set",
+                    "objectField": [
+                        "month"
+                    ]
+                },
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": 10,
+                    "action": "set",
+                    "objectField": [
+                        "monthDay"
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "id": 907,
+                    "x": 1050,
+                    "y": 1450
+                }
+            ],
+            "name": "Set Date",
+            "entrances": [
+                906
+            ]
+        },
+        "912": {
+            "type": "start",
+            "pos": {
+                "x": 650,
+                "y": 50
+            },
+            "id": 912,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 915,
+                    "x": 650,
+                    "y": 150
+                }
+            ],
+            "name": "этот день наступил",
+            "entrances": [
+                914
+            ]
+        },
+        "913": {
+            "type": "end",
+            "pos": {
+                "x": 650,
+                "y": 250
+            },
+            "id": 913,
+            "ending": true,
+            "entrances": [
+                915
+            ]
+        },
+        "914": {
+            "type": "comment",
+            "pos": {
+                "x": 800,
+                "y": 50,
+                "width": 212,
+                "height": 121.3125
+            },
+            "id": 914,
+            "connections": [
+                {
+                    "id": 912,
+                    "x": 650,
+                    "y": 50
+                }
+            ]
+        },
+        "915": {
+            "type": "value",
+            "pos": {
+                "x": 650,
+                "y": 150
+            },
+            "id": 915,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "october"
+                    },
+                    "action": "set",
+                    "objectField": [
+                        "month"
+                    ]
+                },
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": 12,
+                    "action": "set",
+                    "objectField": [
+                        "monthDay"
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "id": 913,
+                    "x": 650,
+                    "y": 250
+                }
+            ],
+            "name": "Set Date",
+            "entrances": [
+                912
+            ]
+        },
+        "1688": {
+            "type": "start",
+            "pos": {
+                "x": 650,
+                "y": 350
+            },
+            "id": 1688,
+            "starting": true,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1691,
+                    "x": 650,
+                    "y": 450
+                }
+            ],
+            "name": "День убийства",
+            "entrances": [
+                1690
+            ]
+        },
+        "1689": {
+            "type": "end",
+            "pos": {
+                "x": 650,
+                "y": 550
+            },
+            "id": 1689,
+            "ending": true,
+            "entrances": [
+                1691
+            ]
+        },
+        "1690": {
+            "type": "comment",
+            "pos": {
+                "x": 800,
+                "y": 350,
+                "width": 212,
+                "height": 121.3125
+            },
+            "id": 1690,
+            "connections": [
+                {
+                    "id": 1688,
+                    "x": 650,
+                    "y": 350
+                }
+            ]
+        },
+        "1691": {
+            "type": "value",
+            "pos": {
+                "x": 650,
+                "y": 450
+            },
+            "id": 1691,
+            "updateValues": [
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": {
+                        "objectType": "variable",
+                        "scope": "vocabulary",
+                        "id": "october"
+                    },
+                    "action": "set",
+                    "objectField": [
+                        "month"
+                    ]
+                },
+                {
+                    "scope": "uiText",
+                    "id": "gamedate",
+                    "operand": 13,
+                    "action": "set",
+                    "objectField": [
+                        "monthDay"
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1689,
+                    "x": 650,
+                    "y": 550
+                }
+            ],
+            "name": "Set Date",
+            "entrances": [
+                1688
+            ]
+        }
+    }
+}

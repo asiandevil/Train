@@ -1,0 +1,16 @@
+{
+    "id": "assets-sounds-trainStart.mp3",
+    "name": "Train Start",
+    "type": "sound",
+    "assign": "sound",
+    "filename": "trainStart.mp3",
+    "vendor": "assets",
+    "collection": "sounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "monosfera",
+        "license": "Creative Commons 0 License.",
+        "description": "Гудок поезда"
+    }
+}

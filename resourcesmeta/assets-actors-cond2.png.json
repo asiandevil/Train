@@ -1,0 +1,53 @@
+{
+    "id": "assets-actors-cond2.png",
+    "name": "cond2",
+    "type": "image",
+    "assign": "actor",
+    "filename": "cond2.png",
+    "vendor": "assets",
+    "collection": "actors",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Conductor 2",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 1836,
+        "height": 1500
+    },
+    "spritesheet": {
+        "normal": {
+            "name": "Normal",
+            "x": 0,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": true
+        },
+        "scared": {
+            "name": "Scared",
+            "x": "612",
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": false
+        },
+        "surprised": {
+            "name": "Surprised",
+            "x": 1224,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": false
+        }
+    },
+    "gridMarking": {
+        "sliceWidth": 612,
+        "sliceHeight": 1500,
+        "offsetX": 0,
+        "offsetY": 0
+    }
+}

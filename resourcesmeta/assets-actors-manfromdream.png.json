@@ -1,0 +1,59 @@
+{
+    "id": "assets-actors-manfromdream.png",
+    "name": "manfromdream",
+    "type": "image",
+    "assign": "actor",
+    "filename": "manfromdream.png",
+    "vendor": "assets",
+    "collection": "actors",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "manfromdream",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 2448,
+        "height": 1500
+    },
+    "spritesheet": {
+        "normal": {
+            "name": "Normal",
+            "x": 0,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": true
+        },
+        "crazy": {
+            "name": "Crazy",
+            "x": 1836,
+            "y": 0,
+            "width": 612,
+            "height": 1500
+        },
+        "serious": {
+            "name": "Serious",
+            "x": 1224,
+            "y": 0,
+            "width": 612,
+            "height": 1500
+        },
+        "grin": {
+            "name": "Grin",
+            "x": 612,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": false
+        }
+    },
+    "gridMarking": {
+        "sliceWidth": 612,
+        "sliceHeight": 1500,
+        "offsetX": 0,
+        "offsetY": 0
+    }
+}

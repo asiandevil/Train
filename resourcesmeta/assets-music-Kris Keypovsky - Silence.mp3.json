@@ -1,0 +1,17 @@
+{
+    "id": "assets-music-Kris Keypovsky - Silence.mp3",
+    "name": "Silence",
+    "type": "sound",
+    "assign": "music",
+    "filename": "Kris Keypovsky - Silence.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Kris Keypovsky",
+        "license": "CC BY 4.0",
+        "description": "Kris Keypovsky - Silence",
+        "link": "https://freemusicarchive.org/music/kris-keypovsky/single/silence-3/"
+    }
+}

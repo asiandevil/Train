@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-topc.png",
+    "name": "Top UI Center",
+    "type": "image",
+    "assign": "ui",
+    "filename": "topc.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Woods",
+        "license": "Woods",
+        "description": "Top UI element",
+        "link": ""
+    },
+    "imageSize": {
+        "width": 368,
+        "height": 58
+    }
+}

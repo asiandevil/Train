@@ -1,0 +1,20 @@
+{
+    "id": "assets-images-darkdream.png",
+    "name": "Blood dream",
+    "type": "image",
+    "assign": "back",
+    "filename": "darkdream.png",
+    "vendor": "assets",
+    "collection": "images",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Racing frog team",
+        "license": "Racing frog team",
+        "description": "Blood dream"
+    },
+    "imageSize": {
+        "width": 1280,
+        "height": 720
+    }
+}

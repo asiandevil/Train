@@ -1,0 +1,17 @@
+{
+    "id": "assets-sounds-squelch.wav",
+    "name": "squelch",
+    "type": "sound",
+    "assign": "sound",
+    "filename": "squelch.wav",
+    "vendor": "assets",
+    "collection": "sounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "magnuswaker",
+        "license": "Creative Commons 0 License",
+        "description": "A juicy liquid sound.",
+        "link": "https://freesound.org/people/magnuswaker/sounds/524952/"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "assets-music-Precisamos.mp3",
+    "name": "Precisamos",
+    "type": "sound",
+    "assign": "music",
+    "filename": "Precisamos.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "rui",
+        "license": "CC-BY",
+        "description": "Cold, tense music.",
+        "link": "https://freemusicarchive.org/music/rui/"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": "assets-sounds-card1.mp3",
+    "name": "Сard 1",
+    "type": "sound",
+    "assign": "sound",
+    "filename": "card1.mp3",
+    "vendor": "assets",
+    "collection": "sounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "HogantheLogan",
+        "license": "Creative Commons 0 License.",
+        "description": "Карта 1"
+    }
+}

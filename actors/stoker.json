@@ -1,0 +1,32 @@
+{
+    "id": "stoker",
+    "name": "",
+    "localizedName": {
+        "default": "",
+        "english": "Vigg",
+        "russian": "Виг",
+        "ukrainian": "Віг"
+    },
+    "comment": "",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Normal",
+            "resource": "assets-actors-stoker.png",
+            "slice": "normal"
+        },
+        "state": {
+            "name": "Smug",
+            "resource": "assets-actors-stoker.png",
+            "slice": "smug"
+        },
+        "state2": {
+            "name": "Angry",
+            "resource": "assets-actors-stoker.png",
+            "slice": "angry"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

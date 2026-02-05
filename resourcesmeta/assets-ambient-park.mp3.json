@@ -1,0 +1,16 @@
+{
+    "id": "assets-ambient-park.mp3",
+    "name": "park.mp3",
+    "type": "sound",
+    "assign": "env",
+    "filename": "park.mp3",
+    "vendor": "assets",
+    "collection": "ambient",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "hargissssound",
+        "license": "Creative Commons 0",
+        "description": "Птицы в парке"
+    }
+}

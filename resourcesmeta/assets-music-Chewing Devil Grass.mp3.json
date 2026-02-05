@@ -1,0 +1,17 @@
+{
+    "id": "assets-music-Chewing Devil Grass.mp3",
+    "name": "Chewing Devil Grass",
+    "type": "sound",
+    "assign": "music",
+    "filename": "Chewing Devil Grass.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "ROZKOL",
+        "license": "CC-BY",
+        "description": "Dark music.",
+        "link": "https://rozkol.bandcamp.com/"
+    }
+}

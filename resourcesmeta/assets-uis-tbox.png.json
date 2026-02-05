@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-tbox.png",
+    "name": "Tbox main",
+    "type": "image",
+    "assign": "ui",
+    "filename": "tbox.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Main Textbox",
+        "link": ""
+    },
+    "imageSize": {
+        "width": 908,
+        "height": 187
+    }
+}

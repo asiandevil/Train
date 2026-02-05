@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-choicemid.png",
+    "name": "choicemid",
+    "type": "image",
+    "assign": "ui",
+    "filename": "choicemid.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Choice UI mid",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 447,
+        "height": 38
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "id": "number",
+    "name": "Cab number",
+    "comment": "Cab number",
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "number",
+            "name": "base",
+            "background": {
+                "setup": {}
+            },
+            "role": "gui",
+            "transform": {
+                "rotate": 1
+            },
+            "position": {
+                "size": {
+                    "width": 50,
+                    "height": 40
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "shift": {
+                    "x": 293,
+                    "y": -149
+                },
+                "zIndex": 1999
+            },
+            "listSetup": {},
+            "text": {
+                "textStroke": {},
+                "example": "none"
+            },
+            "visibility": {
+                "mask": {},
+                "opacity": 50
+            },
+            "children": [
+                {
+                    "id": "numberText",
+                    "name": "Text",
+                    "role": "gui",
+                    "entityID": "number",
+                    "background": {
+                        "setup": {}
+                    },
+                    "text": {
+                        "size": 26,
+                        "font": "raleway",
+                        "textStroke": {
+                            "color": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0,
+                                "alpha": 0.45
+                            },
+                            "width": 1
+                        },
+                        "color": {
+                            "red": 195,
+                            "green": 195,
+                            "blue": 195,
+                            "alpha": 1
+                        },
+                        "custom": {
+                            "isVariable": true,
+                            "scope": "uiText",
+                            "id": "cabNumber",
+                            "reactive": true
+                        },
+                        "example": "none",
+                        "italic": true
+                    },
+                    "position": {
+                        "shift": {
+                            "x": 0,
+                            "y": -2
+                        },
+                        "align": {
+                            "x": "center",
+                            "y": "center"
+                        },
+                        "zIndex": 2
+                    },
+                    "listSetup": {},
+                    "visibility": {
+                        "mask": {}
+                    }
+                },
+                {
+                    "id": "numberBack",
+                    "name": "Background",
+                    "role": "gui",
+                    "entityID": "number",
+                    "background": {
+                        "setup": {
+                            "sizeType": "full"
+                        },
+                        "resource": "assets-uis-num.png"
+                    },
+                    "position": {
+                        "size": {
+                            "width": 50,
+                            "height": 40
+                        },
+                        "zIndex": 1
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "visibility": {
+                        "mask": {},
+                        "opacity": 100
+                    },
+                    "transition": {
+                        "duration": 1
+                    },
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    },
+                    "classes": []
+                },
+                {
+                    "id": "numberBack2",
+                    "name": "Background dark",
+                    "role": "gui",
+                    "entityID": "number",
+                    "background": {
+                        "setup": {
+                            "sizeType": "full"
+                        },
+                        "resource": "assets-uis-numd.png"
+                    },
+                    "position": {
+                        "size": {
+                            "width": 50,
+                            "height": 40
+                        },
+                        "zIndex": 3
+                    },
+                    "listSetup": {},
+                    "text": {
+                        "example": "none"
+                    },
+                    "transition": {
+                        "duration": 1
+                    },
+                    "appearAnimation": {
+                        "transition": {}
+                    },
+                    "disappearAnimation": {
+                        "transition": {}
+                    },
+                    "visibility": {
+                        "mask": {},
+                        "opacity": 0
+                    },
+                    "classes": [
+                        {
+                            "id": "visibilityHalf",
+                            "index": 1741171687185,
+                            "overwrite": true,
+                            "condition": [
+                                {
+                                    "scope": "uiStates",
+                                    "id": "isNight",
+                                    "action": "is",
+                                    "value": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 2,
+                    "delay": 2
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 1
+                }
+            }
+        }
+    ],
+    "doNotHide": true,
+    "unique": true
+}

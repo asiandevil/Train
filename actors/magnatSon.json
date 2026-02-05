@@ -1,0 +1,31 @@
+{
+    "id": "magnatSon",
+    "name": "",
+    "localizedName": {
+        "russian": "Сын Магната",
+        "english": "Magnat's son",
+        "ukrainian": "Син Магната"
+    },
+    "comment": "Magnat's son",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Обычный",
+            "resource": "assets-actors-magnatson.png",
+            "slice": "default"
+        },
+        "state": {
+            "name": "Удивлен",
+            "resource": "assets-actors-magnatson.png",
+            "slice": "surprised"
+        },
+        "state2": {
+            "name": "Расстроен",
+            "resource": "assets-actors-magnatson.png",
+            "slice": "upset"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

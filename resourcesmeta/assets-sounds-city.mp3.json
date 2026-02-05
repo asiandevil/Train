@@ -1,0 +1,16 @@
+{
+    "id": "assets-sounds-city.mp3",
+    "name": "Сity",
+    "type": "sound",
+    "assign": "env",
+    "filename": "city.mp3",
+    "vendor": "assets",
+    "collection": "sounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "florianreichelt",
+        "license": "Creative Commons 0 License",
+        "description": "Шум толпы в городе"
+    }
+}

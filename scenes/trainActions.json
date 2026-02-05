@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "id": "trainActions",
+        "name": "Действия в Поезде",
+        "type": "folder",
+        "width": 1200,
+        "height": 600,
+        "parent": "ark3",
+        "children": [
+            "scene15",
+            "scene10",
+            "scene11",
+            "scene12"
+        ]
+    },
+    "nodes": {}
+}

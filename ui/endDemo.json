@@ -1,0 +1,77 @@
+{
+    "id": "endDemo",
+    "name": "Demo end Screen",
+    "comment": "Конец демо",
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "endDemo",
+            "name": "base",
+            "background": {
+                "setup": {},
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0.95
+                }
+            },
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "left",
+                    "y": "top"
+                },
+                "align": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "shift": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioWidth",
+                        "reactive": true
+                    },
+                    "height": {
+                        "isVariable": true,
+                        "scope": "system",
+                        "id": "scenarioHeight",
+                        "reactive": true
+                    }
+                }
+            },
+            "listSetup": {},
+            "text": {
+                "font": "raleway",
+                "size": 40,
+                "example": "none"
+            },
+            "transform": {},
+            "transition": {
+                "duration": 3
+            },
+            "appearAnimation": {
+                "transition": {
+                    "duration": 5
+                }
+            },
+            "disappearAnimation": {
+                "transition": {}
+            },
+            "events": {
+                "click": {
+                    "valueUpdate": [],
+                    "systemAction": "menu"
+                }
+            }
+        }
+    ],
+    "unique": true,
+    "doNotHide": true
+}

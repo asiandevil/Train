@@ -1,0 +1,31 @@
+{
+    "id": "conductor",
+    "name": "",
+    "localizedName": {
+        "russian": "Контролер",
+        "english": "Conductor",
+        "ukrainian": "Контролер"
+    },
+    "comment": "Conductor",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Normal",
+            "resource": "assets-actors-cond1.png",
+            "slice": "normal"
+        },
+        "state": {
+            "name": "Angry",
+            "resource": "assets-actors-cond1.png",
+            "slice": "angry"
+        },
+        "state2": {
+            "name": "Surprised",
+            "resource": "assets-actors-cond1.png",
+            "slice": "surprised"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

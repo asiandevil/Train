@@ -1,0 +1,21 @@
+{
+    "id": "assets-backgrounds-locomotive.png",
+    "name": "Locomotive",
+    "type": "image",
+    "assign": "back",
+    "filename": "locomotive.png",
+    "vendor": "assets",
+    "collection": "backgrounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Locomotive - day",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 896,
+        "height": 496
+    }
+}

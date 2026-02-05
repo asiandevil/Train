@@ -1,0 +1,170 @@
+{
+    "meta": {
+        "id": "textboxes",
+        "name": "Textboxes",
+        "type": "scene",
+        "width": 1200,
+        "height": 1350,
+        "parent": "tests"
+    },
+    "nodes": {
+        "963": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 50
+            },
+            "starting": true,
+            "id": 963,
+            "connections": [
+                {
+                    "id": 1829,
+                    "x": 350,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "964": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 964,
+            "backgroundId": "user-backgrounds-trainout.png",
+            "waitToFinish": false,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 965,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                1829
+            ]
+        },
+        "965": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 965,
+            "connections": [
+                {
+                    "id": 1828,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "largeTextbox",
+                    "actorId": "",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "entrances": [
+                964
+            ]
+        },
+        "966": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "id": 966,
+            "ending": true,
+            "entrances": [
+                1828
+            ]
+        },
+        "1828": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 1828,
+            "connections": [
+                {
+                    "id": 966,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "entrances": [
+                965
+            ]
+        },
+        "1829": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 1829,
+            "connections": [
+                {
+                    "id": 964,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "gamemenu",
+                    "action": "show"
+                }
+            ],
+            "entrances": [
+                963
+            ]
+        }
+    }
+}

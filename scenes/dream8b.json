@@ -1,0 +1,814 @@
+{
+    "meta": {
+        "name": "Сон 8-2",
+        "width": 1200,
+        "height": 2350,
+        "parent": "folderDreams",
+        "id": "dream8b",
+        "type": "scene",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 579,
+            "end": 580,
+            "selectedRoutes": {}
+        },
+        "tags": [
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "translationReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "113": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 113,
+            "backgroundId": "user-basic-darkdream.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 739,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                184,
+                799
+            ]
+        },
+        "183": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 183,
+            "connections": [
+                {
+                    "id": 792,
+                    "x": 350,
+                    "y": 750
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "freeText",
+                    "cloneId": "1",
+                    "closeOthers": true,
+                    "noDelay": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 2,
+                                "y": -57
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "freeText",
+                    "cloneId": "2",
+                    "noDelay": true,
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 0,
+                                "y": -51
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "freeText",
+                    "cloneId": "3",
+                    "noDelay": true,
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 10,
+                                "y": -54
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "freeText",
+                    "cloneId": "4",
+                    "noDelay": true,
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -1,
+                                "y": -63
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 4,
+                    "cloneId": "5",
+                    "textBox": "freeText",
+                    "noDelay": true,
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -1,
+                                "y": -137
+                            }
+                        }
+                    }
+                }
+            ],
+            "entrances": [
+                753
+            ]
+        },
+        "184": {
+            "type": "comment",
+            "pos": {
+                "x": 500,
+                "y": 350
+            },
+            "id": 184,
+            "connections": [
+                {
+                    "id": 113,
+                    "x": 350,
+                    "y": 350
+                }
+            ]
+        },
+        "185": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 850
+            },
+            "id": 185,
+            "connections": [
+                {
+                    "id": 186,
+                    "x": 350,
+                    "y": 950
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "freeText",
+                    "cloneId": "1",
+                    "noDelay": true,
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -3,
+                                "y": -51
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 1,
+                    "cloneId": "2",
+                    "textBox": "freeText",
+                    "noDelay": true,
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 0,
+                                "y": 42
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "freeText",
+                    "cloneId": "3",
+                    "noDelay": true,
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 3,
+                                "y": -57
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 3,
+                    "cloneId": "4",
+                    "noDelay": true,
+                    "closeOthers": true,
+                    "textBox": "freeText",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -1,
+                                "y": -51
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 5,
+                    "textBox": "freeText",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 2,
+                                "y": 25
+                            }
+                        }
+                    },
+                    "noDelay": true,
+                    "cloneId": "42",
+                    "closeOthers": true
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "freeText",
+                    "cloneId": "5",
+                    "noDelay": true,
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 1,
+                                "y": -49
+                            }
+                        }
+                    }
+                }
+            ],
+            "entrances": [
+                791
+            ]
+        },
+        "186": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 950
+            },
+            "id": 186,
+            "connections": [
+                {
+                    "id": 771,
+                    "x": 450,
+                    "y": 950
+                }
+            ],
+            "sound": {
+                "type": "sound",
+                "id": "assets-sounds-punch.wav",
+                "volume": 100
+            },
+            "entrances": [
+                185
+            ]
+        },
+        "187": {
+            "type": "sound",
+            "pos": {
+                "x": 550,
+                "y": 950
+            },
+            "id": 187,
+            "sound": {
+                "type": "sound",
+                "id": "assets-sounds-punch.wav",
+                "volume": 100
+            },
+            "connections": [
+                {
+                    "id": 772,
+                    "x": 650,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                771
+            ]
+        },
+        "188": {
+            "type": "sound",
+            "pos": {
+                "x": 750,
+                "y": 950
+            },
+            "id": 188,
+            "sound": {
+                "type": "sound",
+                "id": "assets-sounds-punch.wav",
+                "volume": 100
+            },
+            "connections": [
+                {
+                    "id": 773,
+                    "x": 750,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                772
+            ]
+        },
+        "189": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1050
+            },
+            "id": 189,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "freeText",
+                    "cloneId": "1",
+                    "noDelay": true,
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -78,
+                                "y": -161
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "freeText",
+                    "cloneId": "2",
+                    "noDelay": true,
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 0,
+                                "y": 26
+                            }
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 744,
+                    "x": 350,
+                    "y": 1150
+                }
+            ],
+            "entrances": [
+                773
+            ]
+        },
+        "579": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "starting": true,
+            "id": 579,
+            "connections": [
+                {
+                    "id": 799,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "name": "Убийство в поезде",
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "580": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 1550
+            },
+            "id": 580,
+            "ending": true,
+            "entrances": [
+                742
+            ]
+        },
+        "735": {
+            "type": "comment",
+            "pos": {
+                "x": 650,
+                "y": 750,
+                "width": 239,
+                "height": 87.015625
+            },
+            "id": 735,
+            "connections": [
+                {
+                    "id": 791,
+                    "x": 450,
+                    "y": 750
+                }
+            ]
+        },
+        "738": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 1250
+            },
+            "id": 738,
+            "connections": [
+                {
+                    "id": 741,
+                    "x": 350,
+                    "y": 1350
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "freeText",
+                    "cloneId": "__all",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                744
+            ]
+        },
+        "739": {
+            "type": "actor",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 739,
+            "actors": [
+                {
+                    "id": "user-basic-darkdreamt.png",
+                    "state": "default",
+                    "action": "show",
+                    "flip": false,
+                    "position": {
+                        "x": "50%",
+                        "y": "50%",
+                        "rx": "",
+                        "ry": "0",
+                        "class": "",
+                        "scale": 4
+                    },
+                    "animations": {
+                        "shake": {
+                            "name": "shake",
+                            "duration": 150,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease",
+                            "persistent": false
+                        },
+                        "pulse": {
+                            "name": "pulse",
+                            "duration": 10,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease-in-out",
+                            "persistent": false,
+                            "params": {
+                                "scale": 1.1
+                            }
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 753,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                113
+            ]
+        },
+        "741": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 1350
+            },
+            "id": 741,
+            "connections": [
+                {
+                    "id": 742,
+                    "x": 350,
+                    "y": 1450
+                }
+            ],
+            "backgroundId": "assets-backgrounds-dark.jpg",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 4,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 4,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "entrances": [
+                738
+            ]
+        },
+        "742": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 1450
+            },
+            "id": 742,
+            "connections": [
+                {
+                    "id": 580,
+                    "x": 350,
+                    "y": 1550
+                }
+            ],
+            "wait": {
+                "pause": 5,
+                "skippable": false
+            },
+            "entrances": [
+                741
+            ]
+        },
+        "744": {
+            "type": "actor",
+            "pos": {
+                "x": 350,
+                "y": 1150
+            },
+            "id": 744,
+            "actors": [
+                {
+                    "id": "user-basic-darkdreamt.png",
+                    "state": "default",
+                    "action": "hide",
+                    "flip": false,
+                    "position": {
+                        "x": "50%",
+                        "y": "50%",
+                        "rx": "",
+                        "ry": "0",
+                        "class": "",
+                        "scale": 4
+                    },
+                    "animations": {
+                        "shake": {
+                            "name": "shake",
+                            "duration": 150,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease",
+                            "persistent": false
+                        },
+                        "pulse": {
+                            "name": "pulse",
+                            "duration": 10,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease-in-out",
+                            "persistent": false,
+                            "params": {
+                                "scale": 1.1
+                            }
+                        }
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 4
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 738,
+                    "x": 350,
+                    "y": 1250
+                }
+            ],
+            "entrances": [
+                189
+            ]
+        },
+        "753": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "id": 753,
+            "connections": [
+                {
+                    "id": 183,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "id": "assets-music-Chewing Devil Grass.mp3",
+                "volume": 100
+            },
+            "entrances": [
+                739
+            ]
+        },
+        "771": {
+            "type": "wait",
+            "pos": {
+                "x": 450,
+                "y": 950
+            },
+            "id": 771,
+            "connections": [
+                {
+                    "id": 187,
+                    "x": 550,
+                    "y": 950
+                }
+            ],
+            "wait": {
+                "pause": 1,
+                "skippable": false
+            },
+            "entrances": [
+                186
+            ]
+        },
+        "772": {
+            "type": "wait",
+            "pos": {
+                "x": 650,
+                "y": 950
+            },
+            "id": 772,
+            "connections": [
+                {
+                    "id": 188,
+                    "x": 750,
+                    "y": 950
+                }
+            ],
+            "wait": {
+                "pause": 0.6,
+                "skippable": false
+            },
+            "entrances": [
+                187
+            ]
+        },
+        "773": {
+            "type": "way",
+            "pos": {
+                "x": 750,
+                "y": 1050
+            },
+            "id": 773,
+            "connections": [
+                {
+                    "id": 189,
+                    "x": 350,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                188
+            ]
+        },
+        "791": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 750
+            },
+            "id": 791,
+            "connections": [
+                {
+                    "id": 185,
+                    "x": 350,
+                    "y": 850
+                }
+            ],
+            "targetScene": "scene6",
+            "targetNode": 780,
+            "entrances": [
+                735,
+                792
+            ]
+        },
+        "792": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 750
+            },
+            "id": 792,
+            "connections": [
+                {
+                    "id": 791,
+                    "x": 450,
+                    "y": 750
+                }
+            ],
+            "sound": {
+                "type": "sound",
+                "id": "assets-sounds-punch.wav",
+                "volume": 100
+            },
+            "entrances": [
+                183
+            ]
+        },
+        "799": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 799,
+            "connections": [
+                {
+                    "id": 113,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "default",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                579
+            ]
+        }
+    }
+}

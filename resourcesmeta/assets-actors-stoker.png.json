@@ -1,0 +1,53 @@
+{
+    "id": "assets-actors-stoker.png",
+    "name": "stoker",
+    "type": "image",
+    "assign": "actor",
+    "filename": "stoker.png",
+    "vendor": "assets",
+    "collection": "actors",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "stoker",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 1836,
+        "height": 1500
+    },
+    "spritesheet": {
+        "normal": {
+            "name": "Normal",
+            "x": 0,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": true
+        },
+        "smug": {
+            "name": "Smug",
+            "x": 612,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": false
+        },
+        "angry": {
+            "name": "Angry",
+            "x": 1224,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": false
+        }
+    },
+    "gridMarking": {
+        "sliceWidth": 612,
+        "sliceHeight": 1500,
+        "offsetX": 0,
+        "offsetY": 0
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "id": "enable",
+        "deletable": false,
+        "name": "Enable",
+        "comment": "Enables element",
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "position": {},
+        "listSetup": {},
+        "visibility": {
+            "render": true
+        },
+        "background": {
+            "setup": {}
+        },
+        "text": {},
+        "transition": {}
+    }
+}

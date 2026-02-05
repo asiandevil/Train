@@ -1,0 +1,1642 @@
+{
+    "meta": {
+        "name": "5.4: Продолжить карьеру",
+        "width": 1800,
+        "height": 5450,
+        "parent": "dreamdebt",
+        "id": "continueDetective",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 145,
+            "end": 177,
+            "selectedRoutes": {}
+        },
+        "type": "scene",
+        "buildingNodeId": 164,
+        "tags": [
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "translationReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "145": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 145,
+            "starting": true,
+            "connections": [
+                {
+                    "id": 146,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "name": "Продолжить работу детективом",
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": true
+            }
+        },
+        "146": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 146,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1
+                }
+            ],
+            "connections": [
+                {
+                    "id": 891,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                145
+            ]
+        },
+        "147": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "id": 147,
+            "backgroundId": "assets-backgrounds-ggroom.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 727,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "waitToFinish": false,
+            "entrances": [
+                148,
+                859
+            ]
+        },
+        "148": {
+            "type": "comment",
+            "pos": {
+                "x": 500,
+                "y": 550,
+                "width": 171,
+                "height": 87.34375
+            },
+            "id": 148,
+            "connections": [
+                {
+                    "id": 147,
+                    "x": 350,
+                    "y": 550
+                }
+            ]
+        },
+        "149": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 750
+            },
+            "id": 149,
+            "text": [
+                {
+                    "textNodeId": 0
+                },
+                {
+                    "textNodeId": 1
+                }
+            ],
+            "connections": [
+                {
+                    "id": 691,
+                    "x": 350,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                727
+            ]
+        },
+        "150": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 950
+            },
+            "id": 150,
+            "backgroundId": "assets-backgrounds-dark.jpg",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 8,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "shrink",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 4,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 689,
+                    "x": 350,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                151,
+                691
+            ]
+        },
+        "151": {
+            "type": "comment",
+            "pos": {
+                "x": 500,
+                "y": 950,
+                "width": 168,
+                "height": 93.34375
+            },
+            "id": 151,
+            "connections": [
+                {
+                    "id": 150,
+                    "x": 350,
+                    "y": 950
+                }
+            ]
+        },
+        "152": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1350
+            },
+            "id": 152,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "freeText",
+                    "noDelay": true,
+                    "cloneId": "1",
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 3,
+                                "y": -51
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "freeText",
+                    "noDelay": true,
+                    "cloneId": "2",
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -55,
+                                "y": -180
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "freeText",
+                    "noDelay": true,
+                    "cloneId": "3",
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 40,
+                                "y": -88
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "freeText",
+                    "noDelay": true,
+                    "cloneId": "4",
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 11,
+                                "y": 11
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "freeText",
+                    "noDelay": true,
+                    "cloneId": "5",
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 0,
+                                "y": -63
+                            }
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 694,
+                    "x": 350,
+                    "y": 1450
+                }
+            ],
+            "entrances": [
+                775
+            ]
+        },
+        "153": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 1650
+            },
+            "id": 153,
+            "sound": {
+                "type": "sound",
+                "id": "assets-sounds-squelch.wav",
+                "volume": 100
+            },
+            "connections": [
+                {
+                    "id": 154,
+                    "x": 350,
+                    "y": 1750
+                }
+            ],
+            "entrances": [
+                836
+            ]
+        },
+        "154": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1750
+            },
+            "id": 154,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "freeText",
+                    "cloneId": "1",
+                    "closeOthers": true,
+                    "noDelay": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 1,
+                                "y": -65
+                            }
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 155,
+                    "x": 350,
+                    "y": 1850
+                }
+            ],
+            "entrances": [
+                153
+            ]
+        },
+        "155": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 1850
+            },
+            "id": 155,
+            "sound": {
+                "type": "sound",
+                "id": "assets-sounds-squelch.wav",
+                "volume": 100
+            },
+            "connections": [
+                {
+                    "id": 156,
+                    "x": 350,
+                    "y": 1950
+                }
+            ],
+            "entrances": [
+                154
+            ]
+        },
+        "156": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1950
+            },
+            "id": 156,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "freeText",
+                    "cloneId": "2",
+                    "closeOthers": true,
+                    "noDelay": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 0,
+                                "y": -59
+                            }
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 776,
+                    "x": 350,
+                    "y": 2050
+                }
+            ],
+            "entrances": [
+                155
+            ]
+        },
+        "157": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 2250
+            },
+            "id": 157,
+            "backgroundId": "assets-backgrounds-ggroom.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "enlarge",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 706,
+                    "x": 350,
+                    "y": 2350
+                }
+            ],
+            "waitToFinish": false,
+            "entrances": [
+                158,
+                707
+            ]
+        },
+        "158": {
+            "type": "comment",
+            "pos": {
+                "x": 500,
+                "y": 2250,
+                "width": 195,
+                "height": 99.34375
+            },
+            "id": 158,
+            "connections": [
+                {
+                    "id": 157,
+                    "x": 350,
+                    "y": 2250
+                }
+            ]
+        },
+        "159": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 2650
+            },
+            "id": 159,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1
+                }
+            ],
+            "connections": [
+                {
+                    "id": 696,
+                    "x": 350,
+                    "y": 2750
+                }
+            ],
+            "entrances": [
+                896
+            ]
+        },
+        "160": {
+            "type": "back",
+            "pos": {
+                "x": 850,
+                "y": 2350
+            },
+            "id": 160,
+            "backgroundId": "user-basic-darkdream.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 4,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "shrink",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 4,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 162,
+                    "x": 850,
+                    "y": 2450
+                }
+            ],
+            "entrances": [
+                161
+            ]
+        },
+        "161": {
+            "type": "comment",
+            "pos": {
+                "x": 1000,
+                "y": 2350,
+                "width": 221,
+                "height": 94.34375
+            },
+            "id": 161,
+            "connections": [
+                {
+                    "id": 160,
+                    "x": 850,
+                    "y": 2350
+                }
+            ]
+        },
+        "162": {
+            "type": "back",
+            "pos": {
+                "x": 850,
+                "y": 2450
+            },
+            "id": 162,
+            "backgroundId": "user-basic-darkdream.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 164,
+                    "x": 850,
+                    "y": 2550
+                }
+            ],
+            "entrances": [
+                160,
+                163
+            ]
+        },
+        "163": {
+            "type": "comment",
+            "pos": {
+                "x": 1000,
+                "y": 2450,
+                "width": 221,
+                "height": 93.34375
+            },
+            "id": 163,
+            "connections": [
+                {
+                    "id": 162,
+                    "x": 850,
+                    "y": 2450
+                }
+            ]
+        },
+        "164": {
+            "type": "text",
+            "pos": {
+                "x": 850,
+                "y": 2550
+            },
+            "id": 164,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "freeText",
+                    "cloneId": "1",
+                    "noDelay": true,
+                    "closeOthers": true
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "freeText",
+                    "cloneId": "2",
+                    "noDelay": true,
+                    "closeOthers": true
+                }
+            ],
+            "entrances": [
+                162
+            ]
+        },
+        "165": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 3250
+            },
+            "id": 165,
+            "backgroundId": "assets-backgrounds-ggroom.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 4,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "blackFade",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 4,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 167,
+                    "x": 350,
+                    "y": 3350
+                }
+            ],
+            "waitToFinish": true,
+            "entrances": [
+                166,
+                697
+            ]
+        },
+        "166": {
+            "type": "comment",
+            "pos": {
+                "x": 500,
+                "y": 3250,
+                "width": 213,
+                "height": 88.34375
+            },
+            "id": 166,
+            "connections": [
+                {
+                    "id": 165,
+                    "x": 350,
+                    "y": 3250
+                }
+            ]
+        },
+        "167": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 3350
+            },
+            "id": 167,
+            "text": [
+                {
+                    "textNodeId": 0
+                }
+            ],
+            "connections": [
+                {
+                    "id": 732,
+                    "x": 350,
+                    "y": 3450
+                }
+            ],
+            "entrances": [
+                165,
+                168
+            ]
+        },
+        "168": {
+            "type": "comment",
+            "pos": {
+                "x": 500,
+                "y": 3350,
+                "width": 206,
+                "height": 87.34375
+            },
+            "id": 168,
+            "connections": [
+                {
+                    "id": 167,
+                    "x": 350,
+                    "y": 3350
+                }
+            ]
+        },
+        "170": {
+            "type": "comment",
+            "pos": {
+                "x": 500,
+                "y": 3550,
+                "width": 207,
+                "height": 95.34375
+            },
+            "id": 170,
+            "connections": [
+                {
+                    "id": 731,
+                    "x": 350,
+                    "y": 3550
+                }
+            ]
+        },
+        "171": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 4050
+            },
+            "id": 171,
+            "text": [
+                {
+                    "textNodeId": 2
+                },
+                {
+                    "textNodeId": 3
+                },
+                {
+                    "textNodeId": 4
+                },
+                {
+                    "textNodeId": 5
+                }
+            ],
+            "connections": [
+                {
+                    "id": 865,
+                    "x": 350,
+                    "y": 4150
+                }
+            ],
+            "entrances": [
+                699
+            ]
+        },
+        "172": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 4250
+            },
+            "id": 172,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "top",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 3,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 174,
+                    "x": 350,
+                    "y": 4350
+                }
+            ],
+            "backgroundId": "assets-backgrounds-cityb.png",
+            "waitToFinish": false,
+            "entrances": [
+                173,
+                865
+            ]
+        },
+        "173": {
+            "type": "comment",
+            "pos": {
+                "x": 500,
+                "y": 4250,
+                "width": 217,
+                "height": 86.34375
+            },
+            "id": 173,
+            "connections": [
+                {
+                    "id": 172,
+                    "x": 350,
+                    "y": 4250
+                }
+            ]
+        },
+        "174": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 4350
+            },
+            "id": 174,
+            "text": [
+                {
+                    "textNodeId": 1
+                },
+                {
+                    "textNodeId": 3
+                },
+                {
+                    "textNodeId": 4
+                },
+                {
+                    "textNodeId": 2
+                }
+            ],
+            "connections": [
+                {
+                    "id": 175,
+                    "x": 350,
+                    "y": 4450
+                }
+            ],
+            "entrances": [
+                172
+            ]
+        },
+        "175": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 4450
+            },
+            "id": 175,
+            "sound": {
+                "type": "env",
+                "id": "assets-sounds-city.mp3",
+                "volume": 100
+            },
+            "connections": [
+                {
+                    "id": 176,
+                    "x": 350,
+                    "y": 4550
+                }
+            ],
+            "entrances": [
+                174
+            ]
+        },
+        "176": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 4550
+            },
+            "id": 176,
+            "text": [
+                {
+                    "textNodeId": 3
+                },
+                {
+                    "textNodeId": 4
+                },
+                {
+                    "textNodeId": 7
+                },
+                {
+                    "textNodeId": 5
+                },
+                {
+                    "textNodeId": 6
+                }
+            ],
+            "connections": [
+                {
+                    "id": 177,
+                    "x": 350,
+                    "y": 4650
+                }
+            ],
+            "entrances": [
+                175
+            ]
+        },
+        "177": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 4650
+            },
+            "id": 177,
+            "ending": true,
+            "entrances": [
+                176
+            ]
+        },
+        "689": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 1050
+            },
+            "id": 689,
+            "connections": [
+                {
+                    "id": 835,
+                    "x": 350,
+                    "y": 1150
+                }
+            ],
+            "wait": {
+                "pause": 4,
+                "skippable": false
+            },
+            "entrances": [
+                150
+            ]
+        },
+        "691": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 850
+            },
+            "id": 691,
+            "connections": [
+                {
+                    "id": 150,
+                    "x": 350,
+                    "y": 950
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "default",
+                    "action": "hide"
+                },
+                {
+                    "id": "topPanel",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                149
+            ]
+        },
+        "694": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 1450
+            },
+            "id": 694,
+            "connections": [
+                {
+                    "id": 836,
+                    "x": 350,
+                    "y": 1550
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "freeText",
+                    "cloneId": "__all",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                152
+            ]
+        },
+        "695": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 2950
+            },
+            "id": 695,
+            "wait": {
+                "pause": 2,
+                "skippable": false
+            },
+            "connections": [
+                {
+                    "id": 901,
+                    "x": 350,
+                    "y": 3050
+                }
+            ],
+            "entrances": [
+                729
+            ]
+        },
+        "696": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 2750
+            },
+            "id": 696,
+            "connections": [
+                {
+                    "id": 729,
+                    "x": 350,
+                    "y": 2850
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "default",
+                    "action": "hide"
+                },
+                {
+                    "id": "topPanel",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                159
+            ]
+        },
+        "697": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 3150
+            },
+            "id": 697,
+            "connections": [
+                {
+                    "id": 165,
+                    "x": 350,
+                    "y": 3250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "freeText",
+                    "cloneId": "__all",
+                    "action": "remove"
+                },
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "entrances": [
+                901
+            ]
+        },
+        "699": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 3950
+            },
+            "id": 699,
+            "connections": [
+                {
+                    "id": 171,
+                    "x": 350,
+                    "y": 4050
+                }
+            ],
+            "backgroundId": "assets-backgrounds-ggroom.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "waitToFinish": true,
+            "entrances": [
+                860
+            ]
+        },
+        "706": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 2350
+            },
+            "id": 706,
+            "connections": [
+                {
+                    "id": 777,
+                    "x": 350,
+                    "y": 2450
+                }
+            ],
+            "wait": {
+                "pause": 4,
+                "skippable": false
+            },
+            "entrances": [
+                157
+            ]
+        },
+        "707": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 2150
+            },
+            "id": 707,
+            "connections": [
+                {
+                    "id": 157,
+                    "x": 350,
+                    "y": 2250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "freeText",
+                    "cloneId": "__all",
+                    "action": "remove"
+                },
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "entrances": [
+                776
+            ]
+        },
+        "727": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 727,
+            "connections": [
+                {
+                    "id": 149,
+                    "x": 350,
+                    "y": 750
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100,
+                "id": ""
+            },
+            "entrances": [
+                147
+            ]
+        },
+        "729": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 2850
+            },
+            "id": 729,
+            "connections": [
+                {
+                    "id": 695,
+                    "x": 350,
+                    "y": 2950
+                }
+            ],
+            "backgroundId": "assets-backgrounds-dark.jpg",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "waitToFinish": true,
+            "entrances": [
+                696
+            ]
+        },
+        "730": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 3650
+            },
+            "id": 730,
+            "wait": {
+                "pause": 2,
+                "skippable": false
+            },
+            "connections": [
+                {
+                    "id": 910,
+                    "x": 350,
+                    "y": 3750
+                }
+            ],
+            "entrances": [
+                731
+            ]
+        },
+        "731": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 3550
+            },
+            "id": 731,
+            "connections": [
+                {
+                    "id": 730,
+                    "x": 350,
+                    "y": 3650
+                }
+            ],
+            "backgroundId": "assets-backgrounds-dark.jpg",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 2,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "waitToFinish": true,
+            "entrances": [
+                170,
+                732
+            ]
+        },
+        "732": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 3450
+            },
+            "id": 732,
+            "connections": [
+                {
+                    "id": 731,
+                    "x": 350,
+                    "y": 3550
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "default",
+                    "action": "hide"
+                },
+                {
+                    "id": "topPanel",
+                    "action": "hide"
+                }
+            ],
+            "entrances": [
+                167
+            ]
+        },
+        "775": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 1250
+            },
+            "id": 775,
+            "connections": [
+                {
+                    "id": 152,
+                    "x": 350,
+                    "y": 1350
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "id": "assets-music-Chewing Devil Grass.mp3",
+                "volume": 100
+            },
+            "entrances": [
+                835
+            ]
+        },
+        "776": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 2050
+            },
+            "id": 776,
+            "connections": [
+                {
+                    "id": 707,
+                    "x": 350,
+                    "y": 2150
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "id": "assets-music-Chewing Devil Grass.mp3",
+                "volume": 24
+            },
+            "entrances": [
+                156
+            ]
+        },
+        "777": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 2450
+            },
+            "id": 777,
+            "connections": [
+                {
+                    "id": 896,
+                    "x": 350,
+                    "y": 2550
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100
+            },
+            "entrances": [
+                706
+            ]
+        },
+        "835": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 1150
+            },
+            "id": 835,
+            "connections": [
+                {
+                    "id": 775,
+                    "x": 350,
+                    "y": 1250
+                }
+            ],
+            "targetScene": "fogEffects",
+            "targetNode": 819,
+            "entrances": [
+                689
+            ]
+        },
+        "836": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 1550
+            },
+            "id": 836,
+            "connections": [
+                {
+                    "id": 153,
+                    "x": 350,
+                    "y": 1650
+                }
+            ],
+            "targetScene": "fogEffects",
+            "targetNode": 822,
+            "entrances": [
+                694
+            ]
+        },
+        "859": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 859,
+            "connections": [
+                {
+                    "id": 147,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "targetScene": "placeInfo",
+            "targetNode": 837,
+            "entrances": [
+                891
+            ]
+        },
+        "860": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 3850
+            },
+            "id": 860,
+            "connections": [
+                {
+                    "id": 699,
+                    "x": 350,
+                    "y": 3950
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                }
+            ],
+            "entrances": [
+                910
+            ]
+        },
+        "865": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 4150
+            },
+            "id": 865,
+            "connections": [
+                {
+                    "id": 172,
+                    "x": 350,
+                    "y": 4250
+                }
+            ],
+            "targetScene": "placeInfo",
+            "targetNode": 861,
+            "entrances": [
+                171
+            ]
+        },
+        "891": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 891,
+            "connections": [
+                {
+                    "id": 859,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "targetScene": "setdate",
+            "targetNode": 887,
+            "entrances": [
+                146
+            ]
+        },
+        "896": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 2550
+            },
+            "id": 896,
+            "connections": [
+                {
+                    "id": 159,
+                    "x": 350,
+                    "y": 2650
+                }
+            ],
+            "targetScene": "setdate",
+            "targetNode": 892,
+            "entrances": [
+                777
+            ]
+        },
+        "901": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 3050
+            },
+            "id": 901,
+            "connections": [
+                {
+                    "id": 697,
+                    "x": 350,
+                    "y": 3150
+                }
+            ],
+            "targetScene": "setdate",
+            "targetNode": 897,
+            "entrances": [
+                695
+            ]
+        },
+        "910": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 3750
+            },
+            "id": 910,
+            "connections": [
+                {
+                    "id": 860,
+                    "x": 350,
+                    "y": 3850
+                }
+            ],
+            "targetScene": "setdate",
+            "targetNode": 902,
+            "entrances": [
+                730
+            ]
+        }
+    }
+}

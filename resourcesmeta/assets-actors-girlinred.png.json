@@ -1,0 +1,61 @@
+{
+    "id": "assets-actors-girlinred.png",
+    "name": "Girl in red",
+    "type": "image",
+    "assign": "actor",
+    "filename": "girlinred.png",
+    "vendor": "assets",
+    "collection": "actors",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Girl in red",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 2448,
+        "height": 1500
+    },
+    "spritesheet": {
+        "default": {
+            "name": "Normal",
+            "x": 0,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": true
+        },
+        "angry": {
+            "name": "Angry",
+            "x": 612,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": false
+        },
+        "surprised": {
+            "name": "Surprised",
+            "x": 1224,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": false
+        },
+        "superAngry": {
+            "name": "Super Angry",
+            "x": 1836,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": false
+        }
+    },
+    "gridMarking": {
+        "sliceWidth": 612,
+        "sliceHeight": 1500,
+        "offsetX": 0,
+        "offsetY": 0
+    }
+}

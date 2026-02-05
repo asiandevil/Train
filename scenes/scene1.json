@@ -1,0 +1,575 @@
+{
+    "meta": {
+        "id": "scene1",
+        "name": "1: Кошмар",
+        "type": "scene",
+        "width": 1200,
+        "height": 2450,
+        "parent": "folderDreams",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 9,
+            "end": 120,
+            "selectedRoutes": {}
+        },
+        "tags": [
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "translationReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "9": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 50
+            },
+            "starting": true,
+            "id": 9,
+            "connections": [
+                {
+                    "id": 874,
+                    "x": 250,
+                    "y": 150
+                }
+            ],
+            "name": "Ночной кошмар",
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "10": {
+            "type": "back",
+            "pos": {
+                "x": 250,
+                "y": 350
+            },
+            "id": 10,
+            "connections": [
+                {
+                    "id": 13,
+                    "x": 250,
+                    "y": 450
+                }
+            ],
+            "backgroundId": "user-basic-darkdream.png",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "entrances": [
+                12
+            ]
+        },
+        "11": {
+            "type": "sound",
+            "pos": {
+                "x": 250,
+                "y": 550
+            },
+            "id": 11,
+            "sound": {
+                "type": "music",
+                "id": "assets-music-malictusmusic - Ambient Dream.mp3",
+                "volume": 100
+            },
+            "connections": [
+                {
+                    "id": 21,
+                    "x": 250,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                13
+            ]
+        },
+        "12": {
+            "type": "ui",
+            "pos": {
+                "x": 250,
+                "y": 250
+            },
+            "id": 12,
+            "connections": [
+                {
+                    "id": 10,
+                    "x": 250,
+                    "y": 350
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "gamemenu",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                874
+            ]
+        },
+        "13": {
+            "type": "actor",
+            "pos": {
+                "x": 250,
+                "y": 450
+            },
+            "id": 13,
+            "connections": [
+                {
+                    "id": 11,
+                    "x": 250,
+                    "y": 550
+                }
+            ],
+            "actors": [
+                {
+                    "id": "user-basic-darkdreamt.png",
+                    "state": "default",
+                    "action": "show",
+                    "flip": false,
+                    "position": {
+                        "x": "50%",
+                        "y": "50%",
+                        "rx": "",
+                        "ry": "0",
+                        "class": "",
+                        "scale": 4
+                    },
+                    "animations": {
+                        "shake": {
+                            "name": "shake",
+                            "duration": 150,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease",
+                            "persistent": false
+                        },
+                        "pulse": {
+                            "name": "pulse",
+                            "duration": 10,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease-in-out",
+                            "persistent": false,
+                            "params": {
+                                "scale": 1.1
+                            }
+                        }
+                    }
+                }
+            ],
+            "entrances": [
+                10
+            ]
+        },
+        "21": {
+            "type": "text",
+            "pos": {
+                "x": 250,
+                "y": 650
+            },
+            "id": 21,
+            "connections": [
+                {
+                    "id": 25,
+                    "x": 250,
+                    "y": 750
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "freeText",
+                    "noDelay": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -93,
+                                "y": -187
+                            }
+                        }
+                    },
+                    "cloneId": "1",
+                    "actorId": "",
+                    "closeOthers": false,
+                    "noWait": false
+                }
+            ],
+            "entrances": [
+                11
+            ]
+        },
+        "22": {
+            "type": "text",
+            "pos": {
+                "x": 250,
+                "y": 1350
+            },
+            "text": [
+                {
+                    "textNodeId": 3,
+                    "textBox": "freeText",
+                    "noDelay": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 0,
+                                "y": -71
+                            }
+                        }
+                    },
+                    "cloneId": "4",
+                    "closeOthers": true,
+                    "actorId": "",
+                    "noWait": false
+                },
+                {
+                    "textNodeId": 5,
+                    "textBox": "freeText",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 0,
+                                "y": -35
+                            }
+                        }
+                    },
+                    "noDelay": true,
+                    "cloneId": "42"
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "freeText",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 8,
+                                "y": -55
+                            }
+                        }
+                    },
+                    "noDelay": true,
+                    "cloneId": "5",
+                    "closeOthers": true
+                }
+            ],
+            "id": 22,
+            "connections": [
+                {
+                    "id": 30,
+                    "x": 250,
+                    "y": 1450
+                }
+            ],
+            "entrances": [
+                1023
+            ]
+        },
+        "23": {
+            "type": "text",
+            "pos": {
+                "x": 250,
+                "y": 1050
+            },
+            "text": [
+                {
+                    "textNodeId": 2,
+                    "textBox": "freeText",
+                    "noDelay": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 21,
+                                "y": 43
+                            }
+                        }
+                    },
+                    "cloneId": "3",
+                    "actorId": "",
+                    "closeOthers": false,
+                    "noWait": false
+                }
+            ],
+            "id": 23,
+            "connections": [
+                {
+                    "id": 27,
+                    "x": 250,
+                    "y": 1150
+                }
+            ],
+            "entrances": [
+                26
+            ]
+        },
+        "24": {
+            "type": "text",
+            "pos": {
+                "x": 250,
+                "y": 850
+            },
+            "text": [
+                {
+                    "textNodeId": 1,
+                    "textBox": "freeText",
+                    "cloneId": "2",
+                    "noDelay": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 13,
+                                "y": -83
+                            }
+                        }
+                    },
+                    "actorId": "",
+                    "closeOthers": false,
+                    "noWait": false
+                }
+            ],
+            "id": 24,
+            "connections": [
+                {
+                    "id": 26,
+                    "x": 250,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                25
+            ]
+        },
+        "25": {
+            "type": "ui",
+            "pos": {
+                "x": 250,
+                "y": 750
+            },
+            "id": 25,
+            "connections": [
+                {
+                    "id": 24,
+                    "x": 250,
+                    "y": 850
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "freeText",
+                    "cloneId": "1",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                21
+            ]
+        },
+        "26": {
+            "type": "ui",
+            "pos": {
+                "x": 250,
+                "y": 950
+            },
+            "id": 26,
+            "connections": [
+                {
+                    "id": 23,
+                    "x": 250,
+                    "y": 1050
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "freeText",
+                    "cloneId": "2",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                24
+            ]
+        },
+        "27": {
+            "type": "ui",
+            "pos": {
+                "x": 250,
+                "y": 1150
+            },
+            "id": 27,
+            "connections": [
+                {
+                    "id": 1023,
+                    "x": 250,
+                    "y": 1250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "freeText",
+                    "cloneId": "3",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                23
+            ]
+        },
+        "30": {
+            "type": "actor",
+            "pos": {
+                "x": 250,
+                "y": 1450
+            },
+            "id": 30,
+            "connections": [
+                {
+                    "id": 31,
+                    "x": 250,
+                    "y": 1550
+                }
+            ],
+            "actors": [
+                {
+                    "id": "user-basic-darkdreamt.png",
+                    "state": "default",
+                    "action": "show",
+                    "flip": false,
+                    "position": {
+                        "x": "50%",
+                        "y": "50%",
+                        "rx": "",
+                        "ry": "0",
+                        "class": "",
+                        "scale": 4
+                    },
+                    "animations": {
+                        "shake": {
+                            "name": "shake",
+                            "duration": 150,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease",
+                            "persistent": false
+                        },
+                        "pulse": {
+                            "name": "pulse",
+                            "duration": 1,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease-in-out",
+                            "persistent": false,
+                            "params": {
+                                "scale": 1.1
+                            }
+                        }
+                    }
+                }
+            ],
+            "entrances": [
+                22
+            ]
+        },
+        "31": {
+            "type": "wait",
+            "pos": {
+                "x": 250,
+                "y": 1550
+            },
+            "id": 31,
+            "wait": {
+                "pause": 2,
+                "skippable": true
+            },
+            "connections": [
+                {
+                    "id": 120,
+                    "x": 250,
+                    "y": 1650
+                }
+            ],
+            "entrances": [
+                30
+            ]
+        },
+        "120": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 1650
+            },
+            "id": 120,
+            "ending": true,
+            "entrances": [
+                31
+            ]
+        },
+        "874": {
+            "type": "call",
+            "pos": {
+                "x": 250,
+                "y": 150
+            },
+            "id": 874,
+            "connections": [
+                {
+                    "id": 12,
+                    "x": 250,
+                    "y": 250
+                }
+            ],
+            "targetScene": "setdate",
+            "targetNode": 870,
+            "entrances": [
+                9
+            ]
+        },
+        "1023": {
+            "type": "sound",
+            "pos": {
+                "x": 250,
+                "y": 1250
+            },
+            "id": 1023,
+            "connections": [
+                {
+                    "id": 22,
+                    "x": 250,
+                    "y": 1350
+                }
+            ],
+            "sound": {
+                "type": "sound",
+                "volume": 100,
+                "id": "assets-sounds-squelch.wav"
+            },
+            "entrances": [
+                27
+            ]
+        }
+    }
+}

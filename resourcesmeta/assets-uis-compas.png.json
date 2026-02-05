@@ -1,0 +1,20 @@
+{
+    "id": "assets-uis-compas.png",
+    "name": "Compas Test",
+    "type": "image",
+    "assign": "ui",
+    "filename": "compas.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Compass for the test"
+    },
+    "imageSize": {
+        "width": 520,
+        "height": 514
+    }
+}

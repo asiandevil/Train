@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-lic.png",
+    "name": "lic",
+    "type": "image",
+    "assign": "ui",
+    "filename": "lic.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Loading image - CIrcle",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 512,
+        "height": 512
+    }
+}

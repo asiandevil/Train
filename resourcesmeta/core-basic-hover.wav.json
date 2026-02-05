@@ -1,0 +1,14 @@
+{
+    "name": "Hover",
+    "type": "audio",
+    "assign": "sound",
+    "filename": "hover.wav",
+    "vendor": "core",
+    "collection": "basic",
+    "meta": {
+        "author": "zepurple",
+        "license": "Creative Commons 0 License",
+        "description": "Hover button"
+    },
+    "id": "core-basic-hover.wav"
+}

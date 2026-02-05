@@ -1,0 +1,13 @@
+{
+    "id": "keyF3",
+    "comment": "F3",
+    "isSystem": false,
+    "alt": false,
+    "shift": false,
+    "ctrl": false,
+    "keyCode": 114,
+    "event": {
+        "valueUpdate": [],
+        "systemAction": "skip"
+    }
+}

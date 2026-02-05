@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-gmenuc.png",
+    "name": "gmenuc",
+    "type": "image",
+    "assign": "ui",
+    "filename": "gmenuc.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Bottom game menu",
+        "link": ""
+    },
+    "imageSize": {
+        "width": 100,
+        "height": 38
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "id": "oldMan3",
+    "name": "",
+    "localizedName": {
+        "default": "",
+        "russian": "Старик",
+        "ukrainian": "Старик",
+        "english": "Old man"
+    },
+    "comment": "",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Normal",
+            "resource": "assets-actors-old3.png"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

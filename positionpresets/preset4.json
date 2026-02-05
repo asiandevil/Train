@@ -1,0 +1,130 @@
+{
+    "id": "preset4",
+    "name": "Actor positions B",
+    "presets": [
+        [
+            {
+                "position": {
+                    "x": "0%",
+                    "y": "100%",
+                    "scale": 2
+                },
+                "defaultAxis": {
+                    "x": "left",
+                    "y": "bottom"
+                },
+                "name": "Left large"
+            },
+            {
+                "position": {
+                    "x": "25%",
+                    "y": "100%",
+                    "scale": 2
+                },
+                "defaultAxis": {
+                    "x": "center",
+                    "y": "bottom"
+                },
+                "name": "Mid-left large"
+            },
+            {
+                "position": {
+                    "x": "50%",
+                    "y": "100%",
+                    "scale": 2
+                },
+                "defaultAxis": {
+                    "x": "center",
+                    "y": "bottom"
+                },
+                "name": "Center large"
+            },
+            {
+                "position": {
+                    "x": "75%",
+                    "y": "100%",
+                    "scale": 2
+                },
+                "defaultAxis": {
+                    "x": "center",
+                    "y": "bottom"
+                },
+                "name": "Mid-right large"
+            },
+            {
+                "position": {
+                    "x": "100%",
+                    "y": "100%",
+                    "scale": 2
+                },
+                "defaultAxis": {
+                    "x": "right",
+                    "y": "bottom"
+                },
+                "name": "Right large"
+            }
+        ],
+        [
+            {
+                "position": {
+                    "x": "0%",
+                    "y": "100%",
+                    "scale": 1
+                },
+                "defaultAxis": {
+                    "x": "left",
+                    "y": "bottom"
+                },
+                "name": "Left"
+            },
+            {
+                "position": {
+                    "x": "25%",
+                    "y": "100%",
+                    "scale": 1
+                },
+                "defaultAxis": {
+                    "x": "center",
+                    "y": "bottom"
+                },
+                "name": "Mid-left"
+            },
+            {
+                "position": {
+                    "x": "50%",
+                    "y": "100%",
+                    "scale": 1
+                },
+                "defaultAxis": {
+                    "x": "center",
+                    "y": "bottom"
+                },
+                "name": "Center"
+            },
+            {
+                "position": {
+                    "x": "75%",
+                    "y": "100%",
+                    "scale": 1
+                },
+                "defaultAxis": {
+                    "x": "center",
+                    "y": "bottom"
+                },
+                "name": "Mid-right"
+            },
+            {
+                "position": {
+                    "x": "100%",
+                    "y": "100%",
+                    "scale": 1
+                },
+                "defaultAxis": {
+                    "x": "right",
+                    "y": "bottom"
+                },
+                "name": "Right"
+            }
+        ]
+    ]
+}

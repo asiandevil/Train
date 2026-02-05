@@ -1,0 +1,46 @@
+{
+    "id": "brunno",
+    "name": "",
+    "localizedName": {
+        "russian": "Бруно",
+        "english": "Bruno",
+        "ukrainian": "Бруно"
+    },
+    "comment": "Bruno Braun",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Default",
+            "resource": "assets-actors-brunosprt.png",
+            "slice": "defaul"
+        },
+        "state": {
+            "name": "Smug",
+            "resource": "assets-actors-brunosprt.png",
+            "slice": "smug"
+        },
+        "state2": {
+            "name": "Serious",
+            "resource": "assets-actors-brunosprt.png",
+            "slice": "serious"
+        },
+        "state3": {
+            "name": "Hat default",
+            "resource": "assets-actors-brunosprt.png",
+            "slice": "defaultHat"
+        },
+        "state4": {
+            "name": "Hat smug",
+            "resource": "assets-actors-brunosprt.png",
+            "slice": "smugHat"
+        },
+        "state5": {
+            "name": "Hat serious",
+            "resource": "assets-actors-brunosprt.png",
+            "slice": "seriousHat"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

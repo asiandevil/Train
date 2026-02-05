@@ -1,0 +1,17 @@
+{
+    "id": "assets-music-Sergey Cheremisinov - Fog.mp3",
+    "name": "Sergey Cheremisinov - Fog.mp3",
+    "type": "sound",
+    "assign": "music",
+    "filename": "Sergey Cheremisinov - Fog.mp3",
+    "vendor": "assets",
+    "collection": "music",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Sergey Cheremisinov ",
+        "license": "CC BY 4.0",
+        "description": "Sergey Cheremisinov - Fog",
+        "link": "https://freemusicarchive.org/music/Sergey_Cheremisinov/contact"
+    }
+}

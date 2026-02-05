@@ -1,0 +1,334 @@
+{
+    "meta": {
+        "id": "scene15",
+        "name": "Развилка",
+        "type": "scene",
+        "width": 1750,
+        "height": 1450,
+        "parent": "trainActions",
+        "tags": [
+            "backgroundsReady",
+            "actorsReady",
+            "textProofread",
+            "musicReady",
+            "sceneReady"
+        ],
+        "buildingNodeId": 473
+    },
+    "nodes": {
+        "419": {
+            "type": "choise",
+            "pos": {
+                "x": 550,
+                "y": 350
+            },
+            "id": 419,
+            "preserveBuild": true,
+            "relatedUI": "gamechoice",
+            "choises": [
+                {
+                    "textId": 0,
+                    "target": 423,
+                    "condition": [
+                        {
+                            "scope": "user",
+                            "action": "excludes",
+                            "id": "choicesArray",
+                            "value": "Выбрал: Шпионить"
+                        }
+                    ]
+                },
+                {
+                    "textId": 1,
+                    "target": 424,
+                    "condition": [
+                        {
+                            "scope": "user",
+                            "action": "excludes",
+                            "id": "choicesArray",
+                            "value": "Выбрал: В вагон-ресторан"
+                        }
+                    ]
+                },
+                {
+                    "textId": 2,
+                    "target": 425,
+                    "condition": [
+                        {
+                            "scope": "user",
+                            "action": "excludes",
+                            "id": "choicesArray",
+                            "value": "Выбрал: Разведывать"
+                        }
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "id": 423,
+                    "x": 550,
+                    "y": 550
+                },
+                {
+                    "id": 424,
+                    "x": 750,
+                    "y": 550
+                },
+                {
+                    "id": 425,
+                    "x": 750,
+                    "y": 350
+                }
+            ],
+            "name": "Действия в вагоне",
+            "defaultRoute": 423,
+            "entrances": [
+                1420
+            ]
+        },
+        "423": {
+            "type": "call",
+            "pos": {
+                "x": 550,
+                "y": 550
+            },
+            "id": 423,
+            "targetScene": "scene10",
+            "targetNode": 420,
+            "connections": [
+                {
+                    "id": 452,
+                    "x": 550,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                419
+            ]
+        },
+        "424": {
+            "type": "call",
+            "pos": {
+                "x": 750,
+                "y": 550
+            },
+            "id": 424,
+            "targetScene": "scene11",
+            "targetNode": 421,
+            "connections": [
+                {
+                    "id": 451,
+                    "x": 750,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                419
+            ]
+        },
+        "425": {
+            "type": "call",
+            "pos": {
+                "x": 750,
+                "y": 350
+            },
+            "id": 425,
+            "targetScene": "scene12",
+            "targetNode": 422,
+            "connections": [
+                {
+                    "id": 474,
+                    "x": 950,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                419
+            ]
+        },
+        "450": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 150
+            },
+            "id": 450,
+            "starting": true,
+            "name": "Выбор действия",
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 473,
+                    "x": 250,
+                    "y": 350
+                }
+            ]
+        },
+        "451": {
+            "type": "jump",
+            "pos": {
+                "x": 750,
+                "y": 650
+            },
+            "id": 451,
+            "ending": true,
+            "targetScene": "scene15",
+            "targetNode": 450,
+            "entrances": [
+                424
+            ]
+        },
+        "452": {
+            "type": "jump",
+            "pos": {
+                "x": 550,
+                "y": 650
+            },
+            "id": 452,
+            "ending": true,
+            "targetScene": "scene15",
+            "targetNode": 450,
+            "entrances": [
+                423
+            ]
+        },
+        "473": {
+            "type": "fork",
+            "pos": {
+                "x": 250,
+                "y": 350
+            },
+            "id": 473,
+            "preserveBuild": true,
+            "fork": [
+                {
+                    "comment": "Не все варианты пройдены",
+                    "target": 1420,
+                    "condition": {
+                        "scope": "user",
+                        "action": "excludes",
+                        "id": "choicesArray",
+                        "value": "Выбрал: Разведывать"
+                    }
+                },
+                {
+                    "comment": "",
+                    "target": 1420,
+                    "condition": {
+                        "scope": "user",
+                        "action": "excludes",
+                        "id": "choicesArray",
+                        "value": "Выбрал: Шпионить"
+                    }
+                },
+                {
+                    "comment": "",
+                    "target": 1420,
+                    "condition": {
+                        "scope": "user",
+                        "action": "excludes",
+                        "id": "choicesArray",
+                        "value": "Выбрал: В вагон-ресторан"
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1420,
+                    "x": 450,
+                    "y": 350
+                },
+                {
+                    "id": 1460,
+                    "x": 250,
+                    "y": 650
+                }
+            ],
+            "defaultRoute": 1460,
+            "entrances": [
+                450
+            ]
+        },
+        "474": {
+            "type": "jump",
+            "pos": {
+                "x": 950,
+                "y": 350
+            },
+            "id": 474,
+            "ending": true,
+            "targetScene": "scene15",
+            "targetNode": 450,
+            "entrances": [
+                425
+            ]
+        },
+        "1420": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 1420,
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "default",
+                    "action": "show",
+                    "position": {
+                        "x": "18.19%",
+                        "y": "100.00%",
+                        "scale": 2,
+                        "rx": "",
+                        "ry": ""
+                    },
+                    "animations": {},
+                    "actionAnimation": {
+                        "type": "still",
+                        "effect": true,
+                        "transition": {
+                            "duration": 1,
+                            "delay": 0,
+                            "transitfunction": "ease"
+                        }
+                    },
+                    "zIndex": 2000,
+                    "flip": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 419,
+                    "x": 550,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                473
+            ]
+        },
+        "1460": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 650
+            },
+            "id": 1460,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                473
+            ]
+        }
+    }
+}

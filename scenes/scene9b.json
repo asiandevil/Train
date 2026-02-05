@@ -1,0 +1,249 @@
+{
+    "meta": {
+        "id": "scene9b",
+        "name": "9.3: Отказаться",
+        "type": "scene",
+        "width": 1200,
+        "height": 1550,
+        "parent": "station",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 246,
+            "end": 254,
+            "selectedRoutes": {}
+        },
+        "tags": [
+            "translationReady",
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "246": {
+            "type": "start",
+            "pos": {
+                "x": 450,
+                "y": 150
+            },
+            "id": 246,
+            "starting": true,
+            "name": "Не соглашаться",
+            "connections": [
+                {
+                    "id": 252,
+                    "x": 450,
+                    "y": 250
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "252": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 250
+            },
+            "id": 252,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "brunno",
+                    "actorState": "state3"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 921,
+                    "x": 450,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                246
+            ]
+        },
+        "253": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 650
+            },
+            "text": [
+                {
+                    "textNodeId": 5,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 6,
+                    "actorId": "brunno"
+                },
+                {
+                    "textNodeId": 7,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 8,
+                    "actorId": "brunno"
+                }
+            ],
+            "id": 253,
+            "connections": [
+                {
+                    "id": 254,
+                    "x": 450,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                920
+            ]
+        },
+        "254": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 750
+            },
+            "id": 254,
+            "ending": true,
+            "entrances": [
+                253
+            ]
+        },
+        "918": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 450
+            },
+            "text": [
+                {
+                    "textNodeId": 2
+                },
+                {
+                    "textNodeId": 3
+                },
+                {
+                    "textNodeId": 4
+                }
+            ],
+            "id": 918,
+            "connections": [
+                {
+                    "id": 920,
+                    "x": 450,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                921
+            ]
+        },
+        "920": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 550
+            },
+            "id": 920,
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "state4",
+                    "action": "show",
+                    "flip": false,
+                    "position": {
+                        "x": "50.00%",
+                        "y": "100.00%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    },
+                    "actionAnimation": {
+                        "type": "still",
+                        "transition": {
+                            "transitfunction": "linear",
+                            "duration": 1
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 253,
+                    "x": 450,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                918
+            ]
+        },
+        "921": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 921,
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "state3",
+                    "action": "hide",
+                    "flip": false,
+                    "position": {
+                        "x": "70%",
+                        "y": "135.8029%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    },
+                    "animations": {
+                        "jump": {
+                            "name": "jump",
+                            "duration": 0.2,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease-in-out",
+                            "persistent": false,
+                            "params": {
+                                "percent": 5
+                            }
+                        }
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 2
+                        },
+                        "type": "right",
+                        "effect": "fade"
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 918,
+                    "x": 450,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                252
+            ]
+        }
+    }
+}

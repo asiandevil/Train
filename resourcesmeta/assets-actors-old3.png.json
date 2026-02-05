@@ -1,0 +1,21 @@
+{
+    "id": "assets-actors-old3.png",
+    "name": "old3",
+    "type": "image",
+    "assign": "actor",
+    "filename": "old3.png",
+    "vendor": "assets",
+    "collection": "actors",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "old3",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 612,
+        "height": 1500
+    }
+}

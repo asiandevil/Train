@@ -1,0 +1,50 @@
+{
+    "id": "miniImage",
+    "name": "Mini Image",
+    "comment": "",
+    "role": "gui",
+    "ui": [
+        {
+            "id": "base",
+            "entityID": "miniImage",
+            "name": "base",
+            "background": {
+                "setup": {},
+                "resource": "assets-uis-mi_wrap.png"
+            },
+            "role": "gui",
+            "position": {
+                "origin": {
+                    "x": "center",
+                    "y": "center"
+                },
+                "size": {
+                    "width": 400,
+                    "height": 300
+                },
+                "shift": {
+                    "x": 0,
+                    "y": -56
+                },
+                "zIndex": 1990
+            },
+            "listSetup": {},
+            "text": {
+                "example": "none"
+            },
+            "transform": {},
+            "transition": {},
+            "appearAnimation": {
+                "transition": {
+                    "duration": 1
+                }
+            },
+            "disappearAnimation": {
+                "transition": {
+                    "duration": 0
+                }
+            }
+        }
+    ],
+    "unique": true
+}

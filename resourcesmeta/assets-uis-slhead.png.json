@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-slhead.png",
+    "name": "Slider head",
+    "type": "image",
+    "assign": "ui",
+    "filename": "slhead.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Slider head",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 48,
+        "height": 56
+    }
+}

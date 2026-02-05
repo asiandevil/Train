@@ -1,0 +1,298 @@
+{
+    "meta": {
+        "id": "scene9a",
+        "name": "9.2: Скатиться",
+        "type": "scene",
+        "width": 1200,
+        "height": 1750,
+        "parent": "station",
+        "tags": [
+            "translationReady",
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "245": {
+            "type": "start",
+            "pos": {
+                "x": 450,
+                "y": 150
+            },
+            "id": 245,
+            "starting": true,
+            "name": "Скатиться",
+            "connections": [
+                {
+                    "id": 247,
+                    "x": 450,
+                    "y": 250
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "247": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 250
+            },
+            "id": 247,
+            "text": [
+                {
+                    "textNodeId": 0
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "brunno"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 923,
+                    "x": 450,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                245
+            ]
+        },
+        "248": {
+            "type": "sound",
+            "pos": {
+                "x": 450,
+                "y": 550
+            },
+            "id": 248,
+            "sound": {
+                "type": "sound",
+                "id": "assets-sounds-whoosh.mp3",
+                "volume": 100
+            },
+            "connections": [
+                {
+                    "id": 250,
+                    "x": 450,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                249,
+                602
+            ]
+        },
+        "249": {
+            "type": "comment",
+            "pos": {
+                "x": 600,
+                "y": 550,
+                "width": 202,
+                "height": 90.34375
+            },
+            "id": 249,
+            "connections": [
+                {
+                    "id": 248,
+                    "x": 450,
+                    "y": 550
+                }
+            ]
+        },
+        "250": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 650
+            },
+            "id": 250,
+            "text": [
+                {
+                    "textNodeId": 0
+                }
+            ],
+            "connections": [
+                {
+                    "id": 924,
+                    "x": 450,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                248
+            ]
+        },
+        "251": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 950
+            },
+            "id": 251,
+            "ending": true,
+            "entrances": [
+                606
+            ]
+        },
+        "602": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 450
+            },
+            "text": [
+                {
+                    "textNodeId": 2
+                }
+            ],
+            "id": 602,
+            "connections": [
+                {
+                    "id": 248,
+                    "x": 450,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                923
+            ]
+        },
+        "606": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 850
+            },
+            "text": [
+                {
+                    "textNodeId": 1
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 3,
+                    "actorId": "brunno",
+                    "actorState": "state3"
+                },
+                {
+                    "textNodeId": 4
+                }
+            ],
+            "id": 606,
+            "connections": [
+                {
+                    "id": 251,
+                    "x": 450,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                924
+            ]
+        },
+        "923": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 923,
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "state3",
+                    "action": "hide",
+                    "flip": false,
+                    "position": {
+                        "x": "70%",
+                        "y": "135.8029%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    },
+                    "animations": {
+                        "jump": {
+                            "name": "jump",
+                            "duration": 0.2,
+                            "delay": 0,
+                            "repeat": 0,
+                            "transitfunction": "ease-in-out",
+                            "persistent": false,
+                            "params": {
+                                "percent": 5
+                            }
+                        }
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 2
+                        },
+                        "type": "right",
+                        "effect": "fade"
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 602,
+                    "x": 450,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                247
+            ]
+        },
+        "924": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 750
+            },
+            "id": 924,
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "state4",
+                    "action": "show",
+                    "flip": false,
+                    "position": {
+                        "x": "50.00%",
+                        "y": "100.00%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    },
+                    "actionAnimation": {
+                        "type": "still",
+                        "transition": {
+                            "transitfunction": "linear",
+                            "duration": 1
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 606,
+                    "x": 450,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                250
+            ]
+        }
+    }
+}

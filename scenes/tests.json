@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "id": "tests",
+        "name": "Тесты",
+        "type": "folder",
+        "width": 1200,
+        "height": 600,
+        "parent": "root",
+        "children": [
+            "testDemoEnd",
+            "textboxes"
+        ]
+    },
+    "nodes": {}
+}

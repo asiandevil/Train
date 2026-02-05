@@ -1,0 +1,1155 @@
+{
+    "meta": {
+        "id": "dream8",
+        "name": "Сон 8",
+        "type": "scene",
+        "width": 1850,
+        "height": 2950,
+        "parent": "folderDreams",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 559,
+            "end": 563,
+            "selectedRoutes": {}
+        },
+        "tags": [
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "translationReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "48": {
+            "type": "start",
+            "pos": {
+                "x": 750,
+                "y": 50
+            },
+            "id": 48,
+            "starting": true,
+            "name": "Показать текст с долгами",
+            "connections": [
+                {
+                    "id": 50,
+                    "x": 750,
+                    "y": 150
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "entrances": [
+                67
+            ]
+        },
+        "50": {
+            "type": "text",
+            "pos": {
+                "x": 750,
+                "y": 150
+            },
+            "id": 50,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "dreamred",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -285,
+                                "y": -181
+                            }
+                        }
+                    },
+                    "noDelay": true,
+                    "noWait": true,
+                    "cloneId": "1"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 59,
+                    "x": 850,
+                    "y": 150
+                }
+            ],
+            "entrances": [
+                48
+            ]
+        },
+        "51": {
+            "type": "end",
+            "pos": {
+                "x": 750,
+                "y": 950
+            },
+            "id": 51,
+            "ending": true,
+            "entrances": [
+                56
+            ]
+        },
+        "52": {
+            "type": "text",
+            "pos": {
+                "x": 750,
+                "y": 550
+            },
+            "id": 52,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "dreamred",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -21,
+                                "y": -32
+                            }
+                        }
+                    },
+                    "noDelay": true,
+                    "noWait": true,
+                    "cloneId": "5"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 63,
+                    "x": 850,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                62
+            ]
+        },
+        "53": {
+            "type": "text",
+            "pos": {
+                "x": 750,
+                "y": 450
+            },
+            "text": [
+                {
+                    "textNodeId": 3,
+                    "textBox": "dreamred",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 204,
+                                "y": 90
+                            }
+                        }
+                    },
+                    "noDelay": true,
+                    "noWait": true,
+                    "cloneId": "4"
+                }
+            ],
+            "id": 53,
+            "connections": [
+                {
+                    "id": 62,
+                    "x": 850,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                61
+            ]
+        },
+        "54": {
+            "type": "text",
+            "pos": {
+                "x": 750,
+                "y": 350
+            },
+            "text": [
+                {
+                    "textNodeId": 2,
+                    "textBox": "dreamred",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -286,
+                                "y": 25
+                            }
+                        }
+                    },
+                    "noDelay": true,
+                    "noWait": true,
+                    "cloneId": "3"
+                }
+            ],
+            "id": 54,
+            "connections": [
+                {
+                    "id": 61,
+                    "x": 850,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                60
+            ]
+        },
+        "55": {
+            "type": "text",
+            "pos": {
+                "x": 750,
+                "y": 250
+            },
+            "text": [
+                {
+                    "textNodeId": 1,
+                    "textBox": "dreamred",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 252,
+                                "y": -75
+                            }
+                        }
+                    },
+                    "noDelay": true,
+                    "noWait": true,
+                    "cloneId": "2"
+                }
+            ],
+            "id": 55,
+            "connections": [
+                {
+                    "id": 60,
+                    "x": 850,
+                    "y": 250
+                }
+            ],
+            "entrances": [
+                59
+            ]
+        },
+        "56": {
+            "type": "text",
+            "pos": {
+                "x": 750,
+                "y": 850
+            },
+            "text": [
+                {
+                    "textNodeId": 3,
+                    "textBox": "dreamred",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 245,
+                                "y": -198
+                            }
+                        }
+                    },
+                    "noDelay": true,
+                    "noWait": true,
+                    "cloneId": "8"
+                }
+            ],
+            "id": 56,
+            "connections": [
+                {
+                    "id": 51,
+                    "x": 750,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                65
+            ]
+        },
+        "57": {
+            "type": "text",
+            "pos": {
+                "x": 750,
+                "y": 750
+            },
+            "text": [
+                {
+                    "textNodeId": 2,
+                    "textBox": "dreamred",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -147,
+                                "y": 80
+                            }
+                        }
+                    },
+                    "noDelay": true,
+                    "noWait": true,
+                    "cloneId": "7"
+                }
+            ],
+            "id": 57,
+            "connections": [
+                {
+                    "id": 65,
+                    "x": 850,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                64
+            ]
+        },
+        "58": {
+            "type": "text",
+            "pos": {
+                "x": 750,
+                "y": 650
+            },
+            "text": [
+                {
+                    "textNodeId": 1,
+                    "textBox": "dreamred",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -22,
+                                "y": -214
+                            }
+                        }
+                    },
+                    "noDelay": true,
+                    "noWait": true,
+                    "cloneId": "6"
+                }
+            ],
+            "id": 58,
+            "connections": [
+                {
+                    "id": 64,
+                    "x": 850,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                63
+            ]
+        },
+        "59": {
+            "type": "wait",
+            "pos": {
+                "x": 850,
+                "y": 150
+            },
+            "id": 59,
+            "connections": [
+                {
+                    "id": 55,
+                    "x": 750,
+                    "y": 250
+                }
+            ],
+            "wait": {
+                "pause": 0.5,
+                "skippable": true
+            },
+            "entrances": [
+                50
+            ]
+        },
+        "60": {
+            "type": "wait",
+            "pos": {
+                "x": 850,
+                "y": 250
+            },
+            "id": 60,
+            "wait": {
+                "pause": 0.5,
+                "skippable": true
+            },
+            "connections": [
+                {
+                    "id": 54,
+                    "x": 750,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                55
+            ]
+        },
+        "61": {
+            "type": "wait",
+            "pos": {
+                "x": 850,
+                "y": 350
+            },
+            "id": 61,
+            "wait": {
+                "pause": 0.5,
+                "skippable": true
+            },
+            "connections": [
+                {
+                    "id": 53,
+                    "x": 750,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                54
+            ]
+        },
+        "62": {
+            "type": "wait",
+            "pos": {
+                "x": 850,
+                "y": 450
+            },
+            "id": 62,
+            "wait": {
+                "pause": 0.5,
+                "skippable": true
+            },
+            "connections": [
+                {
+                    "id": 52,
+                    "x": 750,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                53
+            ]
+        },
+        "63": {
+            "type": "wait",
+            "pos": {
+                "x": 850,
+                "y": 550
+            },
+            "id": 63,
+            "wait": {
+                "pause": 0.5,
+                "skippable": true
+            },
+            "connections": [
+                {
+                    "id": 58,
+                    "x": 750,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                52
+            ]
+        },
+        "64": {
+            "type": "wait",
+            "pos": {
+                "x": 850,
+                "y": 650
+            },
+            "id": 64,
+            "wait": {
+                "pause": 0.5,
+                "skippable": true
+            },
+            "connections": [
+                {
+                    "id": 57,
+                    "x": 750,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                58
+            ]
+        },
+        "65": {
+            "type": "wait",
+            "pos": {
+                "x": 850,
+                "y": 750
+            },
+            "id": 65,
+            "wait": {
+                "pause": 0.5,
+                "skippable": true
+            },
+            "connections": [
+                {
+                    "id": 56,
+                    "x": 750,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                57
+            ]
+        },
+        "67": {
+            "type": "comment",
+            "pos": {
+                "x": 1050,
+                "y": 50,
+                "width": 149,
+                "height": 191.34375
+            },
+            "id": 67,
+            "connections": [
+                {
+                    "id": 48,
+                    "x": 750,
+                    "y": 50
+                }
+            ]
+        },
+        "559": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 50
+            },
+            "starting": true,
+            "id": 559,
+            "connections": [
+                {
+                    "id": 565,
+                    "x": 350,
+                    "y": 150
+                }
+            ],
+            "name": "Кошмар про долги",
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": true
+            }
+        },
+        "560": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 560,
+            "wait": {
+                "pause": 1,
+                "skippable": true
+            },
+            "connections": [
+                {
+                    "id": 724,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                565
+            ]
+        },
+        "561": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 561,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "enlarge",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "linear"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 5,
+                        "delay": 0,
+                        "transitfunction": "linear"
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "id": 796,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "backgroundId": "assets-backgrounds-cityb.png",
+            "waitToFinish": false,
+            "entrances": [
+                724
+            ]
+        },
+        "562": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 850
+            },
+            "id": 562,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "textBox": "freeTextDark",
+                    "noDelay": true,
+                    "cloneId": "1",
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -13,
+                                "y": -171
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "freeTextDark",
+                    "noDelay": true,
+                    "cloneId": "2",
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 6,
+                                "y": -139
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "freeTextDark",
+                    "noDelay": true,
+                    "cloneId": "3",
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -1,
+                                "y": -58
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 6,
+                    "textBox": "freeTextDark",
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -1,
+                                "y": 21
+                            }
+                        }
+                    },
+                    "noDelay": true,
+                    "cloneId": "32",
+                    "closeOthers": true
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "freeTextDark",
+                    "noDelay": true,
+                    "cloneId": "4",
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": 3,
+                                "y": -73
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "freeTextDark",
+                    "noDelay": true,
+                    "cloneId": "5",
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -1,
+                                "y": -7
+                            }
+                        }
+                    }
+                },
+                {
+                    "textNodeId": 5,
+                    "textBox": "freeTextDark",
+                    "noDelay": true,
+                    "cloneId": "6",
+                    "closeOthers": true,
+                    "textBoxOverride": {
+                        "position": {
+                            "shift": {
+                                "x": -1,
+                                "y": 52
+                            }
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 701,
+                    "x": 350,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                969
+            ]
+        },
+        "563": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 2150
+            },
+            "id": 563,
+            "ending": true,
+            "entrances": [
+                756
+            ]
+        },
+        "564": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 1050
+            },
+            "id": 564,
+            "wait": {
+                "pause": 1,
+                "skippable": true
+            },
+            "connections": [
+                {
+                    "id": 770,
+                    "x": 350,
+                    "y": 1150
+                }
+            ],
+            "entrances": [
+                701
+            ]
+        },
+        "565": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 565,
+            "connections": [
+                {
+                    "id": 560,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "default",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                559
+            ]
+        },
+        "567": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 1250
+            },
+            "id": 567,
+            "connections": [
+                {
+                    "id": 676,
+                    "x": 350,
+                    "y": 1350
+                }
+            ],
+            "targetScene": "dream8",
+            "targetNode": 48,
+            "entrances": [
+                770
+            ]
+        },
+        "671": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 1750
+            },
+            "id": 671,
+            "connections": [
+                {
+                    "id": 675,
+                    "x": 350,
+                    "y": 1850
+                }
+            ],
+            "wait": {
+                "pause": 8,
+                "skippable": false
+            },
+            "entrances": [
+                672
+            ]
+        },
+        "672": {
+            "type": "back",
+            "pos": {
+                "x": 350,
+                "y": 1650
+            },
+            "id": 672,
+            "connections": [
+                {
+                    "id": 671,
+                    "x": 350,
+                    "y": 1750
+                }
+            ],
+            "backgroundId": "assets-backgrounds-dark.jpg",
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 4,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "shrink",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 8,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "entrances": [
+                673
+            ]
+        },
+        "673": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 1550
+            },
+            "id": 673,
+            "connections": [
+                {
+                    "id": 672,
+                    "x": 350,
+                    "y": 1650
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "freeText",
+                    "cloneId": "__all",
+                    "action": "remove"
+                },
+                {
+                    "id": "default",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                834
+            ]
+        },
+        "675": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 1850
+            },
+            "id": 675,
+            "connections": [
+                {
+                    "id": 677,
+                    "x": 350,
+                    "y": 1950
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "dreamred",
+                    "cloneId": "__all",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                671
+            ]
+        },
+        "676": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 1350
+            },
+            "id": 676,
+            "wait": {
+                "pause": 2,
+                "skippable": false
+            },
+            "connections": [
+                {
+                    "id": 834,
+                    "x": 350,
+                    "y": 1450
+                }
+            ],
+            "entrances": [
+                567
+            ]
+        },
+        "677": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 1950
+            },
+            "id": 677,
+            "connections": [
+                {
+                    "id": 756,
+                    "x": 350,
+                    "y": 2050
+                }
+            ],
+            "wait": {
+                "pause": 4,
+                "skippable": false
+            },
+            "entrances": [
+                675
+            ]
+        },
+        "701": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 950
+            },
+            "id": 701,
+            "connections": [
+                {
+                    "id": 564,
+                    "x": 350,
+                    "y": 1050
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "freeText",
+                    "cloneId": "__all",
+                    "action": "remove"
+                },
+                {
+                    "id": "freeTextDark",
+                    "cloneId": "__all",
+                    "action": "remove"
+                },
+                {
+                    "id": "overlaySoft",
+                    "action": "remove"
+                }
+            ],
+            "entrances": [
+                562
+            ]
+        },
+        "724": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 724,
+            "connections": [
+                {
+                    "id": 561,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "id": "assets-music-Chewing Devil Grass.mp3",
+                "volume": 23
+            },
+            "entrances": [
+                560
+            ]
+        },
+        "756": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 2050
+            },
+            "id": 756,
+            "connections": [
+                {
+                    "id": 563,
+                    "x": 350,
+                    "y": 2150
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "gamemenu",
+                    "action": "show"
+                }
+            ],
+            "entrances": [
+                677
+            ]
+        },
+        "770": {
+            "type": "sound",
+            "pos": {
+                "x": 350,
+                "y": 1150
+            },
+            "id": 770,
+            "connections": [
+                {
+                    "id": 567,
+                    "x": 350,
+                    "y": 1250
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "id": "assets-music-Chewing Devil Grass.mp3",
+                "volume": 100
+            },
+            "entrances": [
+                564
+            ]
+        },
+        "796": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "id": 796,
+            "wait": {
+                "pause": 1,
+                "skippable": true
+            },
+            "connections": [
+                {
+                    "id": 833,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                561
+            ]
+        },
+        "833": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 833,
+            "connections": [
+                {
+                    "id": 969,
+                    "x": 350,
+                    "y": 750
+                }
+            ],
+            "targetScene": "fogEffects",
+            "targetNode": 819,
+            "entrances": [
+                796
+            ]
+        },
+        "834": {
+            "type": "call",
+            "pos": {
+                "x": 350,
+                "y": 1450
+            },
+            "id": 834,
+            "connections": [
+                {
+                    "id": 673,
+                    "x": 350,
+                    "y": 1550
+                }
+            ],
+            "targetScene": "fogEffects",
+            "targetNode": 822,
+            "entrances": [
+                676
+            ]
+        },
+        "969": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 750
+            },
+            "id": 969,
+            "connections": [
+                {
+                    "id": 562,
+                    "x": 350,
+                    "y": 850
+                }
+            ],
+            "uiController": [
+                {
+                    "id": "overlaySoft",
+                    "action": "show"
+                }
+            ],
+            "entrances": [
+                833
+            ]
+        }
+    }
+}

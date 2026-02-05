@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-winback.png",
+    "name": "Windows back",
+    "type": "image",
+    "assign": "ui",
+    "filename": "winback.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Game windows back",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 1347,
+        "height": 731
+    }
+}

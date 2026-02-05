@@ -1,0 +1,27 @@
+{
+    "id": "conductor3",
+    "name": "",
+    "localizedName": {
+        "default": "",
+        "russian": "Вильхельм",
+        "english": "Wilhelm",
+        "ukrainian": "Вільхельм"
+    },
+    "comment": "Старый проводник",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "Normal",
+            "resource": "assets-actors-cond3.png",
+            "slice": "default"
+        },
+        "state": {
+            "name": "PokerFace",
+            "resource": "assets-actors-cond3.png",
+            "slice": "pokerFace"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

@@ -1,0 +1,14 @@
+{
+    "meta": {
+        "id": "miniImages",
+        "name": "Mini Images",
+        "type": "folder",
+        "width": 1200,
+        "height": 600,
+        "parent": "effects",
+        "children": [
+            "miniImagesMain"
+        ]
+    },
+    "nodes": {}
+}

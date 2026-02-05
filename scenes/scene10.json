@@ -1,0 +1,161 @@
+{
+    "meta": {
+        "id": "scene10",
+        "name": "Шпионить",
+        "type": "scene",
+        "width": 1200,
+        "height": 1250,
+        "parent": "trainActions",
+        "tags": [
+            "textProofread",
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "420": {
+            "type": "start",
+            "pos": {
+                "x": 450,
+                "y": 150
+            },
+            "starting": true,
+            "id": 420,
+            "name": "Шпионить",
+            "connections": [
+                {
+                    "id": 543,
+                    "x": 450,
+                    "y": 250
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "426": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 426,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "brunno",
+                    "actorState": "state2",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 3,
+                    "actorId": "brunno",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 4,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 5,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "connections": [
+                {
+                    "id": 427,
+                    "x": 450,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                543
+            ]
+        },
+        "427": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 450
+            },
+            "id": 427,
+            "ending": true,
+            "scenarioEnd": false,
+            "entrances": [
+                426
+            ]
+        },
+        "543": {
+            "type": "value",
+            "pos": {
+                "x": 450,
+                "y": 250
+            },
+            "id": 543,
+            "connections": [
+                {
+                    "id": 426,
+                    "x": 450,
+                    "y": 350
+                }
+            ],
+            "updateValues": [
+                {
+                    "scope": "user",
+                    "id": "choicesArray",
+                    "operand": "Выбрал: Шпионить",
+                    "action": "push"
+                }
+            ],
+            "name": "Выбрал:  шпионить",
+            "entrances": [
+                420
+            ]
+        }
+    }
+}

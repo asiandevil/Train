@@ -1,0 +1,992 @@
+{
+    "meta": {
+        "id": "scene9с",
+        "name": "Общая линия 2",
+        "type": "scene",
+        "width": 1750,
+        "height": 3350,
+        "parent": "station",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 255,
+            "end": 288,
+            "selectedRoutes": {}
+        },
+        "tags": [
+            "translationReady",
+            "actorsReady",
+            "backgroundsReady",
+            "musicReady",
+            "sceneReady"
+        ]
+    },
+    "nodes": {
+        "255": {
+            "type": "start",
+            "pos": {
+                "x": 450,
+                "y": 150
+            },
+            "id": 255,
+            "starting": true,
+            "name": "Общая линия 2",
+            "connections": [
+                {
+                    "id": 259,
+                    "x": 450,
+                    "y": 250
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "259": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 250
+            },
+            "id": 259,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "brunno",
+                    "actorState": "state3"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 927,
+                    "x": 450,
+                    "y": 350
+                }
+            ],
+            "entrances": [
+                255
+            ]
+        },
+        "260": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 650
+            },
+            "id": 260,
+            "actors": [
+                {
+                    "id": "magnatSon",
+                    "state": "default",
+                    "action": "show",
+                    "flip": false,
+                    "position": {
+                        "x": "75.00%",
+                        "y": "100.00%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 3,
+                            "transitfunction": "linear"
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 262,
+                    "x": 450,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                261,
+                925
+            ]
+        },
+        "261": {
+            "type": "comment",
+            "pos": {
+                "x": 600,
+                "y": 650,
+                "width": 242,
+                "height": 96.34375
+            },
+            "id": 261,
+            "connections": [
+                {
+                    "id": 260,
+                    "x": 450,
+                    "y": 650
+                }
+            ]
+        },
+        "262": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 750
+            },
+            "id": 262,
+            "text": [
+                {
+                    "textNodeId": 0
+                },
+                {
+                    "textNodeId": 1
+                }
+            ],
+            "connections": [
+                {
+                    "id": 609,
+                    "x": 450,
+                    "y": 850
+                }
+            ],
+            "entrances": [
+                260
+            ]
+        },
+        "263": {
+            "type": "sound",
+            "pos": {
+                "x": 450,
+                "y": 1350
+            },
+            "id": 263,
+            "connections": [
+                {
+                    "id": 265,
+                    "x": 450,
+                    "y": 1450
+                }
+            ],
+            "sound": {
+                "type": "sound",
+                "id": "assets-sounds-trainStart.mp3",
+                "volume": 19
+            },
+            "entrances": [
+                264,
+                928
+            ]
+        },
+        "264": {
+            "type": "comment",
+            "pos": {
+                "x": 600,
+                "y": 1350,
+                "width": 192,
+                "height": 89.34375
+            },
+            "id": 264,
+            "connections": [
+                {
+                    "id": 263,
+                    "x": 450,
+                    "y": 1350
+                }
+            ]
+        },
+        "265": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 1450
+            },
+            "id": 265,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "brunno",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 2,
+                    "actorId": "brunno",
+                    "actorState": "state4"
+                },
+                {
+                    "textNodeId": 6
+                },
+                {
+                    "textNodeId": 3,
+                    "actorId": "mainHero"
+                },
+                {
+                    "textNodeId": 4,
+                    "actorId": "brunno",
+                    "actorState": "state5"
+                },
+                {
+                    "textNodeId": 5
+                },
+                {
+                    "textNodeId": 7
+                }
+            ],
+            "connections": [
+                {
+                    "id": 611,
+                    "x": 450,
+                    "y": 1650
+                }
+            ],
+            "entrances": [
+                263
+            ]
+        },
+        "266": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 1950
+            },
+            "id": 266,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "conductor",
+                    "actorState": "default"
+                },
+                {
+                    "textNodeId": 1
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1108,
+                    "x": 450,
+                    "y": 2050
+                }
+            ],
+            "entrances": [
+                1050
+            ]
+        },
+        "288": {
+            "type": "end",
+            "pos": {
+                "x": 450,
+                "y": 2550
+            },
+            "id": 288,
+            "ending": true,
+            "entrances": [
+                612
+            ]
+        },
+        "609": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 850
+            },
+            "id": 609,
+            "connections": [
+                {
+                    "id": 929,
+                    "x": 450,
+                    "y": 950
+                }
+            ],
+            "actors": [
+                {
+                    "id": "magnatSon",
+                    "state": "default",
+                    "action": "hide",
+                    "flip": false,
+                    "position": {
+                        "x": "75.00%",
+                        "y": "100.00%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 2,
+                            "transitfunction": "ease-out"
+                        }
+                    }
+                }
+            ],
+            "entrances": [
+                262
+            ]
+        },
+        "610": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 1750
+            },
+            "text": [
+                {
+                    "textNodeId": 6
+                },
+                {
+                    "textNodeId": 10
+                },
+                {
+                    "textNodeId": 7,
+                    "actorId": "conductor",
+                    "actorState": "state2"
+                },
+                {
+                    "textNodeId": 8,
+                    "actorId": "brunno",
+                    "actorState": "state5"
+                },
+                {
+                    "textNodeId": 9
+                }
+            ],
+            "id": 610,
+            "connections": [
+                {
+                    "id": 1050,
+                    "x": 450,
+                    "y": 1850
+                }
+            ],
+            "entrances": [
+                611
+            ]
+        },
+        "611": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 1650
+            },
+            "id": 611,
+            "connections": [
+                {
+                    "id": 610,
+                    "x": 450,
+                    "y": 1750
+                }
+            ],
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "state3",
+                    "action": "show",
+                    "flip": false,
+                    "position": {
+                        "x": "25.00%",
+                        "y": "100.00%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    }
+                },
+                {
+                    "id": "conductor",
+                    "state": "default",
+                    "action": "show",
+                    "flip": false,
+                    "position": {
+                        "x": "75.00%",
+                        "y": "100.00%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 3
+                        }
+                    }
+                }
+            ],
+            "entrances": [
+                265,
+                1049
+            ]
+        },
+        "612": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 2450
+            },
+            "text": [
+                {
+                    "textNodeId": 7
+                },
+                {
+                    "textNodeId": 8
+                },
+                {
+                    "textNodeId": 9
+                },
+                {
+                    "textNodeId": 10,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 11
+                }
+            ],
+            "id": 612,
+            "connections": [
+                {
+                    "id": 288,
+                    "x": 450,
+                    "y": 2550
+                }
+            ],
+            "entrances": [
+                614
+            ]
+        },
+        "614": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 2350
+            },
+            "id": 614,
+            "connections": [
+                {
+                    "id": 612,
+                    "x": 450,
+                    "y": 2450
+                }
+            ],
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "default",
+                    "action": "hide",
+                    "flip": false,
+                    "position": {
+                        "x": "25.00%",
+                        "y": "100.00%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    },
+                    "actionAnimation": {
+                        "type": "left",
+                        "transition": {
+                            "duration": 3,
+                            "delay": 0,
+                            "transitfunction": "ease"
+                        },
+                        "effect": true
+                    },
+                    "animations": {},
+                    "zIndex": 2000,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            ],
+            "entrances": [
+                1060
+            ]
+        },
+        "925": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 550
+            },
+            "text": [
+                {
+                    "textNodeId": 3,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 4
+                },
+                {
+                    "textNodeId": 5
+                },
+                {
+                    "textNodeId": 6
+                },
+                {
+                    "textNodeId": 7
+                }
+            ],
+            "id": 925,
+            "connections": [
+                {
+                    "id": 260,
+                    "x": 450,
+                    "y": 650
+                }
+            ],
+            "entrances": [
+                1798
+            ]
+        },
+        "927": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 350
+            },
+            "id": 927,
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "state3",
+                    "action": "hide",
+                    "flip": false,
+                    "position": {
+                        "x": "50.00%",
+                        "y": "100.00%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    },
+                    "actionAnimation": {
+                        "type": "still",
+                        "transition": {
+                            "transitfunction": "linear"
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1798,
+                    "x": 450,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                259
+            ]
+        },
+        "928": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 1250
+            },
+            "text": [
+                {
+                    "textNodeId": 3,
+                    "actorId": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 4,
+                    "actorId": "brunno"
+                },
+                {
+                    "textNodeId": 5
+                }
+            ],
+            "id": 928,
+            "connections": [
+                {
+                    "id": 263,
+                    "x": 450,
+                    "y": 1350
+                }
+            ],
+            "entrances": [
+                1791
+            ]
+        },
+        "929": {
+            "type": "text",
+            "pos": {
+                "x": 450,
+                "y": 950
+            },
+            "text": [
+                {
+                    "textNodeId": 2
+                }
+            ],
+            "id": 929,
+            "connections": [
+                {
+                    "id": 930,
+                    "x": 450,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                609
+            ]
+        },
+        "930": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 1050
+            },
+            "id": 930,
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "state3",
+                    "action": "show",
+                    "flip": false,
+                    "position": {
+                        "x": "50.00%",
+                        "y": "100.00%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    },
+                    "actionAnimation": {
+                        "type": "still",
+                        "transition": {
+                            "transitfunction": "linear"
+                        }
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1791,
+                    "x": 450,
+                    "y": 1150
+                }
+            ],
+            "entrances": [
+                929
+            ]
+        },
+        "1047": {
+            "type": "start",
+            "pos": {
+                "x": 950,
+                "y": 1450
+            },
+            "id": 1047,
+            "starting": true,
+            "connections": [
+                {
+                    "id": 1052,
+                    "x": 850,
+                    "y": 1450
+                }
+            ],
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            }
+        },
+        "1049": {
+            "type": "back",
+            "pos": {
+                "x": 650,
+                "y": 1450
+            },
+            "id": 1049,
+            "connections": [
+                {
+                    "id": 611,
+                    "x": 450,
+                    "y": 1650
+                }
+            ],
+            "backgroundId": "user-backgrounds-trainout.png",
+            "waitToFinish": false,
+            "backgroundTrasition": {
+                "new": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": true,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                },
+                "old": {
+                    "type": "",
+                    "animation": "",
+                    "opacity": false,
+                    "transition": {
+                        "duration": 0,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            },
+            "entrances": [
+                1052
+            ]
+        },
+        "1050": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 1850
+            },
+            "id": 1050,
+            "connections": [
+                {
+                    "id": 266,
+                    "x": 450,
+                    "y": 1950
+                }
+            ],
+            "actors": [
+                {
+                    "id": "brunno",
+                    "state": "state3",
+                    "action": "show",
+                    "position": {
+                        "x": "25.00%",
+                        "y": "100.00%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    },
+                    "animations": {},
+                    "actionAnimation": {
+                        "type": "still",
+                        "effect": true,
+                        "transition": {
+                            "duration": 1,
+                            "delay": 0,
+                            "transitfunction": "ease"
+                        }
+                    },
+                    "zIndex": 2000,
+                    "flip": false,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            ],
+            "entrances": [
+                610
+            ]
+        },
+        "1052": {
+            "type": "ui",
+            "pos": {
+                "x": 850,
+                "y": 1450
+            },
+            "id": 1052,
+            "uiController": [
+                {
+                    "id": "topPanel",
+                    "action": "show"
+                },
+                {
+                    "id": "gamemenu",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1049,
+                    "x": 650,
+                    "y": 1450
+                }
+            ],
+            "entrances": [
+                1047
+            ]
+        },
+        "1060": {
+            "type": "call",
+            "pos": {
+                "x": 450,
+                "y": 2250
+            },
+            "id": 1060,
+            "targetScene": "traincabs",
+            "targetNode": 1054,
+            "connections": [
+                {
+                    "id": 614,
+                    "x": 450,
+                    "y": 2350
+                }
+            ],
+            "entrances": [
+                1792
+            ]
+        },
+        "1108": {
+            "type": "actor",
+            "pos": {
+                "x": 450,
+                "y": 2050
+            },
+            "id": 1108,
+            "actors": [
+                {
+                    "id": "conductor",
+                    "state": "default",
+                    "action": "hide",
+                    "flip": false,
+                    "position": {
+                        "x": "75.00%",
+                        "y": "100.00%",
+                        "rx": "",
+                        "ry": "",
+                        "class": "",
+                        "scale": 2
+                    },
+                    "actionAnimation": {
+                        "transition": {
+                            "duration": 2,
+                            "delay": 0,
+                            "transitfunction": "ease"
+                        },
+                        "type": "right",
+                        "effect": true
+                    },
+                    "animations": {},
+                    "zIndex": 2000,
+                    "transition": {
+                        "duration": 1,
+                        "delay": 0,
+                        "transitfunction": "ease"
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1792,
+                    "x": 450,
+                    "y": 2150
+                }
+            ],
+            "entrances": [
+                266
+            ]
+        },
+        "1791": {
+            "type": "sound",
+            "pos": {
+                "x": 450,
+                "y": 1150
+            },
+            "id": 1791,
+            "connections": [
+                {
+                    "id": 928,
+                    "x": 450,
+                    "y": 1250
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100,
+                "id": ""
+            },
+            "entrances": [
+                930
+            ]
+        },
+        "1792": {
+            "type": "wait",
+            "pos": {
+                "x": 450,
+                "y": 2150
+            },
+            "id": 1792,
+            "connections": [
+                {
+                    "id": 1060,
+                    "x": 450,
+                    "y": 2250
+                }
+            ],
+            "wait": {
+                "pause": 2,
+                "skippable": false
+            },
+            "entrances": [
+                1108
+            ]
+        },
+        "1798": {
+            "type": "sound",
+            "pos": {
+                "x": 450,
+                "y": 450
+            },
+            "id": 1798,
+            "connections": [
+                {
+                    "id": 925,
+                    "x": 450,
+                    "y": 550
+                }
+            ],
+            "sound": {
+                "type": "music",
+                "volume": 100,
+                "id": "assets-music-rest.mp3"
+            },
+            "entrances": [
+                927
+            ]
+        }
+    }
+}

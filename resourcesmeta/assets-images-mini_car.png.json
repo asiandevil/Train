@@ -1,0 +1,21 @@
+{
+    "id": "assets-images-mini_car.png",
+    "name": "Mini Car",
+    "type": "image",
+    "assign": "image",
+    "filename": "mini_car.png",
+    "vendor": "assets",
+    "collection": "images",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Mini Car",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 400,
+        "height": 400
+    }
+}

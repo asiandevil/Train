@@ -1,0 +1,33 @@
+{
+    "meta": {
+        "id": "UiGlow",
+        "name": "UI Glow Effect",
+        "comment": "UI Glow Effect",
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "position": {},
+        "listSetup": {},
+        "animations": {
+            "glow": {
+                "name": "glow",
+                "duration": 2,
+                "delay": 0,
+                "repeat": 0,
+                "transitfunction": "ease-in-out",
+                "persistent": false,
+                "params": {
+                    "color": {
+                        "red": 17,
+                        "green": 93,
+                        "blue": 122,
+                        "alpha": 0.75
+                    }
+                }
+            }
+        },
+        "hover": [],
+        "text": {}
+    }
+}

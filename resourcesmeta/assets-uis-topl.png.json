@@ -1,0 +1,21 @@
+{
+    "id": "assets-uis-topl.png",
+    "name": "Top UI Left",
+    "type": "image",
+    "assign": "ui",
+    "filename": "topl.png",
+    "vendor": "assets",
+    "collection": "uis",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "Woods",
+        "license": "Woods",
+        "description": "Top UI element",
+        "link": ""
+    },
+    "imageSize": {
+        "width": 315,
+        "height": 74
+    }
+}

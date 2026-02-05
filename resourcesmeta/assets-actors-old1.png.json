@@ -1,0 +1,59 @@
+{
+    "id": "assets-actors-old1.png",
+    "name": "old1",
+    "type": "image",
+    "assign": "actor",
+    "filename": "old1.png",
+    "vendor": "assets",
+    "collection": "actors",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "old1",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 2448,
+        "height": 1500
+    },
+    "spritesheet": {
+        "normal": {
+            "name": "Normal",
+            "x": 0,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": true
+        },
+        "smile": {
+            "name": "Smile",
+            "x": 612,
+            "y": 0,
+            "width": 612,
+            "height": 1500,
+            "isDefault": false
+        },
+        "happy": {
+            "name": "Happy",
+            "x": 1224,
+            "y": 0,
+            "width": 612,
+            "height": 1500
+        },
+        "angry": {
+            "name": "Angry",
+            "x": 1836,
+            "y": 0,
+            "width": 612,
+            "height": 1500
+        }
+    },
+    "gridMarking": {
+        "sliceWidth": 612,
+        "sliceHeight": 1500,
+        "offsetX": 0,
+        "offsetY": 0
+    }
+}

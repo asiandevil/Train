@@ -1,0 +1,21 @@
+{
+    "id": "assets-backgrounds-station.png",
+    "name": "Station",
+    "type": "image",
+    "assign": "back",
+    "filename": "station.png",
+    "vendor": "assets",
+    "collection": "backgrounds",
+    "fontWeight": "",
+    "fontStyle": "",
+    "meta": {
+        "author": "OrangeCapybara",
+        "license": "OrangeCapybara",
+        "description": "Train station",
+        "link": "OrangeCapybara"
+    },
+    "imageSize": {
+        "width": 896,
+        "height": 496
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "meta": {
+        "id": "closeButton",
+        "name": "Close Button",
+        "comment": "Close Button",
+        "tags": [],
+        "category": ""
+    },
+    "body": {
+        "background": {
+            "setup": {},
+            "resource": "assets-uis-closebutton.png"
+        },
+        "text": {
+            "color": {
+                "red": 75,
+                "green": 56,
+                "blue": 41,
+                "alpha": 1
+            },
+            "textStroke": {
+                "color": {
+                    "red": 219,
+                    "green": 194,
+                    "blue": 174,
+                    "alpha": 0.1
+                },
+                "width": 1
+            },
+            "font": "raleway",
+            "size": 14,
+            "bold": true
+        },
+        "hover": [
+            {
+                "trigger": "__self",
+                "text": {
+                    "color": {
+                        "red": 246,
+                        "green": 85,
+                        "blue": 14,
+                        "alpha": 1
+                    }
+                },
+                "cursor": {}
+            }
+        ],
+        "cursor": {
+            "resource": "assets-cursors-curnC.png"
+        },
+        "transition": {
+            "duration": 0.5
+        }
+    }
+}

@@ -1,0 +1,272 @@
+{
+    "meta": {
+        "id": "scene6",
+        "name": "Вспышки",
+        "type": "scene",
+        "width": 1200,
+        "height": 1850,
+        "parent": "effects",
+        "viewMode": "pipeline",
+        "linearSetup": {
+            "start": 780,
+            "end": 786,
+            "selectedRoutes": {}
+        }
+    },
+    "nodes": {
+        "780": {
+            "type": "start",
+            "pos": {
+                "x": 350,
+                "y": 50
+            },
+            "starting": true,
+            "id": 780,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 781,
+                    "x": 350,
+                    "y": 150
+                }
+            ],
+            "name": "Красная вспышка"
+        },
+        "781": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 150
+            },
+            "id": 781,
+            "uiController": [
+                {
+                    "id": "redFlash",
+                    "action": "remove"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 782,
+                    "x": 350,
+                    "y": 250
+                }
+            ],
+            "entrances": [
+                780
+            ]
+        },
+        "782": {
+            "type": "value",
+            "pos": {
+                "x": 350,
+                "y": 250
+            },
+            "id": 782,
+            "updateValues": [
+                {
+                    "scope": "user",
+                    "id": "redFlashOpacity",
+                    "operand": 0,
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 783,
+                    "x": 350,
+                    "y": 350
+                }
+            ],
+            "name": "Flash opacity: 0",
+            "entrances": [
+                781
+            ]
+        },
+        "783": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 350
+            },
+            "id": 783,
+            "uiController": [
+                {
+                    "id": "redFlash",
+                    "action": "show"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 784,
+                    "x": 350,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                782
+            ]
+        },
+        "784": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 450
+            },
+            "id": 784,
+            "wait": {
+                "pause": 0.1,
+                "skippable": false
+            },
+            "connections": [
+                {
+                    "id": 785,
+                    "x": 350,
+                    "y": 550
+                }
+            ],
+            "entrances": [
+                783
+            ]
+        },
+        "785": {
+            "type": "value",
+            "pos": {
+                "x": 350,
+                "y": 550
+            },
+            "id": 785,
+            "updateValues": [
+                {
+                    "scope": "user",
+                    "id": "redFlashOpacity",
+                    "operand": 100,
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 786,
+                    "x": 350,
+                    "y": 650
+                }
+            ],
+            "name": "Flash opacity: 100",
+            "entrances": [
+                784
+            ]
+        },
+        "786": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 650
+            },
+            "id": 786,
+            "wait": {
+                "pause": 0.4,
+                "skippable": false
+            },
+            "connections": [
+                {
+                    "id": 787,
+                    "x": 350,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                785
+            ]
+        },
+        "787": {
+            "type": "value",
+            "pos": {
+                "x": 350,
+                "y": 750
+            },
+            "id": 787,
+            "updateValues": [
+                {
+                    "scope": "user",
+                    "id": "redFlashOpacity",
+                    "operand": 0,
+                    "action": "set"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 788,
+                    "x": 350,
+                    "y": 850
+                }
+            ],
+            "name": "Flash opacity: 0",
+            "entrances": [
+                786
+            ]
+        },
+        "788": {
+            "type": "wait",
+            "pos": {
+                "x": 350,
+                "y": 850
+            },
+            "id": 788,
+            "wait": {
+                "pause": 0.4,
+                "skippable": false
+            },
+            "connections": [
+                {
+                    "id": 789,
+                    "x": 350,
+                    "y": 950
+                }
+            ],
+            "entrances": [
+                787
+            ]
+        },
+        "789": {
+            "type": "ui",
+            "pos": {
+                "x": 350,
+                "y": 950
+            },
+            "id": 789,
+            "uiController": [
+                {
+                    "id": "redFlash",
+                    "action": "remove"
+                }
+            ],
+            "connections": [
+                {
+                    "id": 790,
+                    "x": 350,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                788
+            ]
+        },
+        "790": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 1050
+            },
+            "id": 790,
+            "ending": true,
+            "entrances": [
+                789
+            ]
+        }
+    }
+}

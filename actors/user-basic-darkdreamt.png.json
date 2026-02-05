@@ -1,0 +1,20 @@
+{
+    "id": "user-basic-darkdreamt.png",
+    "name": "Blood Dream transparent",
+    "localizedName": {
+        "russian": "Blood Dream transparent",
+        "english": "Blood Dream transparent",
+        "ukrainian": "Blood Dream transparent"
+    },
+    "comment": "Blood Dream transparent",
+    "type": "image",
+    "height": "50%",
+    "states": {
+        "default": {
+            "name": "default",
+            "resource": "assets-images-darkdreamt.png"
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}
