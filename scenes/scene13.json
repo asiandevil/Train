@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "id": "scene13",
+        "name": "После убийства",
+        "type": "scene",
+        "width": 1200,
+        "height": 1050,
+        "parent": "folder"
+    },
+    "nodes": {
+        "1834": {
+            "type": "start",
+            "pos": {
+                "x": 250,
+                "y": 50
+            },
+            "starting": true,
+            "id": 1834,
+            "clear": {
+                "actors": false,
+                "images": false,
+                "music": false,
+                "bgm": false
+            },
+            "connections": [
+                {
+                    "id": 1836,
+                    "x": 250,
+                    "y": 150
+                }
+            ],
+            "name": "Первое убийство"
+        },
+        "1835": {
+            "type": "end",
+            "pos": {
+                "x": 250,
+                "y": 250
+            },
+            "id": 1835,
+            "ending": true,
+            "entrances": [
+                1836
+            ]
+        },
+        "1836": {
+            "type": "text",
+            "pos": {
+                "x": 250,
+                "y": 150
+            },
+            "id": 1836,
+            "connections": [
+                {
+                    "id": 1835,
+                    "x": 250,
+                    "y": 250
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "entrances": [
+                1834
+            ]
+        }
+    }
+}

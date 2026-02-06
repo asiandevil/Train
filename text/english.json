@@ -1995,6 +1995,7 @@
                 "content": "Without fully realizing it, I repeated to myself once more: there is hardly anyone left on the train, it is unusually quiet, and Bruno is asleep. "
             }
         },
+        "500": {},
         "501": {},
         "502": {},
         "503": {
@@ -2743,6 +2744,7 @@
                 "content": "Just some text."
             }
         },
+        "952": {},
         "963": {},
         "964": {},
         "965": {
@@ -4566,6 +4568,8 @@
                 "content": "..."
             }
         },
+        "1584": {},
+        "1592": {},
         "1601": {},
         "1618": {
             "1": {
@@ -4719,6 +4723,9 @@
         "1829": {},
         "1830": {},
         "1831": {},
-        "1833": {}
+        "1833": {},
+        "1834": {},
+        "1836": {},
+        "1837": {}
     }
 }

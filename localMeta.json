@@ -10,7 +10,7 @@
         },
         {
             "id": "1731660603821",
-            "sceneId": "badEnd",
+            "sceneId": "scene13",
             "scale": 1,
             "posX": {},
             "posY": 0
@@ -749,7 +749,7 @@
             "generatedName": "Play Sound: <b>Гудок поезда</b>"
         },
         "481": {
-            "generatedName": "Поки ми займалися ци..."
+            "generatedName": "Пока мы занимались э..."
         },
         "483": {
             "generatedName": "Смена вагона три раза"
@@ -1383,6 +1383,9 @@
         },
         "944": {
             "generatedName": "Play Music: <b>Kris Keypovsky - Silence</b>"
+        },
+        "947": {
+            "generatedName": "Start"
         },
         "948": {
             "generatedName": "Show: Девушка "
@@ -2399,8 +2402,7 @@
             "generatedName": "Background: <b>Cab day half</b>"
         },
         "1571": {
-            "generatedName": "...",
-            "building": true
+            "generatedName": "..."
         },
         "1572": {
             "generatedName": "Переход между вагонами"
@@ -2422,6 +2424,9 @@
         },
         "1582": {
             "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1584": {
+            "generatedName": "Start"
         },
         "1585": {
             "generatedName": "End"
@@ -2740,6 +2745,19 @@
         },
         "1833": {
             "generatedName": "MI: hide all"
+        },
+        "1834": {
+            "generatedName": "Start",
+            "active": true
+        },
+        "1835": {
+            "generatedName": "End"
+        },
+        "1836": {
+            "generatedName": "Новый текст"
+        },
+        "1837": {
+            "generatedName": "Первое убийство"
         }
     }
 }

@@ -1,0 +1,14 @@
+{
+    "meta": {
+        "id": "folder",
+        "name": "Акт 4: После убийства",
+        "type": "folder",
+        "width": 1200,
+        "height": 600,
+        "parent": "main",
+        "children": [
+            "scene13"
+        ]
+    },
+    "nodes": {}
+}

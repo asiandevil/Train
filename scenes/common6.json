@@ -22,8 +22,7 @@
             "backgroundsReady",
             "actorsReady",
             "musicReady"
-        ],
-        "buildingNodeId": 1571
+        ]
     },
     "nodes": {
         "478": {
@@ -87,7 +86,8 @@
                     "noDelay": false,
                     "closeOthers": false,
                     "noWait": false,
-                    "textBoxOverride": {}
+                    "textBoxOverride": {},
+                    "actorState": ""
                 },
                 {
                     "textNodeId": 1,
