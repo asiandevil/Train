@@ -11,7 +11,8 @@
             "start": 684,
             "end": 686,
             "selectedRoutes": {}
-        }
+        },
+        "icon": "CircleStop"
     },
     "nodes": {
         "682": {

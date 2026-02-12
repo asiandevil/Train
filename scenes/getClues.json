@@ -5,7 +5,8 @@
         "type": "scene",
         "width": 1200,
         "height": 1050,
-        "parent": "clues"
+        "parent": "clues",
+        "icon": "CpuIcon"
     },
     "nodes": {
         "1713": {

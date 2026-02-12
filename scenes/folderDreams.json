@@ -11,7 +11,8 @@
             "dream8",
             "dream8b",
             "dream20"
-        ]
+        ],
+        "icon": "Sparkles"
     },
     "nodes": {}
 }

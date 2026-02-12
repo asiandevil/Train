@@ -18,7 +18,8 @@
             "musicReady",
             "translationReady",
             "sceneReady"
-        ]
+        ],
+        "icon": "Sparkles"
     },
     "nodes": {
         "48": {

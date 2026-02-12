@@ -8,7 +8,8 @@
         "parent": "root",
         "children": [
             "keys"
-        ]
+        ],
+        "icon": "CpuIcon"
     },
     "nodes": {}
 }

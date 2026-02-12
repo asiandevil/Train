@@ -9,7 +9,8 @@
         "children": [
             "getClues",
             "setNewClue"
-        ]
+        ],
+        "icon": "ListIcon"
     },
     "nodes": {}
 }

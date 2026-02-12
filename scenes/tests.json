@@ -9,7 +9,8 @@
         "children": [
             "testDemoEnd",
             "textboxes"
-        ]
+        ],
+        "icon": "Wrench"
     },
     "nodes": {}
 }

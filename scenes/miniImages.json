@@ -8,7 +8,8 @@
         "parent": "effects",
         "children": [
             "miniImagesMain"
-        ]
+        ],
+        "icon": "ImageIcon"
     },
     "nodes": {}
 }

@@ -9,7 +9,8 @@
         "children": [
             "badEnd",
             "demoEnd"
-        ]
+        ],
+        "icon": "CircleStop"
     },
     "nodes": {}
 }

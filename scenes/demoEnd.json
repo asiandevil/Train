@@ -5,7 +5,8 @@
         "type": "scene",
         "width": 1200,
         "height": 1750,
-        "parent": "endings"
+        "parent": "endings",
+        "icon": "CircleStop"
     },
     "nodes": {
         "941": {

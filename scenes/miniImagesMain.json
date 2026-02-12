@@ -5,7 +5,8 @@
         "type": "scene",
         "width": 1750,
         "height": 1150,
-        "parent": "miniImages"
+        "parent": "miniImages",
+        "icon": "ImageIcon"
     },
     "nodes": {
         "1026": {

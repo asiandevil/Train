@@ -5,7 +5,8 @@
         "type": "scene",
         "width": 1200,
         "height": 1350,
-        "parent": "tests"
+        "parent": "tests",
+        "icon": "Wrench"
     },
     "nodes": {
         "963": {

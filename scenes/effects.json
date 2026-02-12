@@ -13,7 +13,8 @@
             "traincabs",
             "setdate",
             "miniImages"
-        ]
+        ],
+        "icon": "CpuIcon"
     },
     "nodes": {}
 }

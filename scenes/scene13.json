@@ -5,7 +5,8 @@
         "type": "scene",
         "width": 1200,
         "height": 1050,
-        "parent": "folder"
+        "parent": "folder",
+        "icon": "PencilIcon"
     },
     "nodes": {
         "1834": {

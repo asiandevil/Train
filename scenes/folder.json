@@ -8,7 +8,8 @@
         "parent": "main",
         "children": [
             "scene13"
-        ]
+        ],
+        "icon": "PencilIcon"
     },
     "nodes": {}
 }

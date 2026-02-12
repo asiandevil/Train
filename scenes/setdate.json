@@ -5,7 +5,8 @@
         "type": "scene",
         "width": 2000,
         "height": 2250,
-        "parent": "effects"
+        "parent": "effects",
+        "icon": "CpuIcon"
     },
     "nodes": {
         "870": {

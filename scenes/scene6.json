@@ -11,7 +11,8 @@
             "start": 780,
             "end": 786,
             "selectedRoutes": {}
-        }
+        },
+        "icon": "CpuIcon"
     },
     "nodes": {
         "780": {

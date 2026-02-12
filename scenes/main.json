@@ -17,7 +17,8 @@
             "ark3",
             "folder"
         ],
-        "type": "scene"
+        "type": "scene",
+        "icon": "CirclePlay"
     },
     "nodes": {
         "0": {

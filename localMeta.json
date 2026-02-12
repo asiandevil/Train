@@ -2,18 +2,84 @@
     "selectedTab": "1731660603821",
     "tabs": [
         {
-            "id": "1731597209308",
-            "sceneId": "trainwalk",
-            "scale": 1,
-            "posX": 0,
-            "posY": 0
-        },
-        {
             "id": "1731660603821",
             "sceneId": "scene13",
             "scale": 1,
-            "posX": {},
-            "posY": 0
+            "posX": null,
+            "posY": 0,
+            "history": [
+                {
+                    "id": "1731660603821",
+                    "sceneId": "scene13",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "folder",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "scene13",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "dream20",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "dream8b",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "dream8",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "scene1",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "setNewClue",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "setNewClue",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "getClues",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                }
+            ],
+            "historyIndex": 0
         },
         {
             "id": "1753229177951",
@@ -1231,6 +1297,18 @@
         "777": {
             "generatedName": "Play Music: <b>Silence</b>"
         },
+        "784": {
+            "generatedName": "Wait: 0.1 seconds"
+        },
+        "786": {
+            "generatedName": "Wait: 0.4 seconds"
+        },
+        "788": {
+            "generatedName": "Wait: 0.4 seconds"
+        },
+        "790": {
+            "generatedName": "End"
+        },
         "791": {
             "generatedName": "Красная вспышка"
         },
@@ -1258,6 +1336,30 @@
         "813": {
             "generatedName": "Wait: 5 seconds"
         },
+        "817": {
+            "generatedName": "End"
+        },
+        "820": {
+            "generatedName": "End"
+        },
+        "821": {
+            "generatedName": "Hide: Gray Fog"
+        },
+        "823": {
+            "generatedName": "End"
+        },
+        "826": {
+            "generatedName": "Hide: Gray Fog"
+        },
+        "828": {
+            "generatedName": "End"
+        },
+        "829": {
+            "generatedName": "Вариант с медленным и прыгающим туманом"
+        },
+        "830": {
+            "generatedName": "Более быстрый и пульсирующий туман"
+        },
         "831": {
             "generatedName": "Shake-Pulse"
         },
@@ -1276,6 +1378,12 @@
         "836": {
             "generatedName": "Shake-Pulse: Hide"
         },
+        "840": {
+            "generatedName": "End"
+        },
+        "844": {
+            "generatedName": "End"
+        },
         "845": {
             "generatedName": "Place: Home"
         },
@@ -1284,6 +1392,12 @@
         },
         "847": {
             "generatedName": "Place: Shiller"
+        },
+        "851": {
+            "generatedName": "End"
+        },
+        "855": {
+            "generatedName": "End"
         },
         "856": {
             "generatedName": "Place: Home"
@@ -1297,6 +1411,9 @@
         "859": {
             "generatedName": "Place: Home"
         },
+        "864": {
+            "generatedName": "End"
+        },
         "865": {
             "generatedName": "Place: In Town"
         },
@@ -1309,29 +1426,83 @@
         "868": {
             "generatedName": "Place: Station"
         },
+        "871": {
+            "generatedName": "Дата начала игры.\n2е октября."
+        },
+        "873": {
+            "generatedName": "End"
+        },
         "874": {
             "generatedName": "Starting date"
+        },
+        "877": {
+            "generatedName": "End"
+        },
+        "878": {
+            "generatedName": "Прошла неделя после встречи с Шиллером. ГГ обдумывает предложение.\n\n8ое октября."
         },
         "880": {
             "generatedName": "Прошла неделя"
         },
+        "882": {
+            "generatedName": "End"
+        },
+        "883": {
+            "generatedName": "ГГ видел кошмар и снова у Шиллера, сообщает ему свое решение.\n\n9ое октября."
+        },
         "885": {
             "generatedName": "Снова у Шиллера"
+        },
+        "888": {
+            "generatedName": "End"
+        },
+        "889": {
+            "generatedName": "\"зашёл ко всем своим\".\n\n10ое октября."
         },
         "891": {
             "generatedName": "зашёл ко всем своим"
         },
+        "893": {
+            "generatedName": "End"
+        },
+        "894": {
+            "generatedName": "\"это был всего лишь еще\".\n\n12ое октября."
+        },
         "896": {
             "generatedName": "это был всего"
         },
+        "898": {
+            "generatedName": "End"
+        },
+        "899": {
+            "generatedName": "\"очередной провал. и сегодня\".\n\n19ое октября."
+        },
         "901": {
             "generatedName": "очередной провал"
+        },
+        "903": {
+            "generatedName": "End"
+        },
+        "904": {
+            "generatedName": "\"прошло уже несколько месяцев\".\n\n4 января."
+        },
+        "907": {
+            "generatedName": "End"
+        },
+        "908": {
+            "generatedName": "\"прошло уже несколько месяцев. за это\".\n\n10 апреля."
         },
         "910": {
             "generatedName": "4 января"
         },
         "911": {
             "generatedName": "10 апреля"
+        },
+        "913": {
+            "generatedName": "End"
+        },
+        "914": {
+            "generatedName": "\"этот день наступил\".\n\n12ое октября."
         },
         "916": {
             "generatedName": "этот день наступил"
@@ -1528,11 +1699,20 @@
         "1050": {
             "generatedName": "Show: Бруно "
         },
+        "1055": {
+            "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1059": {
+            "generatedName": "End"
+        },
         "1060": {
             "generatedName": "Майнц - вагон 12"
         },
         "1062": {
             "generatedName": "Start"
+        },
+        "1074": {
+            "generatedName": "Wait: 1 seconds"
         },
         "1076": {
             "generatedName": "Background: <b>Cab day closed</b>"
@@ -1541,6 +1721,15 @@
             "generatedName": "Нікого немає."
         },
         "1080": {
+            "generatedName": "End"
+        },
+        "1083": {
+            "generatedName": "Background: <b>Dark</b>"
+        },
+        "1084": {
+            "generatedName": "Wait: 1 seconds"
+        },
+        "1086": {
             "generatedName": "End"
         },
         "1087": {
@@ -1665,6 +1854,12 @@
         },
         "1151": {
             "generatedName": "Сидить та дивиться н..."
+        },
+        "1155": {
+            "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1158": {
+            "generatedName": "End"
         },
         "1161": {
             "generatedName": "Show: Бруно "
@@ -1876,11 +2071,26 @@
         "1251": {
             "generatedName": "Play Music: <b>Silence</b>"
         },
+        "1255": {
+            "generatedName": "End"
+        },
         "1257": {
             "generatedName": "Place: Frankfurt, train"
         },
         "1258": {
             "generatedName": "Place: On the road"
+        },
+        "1261": {
+            "generatedName": "End"
+        },
+        "1270": {
+            "generatedName": "End"
+        },
+        "1272": {
+            "generatedName": "Background: <b>Cab day</b>"
+        },
+        "1275": {
+            "generatedName": "End"
         },
         "1277": {
             "generatedName": "Place: Frankfurt, city"
@@ -1908,6 +2118,12 @@
         },
         "1290": {
             "generatedName": "Вагон 12 - переход в ночь"
+        },
+        "1292": {
+            "generatedName": "Background: <b>Cab night</b>"
+        },
+        "1295": {
+            "generatedName": "End"
         },
         "1298": {
             "generatedName": "Play Envirounment: <b>Шум движения поезда</b>"
@@ -2211,6 +2427,12 @@
         },
         "1463": {
             "generatedName": "Переход между вагонами"
+        },
+        "1465": {
+            "generatedName": "Background: <b>Rest move</b>"
+        },
+        "1468": {
+            "generatedName": "End"
         },
         "1470": {
             "generatedName": "В дороге - ресторан"
@@ -2605,8 +2827,35 @@
         "1687": {
             "generatedName": "День убийства"
         },
+        "1689": {
+            "generatedName": "End"
+        },
+        "1690": {
+            "generatedName": "День убийства в кабине машиниста.\n\n13ое октября."
+        },
         "1711": {
             "generatedName": "Але він не такий про..."
+        },
+        "1717": {
+            "generatedName": "End"
+        },
+        "1719": {
+            "generatedName": "Новая улика"
+        },
+        "1724": {
+            "generatedName": "End"
+        },
+        "1725": {
+            "generatedName": "Улика 1: Газета.\n\nОткрытие нового завода наконец-то состоялось. Жители нашего города давно ожидали открытие нового завода и, к их радости, он был построен за рекордно короткий срок..."
+        },
+        "1731": {
+            "generatedName": "Новая улика"
+        },
+        "1732": {
+            "generatedName": "End"
+        },
+        "1733": {
+            "generatedName": "Улика 2: Бруно\n\nБруно в начале показался мне раскрепощённым человеком, но теперь, на поезде, он производит другое впечатление. Как будто его что-то тревожит."
         },
         "1734": {
             "generatedName": "Улика 1: Газета"
@@ -2614,8 +2863,53 @@
         "1736": {
             "generatedName": "Улика 2: Бруно"
         },
+        "1743": {
+            "generatedName": "Новая улика"
+        },
+        "1744": {
+            "generatedName": "End"
+        },
+        "1745": {
+            "generatedName": "Улика 3: Бруно\n\nПо словам Бруно, он никогда в своей жизни не отдыхал. Возможно, он всегда в напряжении? Не исключено, что война оставила свой отпечаток на его жизни..."
+        },
         "1746": {
             "generatedName": "Улика 3: Бруно"
+        },
+        "1749": {
+            "generatedName": "Новая улика"
+        },
+        "1750": {
+            "generatedName": "End"
+        },
+        "1751": {
+            "generatedName": "Улика 4: Сын Шиллера\n\nСтарики из Миттенвальда сказали, что к ним должен приехать уполномоченный магната Шиллера. Хорошие новости для них, он уже едет."
+        },
+        "1754": {
+            "generatedName": "Новая улика"
+        },
+        "1755": {
+            "generatedName": "End"
+        },
+        "1756": {
+            "generatedName": "Улика 5: Нож\n\nВ туалете поезда я нашёл запрятанный нож. Спасибо моей интуиции. Теперь преступник не сможет им воспользоваться."
+        },
+        "1759": {
+            "generatedName": "Новая улика"
+        },
+        "1760": {
+            "generatedName": "End"
+        },
+        "1761": {
+            "generatedName": "Улика 6: Слухи\n\nЛюди поговаривают, словно к поезду подцепили один лишний вагон. Подозреваю, что это сделали утром, потому поезд опоздал на один час."
+        },
+        "1764": {
+            "generatedName": "Новая улика"
+        },
+        "1765": {
+            "generatedName": "End"
+        },
+        "1766": {
+            "generatedName": "Улика 7: Наблюдение\n\nНа этом поезде творится нечто невразумительное, можно даже сказать оскорбительное. У нас с Бруно не получилось даже сделать заказ в местном вагоне-ресторане..."
         },
         "1767": {
             "generatedName": "Улика 4: Сын Шиллера"

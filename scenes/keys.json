@@ -6,7 +6,8 @@
         "width": 2250,
         "height": 1850,
         "parent": "uiEvents",
-        "buildingNodeId": 1016
+        "buildingNodeId": 1016,
+        "icon": "CpuIcon"
     },
     "nodes": {
         "970": {

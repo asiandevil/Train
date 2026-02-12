@@ -12,7 +12,8 @@
             "actorsReady",
             "musicReady",
             "sceneReady"
-        ]
+        ],
+        "icon": "Sparkles"
     },
     "nodes": {
         "350": {
