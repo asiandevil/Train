@@ -296,8 +296,7 @@
                     "actorId": "",
                     "noDelay": true,
                     "closeOthers": false,
-                    "noWait": false,
-                    "actorState": ""
+                    "noWait": false
                 }
             ],
             "entrances": [

@@ -694,8 +694,7 @@
                                 "click": {
                                     "valueUpdate": [],
                                     "music": "assets-music-Sergey Cheremisinov - Sense.mp3"
-                                },
-                                "mouseEnter": {}
+                                }
                             },
                             "transform": {},
                             "border": {},

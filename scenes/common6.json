@@ -86,8 +86,7 @@
                     "noDelay": false,
                     "closeOthers": false,
                     "noWait": false,
-                    "textBoxOverride": {},
-                    "actorState": ""
+                    "textBoxOverride": {}
                 },
                 {
                     "textNodeId": 1,

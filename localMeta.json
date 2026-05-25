@@ -5,9 +5,30 @@
             "id": "1731660603821",
             "sceneId": "scene13",
             "scale": 1,
-            "posX": null,
+            "posX": 41.883767535070135,
             "posY": 0,
             "history": [
+                {
+                    "id": "1731660603821",
+                    "sceneId": "scene13",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "folder",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "folder",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 0
+                },
                 {
                     "id": "1731660603821",
                     "sceneId": "scene13",
@@ -56,37 +77,9 @@
                     "scale": 1,
                     "posX": {},
                     "posY": 0
-                },
-                {
-                    "id": "1731660603821",
-                    "sceneId": "setNewClue",
-                    "scale": 1,
-                    "posX": {},
-                    "posY": 0
-                },
-                {
-                    "id": "1731660603821",
-                    "sceneId": "setNewClue",
-                    "scale": 1,
-                    "posX": {},
-                    "posY": 0
-                },
-                {
-                    "id": "1731660603821",
-                    "sceneId": "getClues",
-                    "scale": 1,
-                    "posX": {},
-                    "posY": 0
                 }
             ],
             "historyIndex": 0
-        },
-        {
-            "id": "1753229177951",
-            "sceneId": "line4GoStay",
-            "scale": 1,
-            "posX": {},
-            "posY": 79.07979870596694
         }
     ],
     "node": {
@@ -632,7 +625,7 @@
             "generatedName": "Гудок поезда и после звуки движения поезда."
         },
         "269": {
-            "generatedName": "Поїзд, нарешті, руши..."
+            "generatedName": "Поезд наконец пришёл..."
         },
         "270": {
             "generatedName": "Бездомним працюєш?"
@@ -1046,7 +1039,7 @@
             "generatedName": "Start"
         },
         "623": {
-            "generatedName": "Скільки вільних місц..."
+            "generatedName": "Как много свободных ..."
         },
         "624": {
             "generatedName": "Show: Бруно "
@@ -3041,17 +3034,125 @@
             "generatedName": "MI: hide all"
         },
         "1834": {
-            "generatedName": "Start",
+            "generatedName": "Старт",
             "active": true
         },
         "1835": {
             "generatedName": "End"
         },
         "1836": {
-            "generatedName": "Новый текст"
+            "generatedName": "Я был готов закричат..."
         },
         "1837": {
             "generatedName": "Первое убийство"
+        },
+        "1838": {
+            "generatedName": "Внезапно один из них..."
+        },
+        "1839": {
+            "generatedName": "Тише, гражданин, тиш..."
+        },
+        "1840": {
+            "generatedName": "Я поднял руки вверх,..."
+        },
+        "1841": {
+            "generatedName": "Из всех присутствующ..."
+        },
+        "1842": {
+            "generatedName": "Но весь этот цирк за..."
+        },
+        "1843": {
+            "generatedName": " Хватит!"
+        },
+        "1844": {
+            "generatedName": "Мои голосовые связки..."
+        },
+        "1845": {
+            "generatedName": "Если это розыгрыш, т..."
+        },
+        "1846": {
+            "generatedName": "Прошу прощения, не х..."
+        },
+        "1847": {
+            "generatedName": "Вглядываясь в лицо в..."
+        },
+        "1848": {
+            "generatedName": "Не надо, Ганс, отпус..."
+        },
+        "1849": {
+            "generatedName": "Неудача, сэр. Мы с к..."
+        },
+        "1850": {
+            "generatedName": "Думаю, для начала ну..."
+        },
+        "1851": {
+            "generatedName": "Зовите меня Руди, я ..."
+        },
+        "1852": {
+            "generatedName": "Ганс..."
+        },
+        "1853": {
+            "generatedName": "Когда все, кроме одн..."
+        },
+        "1854": {
+            "generatedName": "Может, тоже представ..."
+        },
+        "1855": {
+            "generatedName": "Огненные кочерыжки м..."
+        },
+        "1856": {
+            "generatedName": "Его зовут Виг. Работ..."
+        },
+        "1857": {
+            "generatedName": "Понятно. А я Людвиг ..."
+        },
+        "1858": {
+            "generatedName": "Значит, всё это оказ..."
+        },
+        "1859": {
+            "generatedName": "Прощу вас, куда мне ..."
+        },
+        "1860": {
+            "generatedName": "Хоть вокруг и было т..."
+        },
+        "1861": {
+            "generatedName": "Спасибо, что восли в..."
+        },
+        "1862": {
+            "generatedName": "И по какой такой при..."
+        },
+        "1863": {
+            "generatedName": "Это определённо убий..."
+        },
+        "1864": {
+            "generatedName": "Всё немного серьёзне..."
+        },
+        "1865": {
+            "generatedName": "Точно. Поезд останов..."
+        },
+        "1866": {
+            "generatedName": "А где машинист?"
+        },
+        "1867": {
+            "generatedName": "Сколько бы я ни смот..."
+        },
+        "1868": {
+            "generatedName": "Не думаю, что после ..."
+        },
+        "1869": {
+            "generatedName": "— Машинист мёртв. Ег..."
+        },
+        "1870": {
+            "generatedName": "Эти слова эхом прозв..."
+        },
+        "1871": {
+            "generatedName": "И привели к единстве..."
+        },
+        "1872": {
+            "generatedName": "Значит, мы застряли ..."
+        },
+        "1873": {
+            "generatedName": "Да был второй машини..."
         }
     }
 }

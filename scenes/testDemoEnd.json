@@ -120,7 +120,6 @@
                 {
                     "textNodeId": 0,
                     "actorId": "",
-                    "actorState": "",
                     "textBox": "default",
                     "noDelay": false,
                     "closeOthers": false,
