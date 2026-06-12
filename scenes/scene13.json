@@ -148,8 +148,7 @@
                     "noDelay": false,
                     "closeOthers": false,
                     "noWait": false,
-                    "textBoxOverride": {},
-                    "actorState": ""
+                    "textBoxOverride": {}
                 }
             ],
             "connections": [
@@ -178,8 +177,7 @@
                     "noDelay": false,
                     "closeOthers": false,
                     "noWait": false,
-                    "textBoxOverride": {},
-                    "actorState": ""
+                    "textBoxOverride": {}
                 }
             ],
             "connections": [
@@ -208,8 +206,7 @@
                     "noDelay": false,
                     "closeOthers": false,
                     "noWait": false,
-                    "textBoxOverride": {},
-                    "actorState": ""
+                    "textBoxOverride": {}
                 }
             ],
             "connections": [
@@ -268,8 +265,7 @@
                     "noDelay": false,
                     "closeOthers": false,
                     "noWait": false,
-                    "textBoxOverride": {},
-                    "actorState": ""
+                    "textBoxOverride": {}
                 }
             ],
             "connections": [
@@ -358,8 +354,7 @@
                     "noDelay": false,
                     "closeOthers": false,
                     "noWait": false,
-                    "textBoxOverride": {},
-                    "actorState": ""
+                    "textBoxOverride": {}
                 }
             ],
             "connections": [
@@ -691,7 +686,6 @@
                 {
                     "textNodeId": 0,
                     "actorId": "",
-                    "actorState": "",
                     "textBox": "default",
                     "noDelay": false,
                     "closeOthers": false,
@@ -751,7 +745,6 @@
                 {
                     "textNodeId": 0,
                     "actorId": "",
-                    "actorState": "",
                     "textBox": "default",
                     "noDelay": false,
                     "closeOthers": false,
@@ -781,7 +774,6 @@
                 {
                     "textNodeId": 0,
                     "actorId": "",
-                    "actorState": "",
                     "textBox": "default",
                     "noDelay": false,
                     "closeOthers": false,
@@ -841,7 +833,6 @@
                 {
                     "textNodeId": 0,
                     "actorId": "",
-                    "actorState": "",
                     "textBox": "default",
                     "noDelay": false,
                     "closeOthers": false,
@@ -901,7 +892,6 @@
                 {
                     "textNodeId": 0,
                     "actorId": "",
-                    "actorState": "",
                     "textBox": "default",
                     "noDelay": false,
                     "closeOthers": false,
@@ -961,7 +951,6 @@
                 {
                     "textNodeId": 0,
                     "actorId": "",
-                    "actorState": "",
                     "textBox": "default",
                     "noDelay": false,
                     "closeOthers": false,
@@ -1021,7 +1010,6 @@
                 {
                     "textNodeId": 0,
                     "actorId": "",
-                    "actorState": "",
                     "textBox": "default",
                     "noDelay": false,
                     "closeOthers": false,
@@ -1051,7 +1039,6 @@
                 {
                     "textNodeId": 0,
                     "actorId": "",
-                    "actorState": "",
                     "textBox": "default",
                     "noDelay": false,
                     "closeOthers": false,
@@ -1065,7 +1052,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 }
             ],
@@ -1091,7 +1077,6 @@
                 {
                     "textNodeId": 0,
                     "actorId": "",
-                    "actorState": "",
                     "textBox": "default",
                     "noDelay": false,
                     "closeOthers": false,
@@ -1185,7 +1170,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1195,7 +1179,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1205,7 +1188,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1265,7 +1247,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1275,7 +1256,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1285,13 +1265,11 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
                     "textNodeId": 0,
                     "actorId": "",
-                    "actorState": "",
                     "textBox": "default",
                     "noDelay": false,
                     "closeOthers": false,
@@ -1355,7 +1333,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1405,7 +1382,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 }
             ],
@@ -1475,7 +1451,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1515,7 +1490,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1525,7 +1499,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1545,7 +1518,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1555,7 +1527,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 }
             ],
@@ -1706,7 +1677,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1736,7 +1706,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 }
             ],
@@ -1755,7 +1724,6 @@
                 {
                     "textNodeId": 0,
                     "actorId": "",
-                    "actorState": "",
                     "textBox": "default",
                     "noDelay": false,
                     "closeOthers": false,
@@ -1789,7 +1757,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1799,7 +1766,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1809,7 +1775,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1819,7 +1784,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1829,7 +1793,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -1839,7 +1802,6 @@
                     "noDelay": false,
                     "noWait": false,
                     "actorId": "",
-                    "actorState": "",
                     "closeOthers": false
                 }
             ],

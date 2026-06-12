@@ -3,80 +3,80 @@
     "tabs": [
         {
             "id": "1731660603821",
-            "sceneId": "scene13",
+            "sceneId": "scene14",
             "scale": 1,
-            "posX": 0,
-            "posY": 86.17938078518992,
+            "posX": null,
+            "posY": 64.882400648824,
             "history": [
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene13",
+                    "sceneId": "scene14",
                     "scale": 1,
                     "posX": 0,
-                    "posY": 82.21993833504625
+                    "posY": 28.72646026172997
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "folder",
+                    "sceneId": "scene14",
                     "scale": 1,
                     "posX": 0,
-                    "posY": 82.21993833504625
+                    "posY": 28.72646026172997
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene13",
+                    "sceneId": "scene14",
                     "scale": 1,
-                    "posX": {},
-                    "posY": 0
+                    "posX": 0,
+                    "posY": 28.72646026172997
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "folder",
+                    "sceneId": "scene14",
                     "scale": 1,
-                    "posX": {},
-                    "posY": 0
+                    "posX": 0,
+                    "posY": 28.72646026172997
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "folder",
+                    "sceneId": "scene14",
                     "scale": 1,
-                    "posX": {},
-                    "posY": 0
+                    "posX": 0,
+                    "posY": 28.72646026172997
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene13",
+                    "sceneId": "scene14",
                     "scale": 1,
-                    "posX": {},
-                    "posY": 0
+                    "posX": 0,
+                    "posY": 28.72646026172997
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "folder",
+                    "sceneId": "scene14",
                     "scale": 1,
-                    "posX": {},
-                    "posY": 0
+                    "posX": 0,
+                    "posY": 28.72646026172997
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene13",
+                    "sceneId": "scene14",
                     "scale": 1,
-                    "posX": {},
-                    "posY": 0
+                    "posX": 0,
+                    "posY": 28.72646026172997
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "dream20",
+                    "sceneId": "scene14",
                     "scale": 1,
-                    "posX": {},
-                    "posY": 0
+                    "posX": 0,
+                    "posY": 28.72646026172997
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "dream8b",
+                    "sceneId": "scene14",
                     "scale": 1,
-                    "posX": {},
-                    "posY": 0
+                    "posX": 0,
+                    "posY": 28.72646026172997
                 }
             ],
             "historyIndex": 0
@@ -526,7 +526,7 @@
             "generatedName": "Затемнение"
         },
         "228": {
-            "generatedName": "End"
+            "generatedName": "Конец"
         },
         "230": {
             "generatedName": "Прошла лишь пара мин..."
@@ -563,6 +563,9 @@
         },
         "243": {
             "generatedName": "На станции"
+        },
+        "245": {
+            "generatedName": "Старт"
         },
         "247": {
             "generatedName": "Мне, конечно, это вс..."
@@ -3168,6 +3171,34 @@
         },
         "1879": {
             "generatedName": "Пусть убирают, все р..."
+        },
+        "1882": {
+            "generatedName": "Старт",
+            "active": true
+        },
+        "1883": {
+            "generatedName": "Не заметил я, как пр..."
+        },
+        "1884": {
+            "generatedName": "Бруно говорил ещё не..."
+        },
+        "1885": {
+            "generatedName": "Но это ещё не всё, п..."
+        },
+        "1886": {
+            "generatedName": "В\nодин момент его ру..."
+        },
+        "1887": {
+            "generatedName": "Вот это точно слова ..."
+        },
+        "1888": {
+            "generatedName": "Только хочу сказать ..."
+        },
+        "1889": {
+            "generatedName": "Ты предлагаешь,\nа я ..."
+        },
+        "1891": {
+            "generatedName": "Конец"
         }
     }
 }

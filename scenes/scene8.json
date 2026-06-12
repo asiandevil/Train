@@ -320,7 +320,8 @@
             "ending": true,
             "entrances": [
                 226
-            ]
+            ],
+            "scenarioEnd": false
         },
         "597": {
             "type": "start",
