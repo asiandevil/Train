@@ -3,80 +3,80 @@
     "tabs": [
         {
             "id": "1731660603821",
-            "sceneId": "scene14",
+            "sceneId": "scene16",
             "scale": 1,
             "posX": null,
-            "posY": 64.882400648824,
+            "posY": 45.300113250283125,
             "history": [
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene14",
+                    "sceneId": "scene16",
                     "scale": 1,
-                    "posX": 0,
-                    "posY": 28.72646026172997
+                    "posX": null,
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "folder",
+                    "scale": 1,
+                    "posX": null,
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "scene13",
+                    "scale": 1,
+                    "posX": null,
+                    "posY": 0
                 },
                 {
                     "id": "1731660603821",
                     "sceneId": "scene14",
                     "scale": 1,
-                    "posX": 0,
-                    "posY": 28.72646026172997
+                    "posX": null,
+                    "posY": 0
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene14",
+                    "sceneId": "scene16",
                     "scale": 1,
-                    "posX": 0,
-                    "posY": 28.72646026172997
+                    "posX": null,
+                    "posY": 48.661800486618006
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene14",
+                    "sceneId": "scene16",
                     "scale": 1,
-                    "posX": 0,
-                    "posY": 28.72646026172997
+                    "posX": null,
+                    "posY": 48.661800486618006
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene14",
+                    "sceneId": "scene16",
                     "scale": 1,
-                    "posX": 0,
-                    "posY": 28.72646026172997
+                    "posX": null,
+                    "posY": 48.661800486618006
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene14",
+                    "sceneId": "scene16",
                     "scale": 1,
-                    "posX": 0,
-                    "posY": 28.72646026172997
+                    "posX": null,
+                    "posY": 48.661800486618006
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene14",
+                    "sceneId": "scene16",
                     "scale": 1,
-                    "posX": 0,
-                    "posY": 28.72646026172997
+                    "posX": null,
+                    "posY": 48.661800486618006
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene14",
+                    "sceneId": "folder",
                     "scale": 1,
-                    "posX": 0,
-                    "posY": 28.72646026172997
-                },
-                {
-                    "id": "1731660603821",
-                    "sceneId": "scene14",
-                    "scale": 1,
-                    "posX": 0,
-                    "posY": 28.72646026172997
-                },
-                {
-                    "id": "1731660603821",
-                    "sceneId": "scene14",
-                    "scale": 1,
-                    "posX": 0,
-                    "posY": 28.72646026172997
+                    "posX": null,
+                    "posY": 48.661800486618006
                 }
             ],
             "historyIndex": 0
@@ -754,7 +754,7 @@
             "generatedName": "End"
         },
         "370": {
-            "generatedName": "Гаразд, мабуть, піду..."
+            "generatedName": "Ладно, пожалуй, пойд..."
         },
         "372": {
             "generatedName": "Возвращение в свой вагон"
@@ -3199,6 +3199,28 @@
         },
         "1891": {
             "generatedName": "Конец"
+        },
+        "1892": {
+            "generatedName": "Старт",
+            "active": true
+        },
+        "1893": {
+            "generatedName": "Убийство человека ст..."
+        },
+        "1894": {
+            "building": true
+        },
+        "1896": {
+            "generatedName": "Не хватает варианта фраз Бруно в зависимости от переменных."
+        },
+        "1897": {
+            "generatedName": "Людвиг: Почему-то я ..."
+        },
+        "1898": {
+            "generatedName": "Возможно, но увы мал..."
+        },
+        "1899": {
+            "generatedName": "И что же это за\n«кое..."
         }
     }
 }
