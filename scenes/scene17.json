@@ -1,36 +1,36 @@
 {
     "meta": {
-        "id": "scene16",
-        "name": "Совместная работа",
+        "id": "scene17",
+        "name": "Упрямство Бруно",
         "type": "scene",
         "width": 1200,
-        "height": 2000,
+        "height": 2200,
         "parent": "folder"
     },
     "nodes": {
-        "1892": {
+        "1904": {
             "type": "start",
             "pos": {
                 "x": 100,
                 "y": 100
             },
             "starting": true,
-            "id": 1892,
+            "id": 1904,
             "connections": [
                 {
-                    "id": 1893,
+                    "id": 1905,
                     "x": 100,
-                    "y": 250
+                    "y": 300
                 }
             ]
         },
-        "1893": {
+        "1905": {
             "type": "text",
             "pos": {
                 "x": 100,
-                "y": 250
+                "y": 300
             },
-            "id": 1893,
+            "id": 1905,
             "text": [
                 {
                     "textNodeId": 0,
@@ -47,7 +47,8 @@
                     "textBoxOverride": {},
                     "noDelay": false,
                     "noWait": false,
-                    "actorId": "",
+                    "actorId": "mainHero",
+                    "actorState": "",
                     "closeOthers": false
                 },
                 {
@@ -56,7 +57,7 @@
                     "textBoxOverride": {},
                     "noDelay": false,
                     "noWait": false,
-                    "actorId": "mainHero",
+                    "actorId": "brunno",
                     "actorState": "",
                     "closeOthers": false
                 },
@@ -77,218 +78,6 @@
                     "noWait": false,
                     "actorId": "brunno",
                     "actorState": "",
-                    "closeOthers": false
-                }
-            ],
-            "connections": [
-                {
-                    "id": 1897,
-                    "x": 100,
-                    "y": 400
-                }
-            ],
-            "entrances": [
-                1892,
-                1896
-            ]
-        },
-        "1894": {
-            "type": "fork",
-            "pos": {
-                "x": 100,
-                "y": 900
-            },
-            "id": 1894,
-            "preserveBuild": true,
-            "connections": [
-                {
-                    "id": 1900,
-                    "x": 50,
-                    "y": 1050
-                },
-                {
-                    "id": 1901,
-                    "x": 300,
-                    "y": 1050
-                },
-                {
-                    "id": 1902,
-                    "x": 500,
-                    "y": 1050
-                }
-            ],
-            "defaultRoute": 1900,
-            "entrances": [
-                1899
-            ]
-        },
-        "1896": {
-            "type": "comment",
-            "pos": {
-                "x": 250,
-                "y": 250,
-                "width": 420,
-                "height": 85.625
-            },
-            "id": 1896,
-            "connections": [
-                {
-                    "id": 1893,
-                    "x": 100,
-                    "y": 250
-                }
-            ]
-        },
-        "1897": {
-            "type": "text",
-            "pos": {
-                "x": 100,
-                "y": 400
-            },
-            "id": 1897,
-            "connections": [
-                {
-                    "id": 1898,
-                    "x": 100,
-                    "y": 550
-                }
-            ],
-            "text": [
-                {
-                    "textNodeId": 0,
-                    "actorId": "mainHero",
-                    "actorState": "",
-                    "textBox": "default",
-                    "noDelay": false,
-                    "closeOthers": false,
-                    "noWait": false,
-                    "textBoxOverride": {}
-                },
-                {
-                    "textNodeId": 1,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "brunno",
-                    "actorState": "",
-                    "closeOthers": false
-                },
-                {
-                    "textNodeId": 2,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "mainHero",
-                    "actorState": "",
-                    "closeOthers": false
-                },
-                {
-                    "textNodeId": 3,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "brunno",
-                    "actorState": "",
-                    "closeOthers": false
-                },
-                {
-                    "textNodeId": 4,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "",
-                    "closeOthers": false
-                },
-                {
-                    "textNodeId": 5,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "mainHero",
-                    "actorState": "",
-                    "closeOthers": false
-                },
-                {
-                    "textNodeId": 6,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "brunno",
-                    "actorState": "",
-                    "closeOthers": false
-                }
-            ],
-            "entrances": [
-                1893
-            ]
-        },
-        "1898": {
-            "type": "text",
-            "pos": {
-                "x": 100,
-                "y": 550
-            },
-            "id": 1898,
-            "connections": [
-                {
-                    "id": 1899,
-                    "x": 100,
-                    "y": 700
-                }
-            ],
-            "text": [
-                {
-                    "textNodeId": 0,
-                    "actorId": "mainHero",
-                    "actorState": "",
-                    "textBox": "default",
-                    "noDelay": false,
-                    "closeOthers": false,
-                    "noWait": false,
-                    "textBoxOverride": {}
-                },
-                {
-                    "textNodeId": 1,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "",
-                    "closeOthers": false
-                },
-                {
-                    "textNodeId": 2,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "brunno",
-                    "actorState": "",
-                    "closeOthers": false
-                },
-                {
-                    "textNodeId": 3,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "mainHero",
-                    "actorState": "",
-                    "closeOthers": false
-                },
-                {
-                    "textNodeId": 4,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "",
                     "closeOthers": false
                 },
                 {
@@ -319,26 +108,176 @@
                     "actorId": "mainHero",
                     "actorState": "",
                     "closeOthers": false
+                },
+                {
+                    "textNodeId": 8,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "brunno",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1906,
+                    "x": 100,
+                    "y": 450
                 }
             ],
             "entrances": [
-                1897
+                1904
             ]
         },
-        "1899": {
+        "1906": {
             "type": "text",
             "pos": {
                 "x": 100,
-                "y": 700
+                "y": 450
             },
-            "id": 1899,
-            "connections": [
+            "id": 1906,
+            "text": [
                 {
-                    "id": 1894,
-                    "x": 100,
-                    "y": 900
+                    "textNodeId": 0,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 5,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 6,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "closeOthers": false
                 }
             ],
+            "connections": [
+                {
+                    "id": 1908,
+                    "x": 100,
+                    "y": 600
+                }
+            ],
+            "entrances": [
+                1905
+            ]
+        },
+        "1907": {
+            "type": "text",
+            "pos": {
+                "x": 100,
+                "y": 750
+            },
+            "id": 1907,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "mainHero",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1909,
+                    "x": 250,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                1908
+            ]
+        },
+        "1908": {
+            "type": "fork",
+            "pos": {
+                "x": 100,
+                "y": 600
+            },
+            "id": 1908,
+            "preserveBuild": true,
+            "connections": [
+                {
+                    "id": 1907,
+                    "x": 100,
+                    "y": 750
+                },
+                {
+                    "id": 1909,
+                    "x": 250,
+                    "y": 750
+                }
+            ],
+            "entrances": [
+                1906
+            ]
+        },
+        "1909": {
+            "type": "text",
+            "pos": {
+                "x": 250,
+                "y": 750
+            },
+            "id": 1909,
             "text": [
                 {
                     "textNodeId": 0,
@@ -368,99 +307,6 @@
                     "noWait": false,
                     "actorId": "",
                     "closeOthers": false
-                }
-            ],
-            "entrances": [
-                1898
-            ]
-        },
-        "1900": {
-            "type": "text",
-            "pos": {
-                "x": 50,
-                "y": 1050
-            },
-            "id": 1900,
-            "text": [
-                {
-                    "textNodeId": 0,
-                    "actorId": "brunno",
-                    "actorState": "",
-                    "textBox": "default",
-                    "noDelay": false,
-                    "closeOthers": false,
-                    "noWait": false,
-                    "textBoxOverride": {}
-                },
-                {
-                    "textNodeId": 1,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "mainHero",
-                    "actorState": "",
-                    "closeOthers": false
-                },
-                {
-                    "textNodeId": 2,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "brunno",
-                    "actorState": "",
-                    "closeOthers": false
-                }
-            ],
-            "connections": [
-                {
-                    "id": 1901,
-                    "x": 300,
-                    "y": 1050
-                }
-            ],
-            "entrances": [
-                1894
-            ]
-        },
-        "1901": {
-            "type": "text",
-            "pos": {
-                "x": 300,
-                "y": 1050
-            },
-            "id": 1901,
-            "text": [
-                {
-                    "textNodeId": 0,
-                    "actorId": "mainHero",
-                    "actorState": "",
-                    "textBox": "default",
-                    "noDelay": false,
-                    "closeOthers": false,
-                    "noWait": false,
-                    "textBoxOverride": {}
-                },
-                {
-                    "textNodeId": 1,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "brunno",
-                    "actorState": "",
-                    "closeOthers": false
-                },
-                {
-                    "textNodeId": 2,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "mainHero",
-                    "actorState": "",
-                    "closeOthers": false
                 },
                 {
                     "textNodeId": 3,
@@ -468,94 +314,238 @@
                     "textBoxOverride": {},
                     "noDelay": false,
                     "noWait": false,
-                    "actorId": "brunno",
-                    "actorState": "",
+                    "actorId": "",
                     "closeOthers": false
                 }
             ],
             "connections": [
                 {
-                    "id": 1902,
-                    "x": 500,
-                    "y": 1050
-                }
-            ],
-            "entrances": [
-                1894,
-                1900
-            ]
-        },
-        "1902": {
-            "type": "text",
-            "pos": {
-                "x": 500,
-                "y": 1050
-            },
-            "id": 1902,
-            "text": [
-                {
-                    "textNodeId": 0,
-                    "actorId": "mainHero",
-                    "actorState": "",
-                    "textBox": "default",
-                    "noDelay": false,
-                    "closeOthers": false,
-                    "noWait": false,
-                    "textBoxOverride": {}
-                },
-                {
-                    "textNodeId": 1,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "brunno",
-                    "actorState": "",
-                    "closeOthers": false
-                },
-                {
-                    "textNodeId": 2,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "mainHero",
-                    "actorState": "",
-                    "closeOthers": false
-                },
-                {
-                    "textNodeId": 3,
-                    "textBox": "default",
-                    "textBoxOverride": {},
-                    "noDelay": false,
-                    "noWait": false,
-                    "actorId": "brunno",
-                    "actorState": "",
-                    "closeOthers": false
-                }
-            ],
-            "connections": [
-                {
-                    "id": 1903,
+                    "id": 1910,
                     "x": 250,
-                    "y": 1200
+                    "y": 900
                 }
             ],
             "entrances": [
-                1894,
-                1901
+                1907,
+                1908
             ]
         },
-        "1903": {
-            "type": "end",
+        "1910": {
+            "type": "fork",
             "pos": {
                 "x": 250,
-                "y": 1200
+                "y": 900
             },
-            "id": 1903,
+            "id": 1910,
+            "preserveBuild": true,
+            "defaultRoute": 1912,
+            "connections": [
+                {
+                    "id": 1912,
+                    "x": 200,
+                    "y": 1050
+                },
+                {
+                    "id": 1913,
+                    "x": 350,
+                    "y": 1050
+                }
+            ],
+            "entrances": [
+                1909
+            ]
+        },
+        "1912": {
+            "type": "text",
+            "pos": {
+                "x": 200,
+                "y": 1050
+            },
+            "id": 1912,
+            "connections": [
+                {
+                    "id": 1913,
+                    "x": 350,
+                    "y": 1050
+                }
+            ],
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "entrances": [
+                1910
+            ]
+        },
+        "1913": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1050
+            },
+            "id": 1913,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1914,
+                    "x": 350,
+                    "y": 1250
+                }
+            ],
+            "entrances": [
+                1910,
+                1912
+            ]
+        },
+        "1914": {
+            "type": "text",
+            "pos": {
+                "x": 350,
+                "y": 1250
+            },
+            "id": 1914,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1915,
+                    "x": 350,
+                    "y": 1400
+                }
+            ],
+            "entrances": [
+                1913
+            ]
+        },
+        "1915": {
+            "type": "end",
+            "pos": {
+                "x": 350,
+                "y": 1400
+            },
+            "id": 1915,
             "ending": true,
             "entrances": [
-                1902
+                1914
             ]
         }
     }
