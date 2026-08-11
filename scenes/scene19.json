@@ -1,0 +1,252 @@
+{
+    "meta": {
+        "id": "scene19",
+        "name": "Сон 1-2",
+        "type": "scene",
+        "width": 1200,
+        "height": 1250,
+        "parent": "folder2",
+        "buildingNodeId": 1920
+    },
+    "nodes": {
+        "1918": {
+            "type": "start",
+            "pos": {
+                "x": 100,
+                "y": 100
+            },
+            "starting": true,
+            "id": 1918,
+            "connections": [
+                {
+                    "id": 1919,
+                    "x": 100,
+                    "y": 250
+                }
+            ]
+        },
+        "1919": {
+            "type": "text",
+            "pos": {
+                "x": 100,
+                "y": 250
+            },
+            "id": 1919,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 5,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 6,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "actor3",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 7,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 8,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 9,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 10,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 11,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "connections": [
+                {
+                    "id": 1920,
+                    "x": 100,
+                    "y": 450
+                }
+            ],
+            "entrances": [
+                1918
+            ]
+        },
+        "1920": {
+            "type": "text",
+            "pos": {
+                "x": 100,
+                "y": 450
+            },
+            "id": 1920,
+            "text": [
+                {
+                    "textNodeId": 0,
+                    "actorId": "",
+                    "actorState": "",
+                    "textBox": "default",
+                    "noDelay": false,
+                    "closeOthers": false,
+                    "noWait": false,
+                    "textBoxOverride": {}
+                },
+                {
+                    "textNodeId": 1,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 2,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 3,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 4,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 5,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                },
+                {
+                    "textNodeId": 6,
+                    "textBox": "default",
+                    "textBoxOverride": {},
+                    "noDelay": false,
+                    "noWait": false,
+                    "actorId": "",
+                    "actorState": "",
+                    "closeOthers": false
+                }
+            ],
+            "entrances": [
+                1919
+            ]
+        }
+    }
+}

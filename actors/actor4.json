@@ -1,0 +1,19 @@
+{
+    "id": "actor4",
+    "name": "",
+    "localizedName": {
+        "default": "",
+        "russian": "Машинист"
+    },
+    "comment": "",
+    "height": "80%",
+    "type": "actor",
+    "states": {
+        "default": {
+            "name": "",
+            "resource": ""
+        }
+    },
+    "width": "",
+    "zIndex": 2000
+}

@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "id": "folder2",
+        "name": "Сон в ночь трагедии",
+        "type": "folder",
+        "width": 1200,
+        "height": 600,
+        "parent": "folderDreams",
+        "children": [
+            "scene18",
+            "scene19",
+            "scene20"
+        ]
+    },
+    "nodes": {}
+}

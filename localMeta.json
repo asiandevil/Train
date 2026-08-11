@@ -3,80 +3,80 @@
     "tabs": [
         {
             "id": "1731660603821",
-            "sceneId": "scene17",
+            "sceneId": "scene20",
             "scale": 1,
             "posX": null,
-            "posY": 85.5072463768116,
+            "posY": 0,
             "history": [
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene17",
+                    "sceneId": "scene20",
                     "scale": 1,
-                    "posX": {},
-                    "posY": 45.300113250283125
-                },
-                {
-                    "id": "1731660603821",
-                    "sceneId": "scene17",
-                    "scale": 1,
-                    "posX": {},
-                    "posY": 45.300113250283125
-                },
-                {
-                    "id": "1731660603821",
-                    "sceneId": "scene17",
-                    "scale": 1,
-                    "posX": {},
-                    "posY": 45.300113250283125
-                },
-                {
-                    "id": "1731660603821",
-                    "sceneId": "scene17",
-                    "scale": 1,
-                    "posX": {},
-                    "posY": 45.300113250283125
-                },
-                {
-                    "id": "1731660603821",
-                    "sceneId": "scene17",
-                    "scale": 1,
-                    "posX": {},
-                    "posY": 45.300113250283125
-                },
-                {
-                    "id": "1731660603821",
-                    "sceneId": "scene17",
-                    "scale": 1,
-                    "posX": {},
-                    "posY": 45.300113250283125
-                },
-                {
-                    "id": "1731660603821",
-                    "sceneId": "folder",
-                    "scale": 1,
-                    "posX": {},
-                    "posY": 45.300113250283125
-                },
-                {
-                    "id": "1731660603821",
-                    "sceneId": "scene16",
-                    "scale": 1,
-                    "posX": {},
+                    "posX": null,
                     "posY": 0
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "folder",
+                    "sceneId": "scene20",
                     "scale": 1,
-                    "posX": {},
+                    "posX": null,
                     "posY": 0
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene13",
+                    "sceneId": "scene20",
+                    "scale": 1,
+                    "posX": null,
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "folder2",
+                    "scale": 1,
+                    "posX": null,
+                    "posY": 0
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "scene19",
                     "scale": 1,
                     "posX": {},
-                    "posY": 0
+                    "posY": 85.5072463768116
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "scene19",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 85.5072463768116
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "scene19",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 85.5072463768116
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "scene19",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 85.5072463768116
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "folder2",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 85.5072463768116
+                },
+                {
+                    "id": "1731660603821",
+                    "sceneId": "dream20",
+                    "scale": 1,
+                    "posX": {},
+                    "posY": 85.5072463768116
                 }
             ],
             "historyIndex": 0
@@ -3258,6 +3258,36 @@
         },
         "1915": {
             "generatedName": "Конец"
+        },
+        "1916": {
+            "generatedName": "Старт",
+            "active": true
+        },
+        "1917": {
+            "generatedName": "Два человека стоят п...",
+            "building": true
+        },
+        "1918": {
+            "generatedName": "Старт",
+            "active": true
+        },
+        "1919": {
+            "generatedName": "Я стою внутри\nкабины..."
+        },
+        "1920": {
+            "generatedName": "Вот только третий яв...",
+            "building": true
+        },
+        "1921": {
+            "generatedName": "Старт",
+            "active": true
+        },
+        "1922": {
+            "generatedName": "На\nнебе только недав..."
+        },
+        "1923": {
+            "generatedName": "Именно его....",
+            "building": true
         }
     }
 }
