@@ -5,7 +5,8 @@
         "type": "scene",
         "width": 1200,
         "height": 2200,
-        "parent": "folder"
+        "parent": "folder",
+        "buildingNodeId": 1908
     },
     "nodes": {
         "1904": {
@@ -267,6 +268,7 @@
                     "y": 750
                 }
             ],
+            "defaultRoute": 1907,
             "entrances": [
                 1906
             ]

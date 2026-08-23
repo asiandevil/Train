@@ -1,0 +1,14 @@
+{
+    "meta": {
+        "id": "folder3",
+        "name": "Акт 5: утро трагедии",
+        "type": "folder",
+        "width": 1200,
+        "height": 600,
+        "parent": "main",
+        "children": [
+            "scene21"
+        ]
+    },
+    "nodes": {}
+}

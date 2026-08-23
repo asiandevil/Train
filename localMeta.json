@@ -3,80 +3,80 @@
     "tabs": [
         {
             "id": "1731660603821",
-            "sceneId": "scene20",
+            "sceneId": "scene21",
             "scale": 1,
             "posX": null,
-            "posY": 87.8117316473481,
+            "posY": 64.1025641025641,
             "history": [
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene20",
+                    "sceneId": "scene21",
                     "scale": 1,
                     "posX": {},
-                    "posY": 0
+                    "posY": 28.632784538296352
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene20",
+                    "sceneId": "scene21",
                     "scale": 1,
                     "posX": {},
-                    "posY": 0
+                    "posY": 28.632784538296352
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene20",
+                    "sceneId": "scene21",
                     "scale": 1,
                     "posX": {},
-                    "posY": 0
+                    "posY": 28.632784538296352
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "folder2",
+                    "sceneId": "scene21",
                     "scale": 1,
                     "posX": {},
-                    "posY": 0
+                    "posY": 28.632784538296352
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene19",
+                    "sceneId": "folder3",
                     "scale": 1,
                     "posX": {},
-                    "posY": 85.5072463768116
+                    "posY": 28.632784538296352
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene19",
+                    "sceneId": "folder3",
                     "scale": 1,
                     "posX": {},
-                    "posY": 85.5072463768116
+                    "posY": 28.632784538296352
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene19",
+                    "sceneId": "folder3",
                     "scale": 1,
                     "posX": {},
-                    "posY": 85.5072463768116
+                    "posY": 28.632784538296352
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "scene19",
+                    "sceneId": "folder3",
                     "scale": 1,
                     "posX": {},
-                    "posY": 85.5072463768116
+                    "posY": 28.632784538296352
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "folder2",
+                    "sceneId": "folder",
                     "scale": 1,
                     "posX": {},
-                    "posY": 85.5072463768116
+                    "posY": 28.632784538296352
                 },
                 {
                     "id": "1731660603821",
-                    "sceneId": "dream20",
+                    "sceneId": "scene17",
                     "scale": 1,
                     "posX": {},
-                    "posY": 85.5072463768116
+                    "posY": 87.8117316473481
                 }
             ],
             "historyIndex": 0
@@ -3244,6 +3244,9 @@
         "1907": {
             "generatedName": "Знаешь ли, а я уже д..."
         },
+        "1908": {
+            "building": true
+        },
         "1909": {
             "generatedName": "Спокойной\nночи."
         },
@@ -3326,6 +3329,29 @@
         },
         "1938": {
             "generatedName": "Конец"
+        },
+        "1939": {
+            "generatedName": "Старт",
+            "active": true
+        },
+        "1940": {
+            "generatedName": "Просыпайся, нам пред..."
+        },
+        "1941": {
+            "generatedName": "В первую очередь нам..."
+        },
+        "1942": {
+            "generatedName": "Видимо, не веря свои..."
+        },
+        "1943": {
+            "generatedName": "Но\nтем не менее к на..."
+        },
+        "1945": {
+            "generatedName": "Я молча направился з..."
+        },
+        "1946": {
+            "generatedName": "Идём вперёд пока их ...",
+            "building": true
         }
     }
 }

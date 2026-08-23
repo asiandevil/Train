@@ -15,7 +15,8 @@
             "ark1",
             "ark2",
             "ark3",
-            "folder"
+            "folder",
+            "folder3"
         ],
         "type": "scene",
         "icon": "CirclePlay"
